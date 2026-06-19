@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "aloha-aloha",
+	"color": "#FFFFFF",
+	"stepsPerBeat": 4,
+	"displayName": "aloha-aloha",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 191,
+	"customGameOver": "credits"
+}

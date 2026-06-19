@@ -1,0 +1,18 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "nothing",
+	"difficulties": [
+		"hard"
+	],
+	"parsedColor": -1,
+	"customValues": {},
+	"color": "#FFFFFF",
+	"name": "spotting",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "spotting",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 164,
+	"customGameOver": "cochabamba"
+}

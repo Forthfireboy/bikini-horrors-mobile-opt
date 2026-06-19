@@ -1,0 +1,18 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "infinete-es-mix",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Infinete-es-mix",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 143,
+	"customGameOver": "credits"
+}

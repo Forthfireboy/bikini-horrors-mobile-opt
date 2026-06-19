@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "nothing",
+	"difficulties": [
+		"hard"
+	],
+	"color": "#DC8A00",
+	"name": "ups-me-caigo",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "ups me caigo",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 164,
+	"customGameOver": "credits"
+}

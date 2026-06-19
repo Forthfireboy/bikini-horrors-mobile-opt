@@ -1,0 +1,12 @@
+{"opponentModeAllowed":false,
+"icon":"nothing",
+"difficulties":["hard"],
+"parsedColor":-1,"color":"#FFFFFF"
+,"name":"for-you-someday",
+"coopAllowed":false,
+"stepsPerBeat":4,
+"displayName":"for-you-someday",
+"beatsPerMeasure":3,
+"needsVoices":true,
+"bpm":195,
+	"customGameOver": "credits"}

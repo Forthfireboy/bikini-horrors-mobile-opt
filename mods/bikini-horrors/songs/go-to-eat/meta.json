@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "nothing",
+	"difficulties": [
+		"hard"
+	],
+	"color": "#FFFFFF",
+	"name": "go-to-eat",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Go to eat",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150,
+	"customGameOver": "credits"
+
+}
