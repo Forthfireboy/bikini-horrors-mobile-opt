@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="perlitadisfraz.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Perlita_idle10000" x="5" y="5" width="667" height="764" pivotX="172.8" pivotY="131.55"/>
+	<SubTexture name="Perlita_idle10001" x="677" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10002" x="677" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10003" x="677" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10004" x="1349" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10005" x="1349" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10006" x="1349" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10007" x="2021" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10008" x="2021" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10009" x="2693" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10010" x="2693" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10011" x="2693" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10012" x="3365" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10013" x="3365" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10014" x="3365" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10015" x="3365" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10016" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10017" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10018" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10019" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10020" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10021" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10022" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10023" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_idle10024" x="4037" y="5" width="667" height="764"/>
+	<SubTexture name="Perlita_phrase10000" x="4709" y="5" width="1462" height="860" pivotX="691.75" pivotY="183.9"/>
+	<SubTexture name="Perlita_phrase10001" x="4709" y="5" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10002" x="6176" y="5" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10003" x="6176" y="5" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10004" x="5" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10005" x="5" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10006" x="1472" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10007" x="1472" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10008" x="2939" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10009" x="2939" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10010" x="4406" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10011" x="4406" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10012" x="5873" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10013" x="5873" y="870" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10014" x="5" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10015" x="5" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10016" x="1472" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10017" x="1472" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10018" x="2939" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10019" x="2939" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10020" x="4406" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10021" x="4406" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10022" x="5873" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10023" x="5873" y="1735" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10024" x="5" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10025" x="5" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10026" x="1472" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10027" x="1472" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10028" x="2939" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10029" x="2939" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10030" x="4406" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10031" x="4406" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10032" x="5873" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10033" x="5873" y="2600" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10034" x="5" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10035" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10036" x="5" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10037" x="5" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10038" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10039" x="5" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10040" x="5" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10041" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10042" x="5" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10043" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10044" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10045" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10046" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10047" x="1472" y="3465" width="1462" height="860"/>
+	<SubTexture name="Perlita_phrase10048" x="1472" y="3465" width="1462" height="860"/>
+</TextureAtlas>

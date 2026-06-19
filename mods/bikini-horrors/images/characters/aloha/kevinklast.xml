@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kevinklast.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kargando0000" x="5" y="5" width="418" height="560" pivotX="-3.95" pivotY="298.6"/>
+	<SubTexture name="kargando0001" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0002" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0003" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0004" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0005" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0006" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0007" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0008" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0009" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0010" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0011" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0012" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0013" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0014" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0015" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0016" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0017" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0018" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0019" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0020" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0021" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0022" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0023" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0024" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0025" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0026" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0027" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0028" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0029" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0030" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0031" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0032" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0033" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0034" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0035" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0036" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0037" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0038" x="5" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0039" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0040" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0041" x="428" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0042" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0043" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0044" x="851" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0045" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0046" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0047" x="1274" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0048" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0049" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0050" x="1697" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0051" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0052" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0053" x="2120" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0054" x="2543" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0055" x="2543" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0056" x="2543" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0057" x="2966" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0058" x="2966" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0059" x="2966" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0060" x="3389" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0061" x="3389" y="5" width="418" height="560"/>
+	<SubTexture name="kargando0062" x="3389" y="5" width="418" height="560"/>
+	<SubTexture name="kevinklast0000" x="5" y="570" width="2704" height="1667" pivotX="1203" pivotY="790.5"/>
+	<SubTexture name="kevinklast0001" x="5" y="570" width="2704" height="1667"/>
+	<SubTexture name="kevinklast0002" x="5" y="2242" width="2704" height="1667"/>
+	<SubTexture name="kevinklast0003" x="5" y="2242" width="2704" height="1667"/>
+</TextureAtlas>

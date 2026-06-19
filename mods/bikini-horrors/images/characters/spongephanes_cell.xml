@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spongephanes_cell.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spongephanes0000" x="4" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0001" x="4" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0002" x="601" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0003" x="1198" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0004" x="1795" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0005" x="1795" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0006" x="2392" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0007" x="2392" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0008" x="2392" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0009" x="2989" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0010" x="2989" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0011" x="2989" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0012" x="2989" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0013" x="2989" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0014" x="2989" y="4" width="593" height="1530"/>
+	<SubTexture name="spongephanes0015" x="2989" y="4" width="593" height="1530"/>
+</TextureAtlas>

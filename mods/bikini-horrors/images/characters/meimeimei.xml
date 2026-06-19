@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="meimeimei.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="5" y="5" width="261" height="221" pivotX="131" pivotY="221"/>
+	<SubTexture name="down0001" x="5" y="5" width="261" height="221"/>
+	<SubTexture name="down0002" x="271" y="5" width="261" height="221"/>
+	<SubTexture name="down0003" x="271" y="5" width="261" height="221"/>
+	<SubTexture name="down0004" x="271" y="5" width="261" height="221"/>
+	<SubTexture name="down0005" x="271" y="5" width="261" height="221"/>
+	<SubTexture name="idle0000" x="537" y="5" width="261" height="221" pivotX="130.5" pivotY="221"/>
+	<SubTexture name="left0000" x="5" y="231" width="261" height="221" pivotX="131" pivotY="221"/>
+	<SubTexture name="left0001" x="5" y="231" width="261" height="221"/>
+	<SubTexture name="left0002" x="271" y="231" width="261" height="221"/>
+	<SubTexture name="left0003" x="271" y="231" width="261" height="221"/>
+	<SubTexture name="left0004" x="271" y="231" width="261" height="221"/>
+	<SubTexture name="left0005" x="271" y="231" width="261" height="221"/>
+	<SubTexture name="left0006" x="271" y="231" width="261" height="221"/>
+	<SubTexture name="left0007" x="271" y="231" width="261" height="221"/>
+	<SubTexture name="right0000" x="537" y="231" width="261" height="221" pivotX="130" pivotY="221"/>
+	<SubTexture name="right0001" x="537" y="231" width="261" height="221"/>
+	<SubTexture name="right0002" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="right0003" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="right0004" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="right0005" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="right0006" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="right0007" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="right0008" x="5" y="457" width="261" height="221"/>
+	<SubTexture name="up0000" x="271" y="457" width="261" height="221" pivotX="131" pivotY="221"/>
+	<SubTexture name="up0001" x="271" y="457" width="261" height="221"/>
+	<SubTexture name="up0002" x="537" y="457" width="261" height="221"/>
+	<SubTexture name="up0003" x="537" y="457" width="261" height="221"/>
+	<SubTexture name="up0004" x="537" y="457" width="261" height="221"/>
+	<SubTexture name="up0005" x="537" y="457" width="261" height="221"/>
+</TextureAtlas>

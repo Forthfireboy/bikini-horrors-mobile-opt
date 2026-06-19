@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="peleota.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bobblock10000" x="5" y="5" width="1682" height="931" pivotX="986.15" pivotY="803.9"/>
+	<SubTexture name="bobblock10001" x="5" y="5" width="1682" height="931"/>
+	<SubTexture name="bobblock10002" x="1692" y="5" width="1682" height="931"/>
+	<SubTexture name="bobblock10003" x="1692" y="5" width="1682" height="931"/>
+	<SubTexture name="bobblock10004" x="1692" y="5" width="1682" height="931"/>
+	<SubTexture name="bobblock10005" x="1692" y="5" width="1682" height="931"/>
+	<SubTexture name="bobblock10006" x="1692" y="5" width="1682" height="931"/>
+	<SubTexture name="bobblock20000" x="3379" y="5" width="1598" height="931" pivotX="986.15" pivotY="803.9"/>
+	<SubTexture name="bobblock20001" x="3379" y="5" width="1598" height="931"/>
+	<SubTexture name="bobblock20002" x="4982" y="5" width="1598" height="931"/>
+	<SubTexture name="bobblock20003" x="4982" y="5" width="1598" height="931"/>
+	<SubTexture name="bobblock20004" x="4982" y="5" width="1598" height="931"/>
+	<SubTexture name="bobblock20005" x="4982" y="5" width="1598" height="931"/>
+	<SubTexture name="bobblock20006" x="4982" y="5" width="1598" height="931"/>
+	<SubTexture name="bobdodge0000" x="6585" y="5" width="1314" height="874" pivotX="723.5" pivotY="798.05"/>
+	<SubTexture name="bobdodge0001" x="6585" y="5" width="1314" height="874"/>
+	<SubTexture name="bobdodge0002" x="5" y="941" width="1314" height="874"/>
+	<SubTexture name="bobdodge0003" x="5" y="941" width="1314" height="874"/>
+	<SubTexture name="bobdodge0004" x="5" y="941" width="1314" height="874"/>
+	<SubTexture name="bobdodge0005" x="5" y="941" width="1314" height="874"/>
+	<SubTexture name="bobdodge0006" x="5" y="941" width="1314" height="874"/>
+	<SubTexture name="bobhit10000" x="1324" y="941" width="1368" height="803" pivotX="508.45" pivotY="778.25"/>
+	<SubTexture name="bobhit10001" x="1324" y="941" width="1368" height="803"/>
+	<SubTexture name="bobhit10002" x="2697" y="941" width="1368" height="803"/>
+	<SubTexture name="bobhit10003" x="2697" y="941" width="1368" height="803"/>
+	<SubTexture name="bobhit10004" x="2697" y="941" width="1368" height="803"/>
+	<SubTexture name="bobhit10005" x="2697" y="941" width="1368" height="803"/>
+	<SubTexture name="bobhit10006" x="2697" y="941" width="1368" height="803"/>
+	<SubTexture name="bobhit20000" x="4070" y="941" width="1478" height="803" pivotX="618.05" pivotY="778.25"/>
+	<SubTexture name="bobhit20001" x="4070" y="941" width="1478" height="803"/>
+	<SubTexture name="bobhit20002" x="5553" y="941" width="1478" height="803"/>
+	<SubTexture name="bobhit20003" x="5553" y="941" width="1478" height="803"/>
+	<SubTexture name="bobhit20004" x="5553" y="941" width="1478" height="803"/>
+	<SubTexture name="bobhit20005" x="5553" y="941" width="1478" height="803"/>
+	<SubTexture name="bobhit20006" x="5553" y="941" width="1478" height="803"/>
+	<SubTexture name="bobuppercut0000" x="5" y="1820" width="1533" height="1106" pivotX="512" pivotY="1101.25"/>
+	<SubTexture name="bobuppercut0001" x="1543" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bobuppercut0002" x="3081" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bobuppercut0003" x="4619" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bobuppercut0004" x="4619" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bobuppercut0005" x="4619" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bobuppercut0006" x="4619" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bobuppercut0007" x="4619" y="1820" width="1533" height="1106"/>
+	<SubTexture name="bubbleblock10000" x="6157" y="1820" width="1512" height="800" pivotX="486.2" pivotY="792.1"/>
+	<SubTexture name="bubbleblock10001" x="6157" y="1820" width="1512" height="800"/>
+	<SubTexture name="bubbleblock10002" x="5" y="2931" width="1512" height="800"/>
+	<SubTexture name="bubbleblock10003" x="5" y="2931" width="1512" height="800"/>
+	<SubTexture name="bubbleblock10004" x="5" y="2931" width="1512" height="800"/>
+	<SubTexture name="bubbleblock10005" x="5" y="2931" width="1512" height="800"/>
+	<SubTexture name="bubbleblock10006" x="5" y="2931" width="1512" height="800"/>
+	<SubTexture name="bubbleblock20000" x="1522" y="2931" width="1621" height="796" pivotX="595.8" pivotY="792.1"/>
+	<SubTexture name="bubbleblock20001" x="1522" y="2931" width="1621" height="796"/>
+	<SubTexture name="bubbleblock20002" x="3148" y="2931" width="1621" height="796"/>
+	<SubTexture name="bubbleblock20003" x="3148" y="2931" width="1621" height="796"/>
+	<SubTexture name="bubbleblock20004" x="3148" y="2931" width="1621" height="796"/>
+	<SubTexture name="bubbleblock20005" x="3148" y="2931" width="1621" height="796"/>
+	<SubTexture name="bubbleblock20006" x="3148" y="2931" width="1621" height="796"/>
+	<SubTexture name="bubbledodge0000" x="4774" y="2931" width="1725" height="720" pivotX="827.65" pivotY="689.5"/>
+	<SubTexture name="bubbledodge0001" x="4774" y="2931" width="1725" height="720"/>
+	<SubTexture name="bubbledodge0002" x="5" y="3736" width="1725" height="720"/>
+	<SubTexture name="bubbledodge0003" x="5" y="3736" width="1725" height="720"/>
+	<SubTexture name="bubbledodge0004" x="5" y="3736" width="1725" height="720"/>
+	<SubTexture name="bubbledodge0005" x="5" y="3736" width="1725" height="720"/>
+	<SubTexture name="bubbledodge0006" x="5" y="3736" width="1725" height="720"/>
+	<SubTexture name="bubblehit10000" x="1735" y="3736" width="1545" height="825" pivotX="861.25" pivotY="800.3"/>
+	<SubTexture name="bubblehit10001" x="1735" y="3736" width="1545" height="825"/>
+	<SubTexture name="bubblehit10002" x="3285" y="3736" width="1545" height="825"/>
+	<SubTexture name="bubblehit10003" x="3285" y="3736" width="1545" height="825"/>
+	<SubTexture name="bubblehit10004" x="3285" y="3736" width="1545" height="825"/>
+	<SubTexture name="bubblehit10005" x="3285" y="3736" width="1545" height="825"/>
+	<SubTexture name="bubblehit10006" x="3285" y="3736" width="1545" height="825"/>
+	<SubTexture name="bubblehit20000" x="4835" y="3736" width="1460" height="825" pivotX="861.25" pivotY="800.3"/>
+	<SubTexture name="bubblehit20001" x="4835" y="3736" width="1460" height="825"/>
+	<SubTexture name="bubblehit20002" x="6300" y="3736" width="1460" height="825"/>
+	<SubTexture name="bubblehit20003" x="6300" y="3736" width="1460" height="825"/>
+	<SubTexture name="bubblehit20004" x="6300" y="3736" width="1460" height="825"/>
+	<SubTexture name="bubblehit20005" x="6300" y="3736" width="1460" height="825"/>
+	<SubTexture name="bubblehit20006" x="6300" y="3736" width="1460" height="825"/>
+	<SubTexture name="bubbleuppercut0000" x="5" y="4566" width="1657" height="1324" pivotX="980.45" pivotY="1267.35"/>
+	<SubTexture name="bubbleuppercut0001" x="1667" y="4566" width="1657" height="1324"/>
+	<SubTexture name="bubbleuppercut0002" x="3329" y="4566" width="1657" height="1324"/>
+	<SubTexture name="bubbleuppercut0003" x="4991" y="4566" width="1657" height="1324"/>
+	<SubTexture name="bubbleuppercut0004" x="4991" y="4566" width="1657" height="1324"/>
+	<SubTexture name="bubbleuppercut0005" x="4991" y="4566" width="1657" height="1324"/>
+	<SubTexture name="bubbleuppercut0006" x="4991" y="4566" width="1657" height="1324"/>
+	<SubTexture name="rest0000" x="5" y="5895" width="1641" height="830" pivotX="820.75" pivotY="830.95"/>
+	<SubTexture name="rest0001" x="5" y="5895" width="1641" height="830"/>
+	<SubTexture name="rest0002" x="5" y="5895" width="1641" height="830"/>
+	<SubTexture name="rest0003" x="5" y="5895" width="1641" height="830"/>
+	<SubTexture name="rest0004" x="5" y="5895" width="1641" height="830"/>
+	<SubTexture name="rest0005" x="5" y="5895" width="1641" height="830"/>
+	<SubTexture name="rest0006" x="5" y="5895" width="1641" height="830"/>
+</TextureAtlas>

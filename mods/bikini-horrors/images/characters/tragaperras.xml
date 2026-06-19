@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tragaperras.png">
+<SubTexture name="tragaperras idle0000" x="0" y="0" width="857" height="881" frameX="-6" frameY="0" frameWidth="863" frameHeight="881" />
+<SubTexture name="tragaperras pull0000" x="857" y="0" width="862" height="881" frameX="-1" frameY="0" frameWidth="863" frameHeight="881" />
+<SubTexture name="tragaperras pull0001" x="1719" y="0" width="863" height="881" frameX="0" frameY="0" frameWidth="863" frameHeight="881" />
+<SubTexture name="tragaperras loop0000" x="0" y="881" width="863" height="881" frameX="0" frameY="0" frameWidth="863" frameHeight="881" />
+<SubTexture name="tragaperras loop0001" x="863" y="881" width="863" height="881" frameX="0" frameY="0" frameWidth="863" frameHeight="881" />
+<SubTexture name="tragaperras loop0002" x="2582" y="0" width="863" height="881" frameX="0" frameY="0" frameWidth="863" frameHeight="881" />
+</TextureAtlas>

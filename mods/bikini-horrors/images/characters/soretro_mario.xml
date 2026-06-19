@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="soretro_mario.png"><SubTexture name="offended0000" x="45" y="51" width="32" height="40" frameX="-16" frameY="-24" frameWidth="64" frameHeight="64" />
+<SubTexture name="idle0000" x="77" y="51" width="32" height="40" frameX="-16" frameY="-24" frameWidth="64" frameHeight="64" />
+<SubTexture name="idle0001" x="77" y="51" width="32" height="40" frameX="-16" frameY="-24" frameWidth="64" frameHeight="64" />
+<SubTexture name="right0000" x="122" y="0" width="47" height="37" frameX="-16" frameY="-27" frameWidth="64" frameHeight="64" />
+<SubTexture name="right0001" x="122" y="0" width="47" height="37" frameX="-16" frameY="-27" frameWidth="64" frameHeight="64" />
+<SubTexture name="right0002" x="122" y="37" width="43" height="37" frameX="-16" frameY="-27" frameWidth="64" frameHeight="64" />
+<SubTexture name="right0003" x="122" y="37" width="43" height="37" frameX="-16" frameY="-27" frameWidth="64" frameHeight="64" />
+<SubTexture name="left0000" x="71" y="0" width="51" height="47" frameX="-6" frameY="-17" frameWidth="64" frameHeight="64" />
+<SubTexture name="left0001" x="71" y="0" width="51" height="47" frameX="-6" frameY="-17" frameWidth="64" frameHeight="64" />
+<SubTexture name="left0002" x="0" y="51" width="45" height="44" frameX="-8" frameY="-20" frameWidth="64" frameHeight="64" />
+<SubTexture name="left0003" x="0" y="51" width="45" height="44" frameX="-8" frameY="-20" frameWidth="64" frameHeight="64" />
+<SubTexture name="down0000" x="53" y="95" width="56" height="30" frameX="-6" frameY="-34" frameWidth="64" frameHeight="64" />
+<SubTexture name="down0001" x="53" y="95" width="56" height="30" frameX="-6" frameY="-34" frameWidth="64" frameHeight="64" />
+<SubTexture name="down0002" x="0" y="95" width="53" height="31" frameX="-7" frameY="-33" frameWidth="64" frameHeight="64" />
+<SubTexture name="down0003" x="0" y="95" width="53" height="31" frameX="-7" frameY="-33" frameWidth="64" frameHeight="64" />
+<SubTexture name="up0000" x="0" y="0" width="31" height="51" frameX="-16" frameY="-13" frameWidth="64" frameHeight="64" />
+<SubTexture name="up0001" x="0" y="0" width="31" height="51" frameX="-16" frameY="-13" frameWidth="64" frameHeight="64" />
+<SubTexture name="up0002" x="31" y="0" width="40" height="48" frameX="-12" frameY="-16" frameWidth="64" frameHeight="64" />
+<SubTexture name="up0003" x="31" y="0" width="40" height="48" frameX="-12" frameY="-16" frameWidth="64" frameHeight="64" />
+</TextureAtlas>

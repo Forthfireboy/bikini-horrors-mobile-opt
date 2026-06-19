@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="carmendance.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dancingloop0000" x="5" y="5" width="44" height="42" pivotX="24" pivotY="42"/>
+	<SubTexture name="dancingloop0001" x="5" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0002" x="5" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0003" x="5" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0004" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0005" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0006" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0007" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0008" x="103" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0009" x="103" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0010" x="103" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0011" x="103" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0012" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0013" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0014" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="dancingloop0015" x="54" y="5" width="44" height="42"/>
+	<SubTexture name="startdancing0000" x="152" y="5" width="46" height="42" pivotX="24" pivotY="42"/>
+	<SubTexture name="startdancing0001" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0002" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0003" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0004" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0005" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0006" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0007" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0008" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0009" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0010" x="152" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0011" x="203" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0012" x="203" y="5" width="46" height="42"/>
+	<SubTexture name="startdancing0013" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0014" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0015" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0016" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0017" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0018" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0019" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0020" x="5" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0021" x="56" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0022" x="56" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0023" x="107" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0024" x="107" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0025" x="107" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0026" x="158" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0027" x="158" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0028" x="158" y="52" width="46" height="42"/>
+	<SubTexture name="startdancing0029" x="5" y="99" width="46" height="42"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tragaperras_move.png">
+<SubTexture name="idle0000" x="432" y="0" width="432" height="492" frameX="0" frameY="-75" frameWidth="426" frameHeight="561" />
+<SubTexture name="move0000" x="0" y="0" width="432" height="567" frameX="0" frameY="0" frameWidth="426" frameHeight="561" />
+<SubTexture name="move0001" x="864" y="0" width="432" height="486" frameX="0" frameY="-81" frameWidth="426" frameHeight="561" />
+<SubTexture name="move0002" x="432" y="567" width="432" height="460" frameX="0" frameY="-107" frameWidth="426" frameHeight="561" />
+<SubTexture name="move0003" x="0" y="567" width="432" height="473" frameX="0" frameY="-94" frameWidth="426" frameHeight="561" />
+</TextureAtlas>

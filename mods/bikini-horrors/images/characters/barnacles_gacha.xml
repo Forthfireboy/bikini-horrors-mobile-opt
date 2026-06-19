@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="barnacles_gacha.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="572" y="0" width="137" height="299" frameX="-359" frameY="-119" frameWidth="850" frameHeight="500"/>
+	<SubTexture name="down0000" x="408" y="0" width="164" height="285" frameX="-387" frameY="-133" frameWidth="850" frameHeight="500"/>
+	<SubTexture name="left0000" x="0" y="0" width="230" height="246" frameX="-264" frameY="-172" frameWidth="850" frameHeight="500"/>
+	<SubTexture name="right0000" x="0" y="246" width="185" height="291" frameX="-367" frameY="-127" frameWidth="850" frameHeight="500"/>
+	<SubTexture name="up0000" x="230" y="0" width="178" height="297" frameX="-331" frameY="-121" frameWidth="850" frameHeight="500"/>
+</TextureAtlas>

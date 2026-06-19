@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mr.ketchup.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ketchup_down0000" x="5" y="5" width="779" height="671" pivotX="151.9" pivotY="429.2"/>
+	<SubTexture name="ketchup_down0001" x="5" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0002" x="789" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0003" x="789" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0004" x="789" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0005" x="1573" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0006" x="1573" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0007" x="1573" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0008" x="2357" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0009" x="2357" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0010" x="3141" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0011" x="3141" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0012" x="3141" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0013" x="3925" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0014" x="3925" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0015" x="3925" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0016" x="3925" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0017" x="4709" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0018" x="4709" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0019" x="4709" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0020" x="5493" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0021" x="5493" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0022" x="6277" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_down0023" x="6277" y="5" width="779" height="671"/>
+	<SubTexture name="ketchup_idle0000" x="7061" y="5" width="572" height="868" pivotX="9.7" pivotY="4.5"/>
+	<SubTexture name="ketchup_idle0001" x="7061" y="5" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0002" x="5" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0003" x="5" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0004" x="582" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0005" x="582" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0006" x="1159" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0007" x="1159" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0008" x="1736" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0009" x="1736" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0010" x="2313" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0011" x="2313" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0012" x="2313" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_idle0013" x="2313" y="878" width="572" height="868"/>
+	<SubTexture name="ketchup_left0000" x="2890" y="878" width="735" height="759" pivotX="454" pivotY="401.15"/>
+	<SubTexture name="ketchup_left0001" x="2890" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0002" x="3630" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0003" x="3630" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0004" x="3630" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0005" x="4370" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0006" x="4370" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0007" x="4370" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0008" x="5110" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0009" x="5110" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0010" x="5850" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0011" x="5850" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0012" x="5850" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0013" x="6590" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0014" x="6590" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0015" x="6590" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0016" x="6590" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0017" x="7330" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0018" x="7330" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0019" x="7330" y="878" width="735" height="759"/>
+	<SubTexture name="ketchup_left0020" x="5" y="1751" width="735" height="759"/>
+	<SubTexture name="ketchup_left0021" x="5" y="1751" width="735" height="759"/>
+	<SubTexture name="ketchup_left0022" x="745" y="1751" width="735" height="759"/>
+	<SubTexture name="ketchup_left0023" x="745" y="1751" width="735" height="759"/>
+	<SubTexture name="ketchup_right0000" x="1485" y="1751" width="837" height="828" pivotX="710.65" pivotY="453.85"/>
+	<SubTexture name="ketchup_right0001" x="1485" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0002" x="2327" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0003" x="2327" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0004" x="2327" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0005" x="3169" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0006" x="3169" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0007" x="3169" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0008" x="4011" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0009" x="4011" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0010" x="4853" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0011" x="4853" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0012" x="4853" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0013" x="5695" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0014" x="5695" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0015" x="5695" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0016" x="5695" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0017" x="5695" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0018" x="6537" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0019" x="6537" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0020" x="6537" y="1751" width="837" height="828"/>
+	<SubTexture name="ketchup_right0021" x="5" y="2584" width="837" height="828"/>
+	<SubTexture name="ketchup_right0022" x="5" y="2584" width="837" height="828"/>
+	<SubTexture name="ketchup_right0023" x="847" y="2584" width="837" height="828"/>
+	<SubTexture name="ketchup_right0024" x="847" y="2584" width="837" height="828"/>
+	<SubTexture name="ketchup_up0000" x="1689" y="2584" width="799" height="1005" pivotX="664.05" pivotY="265"/>
+	<SubTexture name="ketchup_up0001" x="1689" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0002" x="2493" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0003" x="2493" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0004" x="2493" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0005" x="3297" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0006" x="3297" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0007" x="3297" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0008" x="4101" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0009" x="4101" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0010" x="4905" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0011" x="4905" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0012" x="4905" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0013" x="5709" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0014" x="5709" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0015" x="5709" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0016" x="5709" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0017" x="6513" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0018" x="6513" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0019" x="6513" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0020" x="7317" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0021" x="7317" y="2584" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0022" x="5" y="3594" width="799" height="1005"/>
+	<SubTexture name="ketchup_up0023" x="5" y="3594" width="799" height="1005"/>
+</TextureAtlas>

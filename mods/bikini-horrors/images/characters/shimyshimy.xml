@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shimyshimy.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bubbledance0000" x="4" y="4" width="135" height="273" frameX="-2" frameY="-18" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0001" x="4" y="4" width="135" height="273" frameX="-2" frameY="-18" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0002" x="4" y="4" width="135" height="273" frameX="-2" frameY="-18" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0003" x="4" y="4" width="135" height="273" frameX="-2" frameY="-18" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0004" x="4" y="4" width="135" height="273" frameX="-2" frameY="-18" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0005" x="179" y="4" width="132" height="267" frameX="-2" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0006" x="179" y="4" width="132" height="267" frameX="-2" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0007" x="179" y="4" width="132" height="267" frameX="-2" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0008" x="179" y="4" width="132" height="267" frameX="-2" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0009" x="179" y="4" width="132" height="267" frameX="-2" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0010" x="351" y="4" width="137" height="268" frameX="0" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0011" x="351" y="4" width="137" height="268" frameX="0" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0012" x="351" y="4" width="137" height="268" frameX="0" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0013" x="351" y="4" width="137" height="268" frameX="0" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0014" x="351" y="4" width="137" height="268" frameX="0" frameY="-24" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0015" x="528" y="4" width="134" height="278" frameX="-4" frameY="-12" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0016" x="528" y="4" width="134" height="278" frameX="-4" frameY="-12" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0017" x="528" y="4" width="134" height="278" frameX="-4" frameY="-12" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0018" x="528" y="4" width="134" height="278" frameX="-4" frameY="-12" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0019" x="528" y="4" width="134" height="278" frameX="-4" frameY="-12" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0020" x="702" y="4" width="135" height="292" frameX="-1" frameY="0" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0021" x="702" y="4" width="135" height="292" frameX="-1" frameY="0" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0022" x="702" y="4" width="135" height="292" frameX="-1" frameY="0" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0023" x="702" y="4" width="135" height="292" frameX="-1" frameY="0" frameWidth="138" frameHeight="292"/>
+	<SubTexture name="bubbledance0024" x="702" y="4" width="135" height="292" frameX="-1" frameY="0" frameWidth="138" frameHeight="292"/>
+</TextureAtlas>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="holandesflier.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cabinexit0000" x="5" y="5" width="269" height="269" pivotX="133" pivotY="265"/>
+	<SubTexture name="cabinexit0001" x="5" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0002" x="279" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0003" x="279" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0004" x="553" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0005" x="553" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0006" x="827" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0007" x="827" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0008" x="827" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0009" x="827" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0010" x="1101" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0011" x="1101" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0012" x="1101" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0013" x="1101" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0014" x="1375" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0015" x="1375" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0016" x="1375" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0017" x="1375" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0018" x="1649" y="5" width="269" height="269"/>
+	<SubTexture name="cabinexit0019" x="5" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0020" x="279" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0021" x="553" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0022" x="827" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0023" x="827" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0024" x="1101" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0025" x="1101" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0026" x="1101" y="279" width="269" height="269"/>
+	<SubTexture name="cabinexit0027" x="1101" y="279" width="269" height="269"/>
+	<SubTexture name="cabinidle0000" x="1375" y="279" width="247" height="251" pivotX="123.5" pivotY="251"/>
+	<SubTexture name="cabinintro0000" x="1627" y="279" width="256" height="252" pivotX="132" pivotY="252"/>
+	<SubTexture name="cabinintro0001" x="1627" y="279" width="256" height="252"/>
+	<SubTexture name="cabinintro0002" x="5" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0003" x="5" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0004" x="266" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0005" x="266" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0006" x="527" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0007" x="527" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0008" x="788" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0009" x="788" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0010" x="1049" y="553" width="256" height="252"/>
+	<SubTexture name="cabinintro0011" x="1049" y="553" width="256" height="252"/>
+	<SubTexture name="holanidle0000" x="1310" y="553" width="162" height="195" pivotX="110" pivotY="215"/>
+	<SubTexture name="holanidle0001" x="1310" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0002" x="1310" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0003" x="1310" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0004" x="1310" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0005" x="1477" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0006" x="1477" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0007" x="1477" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0008" x="1477" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0009" x="1477" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0010" x="1644" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0011" x="1644" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0012" x="1644" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0013" x="1644" y="553" width="162" height="195"/>
+	<SubTexture name="holanidle0014" x="1644" y="553" width="162" height="195"/>
+	<SubTexture name="holantransform0000" x="1811" y="553" width="160" height="192" pivotX="80" pivotY="192"/>
+	<SubTexture name="holantransform0001" x="1811" y="553" width="160" height="192"/>
+	<SubTexture name="holantransform0002" x="1811" y="553" width="160" height="192"/>
+	<SubTexture name="holantransform0003" x="1811" y="553" width="160" height="192"/>
+	<SubTexture name="holantransform0004" x="5" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0005" x="5" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0006" x="170" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0007" x="170" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0008" x="335" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0009" x="335" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0010" x="500" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0011" x="500" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0012" x="665" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0013" x="665" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0014" x="830" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0015" x="830" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0016" x="995" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0017" x="995" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0018" x="995" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0019" x="995" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0020" x="995" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0021" x="995" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0022" x="1160" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0023" x="1160" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0024" x="1325" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0025" x="1325" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0026" x="1490" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0027" x="1490" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0028" x="1655" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0029" x="1655" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0030" x="1820" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0031" x="1820" y="810" width="160" height="192"/>
+	<SubTexture name="holantransform0032" x="5" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0033" x="5" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0034" x="170" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0035" x="170" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0036" x="335" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0037" x="335" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0038" x="500" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0039" x="500" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0040" x="665" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0041" x="665" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0042" x="830" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0043" x="830" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0044" x="995" y="1007" width="160" height="192"/>
+	<SubTexture name="holantransform0045" x="995" y="1007" width="160" height="192"/>
+	<SubTexture name="pottydown0000" x="1160" y="1007" width="193" height="186" pivotX="99" pivotY="184"/>
+	<SubTexture name="pottydown0001" x="1160" y="1007" width="193" height="186"/>
+	<SubTexture name="pottydown0002" x="1358" y="1007" width="193" height="186"/>
+	<SubTexture name="pottydown0003" x="1358" y="1007" width="193" height="186"/>
+	<SubTexture name="pottydown0004" x="1358" y="1007" width="193" height="186"/>
+	<SubTexture name="pottydown0005" x="1358" y="1007" width="193" height="186"/>
+	<SubTexture name="pottyidle0000" x="1556" y="1007" width="192" height="185" pivotX="96" pivotY="185"/>
+	<SubTexture name="pottyidle0001" x="1556" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0002" x="1556" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0003" x="1753" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0004" x="1753" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0005" x="1753" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0006" x="1753" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0007" x="1753" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0008" x="5" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyidle0009" x="5" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyidle0010" x="5" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyidle0011" x="5" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyidle0012" x="1556" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyidle0013" x="1556" y="1007" width="192" height="185"/>
+	<SubTexture name="pottyleft0000" x="202" y="1204" width="194" height="186" pivotX="98" pivotY="186"/>
+	<SubTexture name="pottyleft0001" x="202" y="1204" width="194" height="186"/>
+	<SubTexture name="pottyleft0002" x="401" y="1204" width="194" height="186"/>
+	<SubTexture name="pottyleft0003" x="401" y="1204" width="194" height="186"/>
+	<SubTexture name="pottyleft0004" x="401" y="1204" width="194" height="186"/>
+	<SubTexture name="pottyleft0005" x="401" y="1204" width="194" height="186"/>
+	<SubTexture name="pottyright0000" x="600" y="1204" width="196" height="187" pivotX="100" pivotY="187"/>
+	<SubTexture name="pottyright0001" x="600" y="1204" width="196" height="187"/>
+	<SubTexture name="pottyright0002" x="801" y="1204" width="196" height="187"/>
+	<SubTexture name="pottyright0003" x="801" y="1204" width="196" height="187"/>
+	<SubTexture name="pottyright0004" x="801" y="1204" width="196" height="187"/>
+	<SubTexture name="pottyright0005" x="801" y="1204" width="196" height="187"/>
+	<SubTexture name="pottyright0006" x="801" y="1204" width="196" height="187"/>
+	<SubTexture name="pottyup0000" x="1002" y="1204" width="192" height="185" pivotX="96" pivotY="185"/>
+	<SubTexture name="pottyup0001" x="1002" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyup0002" x="1199" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyup0003" x="1199" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyup0004" x="1199" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyup0005" x="1199" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyup0006" x="1199" y="1204" width="192" height="185"/>
+	<SubTexture name="pottyup0007" x="1199" y="1204" width="192" height="185"/>
+</TextureAtlas>

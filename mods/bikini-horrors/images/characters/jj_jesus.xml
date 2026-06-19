@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jj_jesus.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="animation0000" x="4" y="4" width="392" height="509"/>
+	<SubTexture name="animation0001" x="4" y="4" width="392" height="509"/>
+	<SubTexture name="animation0002" x="400" y="4" width="392" height="509"/>
+	<SubTexture name="animation0003" x="400" y="4" width="392" height="509"/>
+	<SubTexture name="animation0004" x="796" y="4" width="392" height="509"/>
+	<SubTexture name="animation0005" x="796" y="4" width="392" height="509"/>
+	<SubTexture name="animation0006" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0007" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0008" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0009" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0010" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0011" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0012" x="1192" y="4" width="392" height="509"/>
+	<SubTexture name="animation0013" x="796" y="4" width="392" height="509"/>
+	<SubTexture name="animation0014" x="1588" y="4" width="392" height="509"/>
+	<SubTexture name="animation0015" x="1984" y="4" width="392" height="509"/>
+	<SubTexture name="animation0016" x="2380" y="4" width="392" height="509"/>
+	<SubTexture name="animation0017" x="2776" y="4" width="392" height="509"/>
+	<SubTexture name="animation0018" x="3172" y="4" width="392" height="509"/>
+	<SubTexture name="animation0019" x="3568" y="4" width="392" height="509"/>
+	<SubTexture name="animation0020" x="4" y="517" width="392" height="509"/>
+	<SubTexture name="animation0021" x="400" y="517" width="392" height="509"/>
+	<SubTexture name="animation0022" x="796" y="517" width="392" height="509"/>
+	<SubTexture name="animation0023" x="1192" y="517" width="392" height="509"/>
+	<SubTexture name="animation0024" x="1588" y="517" width="392" height="509"/>
+	<SubTexture name="animation0025" x="1984" y="517" width="392" height="509"/>
+	<SubTexture name="animation0026" x="1984" y="517" width="392" height="509"/>
+	<SubTexture name="animation0027" x="1984" y="517" width="392" height="509"/>
+	<SubTexture name="idle0000" x="2380" y="517" width="392" height="509"/>
+	<SubTexture name="negro0000" x="1984" y="517" width="392" height="509"/>
+</TextureAtlas>

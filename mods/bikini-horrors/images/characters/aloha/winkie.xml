@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="winkie.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="brilli0000" x="5" y="5" width="55" height="55" pivotX="28.15" pivotY="49.85"/>
+	<SubTexture name="brilli0001" x="5" y="5" width="55" height="55"/>
+	<SubTexture name="brilli0002" x="5" y="5" width="55" height="55"/>
+	<SubTexture name="brilli0003" x="65" y="5" width="55" height="55"/>
+	<SubTexture name="brilli0004" x="65" y="5" width="55" height="55"/>
+	<SubTexture name="brilli0005" x="65" y="5" width="55" height="55"/>
+	<SubTexture name="ceniza0000" x="125" y="5" width="68" height="337" pivotX="47.5" pivotY="39.3"/>
+	<SubTexture name="ceniza0001" x="125" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0002" x="125" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0003" x="125" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0004" x="125" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0005" x="198" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0006" x="271" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0007" x="344" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0008" x="417" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0009" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0010" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0011" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0012" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0013" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0014" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0015" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0016" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0017" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0018" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0019" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0020" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0021" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0022" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0023" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0024" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0025" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0026" x="563" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0027" x="490" y="5" width="68" height="337"/>
+	<SubTexture name="ceniza0028" x="563" y="5" width="68" height="337"/>
+</TextureAtlas>

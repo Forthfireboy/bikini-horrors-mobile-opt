@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gargar.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="5" y="5" width="261" height="168" pivotX="133" pivotY="168"/>
+	<SubTexture name="down0001" x="5" y="5" width="261" height="168"/>
+	<SubTexture name="down0002" x="271" y="5" width="261" height="168"/>
+	<SubTexture name="down0003" x="271" y="5" width="261" height="168"/>
+	<SubTexture name="down0004" x="271" y="5" width="261" height="168"/>
+	<SubTexture name="down0005" x="271" y="5" width="261" height="168"/>
+	<SubTexture name="down0006" x="271" y="5" width="261" height="168"/>
+	<SubTexture name="entrada0000" x="537" y="5" width="297" height="279" pivotX="120" pivotY="184"/>
+	<SubTexture name="entrada0001" x="537" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0002" x="839" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0003" x="839" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0004" x="1141" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0005" x="1443" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0006" x="1443" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0007" x="1745" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0008" x="1745" y="5" width="297" height="279"/>
+	<SubTexture name="entrada0009" x="5" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0010" x="5" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0011" x="307" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0012" x="609" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0013" x="609" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0014" x="911" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0015" x="1213" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0016" x="1213" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0017" x="1213" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0018" x="1515" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0019" x="1515" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0020" x="1515" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0021" x="1515" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0022" x="1515" y="289" width="297" height="279"/>
+	<SubTexture name="entrada0023" x="5" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0024" x="5" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0025" x="5" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0026" x="5" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0027" x="307" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0028" x="307" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0029" x="609" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0030" x="911" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0031" x="1213" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0032" x="1213" y="573" width="297" height="279"/>
+	<SubTexture name="entrada0033" x="1515" y="573" width="297" height="279"/>
+	<SubTexture name="exit0000" x="5" y="857" width="275" height="174" pivotX="129" pivotY="174"/>
+	<SubTexture name="exit0001" x="5" y="857" width="275" height="174"/>
+	<SubTexture name="exit0002" x="5" y="857" width="275" height="174"/>
+	<SubTexture name="exit0003" x="5" y="857" width="275" height="174"/>
+	<SubTexture name="exit0004" x="285" y="857" width="275" height="174"/>
+	<SubTexture name="exit0005" x="285" y="857" width="275" height="174"/>
+	<SubTexture name="exit0006" x="285" y="857" width="275" height="174"/>
+	<SubTexture name="exit0007" x="285" y="857" width="275" height="174"/>
+	<SubTexture name="exit0008" x="565" y="857" width="275" height="174"/>
+	<SubTexture name="exit0009" x="565" y="857" width="275" height="174"/>
+	<SubTexture name="exit0010" x="565" y="857" width="275" height="174"/>
+	<SubTexture name="exit0011" x="565" y="857" width="275" height="174"/>
+	<SubTexture name="exit0012" x="845" y="857" width="275" height="174"/>
+	<SubTexture name="exit0013" x="845" y="857" width="275" height="174"/>
+	<SubTexture name="exit0014" x="845" y="857" width="275" height="174"/>
+	<SubTexture name="exit0015" x="1125" y="857" width="275" height="174"/>
+	<SubTexture name="exit0016" x="1125" y="857" width="275" height="174"/>
+	<SubTexture name="idle0000" x="1405" y="857" width="261" height="168" pivotX="207" pivotY="76"/>
+	<SubTexture name="idle0001" x="1405" y="857" width="261" height="168"/>
+	<SubTexture name="idle0002" x="1671" y="857" width="261" height="168"/>
+	<SubTexture name="idle0003" x="1671" y="857" width="261" height="168"/>
+	<SubTexture name="idle0004" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0005" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0006" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0007" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0008" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0009" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0010" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="idle0011" x="5" y="1036" width="261" height="168"/>
+	<SubTexture name="left0000" x="271" y="1036" width="260" height="168" pivotX="417" pivotY="325"/>
+	<SubTexture name="left0001" x="271" y="1036" width="260" height="168"/>
+	<SubTexture name="left0002" x="536" y="1036" width="260" height="168"/>
+	<SubTexture name="left0003" x="536" y="1036" width="260" height="168"/>
+	<SubTexture name="left0004" x="536" y="1036" width="260" height="168"/>
+	<SubTexture name="left0005" x="536" y="1036" width="260" height="168"/>
+	<SubTexture name="left0006" x="536" y="1036" width="260" height="168"/>
+	<SubTexture name="right0000" x="801" y="1036" width="259" height="168" pivotX="129" pivotY="168"/>
+	<SubTexture name="right0001" x="801" y="1036" width="259" height="168"/>
+	<SubTexture name="right0002" x="1065" y="1036" width="259" height="168"/>
+	<SubTexture name="right0003" x="1065" y="1036" width="259" height="168"/>
+	<SubTexture name="right0004" x="1065" y="1036" width="259" height="168"/>
+	<SubTexture name="right0005" x="1065" y="1036" width="259" height="168"/>
+	<SubTexture name="right0006" x="1065" y="1036" width="259" height="168"/>
+	<SubTexture name="up0000" x="1329" y="1036" width="260" height="168" pivotX="130" pivotY="168"/>
+	<SubTexture name="up0001" x="1329" y="1036" width="260" height="168"/>
+	<SubTexture name="up0002" x="1594" y="1036" width="260" height="168"/>
+	<SubTexture name="up0003" x="1594" y="1036" width="260" height="168"/>
+	<SubTexture name="up0004" x="1594" y="1036" width="260" height="168"/>
+	<SubTexture name="up0005" x="1594" y="1036" width="260" height="168"/>
+	<SubTexture name="up0006" x="1594" y="1036" width="260" height="168"/>
+</TextureAtlas>

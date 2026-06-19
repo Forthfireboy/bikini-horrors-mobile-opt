@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jj_corre.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ialt0000" x="4" y="4" width="414" height="571" frameX="0" frameY="0" frameWidth="414" frameHeight="572"/>
+	<SubTexture name="ialt0001" x="422" y="4" width="414" height="572"/>
+	<SubTexture name="ialt0002" x="840" y="4" width="414" height="571" frameX="0" frameY="0" frameWidth="414" frameHeight="572"/>
+	<SubTexture name="ialt0003" x="1258" y="4" width="414" height="572"/>
+	<SubTexture name="idle0000" x="4" y="580" width="392" height="565" frameX="0" frameY="0" frameWidth="392" frameHeight="567"/>
+	<SubTexture name="idle0001" x="400" y="580" width="392" height="567"/>
+	<SubTexture name="idle0002" x="796" y="580" width="392" height="565" frameX="0" frameY="0" frameWidth="392" frameHeight="567"/>
+	<SubTexture name="idle0003" x="1192" y="580" width="392" height="567"/>
+</TextureAtlas>

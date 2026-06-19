@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="transgenero.png"><SubTexture name="transgenero idle0000" x="1490" y="555" width="385" height="518" frameX="-836" frameY="-1178" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0001" x="1490" y="555" width="385" height="518" frameX="-836" frameY="-1178" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0002" x="166" y="709" width="384" height="610" frameX="-720" frameY="-964" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0003" x="166" y="709" width="384" height="610" frameX="-720" frameY="-964" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0004" x="1875" y="555" width="501" height="457" frameX="-544" frameY="-1222" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0005" x="1875" y="555" width="501" height="457" frameX="-544" frameY="-1222" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0006" x="0" y="1838" width="632" height="414" frameX="-363" frameY="-1014" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0007" x="0" y="1838" width="632" height="414" frameX="-363" frameY="-914" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0008" x="1784" y="1403" width="640" height="420" frameX="-360" frameY="-870" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0009" x="1784" y="1403" width="640" height="420" frameX="-360" frameY="-804" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0010" x="0" y="1838" width="632" height="414" frameX="-363" frameY="-736" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0011" x="0" y="1838" width="632" height="414" frameX="-363" frameY="-696" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0012" x="632" y="1838" width="854" height="414" frameX="-1000" frameY="-1324" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0013" x="632" y="1838" width="854" height="414" frameX="-1000" frameY="-1324" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0014" x="1486" y="1838" width="681" height="372" frameX="-348" frameY="-827" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0015" x="1486" y="1838" width="681" height="372" frameX="-348" frameY="-827" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0016" x="0" y="1403" width="1784" height="435" frameX="-21" frameY="-764" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0017" x="0" y="1403" width="1784" height="435" frameX="-21" frameY="-764" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0018" x="1490" y="1073" width="288" height="299" frameX="-1111" frameY="-797" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0019" x="1490" y="1073" width="288" height="299" frameX="-1111" frameY="-797" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0020" x="0" y="0" width="166" height="1403" frameX="-1172" frameY="-214" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0021" x="0" y="0" width="166" height="1403" frameX="-1172" frameY="-214" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0022" x="1165" y="568" width="295" height="382" frameX="-1108" frameY="-749" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0023" x="1165" y="568" width="295" height="382" frameX="-1108" frameY="-749" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0024" x="1490" y="0" width="976" height="555" frameX="-438" frameY="-1080" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0025" x="1490" y="0" width="976" height="555" frameX="-438" frameY="-1080" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0026" x="1778" y="1073" width="197" height="256" frameX="-631" frameY="-1225" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0027" x="1778" y="1073" width="197" height="256" frameX="-631" frameY="-1225" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0028" x="842" y="0" width="648" height="568" frameX="-809" frameY="-955" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0029" x="166" y="0" width="676" height="709" frameX="-847" frameY="-904" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0030" x="842" y="568" width="323" height="440" frameX="-807" frameY="-1176" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0031" x="842" y="568" width="323" height="440" frameX="-807" frameY="-1176" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0032" x="842" y="568" width="323" height="440" frameX="-807" frameY="-1176" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0033" x="842" y="568" width="323" height="440" frameX="-807" frameY="-1176" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="transgenero idle0034" x="842" y="568" width="323" height="440" frameX="-807" frameY="-1176" frameWidth="2000" frameHeight="2000" />
+</TextureAtlas>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tmk.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cano_down0000" x="1" y="1" width="803" height="588"/>
+	<SubTexture name="cano_down0001" x="1" y="1" width="803" height="588"/>
+	<SubTexture name="cano_down0002" x="805" y="1" width="784" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0003" x="1590" y="1" width="777" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0004" x="1590" y="1" width="777" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0005" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0006" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0007" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0008" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0009" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0010" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0011" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0012" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_down0013" x="2368" y="1" width="782" height="588" frameX="0" frameY="0" frameWidth="803" frameHeight="588"/>
+	<SubTexture name="cano_idle0000" x="3151" y="1" width="773" height="588"/>
+	<SubTexture name="cano_idle0001" x="3151" y="1" width="773" height="588"/>
+	<SubTexture name="cano_idle0002" x="1" y="590" width="768" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0003" x="1" y="590" width="768" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0004" x="770" y="590" width="760" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0005" x="770" y="590" width="760" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0006" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0007" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0008" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0009" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0010" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0011" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0012" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_idle0013" x="1531" y="590" width="756" height="588" frameX="0" frameY="0" frameWidth="773" frameHeight="588"/>
+	<SubTexture name="cano_left0000" x="2288" y="590" width="827" height="588"/>
+	<SubTexture name="cano_left0001" x="2288" y="590" width="827" height="588"/>
+	<SubTexture name="cano_left0002" x="3116" y="590" width="805" height="588" frameX="-22" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0003" x="1" y="1179" width="790" height="588" frameX="-37" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0004" x="1" y="1179" width="790" height="588" frameX="-37" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0005" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0006" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0007" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0008" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0009" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0010" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0011" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0012" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_left0013" x="792" y="1179" width="796" height="588" frameX="-31" frameY="0" frameWidth="827" frameHeight="588"/>
+	<SubTexture name="cano_right0000" x="1589" y="1179" width="824" height="588"/>
+	<SubTexture name="cano_right0001" x="1589" y="1179" width="824" height="588"/>
+	<SubTexture name="cano_right0002" x="2414" y="1179" width="797" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0003" x="3212" y="1179" width="789" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0004" x="3212" y="1179" width="789" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0005" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0006" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0007" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0008" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0009" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0010" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0011" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0012" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_right0013" x="1" y="1768" width="794" height="588" frameX="0" frameY="0" frameWidth="824" frameHeight="588"/>
+	<SubTexture name="cano_up0000" x="796" y="1768" width="734" height="598" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0001" x="796" y="1768" width="734" height="598" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0002" x="1531" y="1768" width="746" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0003" x="2278" y="1768" width="760" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0004" x="2278" y="1768" width="760" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0005" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0006" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0007" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0008" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0009" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0010" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0011" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0012" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+	<SubTexture name="cano_up0013" x="3039" y="1768" width="755" height="588" frameX="0" frameY="0" frameWidth="760" frameHeight="598"/>
+</TextureAtlas>

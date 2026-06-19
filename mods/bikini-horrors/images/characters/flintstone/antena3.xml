@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="antena3.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blow0000" x="5" y="5" width="175" height="154" pivotX="92" pivotY="147"/>
+	<SubTexture name="blow0001" x="185" y="5" width="175" height="154"/>
+	<SubTexture name="blow0002" x="365" y="5" width="175" height="154"/>
+	<SubTexture name="blow0003" x="545" y="5" width="175" height="154"/>
+	<SubTexture name="drop0000" x="725" y="5" width="183" height="156" pivotX="95" pivotY="107"/>
+	<SubTexture name="drop0001" x="5" y="166" width="183" height="156"/>
+	<SubTexture name="drop0002" x="193" y="166" width="183" height="156"/>
+	<SubTexture name="drop0003" x="193" y="166" width="183" height="156"/>
+	<SubTexture name="drop0004" x="381" y="166" width="183" height="156"/>
+	<SubTexture name="drop0005" x="381" y="166" width="183" height="156"/>
+	<SubTexture name="drop0006" x="569" y="166" width="183" height="156"/>
+	<SubTexture name="drop0007" x="569" y="166" width="183" height="156"/>
+	<SubTexture name="drop0008" x="569" y="166" width="183" height="156"/>
+	<SubTexture name="drop0009" x="569" y="166" width="183" height="156"/>
+	<SubTexture name="hypno0000" x="757" y="166" width="161" height="139" pivotX="80" pivotY="139"/>
+	<SubTexture name="hypno0001" x="757" y="166" width="161" height="139"/>
+	<SubTexture name="hypno0002" x="757" y="166" width="161" height="139"/>
+	<SubTexture name="hypno0003" x="757" y="166" width="161" height="139"/>
+	<SubTexture name="hypno0004" x="757" y="166" width="161" height="139"/>
+	<SubTexture name="hypno0005" x="757" y="166" width="161" height="139"/>
+	<SubTexture name="hypno0006" x="5" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0007" x="5" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0008" x="5" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0009" x="5" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0010" x="5" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0011" x="5" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0012" x="171" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0013" x="171" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0014" x="171" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0015" x="171" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0016" x="171" y="327" width="161" height="139"/>
+	<SubTexture name="hypno0017" x="171" y="327" width="161" height="139"/>
+	<SubTexture name="idle0000" x="337" y="327" width="161" height="139" pivotX="73" pivotY="90"/>
+	<SubTexture name="idle0001" x="337" y="327" width="161" height="139"/>
+	<SubTexture name="idle0002" x="337" y="327" width="161" height="139"/>
+	<SubTexture name="idle0003" x="337" y="327" width="161" height="139"/>
+	<SubTexture name="static0000" x="503" y="327" width="161" height="139" pivotX="82" pivotY="139"/>
+	<SubTexture name="static0001" x="669" y="327" width="161" height="139"/>
+	<SubTexture name="static0002" x="503" y="327" width="161" height="139"/>
+	<SubTexture name="static0003" x="669" y="327" width="161" height="139"/>
+</TextureAtlas>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="spongelord.png"><SubTexture name="spongelord idle0000" x="574" y="868" width="426" height="746" frameX="-655" frameY="-123" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord idle0001" x="574" y="868" width="426" height="746" frameX="-655" frameY="-123" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord idle0002" x="1000" y="868" width="427" height="745" frameX="-654" frameY="-123" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord idle0003" x="1000" y="868" width="427" height="745" frameX="-654" frameY="-123" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0000" x="821" y="1648" width="810" height="597" frameX="-543" frameY="-276" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0001" x="821" y="1648" width="810" height="597" frameX="-543" frameY="-276" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0002" x="0" y="1648" width="821" height="613" frameX="-531" frameY="-260" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0003" x="0" y="1648" width="821" height="613" frameX="-531" frameY="-260" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0004" x="0" y="1648" width="821" height="613" frameX="-531" frameY="-260" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0005" x="0" y="1648" width="821" height="613" frameX="-531" frameY="-260" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0006" x="0" y="1648" width="821" height="613" frameX="-531" frameY="-260" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord right0007" x="0" y="1648" width="821" height="613" frameX="-531" frameY="-260" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0000" x="619" y="0" width="610" height="845" frameX="-471" frameY="-211" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0001" x="619" y="0" width="610" height="845" frameX="-471" frameY="-211" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0002" x="0" y="0" width="619" height="868" frameX="-464" frameY="-188" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0003" x="0" y="0" width="619" height="868" frameX="-464" frameY="-188" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0004" x="0" y="0" width="619" height="868" frameX="-464" frameY="-188" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0005" x="0" y="0" width="619" height="868" frameX="-464" frameY="-188" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0006" x="0" y="0" width="619" height="868" frameX="-464" frameY="-188" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord down0007" x="0" y="0" width="619" height="868" frameX="-464" frameY="-188" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0000" x="1803" y="732" width="743" height="723" frameX="-433" frameY="-175" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0001" x="1803" y="732" width="743" height="723" frameX="-433" frameY="-175" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0002" x="1803" y="0" width="752" height="732" frameX="-422" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0003" x="1803" y="0" width="752" height="732" frameX="-422" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0004" x="1803" y="0" width="752" height="732" frameX="-422" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0005" x="1803" y="0" width="752" height="732" frameX="-422" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0006" x="1803" y="0" width="752" height="732" frameX="-422" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord left0007" x="1803" y="0" width="752" height="732" frameX="-422" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0000" x="0" y="868" width="574" height="780" frameX="-564" frameY="-88" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0001" x="0" y="868" width="574" height="780" frameX="-564" frameY="-88" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0002" x="1229" y="0" width="574" height="788" frameX="-565" frameY="-80" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0003" x="1229" y="0" width="574" height="788" frameX="-565" frameY="-80" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0004" x="1229" y="0" width="574" height="788" frameX="-565" frameY="-80" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0005" x="1229" y="0" width="574" height="788" frameX="-565" frameY="-80" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0006" x="1229" y="0" width="574" height="788" frameX="-565" frameY="-80" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="spongelord up0007" x="1229" y="0" width="574" height="788" frameX="-565" frameY="-80" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

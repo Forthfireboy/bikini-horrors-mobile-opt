@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="quepasacabesa.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lookingleft0000" x="5" y="5" width="255" height="588" pivotX="123.05" pivotY="381.4"/>
+	<SubTexture name="lookingleft0001" x="5" y="5" width="255" height="588"/>
+	<SubTexture name="lookingleft0002" x="5" y="5" width="255" height="588"/>
+	<SubTexture name="lookingleft0003" x="5" y="5" width="255" height="588"/>
+	<SubTexture name="lookingleft0004" x="265" y="5" width="255" height="588"/>
+	<SubTexture name="lookingleft0005" x="265" y="5" width="255" height="588"/>
+	<SubTexture name="lookingleft0006" x="265" y="5" width="255" height="588"/>
+	<SubTexture name="lookingleft0007" x="265" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0000" x="525" y="5" width="255" height="588" pivotX="123.05" pivotY="381.4"/>
+	<SubTexture name="lookingright0001" x="525" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0002" x="525" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0003" x="525" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0004" x="785" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0005" x="785" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0006" x="785" y="5" width="255" height="588"/>
+	<SubTexture name="lookingright0007" x="785" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0000" x="525" y="5" width="255" height="588" pivotX="123.05" pivotY="381.4"/>
+	<SubTexture name="movingleft0001" x="525" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0002" x="1045" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0003" x="1045" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0004" x="1305" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0005" x="1305" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0006" x="1565" y="5" width="255" height="588"/>
+	<SubTexture name="movingleft0007" x="1565" y="5" width="255" height="588"/>
+	<SubTexture name="movingright0000" x="5" y="5" width="255" height="588" pivotX="123.05" pivotY="381.4"/>
+	<SubTexture name="movingright0001" x="5" y="5" width="255" height="588"/>
+	<SubTexture name="movingright0002" x="5" y="598" width="255" height="588"/>
+	<SubTexture name="movingright0003" x="5" y="598" width="255" height="588"/>
+	<SubTexture name="movingright0004" x="265" y="598" width="255" height="588"/>
+	<SubTexture name="movingright0005" x="265" y="598" width="255" height="588"/>
+	<SubTexture name="movingright0006" x="525" y="598" width="255" height="588"/>
+	<SubTexture name="movingright0007" x="525" y="598" width="255" height="588"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="picovoid.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="down0000" x="278" y="375" width="362" height="90" frameX="-447" frameY="-711" frameWidth="1286" frameHeight="799"/>
+	<SubTexture name="idle0000" x="0" y="375" width="278" height="169" frameX="-486" frameY="-632" frameWidth="1286" frameHeight="799"/>
+	<SubTexture name="left0000" x="572" y="0" width="266" height="238" frameX="-300" frameY="-563" frameWidth="1286" frameHeight="799"/>
+	<SubTexture name="right0000" x="236" y="0" width="336" height="247" frameX="-632" frameY="-554" frameWidth="1286" frameHeight="799"/>
+	<SubTexture name="up0000" x="0" y="0" width="236" height="375" frameX="-532" frameY="-426" frameWidth="1286" frameHeight="799"/>
+</TextureAtlas>

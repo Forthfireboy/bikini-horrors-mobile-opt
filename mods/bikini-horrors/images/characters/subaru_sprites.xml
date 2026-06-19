@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="subaru_sprites.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="subaru_dmiss0000" x="3" y="3" width="431" height="575"/>
+	<SubTexture name="subaru_dmiss0001" x="3" y="3" width="431" height="575"/>
+	<SubTexture name="subaru_dmiss0002" x="3" y="3" width="431" height="575"/>
+	<SubTexture name="subaru_dmiss0003" x="3" y="3" width="431" height="575"/>
+	<SubTexture name="subaru_down0000" x="437" y="3" width="475" height="545" frameX="0" frameY="-30" frameWidth="475" frameHeight="575"/>
+	<SubTexture name="subaru_down0001" x="437" y="3" width="475" height="545" frameX="0" frameY="-30" frameWidth="475" frameHeight="575"/>
+	<SubTexture name="subaru_down0002" x="915" y="3" width="430" height="575" frameX="-22" frameY="0" frameWidth="475" frameHeight="575"/>
+	<SubTexture name="subaru_down0003" x="915" y="3" width="430" height="575" frameX="-22" frameY="0" frameWidth="475" frameHeight="575"/>
+	<SubTexture name="subaru_down0004" x="915" y="3" width="430" height="575" frameX="-22" frameY="0" frameWidth="475" frameHeight="575"/>
+	<SubTexture name="subaru_down0005" x="915" y="3" width="430" height="575" frameX="-22" frameY="0" frameWidth="475" frameHeight="575"/>
+	<SubTexture name="subaru_idle0000" x="1348" y="3" width="423" height="548" frameX="0" frameY="-17" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0001" x="1348" y="3" width="423" height="548" frameX="0" frameY="-17" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0002" x="1774" y="3" width="408" height="555" frameX="-9" frameY="-10" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0003" x="1774" y="3" width="408" height="555" frameX="-9" frameY="-10" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0004" x="2185" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0005" x="2185" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0006" x="2585" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0007" x="2585" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0008" x="2985" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0009" x="2985" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0010" x="3385" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0011" x="3385" y="3" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0012" x="3" y="581" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_idle0013" x="3" y="581" width="397" height="565" frameX="-17" frameY="0" frameWidth="423" frameHeight="565"/>
+	<SubTexture name="subaru_left0000" x="403" y="581" width="418" height="560" frameX="0" frameY="0" frameWidth="432" frameHeight="560"/>
+	<SubTexture name="subaru_left0001" x="403" y="581" width="418" height="560" frameX="0" frameY="0" frameWidth="432" frameHeight="560"/>
+	<SubTexture name="subaru_left0002" x="824" y="581" width="405" height="560" frameX="-27" frameY="0" frameWidth="432" frameHeight="560"/>
+	<SubTexture name="subaru_left0003" x="824" y="581" width="405" height="560" frameX="-27" frameY="0" frameWidth="432" frameHeight="560"/>
+	<SubTexture name="subaru_left0004" x="824" y="581" width="405" height="560" frameX="-27" frameY="0" frameWidth="432" frameHeight="560"/>
+	<SubTexture name="subaru_left0005" x="824" y="581" width="405" height="560" frameX="-27" frameY="0" frameWidth="432" frameHeight="560"/>
+	<SubTexture name="subaru_lmiss0000" x="1232" y="581" width="405" height="560"/>
+	<SubTexture name="subaru_lmiss0001" x="1232" y="581" width="405" height="560"/>
+	<SubTexture name="subaru_lmiss0002" x="1232" y="581" width="405" height="560"/>
+	<SubTexture name="subaru_lmiss0003" x="1232" y="581" width="405" height="560"/>
+	<SubTexture name="subaru_right0000" x="1640" y="581" width="409" height="565" frameX="-28" frameY="0" frameWidth="437" frameHeight="565"/>
+	<SubTexture name="subaru_right0001" x="1640" y="581" width="409" height="565" frameX="-28" frameY="0" frameWidth="437" frameHeight="565"/>
+	<SubTexture name="subaru_right0002" x="2052" y="581" width="396" height="565" frameX="0" frameY="0" frameWidth="437" frameHeight="565"/>
+	<SubTexture name="subaru_right0003" x="2052" y="581" width="396" height="565" frameX="0" frameY="0" frameWidth="437" frameHeight="565"/>
+	<SubTexture name="subaru_right0004" x="2052" y="581" width="396" height="565" frameX="0" frameY="0" frameWidth="437" frameHeight="565"/>
+	<SubTexture name="subaru_rmiss0000" x="2451" y="581" width="396" height="565"/>
+	<SubTexture name="subaru_rmiss0001" x="2451" y="581" width="396" height="565"/>
+	<SubTexture name="subaru_rmiss0002" x="2451" y="581" width="396" height="565"/>
+	<SubTexture name="subaru_umiss0000" x="2850" y="581" width="331" height="612"/>
+	<SubTexture name="subaru_umiss0001" x="2850" y="581" width="331" height="612"/>
+	<SubTexture name="subaru_umiss0002" x="2850" y="581" width="331" height="612"/>
+	<SubTexture name="subaru_up0000" x="3184" y="581" width="280" height="680" frameX="-24" frameY="0" frameWidth="324" frameHeight="680"/>
+	<SubTexture name="subaru_up0001" x="3184" y="581" width="280" height="680" frameX="-24" frameY="0" frameWidth="324" frameHeight="680"/>
+	<SubTexture name="subaru_up0002" x="3467" y="581" width="324" height="612" frameX="0" frameY="-68" frameWidth="324" frameHeight="680"/>
+	<SubTexture name="subaru_up0003" x="3467" y="581" width="324" height="612" frameX="0" frameY="-68" frameWidth="324" frameHeight="680"/>
+	<SubTexture name="subaru_up0004" x="3467" y="581" width="324" height="612" frameX="0" frameY="-68" frameWidth="324" frameHeight="680"/>
+</TextureAtlas>

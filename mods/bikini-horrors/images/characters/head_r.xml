@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="head_r.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="squidwirdy_head_right0000" x="3" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0001" x="3" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0002" x="3" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0003" x="3" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0004" x="3" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0005" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0006" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0007" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0008" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_right0009" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0000" x="634" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0001" x="634" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0002" x="950" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0003" x="950" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0004" x="1266" y="3" width="313" height="424" frameX="0" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0005" x="1582" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0006" x="3" y="431" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0007" x="3" y="431" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0008" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+	<SubTexture name="squidwirdy_head_rightMOVE0009" x="319" y="3" width="312" height="425" frameX="-1" frameY="0" frameWidth="313" frameHeight="425"/>
+</TextureAtlas>

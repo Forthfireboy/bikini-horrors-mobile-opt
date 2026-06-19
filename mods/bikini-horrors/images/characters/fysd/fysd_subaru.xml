@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fysd_subaru.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="4" y="4" width="526" height="559"/>
+	<SubTexture name="wings0000" x="534" y="4" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0001" x="534" y="4" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0002" x="534" y="4" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0003" x="1064" y="4" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0004" x="1064" y="4" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0005" x="1064" y="4" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0006" x="4" y="567" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0007" x="4" y="567" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0008" x="4" y="567" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0009" x="534" y="567" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0010" x="534" y="567" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0011" x="534" y="567" width="526" height="558" frameX="-21" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0012" x="1064" y="567" width="654" height="558"/>
+	<SubTexture name="wings0013" x="1064" y="567" width="654" height="558"/>
+	<SubTexture name="wings0014" x="1064" y="567" width="654" height="558"/>
+	<SubTexture name="wings0015" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0016" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0017" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0018" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0019" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0020" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0021" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="wings0022" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+	<SubTexture name="caca0023" x="4" y="1129" width="648" height="558" frameX="-1" frameY="0" frameWidth="654" frameHeight="558"/>
+</TextureAtlas>

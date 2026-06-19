@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mic_gf.png"><SubTexture name="mic_gf looking right0000" x="673" y="0" width="226" height="425" frameX="-417" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf looking right0001" x="673" y="0" width="226" height="425" frameX="-417" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf looking right0002" x="673" y="0" width="226" height="425" frameX="-417" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf looking right0003" x="673" y="0" width="226" height="425" frameX="-417" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0000" x="224" y="0" width="224" height="426" frameX="-419" frameY="-432" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0001" x="224" y="0" width="224" height="426" frameX="-419" frameY="-432" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0002" x="224" y="0" width="224" height="426" frameX="-419" frameY="-432" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0003" x="453" y="428" width="230" height="420" frameX="-412" frameY="-438" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0004" x="453" y="428" width="230" height="420" frameX="-412" frameY="-438" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0005" x="0" y="428" width="227" height="425" frameX="-414" frameY="-434" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0006" x="0" y="428" width="227" height="425" frameX="-414" frameY="-434" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0007" x="0" y="428" width="227" height="425" frameX="-414" frameY="-434" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving left0008" x="448" y="0" width="225" height="426" frameX="-414" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf looking left0000" x="448" y="0" width="225" height="426" frameX="-414" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf looking left0001" x="448" y="0" width="225" height="426" frameX="-414" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf looking left0002" x="448" y="0" width="225" height="426" frameX="-414" frameY="-433" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0000" x="0" y="0" width="224" height="428" frameX="-415" frameY="-431" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0001" x="0" y="0" width="224" height="428" frameX="-415" frameY="-431" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0002" x="0" y="0" width="224" height="428" frameX="-415" frameY="-431" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0003" x="453" y="428" width="230" height="420" frameX="-412" frameY="-438" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0004" x="453" y="428" width="230" height="420" frameX="-412" frameY="-438" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0005" x="227" y="428" width="226" height="424" frameX="-417" frameY="-434" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0006" x="227" y="428" width="226" height="424" frameX="-417" frameY="-434" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0007" x="227" y="428" width="226" height="424" frameX="-417" frameY="-434" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="mic_gf moving right0008" x="673" y="0" width="226" height="425" frameX="-417" frameY="-433" frameWidth="1080" frameHeight="1080" />
+</TextureAtlas>
