@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/made-in-china-simulacion/" name="guatemala" zoom="0.4"  startCamPosX="500" startCamPosY="200">
+	<sprite antialiasing="false" x="-1200" scroll="0.95" sprite="guatemala" y="-800" type="none" scale="1" name="guatemala"/>
+	<girlfriend camxoffset="-600" x="390" camyoffset="00" y="240"/>
+	<dad camxoffset="100" x="24" camyoffset="-50" y="420"/>
+	<boyfriend camxoffset="-250" x="850" camyoffset="0" y="380"/>
+</stage>

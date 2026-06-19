@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="here_we_are" icon="icon-dbtg-gacha" color="#856B00" holdTime="6.1">
+	<anim name="hereweare" anim="see" x="0" y="0" fps="24" loop="true"/>
+</character>

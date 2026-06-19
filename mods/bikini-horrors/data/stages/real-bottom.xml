@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/real-bottom/" startCamPosX="600" name="island" zoom="1.2">
+	<sprite x="-1000" y="-730" type="none" zoomfactor="1" name="background" sprite="fondo" scroll="1" scale="0.5"/>
+	<boyfriend x="-100" y="280"/>
+	<dad x="900" y="680"/>
+</stage>

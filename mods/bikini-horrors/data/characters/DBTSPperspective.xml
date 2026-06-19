@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-500" sprite="DBTSPperspective" camx="-200" icon="icon-doesbarnaclethingssponge" color="#A3493F" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-66" y="107" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="-19" y="-16" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-244" y="35" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-98" y="-163" fps="24" loop="false"/>
+</character>

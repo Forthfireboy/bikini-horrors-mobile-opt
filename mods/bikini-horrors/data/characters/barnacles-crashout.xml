@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-2250" y="150" sprite="barnacles_crashout" scale="0.74" camx="250" camy="-100" icon="icon-bnwdbts" color="#FFFFFF" holdTime="6.1">
+	<anim name="barnacles" anim="barnacles" x="3" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="20" icon="icon-hu" camx="-220" camy="90" color="#AD66D6" isPlayer="true" flipX="true" holdTime="6.1" sprite="usa/hu_run">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="-26" fps="24" y="41" anim="up" name="singUP"/>
+
+	<anim loop="false" x="18" fps="24" y="5" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="14.8" fps="24" y="-8.2" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="49.15" fps="24" y="-44" anim="down" name="singDOWN"/>
+</character>

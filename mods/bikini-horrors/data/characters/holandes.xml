@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="flintstone/holandesflier" antialiasing="false" camx="88" camy="50" icon="icon-carmaland1" color="#50EB7E" imagePath="carmalandfase1.png">
+	<anim name="idle" anim="pottyidle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singDOWN" anim="pottydown" x="-1" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="pottyright" x="2" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="pottyleft" x="2" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="pottyup" x="-2" y="-3" fps="24" loop="false"/>
+	<anim name="cabin_intro" anim="cabinintro" x="32" y="8" fps="18" loop="false"/>
+	<anim name="cabin_idle" anim="cabinidle" x="31" y="7" fps="24" loop="true"/>
+	<anim name="cabin_exit" anim="cabinexit" x="41" y="21" fps="18" loop="false"/>
+	<anim name="holan_idle" anim="holanidle" x="-18" y="-15" fps="22" loop="true"/>
+	<anim name="holan_transform" anim="holantransform" x="-18" y="-15" fps="13" loop="false"/>
+</character>

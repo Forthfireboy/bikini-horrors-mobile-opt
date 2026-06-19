@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="350" y="220" sprite="corrupt_kevin" flipX="true" camx="-250" camy="-50" isPlayer="true" icon="icon-kevin" color="#000000" gameOverChar="spongewarrior_death" holdTime="6.1">
+	<anim name="idle" anim="kevin_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="kevin_up" x="-34" y="14" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="kevin_right" x="-20" y="-29" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="kevin_left" x="159" y="-24" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="kevin_down" x="27" y="-158" fps="24" loop="false"/>
+</character>

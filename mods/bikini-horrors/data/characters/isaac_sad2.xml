@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/voidisaac2" flipX="true" camx="-647" camy="-171" isPlayer="true" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="coloridle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP-alt" anim="colorup" x="3" y="56" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="colorright" x="-31" y="-3" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="colorleft" x="83" y="3" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="colordown" x="4" y="-131" fps="24" loop="false"/>
+	<anim name="wings" anim="wings" x="560" y="1792" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mini_phanes" flipX="true" isPlayer="true" icon="miniphanes" color="#F8FCFF" holdTime="6.1" y="-300" camy="400">
+	<anim name="idle" anim="phanes_idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="phanes_up" x="-55" y="10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="phanes_right" x="20" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="phanes_left" x="15" y="-50" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="phanes_down" x="75" y="-120" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="corrupt_phanes_upset" camx="100" camy="-100" icon="icon-spongephanes-evil" color="#AA2899" holdTime="6.1">
+	<anim name="idle" anim="upsetphanes_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="upsetphanes_up" x="10" y="50" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="upsetphanes_left" x="167" y="-123" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="upsetphanes_right" x="-151.2" y="-42.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="upsetphanes_down" x="41.15" y="-143" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="ALTupsetphanes_up" x="-15" y="56" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="ALTupsetphanes_left" x="117" y="-1" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="ALTupsetphanes_right" x="-96.2" y="41.8" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="ALTupsetphanes_down" x="51.15" y="-26" fps="24" loop="false"/>
+</character>

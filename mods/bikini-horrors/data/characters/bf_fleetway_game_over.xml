@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bubblemandeathanim" flipX="true" isPlayer="true" icon="icon-bubbleman" color="#2B6FE0" holdTime="6.1">
+	<anim name="firstDeath" anim="death" x="0" y="0" fps="24" loop="false"/>
+	<anim name="deathConfirm" anim="daccept" x="-495" y="366" fps="24" loop="false"/>
+</character>

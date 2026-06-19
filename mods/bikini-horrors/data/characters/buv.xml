@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" icon="icon-buv" camx="90" sprite="buv/buv" y="300" camy="0" scale="0.6">
+	<anim loop="false" x="0" fps="24" y="0" anim="buvidle" name="idle"/>
+
+	<anim loop="false" x="52" fps="24" y="94" anim="buvup" name="singUP"/>
+
+	<anim loop="false" x="160" fps="24" y="32" anim="buvleft" name="singLEFT"/>
+
+	<anim loop="false" x="15" fps="24" y="-28" anim="buvright" name="singRIGHT"/>
+
+	<anim loop="false" x="5" fps="24" y="-117" anim="buvdown" name="singDOWN"/>
+
+	<anim loop="true" x="95" fps="24" y="-275" anim="buvalone" name="alone"/>
+
+	<anim loop="false" x="-80" fps="24" y="-115" anim="buvcry" name="cry"/>
+
+	<anim loop="false" x="140" fps="24" y="-10" anim="buvtransition" name="transition"/>
+</character>

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="800" y="100" sprite="corre/phanes_noche" scale="1.4" camx="0" camy="-200" icon="icon-cc-phanes-noche" color="#867EA7" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-1" y="42" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="-1" y="-1" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-1.2" y="10.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-1" y="-2" fps="24" loop="false"/>
+	<anim name="caer" anim="caer" x="524" y="0" fps="24" loop="false"/>
+	<anim name="pum" anim="pum" x="-140" y="-1275" fps="24" loop="true"/>
+</character>

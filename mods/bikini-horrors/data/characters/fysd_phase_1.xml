@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="-10" icon="icon-fysd" sprite="fysd/fysd_phase_1" camy="70" color="#FFFFFF" flipX="true" isPlayer="true">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="2" fps="24" y="18" anim="up" name="singUP"/>
+
+	<anim loop="false" x="1" fps="24" y="5" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-4" fps="24" y="-1" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="0" fps="24" y="-11" anim="down" name="singDOWN"/>
+</character>

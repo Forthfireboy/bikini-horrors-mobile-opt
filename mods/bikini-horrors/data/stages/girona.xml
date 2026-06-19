@@ -1,0 +1,60 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="100" startCamPosY="0" folder="stages/rumbeling/" name="rumbeling" zoom="0.6">
+
+	<sprite x="-1152" scrolly="0.2" sprite="fase1/cielo" y="-901" type="none" name="cielo" scrollx="0.2"/>
+	<sprite scrolly="0.4" x="-1090" y="-797" sprite="fase1/trueno_left" scrollx="0.4" name="trueno_left"/>
+	<sprite scrolly="0.4" x="-214" y="-773" sprite="fase1/trueno_right" scrollx="0.4" name="trueno_right"/>
+	<sprite x="-2153" scrolly="0.9" sprite="fase1/phase_1_floor" y="-54" type="loop" name="suelo1" scrollx="0.9"/>
+	<sprite antialiasing="false" scrolly="0.85" x="235" y="276" sprite="fase1/vagon4" type="loop" scrollx="0.85" name="vagon4"/>
+	<sprite antialiasing="false" scrolly="0.9" x="299" y="51" sprite="fase1/vagon3" type="loop" scrollx="0.9" name="vagon3"/>
+	<sprite x="-62" y="-237" sprite="fase1/hankusiboom" type="none" name="hankBoom"/>
+	<sprite antialiasing="false" scrolly="0.95" x="408" y="-404" sprite="fase1/vagon2" type="loop" scrollx="0.95" name="vagon2"/>
+	<sprite antialiasing="false" scrolly="1" x="775" y="-966" sprite="fase1/vagon1" type="loop" scrollx="1" name="vagon1"/>
+
+	<sprite scrolly="0.2" x="-1280" sprite="fase2/cielo" y="-450" scrollx="0.2" name="cielo_hank"/>
+	<sprite x="-482" scrolly="0.4" sprite="fase2/edificio" y="413" type="none" name="edificio" scrollx="0.4"/>
+	<sprite x="-541" scrolly="0.8" sprite="fase2/fog" y="-184" type="loop" name="fog" scrollx="0.8"/>
+	<sprite x="-1273" scrolly="1" sprite="fase2/suelo" y="-726" name="suelo2" scrollx="1"/>
+
+	<sprite scrolly="0.2" x="-938" sprite="fase3/cielo" y="-444" scale="1.1" scrollx="0.2" name="cielo_hank2"/>
+	<sprite x="-1600" scrolly="0.9" sprite="fase3/hellclown" y="-1207" type="none" scale="1.4" name="hellclown" scrollx="0.9"/>
+
+	<sprite scrolly="0.2" x="-1472" sprite="fase4/cielo_hellclown" y="-921" scrollx="0.2" name="cielo_hellclown"/>
+	<sprite scrolly="0.4" x="-1097" y="-996" sprite="fase4/rempalago" scrollx="0.4" name="rempalago"/>
+	<sprite x="546" y="-561" sprite="fase4/tentaculos" type="none" name="tentaculos"/>
+	<sprite x="-124" y="-757" sprite="fase4/fuego_hellclown" type="loop" name="fuego_hellclown"/>
+	<sprite x="-306" y="-890" sprite="fase4/tentaculos_hellclown" type="loop" name="tentaculos_hellclown"/>
+	<sprite scrolly="1" x="-2782" sprite="fase4/suelo_hellclown" y="-389" scrollx="1" name="suelo_hellclown"/>
+
+
+	<sprite x="-970" scrolly="0.2" sprite="fase5/expurgation_fondo" y="-911" scale="1.6" type="loop" name="cielo_expurgation" scrollx="0.2"/>
+
+	<girlfriend x="820" camxoffset="-250" y="-416" camyoffset="200"/>
+
+	<sprite x="-259" scrolly="1" sprite="fase4/bola" y="23" scale="1" type="loop" name="bola" scrollx="1"/>
+	<sprite scrolly="1" x="710" sprite="fase4/pakmabg" y="-285" type="loop" scrollx="1" name="pakmabg"/>
+	<dad x="701" y="-307" camyoffset="-180"/>
+
+	<sprite x="-889" scrolly="1.1" sprite="fase3/tren" y="1128" name="tren" scrollx="1.1"/>
+
+	<sprite x="-351" sprite="fase1/pacma_fire" y="33" type="loop" name="pacma_fire"/>
+	<boyfriend x="-1076" camxoffset="-250" y="-629" camyoffset="-30"/>
+
+	<sprite antialiasing="false" scrolly="1.1" x="-1200" y="-800" sprite="fase1/nieve" type="loop" scrollx="1.1" name="nieve"/>
+
+	<sprite x="-1350" y="-200" scale="0.5" type="none" zoomfactor="0" scrollx="0" name="daimago" scrolly="0" sprite="fase3/daimago"/>
+
+	<sprite x="0" y="0" type="loop" zoomfactor="0" scale="1" scrollx="0" name="estatic" scrolly="0" sprite="static"/>
+	<sprite scrolly="0" x="0" y="0" sprite="palabras/fakebaby" zoomfactor="0" scale="1" scrollx="0" name="fakebaby"/>
+	<sprite scrolly="0" x="0" y="0" sprite="palabras/improbable" zoomfactor="0" scale="1" scrollx="0" name="improbable"/>
+	<sprite scrolly="0" x="0" y="0" sprite="palabras/madness" zoomfactor="0" scale="1" scrollx="0" name="madness"/>
+	<sprite scrolly="0" x="0" y="0" sprite="palabras/michael" zoomfactor="0" scale="1" scrollx="0" name="michael"/>
+	<sprite scrolly="0" x="0" y="0" sprite="palabras/no_fun" zoomfactor="0" scale="1" scrollx="0" name="no_fun"/>
+	<sprite scrolly="0" x="0" y="0" sprite="palabras/tmm" zoomfactor="0" scale="1" scrollx="0" name="tmm"/>
+
+	<sprite x="-20" y="290" zoomfactor="0" type="none" scale="0.6" scrollx="0" name="cudao" scrolly="0" sprite="REALspeakbox"/>
+
+	<sprite scrolly="0" x="-520" y="-301" sprite="marcoparty" zoomfactor="0" scale="0.6" scrollx="0" name="marco"/>
+
+	<combo/>
+</stage>

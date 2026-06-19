@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="hypnobob" icon="icon-hypnobob" color="#715E00" holdTime="6.1">
+	<anim name="idle" anim="hypnobob_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="hypnobob_up" x="50" y="103" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="hypnobob_left" x="97" y="35" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="hypnobob_right" x="-47.2" y="34.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="hypnobob_down" x="2.15" y="0" fps="24" loop="false"/>
+	<anim name="what" anim="hypnobob_wait" x="1278" y="118" fps="24" loop="false"/>
+</character>

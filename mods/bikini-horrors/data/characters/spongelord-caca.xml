@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="70" icon="icon-spongelord" sprite="spongelord_caca" camy="-170" color="#778097">
+	<anim loop="true" x="0" fps="24" y="0" anim="spongelord idle" name="idle"/>
+
+
+	<anim loop="false" x="0" fps="24" y="0" anim="spongelord up" name="singUP"/>
+
+
+	<anim loop="false" x="0" fps="24" y="0" anim="spongelord left" name="singLEFT"/>
+
+
+	<anim loop="false" x="1.8" fps="24" y="1.8" anim="spongelord right" name="singRIGHT"/>
+
+
+	<anim loop="false" x="12.15" fps="24" y="-5" anim="spongelord down" name="singDOWN"/>
+
+
+</character>

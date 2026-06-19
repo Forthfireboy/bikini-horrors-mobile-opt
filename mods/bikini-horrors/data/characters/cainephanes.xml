@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character y="-400" sprite="spongephanes_caine" camx="100" camy="50" icon="icon-popbob" color="#BBC4EC" holdTime="6.1">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="frown" anim="frown" x="0" y="0" fps="24" loop="false"/>
+	<anim name="fi" anim="fi" x="0" y="0" fps="24" loop="true"/>
+	<anim name="confused" anim="confused" x="0" y="0" fps="24" loop="false"/>
+	<anim name="ci" anim="ci" x="0" y="0" fps="24" loop="true"/>
+	<anim name="irritated" anim="irritated" x="0" y="0" fps="24" loop="false"/>
+	<anim name="ii" anim="ii" x="0" y="0" fps="24" loop="true"/>
+	<anim name="angry" anim="angry" x="0" y="0" fps="24" loop="false"/>
+	<anim name="ai" anim="ai" x="0" y="0" fps="24" loop="true"/>
+	<anim name="hola" anim="hola" x="0" y="0" fps="24" loop="false"/>
+	<anim name="looking" anim="looking" x="0" y="0" fps="24" loop="true"/>
+</character>

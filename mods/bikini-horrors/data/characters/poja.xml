@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pojapija/poja" scale="1.2" antialiasing="false" camx="-177" camy="54" icon="icon-poja" color="#FFFF99" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-55" y="113" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="85" y="28" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-160" y="-30" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="50" y="12" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="funnydown" x="42" y="80" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="funnyup" x="74" y="185" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="funnyright" x="110" y="95" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="funnyleft" x="180" y="49" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="funnyidle" x="117" y="134" fps="24" loop="true"/>
+	<anim name="laugh" anim="laugh" x="68" y="85" fps="24" loop="false"/>
+	<anim name="gulp" anim="gulp" x="0" y="130" fps="24" loop="false"/>
+	<anim name="snake" anim="snake" x="-10" y="5" fps="24" loop="true"/>
+	<anim name="cat" anim="cat" x="40" y="-35" fps="24" loop="true"/>
+</character>

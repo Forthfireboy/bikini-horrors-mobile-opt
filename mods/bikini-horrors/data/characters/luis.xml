@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="250" y="180" sprite="iab/luis" scale="1.15" icon="luis-icon" color="#0066CC" holdTime="6.1">
+	<anim name="idle" anim="really" x="140.15" y="-19" fps="24" loop="true"/>
+	<anim name="bro" anim="idle" x="135" y="-24" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="101" y="239" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="407" y="54" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-48.2" y="-47.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="185.15" y="-84" fps="24" loop="false"/>
+	<anim name="laugh" anim="laugh" x="111.15" y="50" fps="24" loop="true"/>
+	<anim name="scream" anim="scream" x="218.15" y="76" fps="24" loop="false"/>
+</character>

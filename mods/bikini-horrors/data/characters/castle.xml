@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/castleknight" camx="-647" camy="-171" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="knightidle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="knightup" x="-1" y="3" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="knightright" x="-6" y="3" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="knightleft" x="-6" y="2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="knightdown" x="-6" y="1" fps="24" loop="false"/>
+</character>

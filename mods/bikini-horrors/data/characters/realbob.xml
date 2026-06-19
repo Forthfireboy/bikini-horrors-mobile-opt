@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="realbob" scale="0.45" camx="-100" camy="-90" icon="icon-realbob" color="#AC9140" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="107" y="1175" fps="40" loop="false"/>
+	<anim name="singLEFT" anim="right" x="116" y="16" fps="40" loop="false"/>
+	<anim name="singRIGHT" anim="left" x="11.8" y="5.8" fps="44" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-1.85" y="-2" fps="24" loop="false"/>
+	<anim name="im" anim="im spongebob" x="20" y="35" fps="24" loop="true"/>
+	<anim name="erupto" anim="erupto" x="-1" y="26" fps="24" loop="true"/>
+</character>

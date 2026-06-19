@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="4550" sprite="fysd/fysd_subaru" icon="icon-fysd" y="-380" color="#000000">
+	<anim x="0" loop="true" anim="idle" y="-1" fps="24" name="idle"/>
+
+	<anim x="20.3" loop="false" anim="wings" y="-1.5" fps="24" name="free"/>
+
+	<anim x="20.3" loop="true" anim="caca" y="-1.5" fps="24" name="para_cojones"/>
+</character>

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="-350" sprite="trytrong/michael-tryson" icon="nothing" color="#AD0D00" holdTime="6.1">
+	<anim name="idle" anim="try_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="try_up" x="-23" y="402" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="try_left" x="526" y="58" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="try_right" x="-21.2" y="14.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="try_down" x="163.15" y="-304" fps="24" loop="false"/>
+	<anim name="moonwalk" anim="try_moonwalk" x="-20" y="65" fps="24" loop="true"/>
+	<anim name="try_dance" anim="try_dance" x="-50" y="-15" fps="24" loop="true"/>
+</character>

@@ -1,0 +1,55 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" folder="stages/bob_cave/">
+	<sprite x="-2824" y="-3320" sprite="cave" scale="0.7" name="cave"/>
+	<sprite x="-2733" y="-3343" sprite="emerald" scale="0.7" scrollx="1.05" name="emerald"/>
+	<sprite x="-2826" y="-3321" sprite="no_se_xd" scale="0.7" scrollx="1.1" name="floor"/>
+	<sprite x="1114" y="-36" sprite="patrisio" scale="0.7" name="patrisio"/>
+	
+
+	<sprite x="-0" y="-3300" sprite="space/0" scale="3" name="spaceBg1" scrollx="0" scrolly ="0.9" zoomfactor ="1" alpha="0"/>
+	<sprite x="-0" y="-3300" sprite="space/0" scale="3" name="spaceBg2" scrollx="0" scrolly ="0.9" zoomfactor ="1" alpha="0"/>
+	<sprite x="-1000" y="-5320" sprite="space/1" scale="1.25" name="stars1" scroll="0.9" alpha="0"/>
+	<sprite x="-1000" y="-5320" sprite="space/2" scale="1.25" name="stars2" scroll="0.9" alpha="0"/>
+	<sprite x="-1000" y="-5320" sprite="space/3" scale="1.25" name="stars3" scroll="0.9" alpha="0"/>
+	<sprite x="600" y="-5320" sprite="space/1" scale="1.25" name="stars7" scroll="0.9" alpha="0"/>
+	<sprite x="600" y="-5320" sprite="space/2" scale="1.25" name="stars8" scroll="0.9" alpha="0"/>
+	<sprite x="600" y="-5320" sprite="space/3" scale="1.25" name="stars9" scroll="0.9" alpha="0"/>
+	<sprite x="-300" y="-5320" sprite="space/4" scale="1.5" name="galaxy1" scroll="0.9" alpha="0"/>
+	<sprite x="-300" y="-5320" sprite="space/5" scale="1.5" name="galaxy2" scroll="0.9" alpha="0"/>
+
+	
+
+	<sprite x="-1000" y="-5320" sprite="space/1" scale="1.25" name="stars4" scroll="0.9" alpha="0"/>
+	<sprite x="-1000" y="-5320" sprite="space/2" scale="1.25" name="stars5" scroll="0.9" alpha="0"/>
+	<sprite x="-1000" y="-5320" sprite="space/3" scale="1.25" name="stars6" scroll="0.9" alpha="0"/>
+	<sprite x="600" y="-5320" sprite="space/1" scale="1.25" name="stars10" scroll="0.9" alpha="0"/>
+	<sprite x="600" y="-5320" sprite="space/2" scale="1.25" name="stars11" scroll="0.9" alpha="0"/>
+	<sprite x="600" y="-5320" sprite="space/3" scale="1.25" name="stars12" scroll="0.9" alpha="0"/>
+	<sprite x="-300" y="-5320" sprite="space/4" scale="1.5" name="galaxy3" scroll="0.9" alpha="0"/>
+	<sprite x="-300" y="-5320" sprite="space/5" scale="1.5" name="galaxy4" scroll="0.9" alpha="0"/>
+
+	<sprite x="-0" y="-5320" sprite="space/7" scale="1.25" name="luno" scroll="0.9" alpha="0"/>
+
+	<gf x="-477" alpha="0" y="-48"/>
+	<dad x="-50" y="-188"/>
+	<bf x="988" y="315"/>
+	<combo/>
+
+	<sprite scrolly="1.4" x="-3004" y="-3388" sprite="foreground" zoomfactor="0.9" scale="0.7" scrollx="1.4" name="foreground"/>
+
+	<box name="white" color="#ffffff" width="1280" height="720" scroll="0" zoomfactor="0" alpha="0"/>
+	<sprite antialiasing="true" sprite="renders/intro" scale="1" name="introPanel" scroll="1"/>
+	<sprite antialiasing="true" sprite="renders/keep-up" scale="1" name="keepupPanel" scroll="1" alpha="0"/>
+	<sprite antialiasing="true" sprite="renders/laugh" scale="1" name="laughPanel" scroll="1" alpha="0"/>
+	<sprite antialiasing="true" sprite="renders/bob-transform" scale="1" name="bobTransform" scroll="1" alpha="0"/>
+	<sprite antialiasing="true" sprite="renders/bf-transform" scale="0.5" name="bfTransform" scroll="1" alpha="0"/>
+	<sprite antialiasing="true" sprite="renders/tartar-sauce" scale="0.5" name="tartarSauce" scroll="1" alpha="0"/>
+
+
+
+	<sprite x="-0" y="-3320" sprite="space/6" scale="1.5" name="shine1" scroll="0.9" alpha="0"/>
+	<sprite x="-0" y="-3320" sprite="space/6" scale="1.5" name="shine2" scroll="0.9" alpha="0"/>
+
+	<box name="darkLights" color="#a1a300" width="1280" height="720" scroll="0" zoomfactor="0" alpha="0"/>
+	<sprite antialiasing="true" sprite="trans" scale="1.5" name="transition" scroll="0" zoomfactor="0" alpha="0"/>
+</stage>

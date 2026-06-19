@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/josejuanpoolparti" camx="100" camy="100" icon="icon-pp-jj" color="#FA1E4D" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="148" y="143" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="187" y="6" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="55" y="45" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="40" y="-218" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="ALTup" x="114" y="254" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="ALTdown" x="40" y="-201" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="ALTleft" x="125" y="5" fps="24" loop="false"/>
+	<anim name="erupto" anim="erupto" x="121" y="81" fps="24" loop="false"/>
+	<anim name="uy" anim="uy" x="0" y="-15" fps="24" loop="false"/>
+	<anim name="grrr" anim="grrr" x="11" y="110" fps="24" loop="false"/>
+</character>

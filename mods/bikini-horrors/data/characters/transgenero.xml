@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="transgenero" icon="icon-micsponge" color="#F78093" camx="-460" camy="-470" holdTime="6.1">
+	<anim name="transgenero" anim="transgenero idle" x="480" y="800" fps="24" loop="false"/>
+</character>

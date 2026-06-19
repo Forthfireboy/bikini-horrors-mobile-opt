@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" holdTime="6.1" y="-20" sprite="jj_jesus" icon="icon-josejuan" camx="-130" camy="70" color="#FB43AA">
+	<anim x="-9" loop="true" anim="idle" y="-3" fps="24" name="idle"/>
+
+	<anim x="0" loop="false" anim="animation" y="0" fps="24" name="anim"/>
+
+	<anim x="0" loop="true" anim="negro" y="0" fps="24" name="aura"/>
+</character>

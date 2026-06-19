@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="400" y="340" sprite="clonefriend" flipX="true" camx="-250" camy="-150" isPlayer="true" icon="icon-clonefriend" color="#3274AD" gameOverChar="spongewarrior_death" holdTime="6.1">
+	<anim name="idle" anim="bf_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="bf_up" x="-22" y="17" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bf_left" x="-13" y="-8" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bf_right" x="38" y="30" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bf_down" x="-14" y="-17" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="miss up" x="42" y="85" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="miss left" x="128" y="26" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="miss right" x="-110" y="11" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="miss down" x="49" y="-229" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mic_bf" flipX="true" isPlayer="true" icon="icon-micbf" color="#e04548" holdTime="6.1">
+	<anim name="idle" anim="mic_bf idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="mic_bf up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="mic_bf left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="mic_bf right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="mic_bf down" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="mic_bf umiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="mic_bf lmiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="mic_bf rmiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="mic_bf dmiss" x="0" y="0" fps="24" loop="false"/>
+</character>

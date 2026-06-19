@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="0" sprite="sirope/cris_grande" camx="100" camy="70" icon="crisbobicon2">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="88" y="303" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="558" y="-106" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="36" y="-7" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="311" y="-351" fps="24" loop="false"/>
+</character>

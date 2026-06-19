@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" y="-110" sprite="jj_corre" icon="icon-josejuan" color="#FB43AA" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="idle-alt" anim="ialt" x="0" y="0" fps="24" loop="true"/>
+</character>

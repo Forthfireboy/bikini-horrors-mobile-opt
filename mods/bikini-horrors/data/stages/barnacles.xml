@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/barnacles" name="barnacles" zoom="0.35"  startCamPosX="500" startCamPosY="200">
+	<sprite antialiasing="false" x="-3750" scroll="1" sprite="bg_barnacles1" y="-1250" type="none" scale="1.2" name="bg_barnacles1"/>
+	
+
+	<girlfriend camxoffset="-180" x="-1100" camyoffset="-500" y="225"/>
+	<dad camxoffset="-15" x="-1993" camyoffset="-300" y="575"/>
+	<boyfriend camxoffset="-165" x="-100" camyoffset="-300" y="850"/>
+
+	<sprite antialiasing="false" x="-3750" scroll="1" sprite="bg_barnacles2" y="-1250" type="none" scale="1.2" name="bg_barnacles2"/>
+	<sprite antialiasing="false" x="-3750" scroll="1" sprite="fg_barnacles" y="-1250" type="none" scale="1.2" name="fg_barnacles"/>
+</stage>

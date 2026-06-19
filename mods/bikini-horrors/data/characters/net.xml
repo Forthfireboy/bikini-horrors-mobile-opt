@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character icon="icon-postroff" camx="-977" camy="-52" scale="1.2" color="#666666" isPlayer="true" flipX="true" holdTime="6.1" antialiasing="false" sprite="pojapija/cuerda">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="singDOWN"/>
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="singLEFT"/>
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="singRIGHT"/>
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="singUP"/>
+
+	<anim loop="false" x="40" fps="24" y="-35" anim="cuerda" name="cuerda"/>
+
+	<anim loop="true" x="40" fps="24" y="-35" anim="manten" name="manten"/>
+</character>

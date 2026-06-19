@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="3" antialiasing="false" icon="icon-carmaland2" sprite="carmalanddancing" y="-60" camy="50" camx="150" scale="5" color="#50EB7E">
+	<anim loop="true" x="-3" fps="24" y="-9" anim="dancingloop" name="dancingLoop"/>
+
+	<anim loop="false" x="-3" fps="24" y="-8" anim="startdancing" name="startDancing"/>
+</character>

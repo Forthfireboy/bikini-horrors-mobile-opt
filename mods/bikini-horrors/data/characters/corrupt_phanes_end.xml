@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="corrupt_phanes_end" icon="icon-spongephanes-evil" color="#AA2899" holdTime="6.1" camy="-100" camx="100">
+	<anim name="idle" anim="endphanes_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="endphanes_up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="endphanes_left" x="0" y="-0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="endphanes_right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="endphanes_down" x="0" y="0" fps="24" loop="false"/>
+</character>

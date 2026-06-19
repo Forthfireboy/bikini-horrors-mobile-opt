@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="820" camx="320" icon="icon-xbf" y="180" camy="110" color="#1000FF" isPlayer="true" flipX="true" holdTime="6.1" gameOverChar="spongewarrior_death" sprite="unheared/x-bf">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="up" name="singUP"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="down" name="singDOWN"/>
+</character>

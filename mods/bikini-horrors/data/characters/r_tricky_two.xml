@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character x="-420" holdTime="6.1" y="-400" camx="-340" icon="icon-tricky" sprite="rumbeling/fase1/trikinuelas" camy="310" color="#AC8F10">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="2" fps="24" y="1" anim="up" name="singUP"/>
+
+	<anim loop="false" x="-15" fps="24" y="0" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-0.2" fps="24" y="-0.2" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="-1.85" fps="24" y="-1" anim="down" name="singDOWN"/>
+
+	<anim loop="false" x="2" fps="24" y="2" anim="scream1" name="scream"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="scream2" name="clown"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="laugh" name="laugh"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="doh" name="singDOWN-alt"/>
+</character>

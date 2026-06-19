@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="220" holdTime="6.1" y="-30" icon="icon-majinbuub" sprite="bueno" color="#7CFF01">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+</character>

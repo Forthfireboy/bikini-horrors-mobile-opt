@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="50" icon="icon-demonwater" camx="130" sprite="aloha/demonguater" y="220" scale="0.6">
+	<anim loop="false" x="0" fps="27" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="-90" fps="24" y="350" anim="up" name="singUP"/>
+
+	<anim loop="false" x="140" fps="24" y="-35" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-135" fps="24" y="-74" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="-86" fps="24" y="-51" anim="down" name="singDOWN"/>
+</character>

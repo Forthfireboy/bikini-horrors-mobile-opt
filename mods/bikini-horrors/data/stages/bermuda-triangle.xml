@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="500" startCamPosY="200" folder="stages/bermuda-triangle/" name="bermuda-triangle" zoom="0.4">
+	<sprite x="-1597" antialiasing="false" y="-794" sprite="cielo" scroll="0.4" scale="1" type="none" name="cielo"/>
+	<sprite x="-1581" antialiasing="false" y="-800" sprite="nubes" scroll="0.5" scale="1" type="none" name="nubes"/>
+	<sprite x="-1416" antialiasing="false" y="-900" sprite="montanas" scroll="0.7" scale="1" type="none" name="montanas"/>
+	<sprite x="-1248" antialiasing="false" y="-825" sprite="colinas" scroll="0.8" scale="1" type="none" name="colinas"/>
+	<sprite x="-1452" antialiasing="false" y="-802" sprite="edificios" scroll="0.8" scale="1" type="none" name="edificios"/>
+	<sprite x="-1200" antialiasing="false" y="-800" sprite="suelo" scroll="1" scale="1" type="none" name="suelo"/>
+	<dad x="40" camxoffset="140" y="245" camyoffset="120"/>
+	<boyfriend x="95" camxoffset="-200" y="30" camyoffset="-100"/>
+	<girlfriend x="130" camxoffset="-100" y="-350" camyoffset="00"/>
+	<sprite x="-1216" antialiasing="false" y="-900" sprite="foreground" scroll="1.2" scale="1" type="none" name="foreground"/>
+	<combo/>
+</stage>

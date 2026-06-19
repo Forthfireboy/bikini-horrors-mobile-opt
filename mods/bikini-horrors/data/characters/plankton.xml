@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/plankton" camy="100" icon="icon-bfinfinete" color="#0001FB" holdTime="6.1">
+	<anim name="idle" anim="plankton_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="plankton_up" x="94" y="277" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="plankton_left" x="1346" y="2" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="plankton_right" x="-44" y="-20" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="plankton_down" x="105" y="-151" fps="24" loop="false"/>
+</character>

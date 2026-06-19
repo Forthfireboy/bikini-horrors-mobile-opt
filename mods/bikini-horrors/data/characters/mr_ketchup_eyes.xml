@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ojitos" scale="1.5" icon="icon-ketchup" color="#F80000" holdTime="9.5" x="250" y="250">
+	<anim name="idle" anim="ojitos_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="ojitos_up" x="46" y="162" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="ojitos_left" x="176" y="39" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="ojitos_right" x="-5" y="31" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="ojitos_down" x="46" y="-10" fps="24" loop="false"/>
+</character>

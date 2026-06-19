@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character camx="-161" isGF="true" icon="gf" sprite="poop_warrior" camy="-120" color="#A5004D">
+	<anim loop="false" x="0" fps="24" y="0" anim="poop_left" name="danceLeft"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="poop_right" name="danceRight"/>
+</character>

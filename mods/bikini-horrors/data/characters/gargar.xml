@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="flintstone/gargar" antialiasing="false" camx="88" camy="50" icon="icon-carmaland1" color="#50EB7E" imagePath="carmalandfase1.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="intro" anim="entrada" x="1" y="99" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-2" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-3" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="-2" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="-3" y="0" fps="24" loop="false"/>
+	<anim name="exit" anim="exit" x="-3" y="6" fps="24" loop="false"/>
+</character>

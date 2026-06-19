@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="250" sprite="aloha/kevinklast" scale="0.6" camx="-60" camy="-24" icon="icon-abobti">
+	<anim name="kargando" anim="kargando" x="0" y="0" fps="24" loop="false"/>
+	<anim name="klast" anim="kevinklast" x="1208" y="492" fps="24" loop="false"/>
+</character>

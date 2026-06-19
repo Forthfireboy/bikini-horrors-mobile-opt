@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character y="-15" sprite="banshi" icon="icon-banshi" color="#FFFFFF" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="25" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="65" y="50" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-2.2" y="31.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="7.15" y="-8" fps="24" loop="false"/>
+	<anim name="dialogue" anim="dialogue" x="33" y="148" fps="24" loop="false"/>
+</character>

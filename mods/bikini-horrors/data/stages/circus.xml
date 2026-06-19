@@ -1,0 +1,42 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.5" startCamPosX="600">
+	<sprite x="-1126" y="-644" sprite="stages/circus/suelo" type="none" name="suelo"/>
+	<sprite x="-1129" y="-629" sprite="stages/circus/escenario" type="none" name="escenario"/>
+	<sprite scrolly="0.9" x="-1127" y="-713" sprite="stages/circus/cortina_detras" type="none" scrollx="0.7" name="cortina_detras"/>
+	<sprite x="-1131" y="-684" sprite="stages/circus/cortine_delante" type="none" name="cortina_delante"/>
+	<sprite x="-1103" y="-644" sprite="stages/circus/flores" type="none" name="flores"/>
+	<sprite scrolly="0.8" x="-1135" y="-690" sprite="stages/circus/burbujas" type="none" scrollx="0.8" name="burbujas"/>
+	<sprite x="-1126" y="-643" sprite="stages/circus/coso" type="none" name="coso"/>
+	<sprite scrolly="0.6" x="-1374" y="-423" sprite="stages/circus/luther/fondo" type="none" alpha="0" scrollx="0.6" name="fondo_l"/>
+	<sprite scrolly="0.8" x="-953" y="-472" sprite="stages/circus/luther/plataforma4" type="none" alpha="0" scrollx="0.65" name="plataforma4_l"/>
+	<sprite scrolly="0.7" x="-1451" y="-533" sprite="stages/circus/luther/montanas" type="none" alpha="0" scrollx="0.65" name="montanas_l"/>
+	<sprite scrolly="0.85" x="-1459" y="-551" sprite="stages/circus/luther/plataforma3" type="none" alpha="0" scrollx="0.7" name="plataforma3_l"/>
+	<sprite scrolly="0.9" x="-1298" y="-741" sprite="stages/circus/luther/plataforma2" type="none" alpha="0" scrollx="0.8" name="plataforma2_l"/>
+	<sprite x="-1309" y="-536" sprite="stages/circus/luther/plataforma1" type="none" alpha="0" name="plataforma1_l"/>
+	<sprite scrolly="0.8" x="-1230" y="-567" sprite="stages/circus/luther/ojos" type="none" alpha="0" scrollx="0.75" name="ojos_l"/>
+
+	<sprite x="100" y="-73" sprite="stages/circus/kevin" type="none" name="kevin"/>
+
+	<sprite name="temubob" x="-850" y="150" sprite="stages/circus/temubob">
+	    <anim name="idle" anim="idle" x="0" y="0" loop="true" fps="24"/>
+	    <anim name="enter" anim="walk" x="0" y="0" loop="true" fps="24"/>
+	    <anim name="look" anim="look" x="0" y="0" loop="true" fps="24"/>
+	</sprite>
+
+	<sprite name="bobdoll" x="1000" y="0" sprite="stages/circus/bob_doll">
+	    <anim name="idle" anim="idle" x="0" y="0" loop="true" fps="24"/>
+	    <anim name="look" anim="look" x="0" y="0" loop="true" fps="24"/>
+	</sprite>
+
+	<sprite name="bashiro" x="1000" y="160" sprite="stages/circus/banshi">
+	    <anim name="idle" anim="idle" x="0" y="0" loop="true" fps="24"/>
+	    <anim name="enter" anim="walk" x="0" y="0" loop="true" fps="24"/>
+	    <anim name="look" anim="look" x="0" y="0" loop="true" fps="24"/>
+	</sprite>
+
+	<gf x="88" camxoffset="-250" y="-73"/>
+	<dad x="-263" camxoffset="100" y="522" camyoffset="-100"/>
+	<bf x="472" camyoffset="-80" camxoffset="-100" y="115"/>
+	<combo/>
+	<sprite scrolly="1.1" x="-1097" y="-616" sprite="stages/circus/bloques" type="none" scrollx="1.1" name="bloques"/>
+</stage>

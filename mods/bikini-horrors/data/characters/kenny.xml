@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" holdTime="6.1" camx="70" y="-30" icon="icon-kenny" sprite="kenny" camy="0" color="#FFCC08">
+	<anim loop="false" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+
+	<anim loop="false" x="65" fps="24" y="196" anim="up" name="singUP"/>
+
+
+	<anim loop="false" x="143" fps="24" y="-6" anim="left" name="singLEFT"/>
+
+
+	<anim loop="false" x="-95.2" fps="24" y="132.8" anim="right" name="singRIGHT"/>
+
+
+	<anim loop="false" x="-16.85" fps="24" y="-184" anim="down" name="singDOWN"/>
+
+
+</character>

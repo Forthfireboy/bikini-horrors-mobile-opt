@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="flintstone/antena3" antialiasing="false" flipX="true" camx="88" camy="50" icon="icon-carmaland1" color="#50EB7E" imagePath="carmalandfase1.png">
+	<anim name="idle" anim="idle" x="16" y="21" fps="24" loop="false"/>
+	<anim name="drop" anim="drop" x="36" y="14" fps="12" loop="false"/>
+	<anim name="hypno" anim="hypno" x="36" y="-3" fps="24" loop="true"/>
+	<anim name="static" anim="static" x="36" y="-3" fps="24" loop="true"/>
+	<anim name="blow" anim="blow" x="40" y="5" fps="12" loop="false"/>
+</character>

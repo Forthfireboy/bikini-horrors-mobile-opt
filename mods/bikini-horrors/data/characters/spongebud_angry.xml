@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="-90" sprite="newspongebud" camx="-200" camy="-250" icon="icon-buddy" color="#809B81" holdTime="6.1">
+	<anim name="idle" anim="imad" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="umad" x="9" y="71" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="lmad" x="110" y="-61" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="rmad" x="-68.2" y="-59.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="dmad" x="12.15" y="-51" fps="24" loop="false"/>
+</character>

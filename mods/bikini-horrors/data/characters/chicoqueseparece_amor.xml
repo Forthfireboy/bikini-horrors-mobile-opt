@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="cqspmap_scared" icon="gf" color="#A5004D" isGF="true" x="-840" y="100" camx="500">
+	<anim name="danceLeft" anim="danceLeft" x="0" y="0" fps="24" loop="false"/>
+	<anim name="danceRight" anim="danceRight" x="-1" y="1" fps="24" loop="false"/>
+</character>

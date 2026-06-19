@@ -1,0 +1,353 @@
+{
+    "i-am-back": [
+        {
+            "text": "So many memorias, this idiot me not know nothing about think can hack myself and get me mod.",
+            "anim": "default_talk"
+        },
+        {
+            "text": "Get that you dicker, now myself steal you song and add me mod for views",
+            "anim": "cool"
+        }
+    ],
+    "wordle": [
+        {
+            "text": "Me good friend told me in his good days he used to go to fiestas and RAVES.",
+            "anim": "excited"
+        },
+        {
+            "text": "Remember one good parti he got, made song about, enjoyer.",
+            "anim": "default_talk"
+        }
+    ],
+    "fertility":[
+        {
+            "text": "Ah, el milagro de la vida.",
+            "anim": "up_talk"
+        }
+    ],
+    "so-retro":[
+        {
+            "text": "So real, so pixel",
+            "anim": "default_talk"
+        }
+    ],
+    "no-phone-zone":[
+        {
+            "text": "Me prepear this as present for me OTHER long lost brother",
+            "anim": "default_talk"
+        },
+        {
+            "text": "He went for grass and never come back, mayb this will make himself rerun.",
+            "anim": "worried"
+        }
+    ],
+    "chromosome":[
+        {
+            "text": "This song so sad, make me cry lagrimones of cocodrongo",
+            "anim": "worried"
+        }
+    ],
+    "daddatel": [
+        {
+            "text": "One of me favorite, let go in D-sad Bobeltriste!!",
+            "anim": "excited"
+        },
+        {
+            "text": "Ah- mmm, wait, er, problem.",
+            "anim": "look_paper"
+        },
+        {
+            "text": "This list say bobeltriste is D-BANNED!",
+            "anim": "paper"
+        },
+        {
+            "text": "Holder on...",
+            "anim": "worried"
+        },
+        {
+            "text": "...",
+            "anim": "idle",
+            "special": "working"
+        },
+        {
+            "text": "There, me made a new D thing.",
+            "anim": "cool"
+        },
+        {
+            "text": "Apuesta apuesta gana gana!!! win win very money!!!",
+            "anim": "excited"
+        }
+    ],
+    "try-and-trong":[
+        {
+            "talk": "This minion almost wastns underguater here!!",
+            "anim": "excited"
+        },
+        {
+            "talk": "BOB punto DEMON!!! oh yeah and the other thing too.",
+            "anim": "left_talk"
+        }
+    ],
+    "aloha-aloha": [
+        {
+            "text": "Me got so many admirators!! Some good and some hacker.",
+            "anim": "cool"
+        },
+        {
+            "text": "This one good, when me was child, got this admirator.",
+            "anim": "default_talk"
+        }
+    ],
+    "go-to-eat":[
+        {
+            "text": "Ah, this song... I remember when I-",
+            "anim":"up_talk"
+        },
+        {
+            "text": "Wait...",
+            "anim": "worried"
+        },
+        {
+            "text": "Ourselfers so far in me game already?!",
+            "anim": "wait"
+        },
+        {
+            "text": "Maybe you should...",
+            "anim": "left_talk"
+        },
+        {
+            "text": "Go a bit... underguater slower?",
+            "anim": "worried"
+        },
+        {
+            "text": "You are quick!!...",
+            "anim": "default_talk"
+        },
+        {
+            "text": "ABSORB them!!! Slowly!!",
+            "anim": "excited"
+        },
+        {
+            "text": "Like SPONGE croc.",
+            "anim": "cool"
+        }
+    ],
+    "pneumonoultramicroscopicsilicovolcanoconiosis" : [
+        {
+            "text": "Pero que cojones era esto espera.",
+            "anim": "up_talk"
+        },
+        {
+            "text": "Oh...",
+            "anim": "worried"
+        },
+        {
+            "text": "Oh.",
+            "anim": "playa"
+        },
+        {
+            "text": "Yo te juro que lo siento mucho",
+            "anim": "worried"
+        },
+        {
+            "text": "Get better and well.",
+            "anim": "left_talk"
+        },
+        {
+            "text": "yourself is like that sonic corre corre que te pillo",
+            "anim": "default_talk"
+        },
+        {
+            "text": "too fast, stopper....... be slower.",
+            "anim": "worried"
+        }
+    ],
+    "carmaland-retake":[
+        {
+            "text": "Me good minion, we play maincra everyday",
+            "anim": "default_talk"
+        },
+        {
+            "text": "But he traitor, got a new better FOREVER FRIEND to kill the dragon.",
+            "anim": "wait"
+        },
+        {
+            "text": "I miss me esmeralda...",
+            "anim": "worried"
+        },
+        {
+            "text": "You like RETAKE, not search for normal DESTAKE, NOT HERE, NOT SEARCH",
+            "anim": "wait"
+        },
+        {
+            "text": "no te vayas al chart editor cabron hijo de puta que me arruinas el mod.",
+            "anim": "default_talk"
+        },
+        {
+            "text": "En verdad los mocos estan buenos",
+            "anim": "left_talk"
+        }
+    ],
+    "pop-a-corn":[
+        {
+            "text": "Myself see new series so good me had to make a new BETTER version",
+            "anim": "excited"
+        },
+        {
+            "text": "For views and likes, pls retweet.",
+            "anim": "excited"
+        }
+    ],
+    "spotting":[
+        {
+            "text": "Me was searching for new FRIEND after BYSTAXX777 BANNED ME FROM THIS ATENOS SERVER.",
+            "anim": "up_talk"
+        },
+        {
+            "text": "Me find new friend in YOUTUBER, ourselfer like emeralda",
+            "anim": "default_talk"
+        },
+        {
+            "text": "is very elegante",
+            "anim": "default_talk"
+        }
+    ],
+    "la-playa":[
+        {
+            "text": "Ah! LA PLAYA, good old friend of mineself",
+            "anim": "up_talk"
+        },
+        {
+            "text": "Expect good relax song in beach, la cancion of the veranito (del summer).",
+            "anim": "default_talk"
+        }
+    ],
+    "kaka":[
+        {
+            "text": "Ah, friend, I love these underguater games.",
+            "anim": "up_talk"
+        },
+        {
+            "text": "Such fun seeing you play me games, myselfer love you to see and play and have fun with los amigos y familia.",
+            "anim": "default_talk"
+        },
+        {
+            "text": "Wouldn't it be underguater godder if me games lasted a longer time??",
+            "anim": "worried"
+        },
+        {
+            "text": "This song is longer for ourselfers to enjoy.",
+            "anim": "cool"
+        },
+        {
+            "text": "Be slower, yes yes.",
+            "anim": "excited"
+        }
+    ],
+    "ayuda-por-favor":[
+        {
+            "text": "Me dream one day a PESADILLA… bad dream",
+            "anim": "worried"
+        },
+        {
+            "text": "I hopper you enjoy me sleep!!",
+            "anim": "excited"
+        },
+        {
+            "text": "...yeah",
+            "anim": "default_talk"
+        },
+        {
+            "text": "...maybe start the game!!",
+            "anim": "worried"
+        },
+        {
+            "text": "myself got to do GOD things!!",
+            "anim": "worried"
+        }
+    ],
+    "for-you-someday":[
+        {
+            "text": "I...",
+            "anim": "worried"
+        },
+        {
+            "text": "Erm-...",
+            "anim": "playa"
+        },
+        {
+            "text": "M- myselfer... me have to do... something...",
+            "anim": "worried"
+        },
+        {
+            "text": "H-holder on... I gotta do something...",
+            "anim": "default_talk"
+        },
+        {
+            "text": "...Could you play already??",
+            "anim": "worried"
+        }
+    ],
+    "corre-corre-que-te-pillo":[
+        {
+            "text": "HELLO ME FRIEND!!",
+            "anim": "excited"
+        },
+        {
+            "text": "Myselfer is making MORE games!!",
+            "anim": "left_talk"
+        },
+        {
+            "text": "Games and fun…",
+            "anim": "worried"
+        },
+        {
+            "text": "Fun games.",
+            "anim": "default_talk"
+        },
+        {
+            "text": "For you horror and demiser.",
+            "anim": "left_talk"
+        },
+        {
+            "text": "myselfer cooker up a NOSTALGIC game",
+            "anim": "worried"
+        },
+        {
+            "text": "for the older-times",
+            "anim": "left_talk"
+        },
+        {
+            "text": "a nicer underwater game, for you and me",
+            "anim": "sad_talk"
+        },
+        {
+            "text": "Just like ourselfers like it.",
+            "anim":"excited"
+        },
+        {
+            "text": "One of MANY MORER TO COME!!!",
+            "anim": "excited"
+        },
+        {
+            "text": "MORE games, MORE time, MORE FUN!!",
+            "anim": "cool"
+        },
+        {
+            "text": "NEVER-ENDING!!!",
+            "anim": "excited"
+        },
+        {
+            "text": "INFINITE games!!!",
+            "anim": "default_talk"
+        },
+        {
+            "text": "...",
+            "anim": "worried"
+        },
+        {
+            "text": "...Well? Are you ready...?",
+            "anim": "sad_talk"
+        }
+    ]
+}

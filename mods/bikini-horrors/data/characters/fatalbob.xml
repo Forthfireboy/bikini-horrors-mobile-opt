@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="fatalbob" scale="2" antialiasing="false" icon="icon-fatalbob" color="#FF0800" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="1" y="1" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="56" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0.8" y="-0.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-24.85" y="-19" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="head_r" icon="nothing" color="#AC8F10" holdTime="6.1">
+	<anim name="idle" anim="squidwirdy_head_right0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="move" anim="squidwirdy_head_rightMOVE" x="0" y="0" fps="24" loop="false"/>
+</character>

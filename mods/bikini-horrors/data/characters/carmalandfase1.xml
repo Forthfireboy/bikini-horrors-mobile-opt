@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="carmalandfase1" scale="5" antialiasing="false" camx="88" camy="50" icon="icon-carmaland1" color="#50EB7E" imagePath="carmalandfase1.png">
+	<anim name="singDOWN" anim="down" x="0" y="0" fps="24" loop="false"/>
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="-3" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="transform" anim="transform" x="0" y="8" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="0" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mic_sponge" icon="icon-micsponge" color="#f78093" holdTime="6.1">
+	<anim name="idle" anim="mic_sponge idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="mic_sponge up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="mic_sponge left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="mic_sponge right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="mic_sponge down" x="0" y="0" fps="24" loop="false"/>
+</character>

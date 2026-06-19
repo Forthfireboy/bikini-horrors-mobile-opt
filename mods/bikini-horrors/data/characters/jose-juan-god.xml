@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-400" y="-330" sprite="jose_juan_3d" scale="1.25" camx="50" camy="100" icon="icon-josejuan" color="#FB43AA" holdTime="6.1">
+	<anim name="idle" anim="idle" x="10" y="-20" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-31" y="14" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="13" y="17" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-50" y="20" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-40" y="37" fps="24" loop="false"/>
+	<anim name="spin" anim="down" x="-40" y="37" fps="24" loop="true"/>
+	<anim name="twerk" anim="twerk" x="-60" y="-5" fps="48" loop="true"/>
+	<anim name="seizure" anim="convulsion" x="-5" y="10" fps="48" loop="true"/>
+	<anim name="dead" anim="dead" x="-20" y="-15" fps="24" loop="true"/>
+</character>

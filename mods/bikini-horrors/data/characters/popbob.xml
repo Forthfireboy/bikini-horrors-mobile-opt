@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="popbob" icon="icon-popbob" color="#FFFFFF" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="5" y="55" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="110" y="65" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="6.8" y="57.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="23.15" y="96" fps="24" loop="false"/>
+</character>

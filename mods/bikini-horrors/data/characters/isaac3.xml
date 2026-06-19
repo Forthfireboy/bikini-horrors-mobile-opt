@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/isaac3" flipX="true" camx="-1800" camy="-700" isPlayer="true" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="11" y="105" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="136" y="-19" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-84" y="9" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="69" y="-94" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="MISSdown" x="107" y="-39" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="MISSup" x="-31" y="105" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="MISSright" x="-105" y="-20" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="MISSleft" x="170" y="-5" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character camy="150" icon="crisbobicon2" camx="354" sprite="sirope/finalformcrisbobal1">
+	<anim loop="true" x="0" fps="24" y="0" anim="bobidle" name="idle"/>
+
+	<anim loop="false" x="-12" fps="24" y="3" anim="bobup" name="singUP"/>
+
+	<anim loop="false" x="-17" fps="24" y="-1" anim="bobleft" name="singLEFT"/>
+
+	<anim loop="false" x="-64" fps="24" y="-2" anim="bobright" name="singRIGHT"/>
+
+	<anim loop="false" x="1" fps="24" y="-1" anim="bobdown" name="singDOWN"/>
+</character>

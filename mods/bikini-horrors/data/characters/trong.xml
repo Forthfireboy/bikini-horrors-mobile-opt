@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-300" y="-650" sprite="trytrong/trong" icon="icon-brothers" color="#CC0033" holdTime="6.1" camx="-100" camy="50">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="86" y="564" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="151" y="-144" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-51.2" y="-45.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="70.15" y="25" fps="24" loop="false"/>
+	<anim name="que" anim="que" x="55" y="-160" fps="24" loop="true"/>
+	<anim name="golpe" anim="golpe" x="399" y="782" fps="24" loop="false"/>
+</character>

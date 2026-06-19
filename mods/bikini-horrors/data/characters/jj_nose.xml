@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="-70" sprite="jj_nose" icon="icon-josejuan" y="-110" color="#FB43AA">
+	<anim x="0" loop="true" anim="idle" y="0" fps="24" name="idle"/>
+
+	<anim x="0" loop="false" anim="up" y="162" fps="24" name="singUP"/>
+
+	<anim x="421" loop="false" anim="left" y="0" fps="24" name="singLEFT"/>
+
+	<anim x="28" loop="false" anim="right" y="0" fps="24" name="singRIGHT"/>
+
+	<anim x="1" loop="false" anim="down" y="-14" fps="24" name="singDOWN"/>
+</character>

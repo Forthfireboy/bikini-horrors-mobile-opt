@@ -1,0 +1,70 @@
+<!DOCTYPE codename-engine-stage>
+<stage>
+	<sprite scrolly="0.3" x="-2073" y="-1534" sprite="stages/rent_due/cielo" scrollx="0" name="cielo"/>
+	<sprite scrolly="0.8" x="-1677" y="-604" sprite="stages/rent_due/nivel" scrollx="0.5" name="nivel"/>
+	<sprite scrolly="0.85" x="-92" y="-293" sprite="stages/rent_due/montana" scrollx="0.8" name="montana"/>
+	<sprite scrolly="0.9" x="-589" y="-960" sprite="stages/rent_due/flor2" scrollx="0.85" name="flor2"/>
+	<sprite scrolly="0.95" x="508" y="-1152" sprite="stages/rent_due/flor1" scrollx="0.9" name="flor1"/>
+	<sprite x="1020" y="-166" sprite="stages/rent_due/arbusto" scrollx="0.95" name="arbusto"/>
+	<sprite x="-3643" y="-1366" sprite="stages/rent_due/suelo_usa" name="suelo_usa"/>
+	<sprite x="-1368" name="integrantes" sprite="stages/rent_due/integrantes" y="-142"/>
+
+	<sprite scrolly="0.8" x="-1677" y="-604" sprite="stages/rent_due/nivel" scrollx="0.5" name="nivel1"/>
+	<sprite scrolly="0.8" x="-1677" y="-604" sprite="stages/rent_due/nivel" scrollx="0.5" name="nivel2"/>
+	<sprite scrolly="0.85" x="-2181" y="-1101" sprite="stages/rent_due/sombras" scrollx="0.8" name="sombras1"/>
+	<sprite scrolly="0.85" x="-2181" y="-1101" sprite="stages/rent_due/sombras" scrollx="0.8" name="sombras2"/>
+	<sprite scrolly="0.95" x="-2181" y="-1201" sprite="stages/rent_due/florecillas" scrollx="0.9" name="florecillas1"/>
+	<sprite scrolly="0.95" x="-2181" y="-1201" sprite="stages/rent_due/florecillas" scrollx="0.9" name="florecillas2"/>
+	<sprite x="-2729" y="-328" sprite="stages/rent_due/arbusto_run" scrollx="0.95" name="arbustoRun1"/>
+	<sprite x="-2729" y="-328" sprite="stages/rent_due/arbusto_run" scrollx="0.95" name="arbustoRun2"/>
+	<sprite x="-3795" y="152" sprite="stages/rent_due/usa_run" type="loop" name="usa_run"/>
+
+
+	<sprite x="-3634" name="negro" sprite="stages/rent_due/usa_negro" y="-1361"/>
+	<sprite x="3330" y="98" sprite="stages/rent_due/alhambrito" name="alhambrito"/>
+
+	<sprite scrolly="0.9" x="-99" y="-893" sprite="stages/rent_due/pacma/cables" alpha="0" scrollx="0.5" name="cables"/>
+	<gf scrolly="0.9" x="213" scrollx="0.5" y="-578"/>
+	<sprite x="-3566" y="232" sprite="stages/rent_due/pacma/pacma_run" type="loop" alpha="1" name="pacma_run"/>
+	<sprite x="-3589" sprite="stages/rent_due/pacma/suelo_pacma" y="244" alpha="1" name="suelo_pacma"/>
+	<sprite x="-3589" sprite="stages/rent_due/pacma/pacma_negro" y="244" alpha="1" name="pacma_negro"/>
+	<sprite x="-1651" scrolly="0.85" sprite="stages/rent_due/pacma/primos3" y="-129" alpha="1" name="primos3" scrollx="0.85"/>
+	<sprite x="-1328" scrolly="0.9" sprite="stages/rent_due/pacma/primos2" y="-132" alpha="1" name="primos2" scrollx="0.9"/>
+	<sprite x="-1824" scrolly="0.95" sprite="stages/rent_due/pacma/primos1" y="-159" alpha="1" name="primos1" scrollx="0.95"/>
+
+	<sprite x="-1651" scrolly="0.85" sprite="stages/rent_due/pacma/primos3" y="-129" alpha="1" name="primos31" scrollx="0.85"/>
+	<sprite x="-1651" scrolly="0.85" sprite="stages/rent_due/pacma/primos3" y="-129" alpha="1" name="primos32" scrollx="0.85"/>
+	<sprite x="-1328" scrolly="0.9" sprite="stages/rent_due/pacma/primos2" y="-132" alpha="1" name="primos21" scrollx="0.9"/>
+	<sprite x="-1328" scrolly="0.9" sprite="stages/rent_due/pacma/primos2" y="-132" alpha="1" name="primos22" scrollx="0.9"/>
+	<sprite x="-1824" scrolly="0.95" sprite="stages/rent_due/pacma/primos1" y="-159" alpha="1" name="primos11" scrollx="0.95"/>
+	<sprite x="-1824" scrolly="0.95" sprite="stages/rent_due/pacma/primos1" y="-159" alpha="1" name="primos12" scrollx="0.95"/>
+	<dad x="-230" y="91"/>
+	<bf/>
+	<sprite x="698" scrolly="1" sprite="stages/rent_due/loop" y="428" alpha="1" name="loop" scrollx="1"/>
+	<sprite x="698" scrolly="1" sprite="stages/rent_due/loop_red" y="428" alpha="1" name="loop_red" scrollx="1"/>
+	<combo x="289" y="556"/>
+
+	<sprite x="1028" scrolly="1" sprite="stages/rent_due/duendes/quesito" y="28" alpha="1" name="quesito" scrollx="1"/>
+	<sprite x="698" scrolly="1" sprite="stages/rent_due/duendes/tumorcindo" y="-48" alpha="1" name="tumorcindo" scrollx="1"/>
+	<sprite x="598" scrolly="1" sprite="stages/rent_due/duendes/abrazos_gratis" y="238" alpha="1" name="abrazos_gratis" scrollx="1"/>
+	<sprite x="988" scrolly="1" sprite="stages/rent_due/duendes/ayuda" y="258" alpha="1" name="ayuda" scrollx="1"/>
+
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="black" scrolly="0" sprite="stages/rent_due/words/black"/>
+
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="get" scrolly="0" sprite="stages/rent_due/words/get"/>
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="back" scrolly="0" sprite="stages/rent_due/words/back"/>
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="here" scrolly="0" sprite="stages/rent_due/words/here"/>
+
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="you" scrolly="0" sprite="stages/rent_due/words/you"/>
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="know" scrolly="0" sprite="stages/rent_due/words/know"/>
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="what" scrolly="0" sprite="stages/rent_due/words/what"/>
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="comes" scrolly="0" sprite="stages/rent_due/words/comes"/>
+	<sprite x="-130" y="-70" updateHitbox="true" zoomfactor="0" scale="0.8" scrollx="0" name="next" scrolly="0" sprite="stages/rent_due/words/next"/>
+
+	<sprite x="-30" y="-30" updateHitbox="true" zoomfactor="0" scale="0.7" scrollx="0" name="opening" scrolly="0" sprite="stages/rent_due/words/opening"/>
+
+	<sprite x="375" y="225" updateHitbox="true" zoomfactor="0" scale="0.4" scrollx="0" name="foto" scrolly="0" sprite="stages/rent_due/foto"/>
+
+	<sprite x="0" y="0" updateHitbox="true" zoomfactor="0" scale="1" scrollx="0" name="finale" scrolly="0" sprite="stages/rent_due/FINAL"/>
+
+</stage>

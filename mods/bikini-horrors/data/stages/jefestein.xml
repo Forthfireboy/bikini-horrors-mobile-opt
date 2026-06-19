@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/jefestein/" zoom="0.5" name="jeff_bg">
+	<girlfriend camxoffset="0" x="-1113" camyoffset="0" y="-443"/>
+	<combo/>
+	<sprite x="-2137" scrolly="0.9" sprite="forest" y="-1248" name="forest" scrollx="0.9"/>
+	<sprite x="-2436" name="ground" sprite="ground" y="-16"/>
+	<dad scale="0.8" x="-792" y="-144"/>
+	<boyfriend scale="0.8" x="198" y="-242"/>
+	<sprite scrolly="1.1" x="-2068" sprite="foreground1" y="414" scrollx="1.1" name="foreground1"/>
+	<sprite scrolly="1.15" x="-3156" sprite="foreground2" y="-1324" scrollx="1.15" name="foreground2"/>
+	<solid x="-3267" y="-1400" zoomfactor="0" color="#000000" name="blackOverlay" scrollx="0" scrolly="0" width="6000" height="6000"/>
+	<sprite scrolly="0" x="82" y="94" sprite="EBdRdF" alpha="0" zoomfactor="0" scrollx="0" name="epicas"/>
+</stage>

@@ -1,0 +1,88 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/pool-parti/" zoom="0.7" name="pool_parti">
+	<sprite x="-689" scrolly="0.3" sprite="0" y="-550" scale="1.5" name="phase1_0" scrollx="0.3"/>
+	<sprite x="-578" scrolly="0.4" sprite="1" y="-474" scale="1.5" name="phase1_1" scrollx="0.4"/>
+	<sprite x="-525" scrolly="0.5" sprite="2" y="-501" scale="1.5" name="phase1_2" scrollx="0.5"/>
+	<sprite x="-521" scrolly="0.6" sprite="4" y="-475" scale="1.5" name="phase1_4" scrollx="0.6"/>
+	<sprite x="-223" scrolly="0.8" y="363" sprite="5" scale="1.5" type="loop" scrollx="0.8" name="phase1_5"/>
+	<sprite x="-33" scrolly="0.9" y="481" sprite="6" scale="1.5" type="loop" scrollx="0.9" name="phase1_6"/>
+	<sprite x="-420" y="-392" sprite="7" scale="1.5" name="phase1_7"/>
+	<sprite scrolly="0.3" x="-194" y="-1141" sprite="2_0" scale="2" alpha="0" scrollx="0.3" name="phase2_0"/>
+	<sprite scrolly="0.5" x="-320" y="-985" sprite="2_1" scale="1.8" alpha="0" scrollx="0.5" name="phase2_1"/>
+	<sprite x="98" scrolly="0.7" y="-926" sprite="2_2" scale="1.4" alpha="0" scrollx="0.7" name="phase2_2"/>
+	<sprite scrolly="0.3" x="-194" y="-1141" sprite="2_0" scale="2" alpha="0" scrollx="0.3" name="phase2_01"/>
+	<sprite scrolly="0.3" x="-194" y="-1141" sprite="2_0" scale="2" alpha="0" scrollx="0.3" name="phase2_02"/>
+	<sprite scrolly="0.5" x="-320" y="-985" sprite="2_1" scale="1.8" alpha="0" scrollx="0.5" name="phase2_11"/>
+	<sprite scrolly="0.5" x="-320" y="-985" sprite="2_1" scale="1.8" alpha="0" scrollx="0.5" name="phase2_12"/>
+	<sprite x="98" scrolly="0.7" y="-926" sprite="2_2" scale="1.4" alpha="0" scrollx="0.7" name="phase2_21"/>
+	<sprite x="98" scrolly="0.7" y="-926" sprite="2_2" scale="1.4" alpha="0" scrollx="0.7" name="phase2_22"/>
+	<sprite scrolly="0.3" x="-1149" y="-660" sprite="floid/cielo" alpha="0" scale="0.7" scrollx="0.3" name="cielo"/>
+	<sprite scrolly="0.5" x="-918" y="-636" sprite="floid/isla" alpha="0" scale="0.7" scrollx="0.5" name="isla"/>
+	<sprite x="-598" y="-398" sprite="floid/plataformas" alpha="0" scale="0.5" name="plataformas"/>
+	<sprite x="-574" y="-571" sprite="floid/luz" alpha="0" scale="0.7" name="luz"/>
+	<sprite x="-1924" y="-1094" sprite="p3_props/3_0" alpha="0" scale="0.9" scrollx="0.3" name="phase3_0"/>
+	<sprite x="-1924" y="-1094" sprite="p3_props/3_0" alpha="0" scale="0.9" scrollx="0.3" name="phase3_01"/>
+	<sprite x="-1683" y="-1123" sprite="p3_props/3_1" alpha="0" scale="0.9" scrollx="0.35" name="phase3_1"/>
+	<sprite x="-1683" y="-1123" sprite="p3_props/3_1" alpha="0" scale="0.9" scrollx="0.35" name="phase3_11"/>
+	<sprite x="-1680" y="-1164" sprite="p3_props/3_2" alpha="0" scale="0.9" scrollx="0.4" name="phase3_2"/>
+	<sprite x="-1680" y="-1164" sprite="p3_props/3_2" alpha="0" scale="0.9" scrollx="0.4" name="phase3_21"/>
+	<sprite x="-1596" y="-1178" sprite="p3_props/3_3" alpha="0" scale="0.9" scrollx="0.45" name="phase3_3"/>
+	<sprite x="-1596" y="-1178" sprite="p3_props/3_3" alpha="0" scale="0.9" scrollx="0.45" name="phase3_31"/>
+	<sprite x="-1525" y="-1215" sprite="p3_props/3_4" alpha="0" scale="0.9" scrollx="0.5" name="phase3_4"/>
+	<sprite x="-1525" y="-1215" sprite="p3_props/3_4" alpha="0" scale="0.9" scrollx="0.5" name="phase3_41"/>
+	<sprite x="1114" y="-489" sprite="p3_props/3_4-5" alpha="1" type="loop" scale="0.85" scrollx="0.5" name="phase3_4_5"/>
+	<sprite x="1114" y="-489" sprite="p3_props/3_4-5" alpha="0" scale="0.85" scrollx="0.5" name="phase3_4_51"/>
+	<sprite x="-1346" y="-1206" sprite="p3_props/3_5" alpha="0" scale="0.9" scrollx="0.55" name="phase3_5"/>
+	<sprite x="-1346" y="-1206" sprite="p3_props/3_5" alpha="0" scale="0.9" scrollx="0.55" name="phase3_51"/>
+	<sprite x="-1324" y="100" sprite="p3_props/3_6" alpha="0" scale="0.9" scrollx="0.6" name="phase3_6"/>
+	<sprite x="-1324" y="100" sprite="p3_props/3_6" alpha="0" scale="0.9" scrollx="0.6" name="phase3_61"/>
+	<sprite x="-1803" y="-991" sprite="p4_props/bg_chain" alpha="0" scale="1.1" name="bgChains"/>
+	<sprite x="-1924" y="-1094" sprite="p4_props/sw_chains" alpha="0" type="loop" scale="1.1" name="chains"/>
+	<sprite x="-1668" y="-933" sprite="p4_props/pacma_fondo" scale="0.85" alpha="0" name="bgPacma"/>
+	<sprite x="671" y="509" sprite="p4_props/pacma_sw" alpha="0" scale="0.95" name="swPacma"/>
+	<sprite x="671" y="509" sprite="p4_props/0" alpha="0" scale="1" name="phase4Platform"/>
+	<sprite scrolly="0.55" x="1470" y="-15" sprite="p2_bobs/usa" scrollx="0.55" name="usa"/>
+	<sprite scrolly="0.55" x="259" y="133" sprite="p2_bobs/gnomo" scrollx="0.55" name="gnomo"/>
+	<sprite scrolly="0.55" x="230" updateHitbox="true" y="295" sprite="p2_bobs/crisbobalpoolparty" type="loop" scrollx="0.55" name="crisbobalpoolparty"/>
+	<sprite scrolly="0.6" x="1627" y="318" sprite="p2_bobs/sanded" scrollx="0.6" name="sanded"/>
+	<sprite scrolly="0.6" x="914" y="57" sprite="p2_bobs/doll" scrollx="0.6" name="doll"/>
+	<sprite scrolly="0.65" x="836" y="156" sprite="p2_bobs/dvd" type="loop" scrollx="0.65" name="dvd"/>
+	<sprite scrolly="0.7" x="724" y="226" sprite="p2_bobs/ketchup" scrollx="0.7" name="ketchup"/>
+	<sprite scrolly="0.65" x="1164" y="132" sprite="p2_bobs/temu" scrollx="0.65" name="temu"/>
+	<sprite scrolly="0.7" x="1318" y="246" sprite="p2_bobs/mermaid" type="loop" scrollx="0.7" name="mermaid"/>
+	<sprite scrolly="0.8" x="909" y="326" sprite="barnacles" type="loop" alpha="0" scrollx="0.8" name="barnacles"/>
+	<sprite x="591" y="444" sprite="2_SATAN" alpha="0" scale="1.4" name="Satan"/>
+	<sprite x="725" y="425" sprite="2-FIELD" scale="1.4" alpha="0" name="Field"/>
+	<sprite scrolly="0.9" x="-87" y="263" sprite="2_SATAN" scale="0.8" alpha="0" scrollx="0.9" name="triste_pl"/>
+	<sprite x="794" scrolly="0.9" sprite="bobs/bobeltriste" y="445" type="loop" alpha="0" name="bobTriste" scrollx="0.9"/>
+	<sprite x="-47" scrolly="0.9" sprite="2_BARNA" y="440" scale="0.8" alpha="0" name="bros_pl" scrollx="0.9"/>
+	<sprite x="450" scrolly="0.9" sprite="bobs/brothers" y="400" type="loop" alpha="0" name="kenny" scrollx="0.9"/>
+	<sprite scrolly="0.9" x="951" y="348" sprite="2-FIELD" scale="0.9" alpha="0" scrollx="0.9" name="bud_pl"/>
+	<sprite x="1034" scrolly="0.9" sprite="bobs/bud" y="413" type="loop" alpha="0" name="spongebud" scrollx="0.9"/>
+	<sprite x="1088" scrolly="0.9" sprite="sp_plataforma" y="522" scale="0.6" alpha="0" name="lord_pl" scrollx="0.9"/>
+	<sprite x="1353" scrolly="0.9" sprite="bobs/spongelord" y="409" type="loop" alpha="0" name="spongelord" scrollx="0.9"/>
+	<sprite x="961" sprite="sw_plataforma" y="766" scale="0.8" alpha="0" name="sw_plataforma"/>
+	<sprite x="-78" sprite="sp_plataforma" y="795" scale="1.4" alpha="0" name="sp_plataforma"/>
+	<gf scrolly="1" x="495" scrollx="1" y="144"/>
+	<dad x="-100" y="-325"/>
+	<sprite x="151" sprite="pp_phase1_mano" y="440" scale="0.65" type="loop" name="sp_mano"/>
+	<sprite x="153" sprite="underguater_lover" y="793" scale="0.65" name="underguater_lover"/>
+	<bf x="1418" y="620"/>
+	<combo x="1004" y="1810"/>
+	<sprite x="1240" y="535" sprite="p3_props/pp_phase3_moto" alpha="0" scrollx="1" name="moto"/>
+	<sprite x="533" scrolly="1.3" sprite="8" y="-541" scale="1.5" name="cartel" scrollx="1.3"/>
+	<sprite scrolly="0.7" x="-1357" y="-1167" sprite="p3_props/3_7" alpha="0" scale="0.9" scrollx="0.7" name="phase3_7"/>
+	<sprite scrolly="0.7" x="-1357" y="-1167" sprite="p3_props/3_7" alpha="0" scale="0.9" scrollx="0.7" name="phase3_71"/>
+	<sprite x="-623" y="-1185" sprite="p4_props/shine" alpha="0" scale="0.9" name="phase4_shine"/>
+	<sprite x="-623" y="-1185" sprite="p4_props/josejuanlike" alpha="0" name="josejuanlike">
+		
+		
+		
+		
+		<anim loop="false" name="josejuan" anim="josejuan" fps="24"/>
+		
+		
+	
+	
+	</sprite>
+</stage>

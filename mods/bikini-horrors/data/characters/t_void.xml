@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="t2k/spongevoid" camx="-85" camy="-50" icon="icon-spongevoid" color="#000000">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="18" y="29" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="20" y="47" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-9" y="12" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="33" y="-34" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="ialt" x="-1" y="0" fps="24" loop="true"/>
+	<anim name="singUP-alt" anim="ualt" x="42" y="186" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="lalt" x="156" y="-15" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="ralt" x="-12" y="8" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="dalt" x="62" y="24" fps="24" loop="false"/>
+</character>

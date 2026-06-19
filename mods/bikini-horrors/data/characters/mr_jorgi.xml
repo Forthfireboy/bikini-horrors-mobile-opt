@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="100" sprite="abuela_jorgi" scale="1.4" icon="icon-ketchup" color="#F80000" holdTime="9.5">
+	<anim name="idle" anim="jorgi_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="jorgi_up" x="-28" y="111" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="jorgi_left" x="216" y="-56" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="jorgi_right" x="90" y="51" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="jorgi_down" x="24" y="-57" fps="24" loop="false"/>
+	<anim name="sienten" anim="se_sienten" x="33" y="287" fps="24" loop="false"/>
+</character>

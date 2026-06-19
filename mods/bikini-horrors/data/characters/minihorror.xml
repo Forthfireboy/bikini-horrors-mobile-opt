@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="-350" sprite="mini_horror" icon="minihorror" color="#FFFFFF" holdTime="6.1">
+	<anim name="idle" anim="horror_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="horror_up" x="-36" y="136" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="horror_left" x="-73" y="69" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="horror_right" x="-78.2" y="-26.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="horror_down" x="-77.85" y="-127" fps="24" loop="false"/>
+</character>

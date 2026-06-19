@@ -1,0 +1,32 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="690" camx="350" sprite="pool_parti/jelyfield" icon="icon-pp-jellyfish" y="840" camy="-166" color="#0000FF">
+	<anim x="0" loop="false" anim="idle" y="0" fps="24" name="idle"/>
+
+
+
+
+
+	<anim x="100" loop="false" anim="up" y="118" fps="24" name="singUP"/>
+
+
+
+
+
+	<anim x="121" loop="false" anim="left" y="-84" fps="24" name="singLEFT"/>
+
+
+
+
+
+	<anim x="-27" loop="false" anim="right" y="-4" fps="24" name="singRIGHT"/>
+
+
+
+
+
+	<anim x="25" loop="false" anim="down" y="-11" fps="24" name="singDOWN"/>
+
+
+
+
+</character>

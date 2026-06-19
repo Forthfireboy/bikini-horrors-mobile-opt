@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="tragaperras_move" scale="0.5" camx="-210" camy="-0" icon="tragaperras" color="#FFFFFF" holdTime="6.1" x="116" y="100">
+	<anim name="idle" anim="idle" x="0" y="0" fps="3" loop="true"/>
+	<anim name="pull" anim="move" x="0" y="0" fps="14" loop="true"/>
+</character>

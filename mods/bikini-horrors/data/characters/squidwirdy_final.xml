@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character scale="2" x="100" y="-20" sprite="squidwirdyfinal" flipX="true" camx="600" camy="-35" isPlayer="true" icon="icon-squid3" color="#00CC66" gameOverChar="squidwirdy_dead" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="-159" y="89" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="3" y="-19" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-61" y="-56" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-27" y="-117" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="umiss" x="12" y="-11" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="fiff_bf lmiss" x="3" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="fiff_bf rmiss" x="0" y="1" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="fiff_bf dmiss" x="-14" y="-13" fps="24" loop="false"/>
+</character>

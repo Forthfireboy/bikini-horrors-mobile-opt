@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Hide? (Uncheck to unhide)",
+            "type": "Bool",
+            "defaultValue": "true"
+        }
+    ]
+}

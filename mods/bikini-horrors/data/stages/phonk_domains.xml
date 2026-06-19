@@ -1,0 +1,25 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/cacatua/" name="phonk_domains" zoom="0.32"  startCamPosX="800" startCamPosY="500">
+	<sprite x="-1177" antialiasing="false" y="-827" sprite="mar_red" scroll="1.1" scale="1.1" type="none" name="mar_red"/>
+	<sprite antialiasing="false" x="-1230" scroll="1" sprite="fondo" y="-687" type="none" scale="1" name="fondo"/>
+	<sprite antialiasing="false" x="-1213" scroll="1" sprite="espectantes" y="-687" type="none" scale="1" name="espectantes"/>
+	<sprite antialiasing="false" x="-1213" sprite="suelo" y="-695" type="none" scale="1" name="suelo"/>
+
+
+	<sprite antialiasing="false" x="-1240" scroll="1" sprite="calamardo" y="-687" type="none" scale="1" name="calamardo">
+		<anim name="idle" anim="calamardo head_turn0001" x="0" y="0" loop="true" fps="12"/>
+		<anim name="turn" anim="calamardo head_turn" x="0" y="0" loop="false" fps="12"/>
+	</sprite>
+
+	<sprite antialiasing="false" x="-1240" scroll="1" sprite="aura" y="-687" type="none" scale="1" name="aura">
+		<anim name="idle" anim="aura aura" x="0" y="0" loop="true" fps="12"/>
+	</sprite>
+
+
+	<sprite antialiasing="false" x="-1240" scroll="1" sprite="luz" y="-657" type="none" scale="1" name="luz"/>
+
+	<dad camxoffset="200" x="-700" camyoffset="-200" y="420"/>
+	<boyfriend camxoffset="-550" x="530" camyoffset="-100" y="400"/>
+	<sprite antialiasing="false" x="-1350" scroll="0.8" sprite="cortinas" y="-760" type="none" scale="1" name="cortinas"/>
+	<sprite antialiasing="false" x="-1350" scroll="0.5" sprite="mist" y="-760" type="none" scale="1" name="mist"/>
+</stage>

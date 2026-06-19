@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="-2760" y="-1860" icon="icon-daimago" camx="540" camy="740" color="#AC8F10" isPlayer="true" flipX="true" holdTime="6.1" sprite="rumbeling/fase4/daimago_orange">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="-4" fps="24" y="10" anim="up" name="singUP"/>
+
+	<anim loop="false" x="-12" fps="24" y="-24" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-16.2" fps="24" y="-4.2" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="-101.85" fps="24" y="6" anim="down" name="singDOWN"/>
+
+	<anim loop="false" x="8" fps="24" y="-14" anim="return" name="return"/>
+</character>

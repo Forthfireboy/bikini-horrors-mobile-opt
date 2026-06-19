@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pojapija/FRIKINSPONCHBO" antialiasing="false" camx="-177" camy="54" icon="icon-pospos" color="#4B4B4B" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="name" anim="FRIKINSPONGBO" x="0" y="0" fps="24" loop="false"/>
+</character>

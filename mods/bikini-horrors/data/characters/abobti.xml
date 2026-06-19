@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="275" sprite="buv/abobti" camx="60" icon="icon-abobti" scale="0.51" camy="70">
+	<anim x="0" loop="true" anim="abobtiidle" y="0" fps="24" name="idle"/>
+
+	<anim x="-13" loop="false" anim="abobtiup" y="164" fps="24" name="singUP"/>
+
+	<anim x="530" loop="false" anim="abobtileft" y="-133" fps="24" name="singLEFT"/>
+
+	<anim x="-115" loop="false" anim="abobtiright" y="-58" fps="24" name="singRIGHT"/>
+
+	<anim x="-110" loop="false" anim="abobtidown" y="-347" fps="24" name="singDOWN"/>
+</character>

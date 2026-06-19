@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-770" y="-740" sprite="rumbeling/fase5/epurgatio" camx="-70" camy="170" icon="expurgation" color="#AC8F10" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-169" y="565" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="930" y="-104" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-296.2" y="-14.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="68.15" y="-234" fps="24" loop="false"/>
+</character>

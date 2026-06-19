@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="babidi" scale="1.2" antialiasing="false" camx="-160" camy="250" icon="icon-bobdoll" color="#FFD420" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-65" y="253" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="325" y="-145" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-140" y="-95" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-5" y="-370" fps="24" loop="false"/>
+	<anim name="notlooking" anim="notlooking" x="-11" y="-43" fps="24" loop="true"/>
+	<anim name="void" anim="looking" x="126" y="-23" fps="15" loop="false"/>
+</character>

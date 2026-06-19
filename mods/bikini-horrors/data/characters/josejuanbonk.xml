@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/josejuanbonk" camx="100" camy="100" icon="icon-pp-jj" color="#FA1E4D" holdTime="6.1">
+	<anim name="idle" anim="darnellidle" x="1" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="upbonk" x="1" y="118" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="leftbonk" x="230" y="-23" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="rightbonk" x="-199" y="-59" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="downbonk" x="-48" y="-69" fps="24" loop="false"/>
+</character>

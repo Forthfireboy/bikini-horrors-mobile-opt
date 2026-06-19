@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="500" startCamPosY="200" folder="stages/made-in-china/" name="honk_kong" zoom="0.4">
+	<sprite x="-2339" scrolly="0.2" sprite="sky" y="-1408" name="sky" scrollx="0.2"/>
+	<sprite scrolly="0.2" x="-2339" y="-1408" sprite="sky_nosun" alpha="0" scrollx="0.2" name="sky_nosun"/>
+	<sprite scrolly="0.6" x="-2152" y="-1443" sprite="mountain_2" scrollx="0.6" name="mountain_2"/>
+	<sprite scrolly="0.7" x="-2087" y="-1379" sprite="mountain_1" scrollx="0.7" name="mountain_1"/>
+	<sprite antialiasing="false" scrolly="0.8" x="-1957" y="-1329" sprite="acantilado" type="none" scrollx="0.8" name="acantilado"/>
+	<sprite scrolly="0.9" x="-1905" y="-1291" sprite="back_platform_left" scrollx="0.9" name="back_left"/>
+	<sprite scrolly="0.9" x="-1985" y="-1333" sprite="back_platform_right" scrollx="0.9" name="back_right"/>
+	<sprite x="-2089" name="middle" sprite="middle_platform" y="-1235"/>
+	<sprite scrolly="0" x="-2786" y="-2618" sprite="sim_sky" alpha="0" scrollx="0.1" name="sim_sky"/>
+	<sprite scrolly="0.2" x="-2767" y="-2340" sprite="sim_sun" alpha="0" scrollx="0.2" name="sim_sun"/>
+	<sprite x="-2530" y="-2284" sprite="sim_middle_platform" alpha="0" name="sim_middle"/>
+	<girlfriend x="390" camxoffset="-600" y="240" camyoffset="00"/>
+	<dad x="24" camxoffset="100" y="420" camyoffset="-50"/>
+	<boyfriend x="850" camxoffset="-250" y="380" camyoffset="0"/>
+	<combo/>
+	<sprite scrolly="1.2" x="-1859" y="-1391" sprite="front_platform_left" scrollx="1.2" name="front_left"/>
+	<sprite scrolly="1.2" x="-2196" y="-1219" sprite="front_platform_right" scrollx="1.2" name="front_right"/>
+</stage>

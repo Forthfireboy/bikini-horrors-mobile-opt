@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bobeltriste" icon="icon-bobeltriste" color="#AC8F10" holdTime="6.1">
+	<anim name="idle" anim="bob_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="bob_up" x="10" y="29" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bob_left" x="147" y="-5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bob_right" x="10.8" y="6.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bob_down" x="63.15" y="-37" fps="24" loop="false"/>
+</character>

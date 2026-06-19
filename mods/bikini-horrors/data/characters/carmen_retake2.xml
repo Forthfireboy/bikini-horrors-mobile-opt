@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-108" y="-72" sprite="carmaland_retake/retake_carmen" antialiasing="false" flipX="true" scale="0.33" camx="0" camy="77" isPlayer="true" icon="icon-carmenretake" color="#EDFFCD" imagePath="carmen.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="105" y="-114" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="84" y="37" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-56" y="-29" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="38" y="134" fps="24" loop="false"/>
+</character>

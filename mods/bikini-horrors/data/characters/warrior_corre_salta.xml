@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character>
+<character x="230" y="460" sprite="corre/warrior_minigame" flipX="true" camx="-200" camy="-280" isPlayer="true" icon="icon-cc-warrior-tarde" color="#8D61A3" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="confused" anim="confused" x="12" y="25" fps="24" loop="false"/>
+	<anim name="jump" anim="jump" x="1" y="41" fps="24" loop="false"/>
+	<anim name="look" anim="look" x="12" y="24" fps="24" loop="true"/>
+</character>

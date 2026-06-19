@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/remote/" name="vash" zoom="0.5"  startCamPosX="0" startCamPosY="0">
+	<sprite antialiasing="false" x="-800" scroll="1" sprite="bossrush" y="-450" type="none" scale="1.2" name="bossrush"/>
+	<sprite antialiasing="false" x="-800" scroll="1" sprite="bossrush_2" y="-450" type="none" scale="1.2" name="bossrush_2" alpha="0"/>
+	<sprite antialiasing="false" x="-770" scroll="1" sprite="CACACA" y="-350" type="none" scale="1.4" name="CACACA"/>
+	<dad camxoffset="-100" x="140" camyoffset="100" y="-165"/>
+	<sprite name="staticsprite" x="50" y="-230" sprite="static" scale="1.4">
+		<anim name="idle" anim="static" x="0" y="0" loop="true" fps="24"/>
+	</sprite>
+	<sprite antialiasing="false" x="-780" scroll="1" sprite="yosoyaika" y="-380" type="none" scale="1.4" name="yosoyaika"/>
+	<sprite antialiasing="false" x="-780" scroll="1" sprite="yosoyaika_2" y="-380" type="none" scale="1.4" name="yosoyaika_2" alpha="0"/>
+	<boyfriend camxoffset="0" x="300" camyoffset="-100" y="-80"/>
+	<sprite antialiasing="false" x="-100" scroll="1" sprite="caca" y="-380" type="none" scale="2.3" name="caca" alpha="0"/>
+</stage>

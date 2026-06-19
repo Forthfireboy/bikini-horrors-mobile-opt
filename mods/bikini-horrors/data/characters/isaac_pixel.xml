@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character x="-22" y="5" sprite="sirope/pixelisaac" antialiasing="false" flipX="true" camx="60" camy="77" isPlayer="true" icon="nothing" color="#EDFFCD" imagePath="carmen.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singDOWN" anim="down" x="2" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="1" y="1" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="2" y="1" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="2" y="0" fps="24" loop="false"/>
+	<anim name="moveleft" anim="moveleft" x="-24" y="0" fps="24" loop="false"/>
+	<anim name="moveright" anim="moveright" x="1" y="0" fps="24" loop="false"/>
+	<anim name="moveup" anim="moveup" x="0" y="0" fps="24" loop="false"/>
+	<anim name="movedown" anim="movedown" x="0" y="0" fps="24" loop="false"/>
+	<anim name="hurt" anim="daño" x="-224" y="30" fps="24" loop="false"/>
+	<anim name="missLEFT" anim="MISSleft" x="-150" y="-10" fps="24" loop="false"/>
+	<anim name="missUP" anim="MISSup" x="-150" y="-10" fps="24" loop="false"/>
+	<anim name="missRIGHT" anim="MISSright" x="-165" y="-5" fps="24" loop="false"/>
+	<anim name="missDOWN" anim="MISSdown" x="-55" y="0" fps="24" loop="false"/>
+</character>

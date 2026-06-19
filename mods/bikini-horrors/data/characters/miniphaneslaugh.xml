@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="250" sprite="aloha/miniphaneslaugh" scale="0.6" flipX="true" camx="-60" camy="-24" isPlayer="true" icon="icon-miniphanes">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="jaja" anim="jaja" x="124" y="141" fps="24" loop="false"/>
+</character>

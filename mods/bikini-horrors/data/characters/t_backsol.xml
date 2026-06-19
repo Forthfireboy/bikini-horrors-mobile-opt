@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="t2k/sol_fondo" camx="-67" camy="-167" icon="icon-spongevoid" color="#000000">
+	<anim name="idle" anim="sun" x="0" y="0" fps="24" loop="true"/>
+	<anim name="transition" anim="transition" x="0" y="0" fps="24" loop="true"/>
+</character>

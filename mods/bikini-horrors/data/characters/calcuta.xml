@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="520" y="780" sprite="sponjevobact2" scale="1.2" camx="-460" camy="-670" icon="icon-temubob2" color="#5B0829" holdTime="6.1">
+	<anim name="idle" anim="idle" x="390" y="710" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="160" y="1220" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="590" y="620" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="205" y="610" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="395" y="375" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="carmen" scale="5" antialiasing="false" flipX="true" camx="-140" camy="60" isPlayer="true" icon="icon-carmen" color="#EDFFCD" imagePath="carmen.png">
+	<anim name="singDOWN" anim="down" x="1" y="0" fps="24" loop="false"/>
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="12" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="5" y="1" fps="24" loop="false"/>
+</character>

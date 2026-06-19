@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="eat/btk" icon="icon-btk" color="#AA4747">
+	<anim name="idle" anim="idle" x="0" y="0" fps="12" loop="true"/>
+	<anim name="singUP" anim="up" x="39" y="71" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="left" x="160" y="7" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-51" y="-38" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="down" x="41" y="-92" fps="12" loop="false"/>
+</character>

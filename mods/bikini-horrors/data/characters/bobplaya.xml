@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="playa/bobplaya" icon="playa" color="#F36D00" holdTime="6.1">
+	<anim name="idle" anim="bob_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="bob_up" x="25" y="275" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bob_left" x="125" y="10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bob_right" x="-48.2" y="21.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bob_down" x="119.15" y="-171" fps="24" loop="false"/>
+	<anim name="parece" anim="bob_parece" x="163" y="44" fps="24" loop="false"/>
+</character>

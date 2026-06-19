@@ -1,0 +1,744 @@
+{
+  "guater-game": {
+    "musicians": [
+        "ChezzarCat",
+        "ShashiCandy",
+        "MeiArt",
+        "Ug32t",
+        "Alhambrito119"
+    ],
+    "artists": [
+        "ChezzarCat",
+        "Alhambrito119",
+        "MeiArt",
+        "Rycecake"
+    ],
+    "coders": [
+        "ChezzarCat",
+        "Aika"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "f-is-for-fevil": {
+    "musicians": [
+        "MeiArt"
+    ],
+    "artists": [
+        "MeiArt"
+    ],
+    "coders": [
+        "ChezzarCat",
+        "MeiArt",
+        "Aika"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "try-and-trong": {
+    "musicians": [
+        "NexusVGM",
+        "ChezzarCat",
+        "Ug32t"
+    ],
+    "artists": [
+        "ChezzarCat",
+        "Alhambrito119",
+        "MeiArt"
+    ],
+    "coders": [
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ChezzarCat",
+        "Ug32t"
+    ]
+  },
+
+  "infinete": {
+    "musicians": [
+        "ShashiCandy"
+    ],
+    "artists": [
+        "Alhambrito119"
+    ],
+    "coders": [
+        "Umbra",
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "infinete-es-mix": {
+    "musicians": [
+        "MeiArt"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "MeiArt"
+    ],
+    "coders": [
+        "MeiArt",
+        "Umbra",
+        "Ug32t"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "sunderwater": {
+    "musicians": [
+        "ChezzarCat",
+        "MeiArt"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "Nef_l3"
+    ],
+    "coders": [
+        "Ug32t",
+        "ChezzarCat",
+        "Aika"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "catch-and-fish": {
+    "musicians": [
+        "ShashiCandy",
+        "ChezzarCat",
+        "MeiArt"
+    ],
+    "artists": [
+        "MeiArt",
+        "Umbra"
+    ],
+    "coders": [
+        "ChezzarCat",
+        "Aika",
+        "MeiArt"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "bubbletwister": {
+    "musicians": [
+        "ChezzarCat",
+        "Ug32t"
+    ],
+    "artists": [
+        "ChezzarCat",
+        "Alhambrito119",
+        "JustFloid"
+    ],
+    "coders": [
+        "ChezzarCat",
+        "Aika",
+        "Ug32t"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "wordle": {
+    "musicians": [
+        "MeiArt"
+    ],
+    "artists": [
+        "MeiArt",
+        "Alhambrito119"
+    ],
+    "coders": [
+        "MeiArt"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "fertility": {
+    "musicians": [
+        "ChezzarCat"
+    ],
+    "artists": [
+        "Alhambrito119"
+    ],
+    "coders": [
+        "ChezzarCat"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "go-to-eat": {
+    "musicians": [
+        "Umbra",
+        "Coquers"
+    ],
+    "artists": [
+        "Umbra",
+        "Alhambrito119",
+        "TennaBob"
+    ],
+    "coders": [
+        "Umbra"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "carmaland-retake": {
+    "musicians": [
+        "ShashiCandy",
+        "MeiArt",
+        "Ug32t"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "Kaarin_owo"
+    ],
+    "coders": [
+        "Umbra",
+        "Ug32t"
+    ],
+    "charters": [
+      "ShashiCandy"
+    ]
+  },
+
+  "la-playa": {
+    "musicians": [
+        "ChezzarCat"
+    ],
+    "artists": [
+        "ChezzarCat",
+        "Aika",
+        "MeiArt"
+    ],
+    "coders": [
+        "Aika",
+        "ChezzarCat"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "so-retro": {
+    "musicians": [
+        "soRetro"
+    ],
+    "artists": [
+        "soRetro"
+    ],
+    "coders": [
+        "soRetro"
+    ],
+    "charters": [
+        "soRetro"
+    ]
+  },
+
+  "chromosome": {
+    "musicians": [
+	    "MeiArt",
+        "ShashiCandy"
+    ],
+    "artists": [
+        "MeiArt"
+    ],
+    "coders": [
+        "MeiArt"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "kaka": {
+    "musicians": [
+	    "MeiArt",
+        "Coquers",
+        "Ug32t"
+    ],
+    "artists": [
+        "TennaBob",
+        "MeiArt",
+        "Umbra",
+        "Kaarin_owo",
+        "Alhambrito119"
+    ],
+    "coders": [
+        "MeiArt",
+        "Umbra"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "no-phone-zone": {
+    "musicians": [
+        "ShashiCandy",
+        "ChezzarCat",
+        "AaronPKT"
+    ],
+    "artists": [
+        "ChezzarCat"
+    ],
+    "coders": [
+        "Aika",
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "pneumonoultramicroscopicsilicovolcanoconiosis": {
+    "musicians": [
+        "MeiArt",
+        "Coquers"
+    ],
+    "artists": [
+        "TennaBob",
+        "Nef_l3",
+        "MeiArt",
+        "Coquers",
+        "Macarrones05"
+    ],
+    "coders": [
+        "MeiArt"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "unheard": {
+    "musicians": [
+        "MeiArt"
+    ],
+    "artists": [
+        "MeiArt"
+    ],
+    "coders": [
+        "MeiArt"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+ "daddatel": {
+    "musicians": [
+        "Ug32t",
+        "ChezzarCat"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "MeiArt",
+        "Nef_l3"
+    ],
+    "coders": [
+        "Ug32t",
+        "Umbra"
+    ],
+    "charters": [
+        "Ug32t"
+    ]
+  },
+
+  "for-you-someday": {
+    "musicians": [
+        "MeiArt",
+        "Ug32t"
+    ],
+    "artists": [
+        "MeiArt"
+    ],
+    "coders": [
+        "MeiArt"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "spotting": {
+    "musicians": [
+        "MeiArt",
+        "Coquers",
+        "Ug32t",
+        "Umbra",
+        "JaimeMMC"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "Umbra"
+    ],
+    "coders": [
+        "Umbra"
+    ],
+    "charters": [
+        "ShashiCandy",
+        "MeiArt"
+    ]
+  },
+
+  "vash-a-morir": {
+    "musicians": [
+        "ChezzarCat"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "MeiArt",
+        "ChezzarCat"
+    ],
+    "coders": [
+        "Aika",
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "paracetamol": {
+    "musicians": [
+        "ShashiCandy",
+        "ChezzarCat",
+        "Ug32t",
+        "Coquers"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "ChezzarCat",
+        "Nef_l3",
+        "MeiArt",
+        "Kaarin_owo",
+        "Aika"
+    ],
+    "coders": [
+        "Aika",
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "ups-me-caigo": {
+    "musicians": [
+        "ShashiCandy",
+        "Amula",
+        "Ug32t"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "Nef_l3",
+        "Netheriiteaxe",
+        "ShashiCandy"
+    ],
+    "coders": [
+        "Ug32t"
+    ],
+    "charters": [
+        "Ug32t"
+    ]
+  },
+
+  "rent-due": {
+    "musicians": [
+        "MeiArt"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "MeiArt"
+    ],
+    "coders": [
+        "MeiArt"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "powerscaling": {
+    "musicians": [
+        "Ug32t",
+        "ChezzarCat"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "Nef_l3",
+        "MeiArt",
+        "TennaBob"
+    ],
+    "coders": [
+        "Ug32t",
+        "MeiArt",
+        "Aika"
+    ],
+    "charters": [
+        "MeiArt"
+    ]
+  },
+
+  "made-in-china": {
+    "musicians": [
+        "Coquers",
+        "MeiArt"
+    ],
+    "artists": [
+        "MeiArt",
+        "Alhambrito119",
+        "Nef_l3"
+    ],
+    "coders": [
+        "Aika",
+        "MeiArt",
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ShashiCandy",
+        "MeiArt"
+    ]
+  },
+
+  "barnacles": {
+    "musicians": [
+        "MeiArt"
+    ],
+    "artists": [
+        "Alhambrito119",
+        "MeiArt",
+        "Nef_l3"
+    ],
+    "coders": [
+        "ChezzarCat",
+        "Aika",
+        "MeiArt"
+    ],
+    "charters": [
+        "ShashiCandy"
+    ]
+  },
+
+  "mega-mortal-madness": {
+    "musicians": [
+        "ChezzarCat",
+        "Ug32t",
+        "Coquers"
+    ],
+    "artists": [
+        "ChezzarCat",
+        "JustFloid",
+        "MeiArt",
+        "Rycecake"
+    ],
+    "coders": [
+        "ChezzarCat"
+    ],
+    "charters": [
+        "ChezzarCat",
+        "MeiArt"
+    ]
+  },
+
+  "flintstone": {
+    "musicians": [
+      "ChezzarCat",
+      "Ug32t"
+    ],
+    "artists": [
+      "ChezzarCat",
+      "Alhambrito119",
+      "Kaarin_owo"
+    ],
+    "coders": [
+      "Ug32t",
+      "ChezzarCat"
+    ],
+    "charters": [
+      "ShashiCandy",
+      "Ug32t"
+    ]
+  },
+
+  "pool-parti": {
+    "musicians": [
+      "ChezzarCat",
+      "Ug32t",
+      "MeiArt",
+      "ShashiCandy",
+      "Coquers"
+    ],
+    "artists": [
+      "ChezzarCat",
+      "Alhambrito119",
+      "MeiArt",
+      "Nef_l3",
+      "TennaBob",
+      "JustFloid"
+    ],
+    "coders": [
+      "Aika",
+      "MeiArt",
+      "ChezzarCat"
+    ],
+    "charters": [
+      "ShashiCandy"
+    ]
+  },
+
+  "corre-corre-que-te-pillo": {
+    "musicians": [
+      "ShashiCandy",
+      "Ug32t",
+      "ChezzarCat",
+      "Coquers"
+    ],
+    "artists": [
+      "MeiArt",
+      "Nef_l3",
+      "TennaBob"
+    ],
+    "coders": [
+      "ChezzarCat",
+      "Ug32t"
+    ],
+    "charters": [
+      "ShashiCandy",
+      "MeiArt"
+    ]
+  },
+
+  "aloha-aloha": {
+    "musicians": [
+      "MeiArt",
+      "Ug32t"
+    ],
+    "artists": [
+      "Alhambrito119",
+      "Kaarin_owo"
+    ],
+    "coders": [
+      "Aika"
+    ],
+    "charters": [
+      "MeiArt"
+    ]
+  },
+
+  "i-am-back": {
+    "musicians": [
+      "ChezzarCat",
+      "MarMar",
+      "Ug32t"
+    ],
+    "artists": [
+      "MeiArt",
+      "ChezzarCat",
+      "Alhambrito119",
+      "TennaBob"
+    ],
+    "coders": [
+      "ChezzarCat",
+      "Ug32t"
+    ],
+    "charters": [
+      "MeiArt",
+      "ShashiCandy" 
+    ]
+  },
+
+  "ayuda-por-favor": {
+    "musicians": [
+      "ChezzarCat",
+      "Ug32t",
+      "ShashiCandy",
+      "MarMar"
+    ],
+    "artists": [
+      "ChezzarCat",
+      "JustFloid"
+    ],
+    "coders": [
+      "Ug32t",
+      "ChezzarCat"
+    ],
+    "charters": [
+      "ShashiCandy"
+    ]
+  },
+
+  "pop-a-corn": {
+    "musicians": [
+      "ChezzarCat",
+      "MeiArt"
+    ],
+    "artists": [
+      "MeiArt"
+    ],
+    "coders": [
+      "ChezzarCat"
+    ],
+    "charters": [
+      "MeiArt"
+    ]
+  },
+
+  "steamunlocked": {
+    "musicians": [
+      "ChezzarCat",
+      "Ug32t",
+      "ShashiCandy",
+      "Cencory"
+    ],
+    "artists": [
+      "Peter Morcilla"
+    ],
+    "coders": [
+      "Ug32t"
+    ],
+    "charters": [
+      "ShashiCandy",
+      "Ug32t"
+    ]
+  },
+
+   "rumbeling": {
+    "musicians": [
+      "ShashiCandy",
+      "Coquers",
+      "TennaBob"
+    ],
+    "artists": [
+      "TennaBob",
+      "Alhambrito119",
+      "Ms_Kajin",
+      "MeiArt"
+    ],
+    "coders": [
+      "MeiArt"
+    ],
+    "charters": [
+      "ShashiCandy"
+    ]
+  }
+}

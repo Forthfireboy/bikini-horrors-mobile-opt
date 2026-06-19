@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="5000" sprite="franco" scale="5" antialiasing="false" icon="icon-patchy" color="#D613FF" gameOverChar="bf_death" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+</character>

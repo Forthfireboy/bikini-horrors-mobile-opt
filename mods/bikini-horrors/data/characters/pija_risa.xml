@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pojapija/risapoja" scale="4.6" antialiasing="false" camx="33" camy="80" icon="icon-poja" color="#94752B" holdTime="6.1" y="-970" x="-200">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="risa" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="risa" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="risa" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="risa" x="0" y="0" fps="24" loop="false"/>
+</character>

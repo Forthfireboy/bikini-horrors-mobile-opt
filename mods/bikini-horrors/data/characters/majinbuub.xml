@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" y="-33" sprite="majinbuub" scale="1" camx="0" camy="0" icon="icon-majinbuub" color="#7CFF01" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-2" y="49" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="186" y="78" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-154.2" y="31.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="48.15" y="-39" fps="24" loop="false"/>
+</character>

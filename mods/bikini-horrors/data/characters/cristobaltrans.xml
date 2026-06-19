@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-200" y="0" sprite="sirope/crisbob2-3trans" camx="60" camy="70" icon="crisbobicon2" scale="1">
+	<anim name="transform" anim="transformacion" x="0" y="0" fps="24" loop="false"/>
+</character>

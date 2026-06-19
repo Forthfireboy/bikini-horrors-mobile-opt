@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-400" y="750" sprite="rainbowcrashout" flipX="true" camx="-150" camy="-150" isPlayer="true" icon="icon-sans" color="#FDFDFD" holdTime="6.1">
+	<anim name="rd" anim="rd" x="0" y="0" fps="24" loop="false"/>
+</character>

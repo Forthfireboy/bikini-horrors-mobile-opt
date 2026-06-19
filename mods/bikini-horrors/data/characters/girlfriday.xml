@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="20" y="0" isGF="true" icon="gf" sprite="girlfriday" color="#A5004D">
+	<anim loop="false" x="124" fps="24" y="130" anim="left" name="danceLeft"/>
+
+
+	<anim loop="false" x="124" fps="24" y="130" anim="right" name="danceRight"/>
+
+
+</character>

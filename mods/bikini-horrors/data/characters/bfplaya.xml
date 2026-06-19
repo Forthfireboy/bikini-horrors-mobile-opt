@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="playa/bfplaya" flipX="true" isPlayer="true" icon="playabf" color="#00BBFF" holdTime="6.1">
+	<anim name="idle" anim="bf_idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="bf_up" x="0" y="40" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bf_right" x="175" y="65" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bf_left" x="0" y="4" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bf_down" x="195" y="-230" fps="24" loop="false"/>
+</character>

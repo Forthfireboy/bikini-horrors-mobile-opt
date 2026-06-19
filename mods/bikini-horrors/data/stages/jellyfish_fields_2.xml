@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bubbletwister/" name="jellyfish_fields_2" zoom="0.4"  startCamPosX="0" startCamPosY="0">
+	<sprite antialiasing="false" x="-2000" scroll="0.4" sprite="back0" y="-1250" type="none" scale="1" name="back0"/>
+	<sprite antialiasing="false" x="-2000" scroll="0.6" sprite="back1" y="-1500" type="none" scale="1" name="back1"/>
+	<sprite antialiasing="false" x="-2200" scroll="0.8" sprite="back2" y="-1550" type="none" scale="1" name="back2"/>
+	<girlfriend camxoffset="-250" x="-440" camyoffset="200" y="0"/>
+	<sprite antialiasing="false" x="-2200" scroll="1" sprite="floor" y="-1650" type="none" scale="1" name="floor"/>
+	<dad camxoffset="150" x="-1250" camyoffset="-120" y="100"/>
+	<boyfriend camxoffset="0" x="300" camyoffset="-100" y="-80"/>
+</stage>

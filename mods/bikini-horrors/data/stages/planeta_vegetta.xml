@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1">
+	<sprite antialiasing="false" scrolly="0.7" x="375" y="294" sprite="stages\planeta_vegetta\doc_tops" scale="5" scrollx="0.7" name="doc_tops"/>
+	<sprite x="366" y="131" scale="6" scrollx="0.7" name="ramirez" antialiasing="false" scrolly="0.7" sprite="stages\planeta_vegetta\ramirez" noteSkin="carma_noteskin"/>
+	<sprite x="303" y="-6" type="loop" scale="5" scrollx="0.8" name="marruecos" antialiasing="false" scrolly="0.8" sprite="stages\planeta_vegetta\marruecos"/>
+	<sprite antialiasing="false" x="283" y="469" sprite="stages\planeta_vegetta\pajaro_en_rama" scale="5" type="loop" name="pajaro_en_rama"/>
+	<sprite antialiasing="false" x="381" y="75" sprite="stages\planeta_vegetta\yo_cuando_esqueleto" scale="5" type="loop" name="yo_cuando_esqueleto"/>
+	<combo x="836" y="640"/>
+	<gf x="-532" y="-188"/>
+	<dad x="171" y="465"/>
+	<bf x="887" y="422"/>
+</stage>

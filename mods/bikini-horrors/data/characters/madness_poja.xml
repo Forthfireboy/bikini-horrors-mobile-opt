@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="1490" y="670" sprite="spongefunkin/madness_poja" camx="-40" icon="icon-madnes_poja" color="#D9D9D9">
+	<anim name="idle" anim="poja" x="-5" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="arriba" x="-4" y="142" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="izq" x="111" y="-2" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="dercha" x="7" y="-2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="abajo" x="-5" y="32" fps="24" loop="false"/>
+</character>

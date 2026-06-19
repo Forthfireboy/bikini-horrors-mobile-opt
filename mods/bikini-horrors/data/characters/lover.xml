@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="260" sprite="aloha/underguaterlover" scale="0.6" camx="130" icon="icon-uwlhappy">
+	<anim name="idle" anim="idle" x="0" y="0" fps="27" loop="true"/>
+	<anim name="singUP" anim="up" x="-55" y="55" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="40" y="10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="10" y="-14" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-30" y="-55" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="sadidle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="sadup" x="-55" y="55" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="sadleft" x="40" y="10" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="sadright" x="10" y="-14" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="saddown" x="-30" y="-55" fps="24" loop="false"/>
+</character>

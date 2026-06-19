@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/sw_sprite" camx="150" flipX="true" camy="200" isPlayer="true" icon="icon-bfinfinete" color="#0001FB" holdTime="6.1">
+	<anim name="idle" anim="sw_down" x="-6" y="-13" fps="24" loop="false"/>
+	<anim name="singUP" anim="sw_up" x="-40" y="38" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="sw_right" x="-36" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="sw_left" x="-22" y="37" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="sw_down" x="-5" y="-13" fps="24" loop="false"/>
+</character>

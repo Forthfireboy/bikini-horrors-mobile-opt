@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" holdTime="6.1" y="60" icon="icon-usamedio" sprite="usa/usamediofaker" color="#B6F961">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="160" fps="24" y="154" anim="up" name="singUP"/>
+
+	<anim loop="false" x="-18" fps="24" y="-11" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="49.8" fps="24" y="-17.2" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="-34.85" fps="24" y="-87" anim="down" name="singDOWN"/>
+</character>

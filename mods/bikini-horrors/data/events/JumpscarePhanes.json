@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Show?",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

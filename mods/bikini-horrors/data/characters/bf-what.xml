@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bfinfinete" flipX="true" isPlayer="true" icon="icon-bfinfinete" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="5" y="83" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="36" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-12" y="-9" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="0" y="-41" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="mesa" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="mesa" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="mesa" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="mesa" x="0" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-850" camx="90" y="10" icon="icon-pp-sw" camy="-230" color="#E27329" flipX="true" isPlayer="true" holdTime="6.1" sprite="pool_parti/spongewarrior_phase2">
+	<anim loop="true" x="0" fps="24" y="0" anim="bf_idle" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="110" anim="bf_up" name="singUP"/>
+
+	<anim loop="false" x="36" fps="24" y="21" anim="bf_left" name="singLEFT"/>
+
+	<anim loop="false" x="-98" fps="24" y="26" anim="bf_right" name="singRIGHT"/>
+
+	<anim loop="false" x="20" fps="24" y="-36" anim="bf_down" name="singDOWN"/>
+
+</character>

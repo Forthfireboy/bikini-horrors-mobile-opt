@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Stop Play Tweens",
+            "type": "Bool",
+            "defaultValue": "false"
+        }
+    ]
+}

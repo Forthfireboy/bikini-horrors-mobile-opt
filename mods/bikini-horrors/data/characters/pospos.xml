@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="400" camx="-120" icon="icon-pospos" scale="1.4" camy="160" flipX="true" isPlayer="true" color="#666666" holdTime="6.1" sprite="pojapija/pospos">
+	<anim x="0" loop="true" anim="idle" y="0" fps="18" name="idle"/>
+
+	<anim x="-5" loop="false" anim="up" y="4" fps="18" name="singUP"/>
+
+	<anim x="7" loop="false" anim="left" y="0" fps="18" name="singLEFT"/>
+
+	<anim x="-7" loop="false" anim="right" y="0" fps="18" name="singRIGHT"/>
+
+	<anim x="1" loop="false" anim="down" y="-2" fps="18" name="singDOWN"/>
+</character>

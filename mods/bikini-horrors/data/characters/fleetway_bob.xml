@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="fleetwaybob" icon="icon-fleetway" color="#FF6600" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="55" y="89" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="262" y="-235" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-59.2" y="-258.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="43.15" y="43" fps="24" loop="false"/>
+</character>

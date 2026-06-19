@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="0" startCamPosY="0" folder="stages/spongefunkin/" zoom="0.7" name="spongefunkin">
+	<sprite antialiasing="false" x="-651" y="-356" sprite="fondo" type="none" name="fondo"/>
+	<gf x="3400"/>
+	<dad x="-992" camxoffset="-80" y="47" camyoffset="-50"/>
+	<combo x="1413" y="2276"/>
+	<bf x="261" y="100"/>
+</stage>

@@ -1,0 +1,96 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/island/" zoom="0.25" name="island" startCamPosX="600">
+	<box scroll="0" alpha="0" zoomfactor="0" width="1280" height="720" color="#d10000" name="red"/>
+	<sprite x="-3091" sprite="marco" y="-1453" alpha="1" name="marco"/>
+	<sprite x="-1000" y="-420" zoomfactor="0" scale="0.5" type="none" name="fondo" scrollx="0" scrolly="0" sprite="fondo"/>
+	<sprite x="-1432" sprite="nubes3" scroll="0.05" y="-165" type="none" name="clouds1"/>
+	<sprite x="-1432" sprite="nubes3" scroll="0.05" y="-165" type="none" name="clouds4"/>
+	<sprite x="-1432" sprite="nubes3" scroll="0.05" y="-165" type="none" name="clouds7"/>
+	<sprite x="-846" sprite="nubes2" scroll="0.2" y="-370" type="none" name="clouds2"/>
+	<sprite x="-846" sprite="nubes2" scroll="0.2" y="-370" type="none" name="clouds5"/>
+	<sprite x="-846" sprite="nubes2" scroll="0.2" y="-370" type="none" name="clouds8"/>
+	<sprite x="-42" sprite="nubes3" scroll="0.3" y="7" type="none" name="clouds3"/>
+	<sprite x="-42" sprite="nubes3" scroll="0.3" y="7" type="none" name="clouds6"/>
+	<sprite x="-42" sprite="nubes3" scroll="0.3" y="7" type="none" name="clouds9"/>
+	<sprite x="-2122" y="-1077" sprite="isla_apruve" scroll="0.15" type="none" name="island"/>
+	<sprite x="-2281" y="-592" sprite="patri" scroll="0.2" type="none" name="patrickHouse"/>
+	<sprite x="-3190" scrolly="0.8" sprite="mar_atras" type="none" scrollx="0.6" name="sea0"/>
+	<sprite x="-3190" scrolly="0.8" sprite="mar_atras" type="none" scrollx="0.6" name="sea4"/>
+	<sprite x="-3190" scrolly="0.8" sprite="mar_atras" type="none" scrollx="0.6" name="sea8"/>
+	<sprite x="-3485" y="-1622" sprite="bo" scroll="0.5" type="none" name="pineapple"/>
+	<sprite x="050" y="-1842" sprite="burga" scroll="0.7" scale="1.2" type="none" name="krusty"/>
+	<sprite x="-3051" scrolly="0.9" sprite="no_tan_atras" type="none" scrollx="0.7" name="sea1"/>
+	<sprite x="-3051" scrolly="0.9" sprite="no_tan_atras" type="none" scrollx="0.7" name="sea5"/>
+	<sprite x="-3051" scrolly="0.9" sprite="no_tan_atras" type="none" scrollx="0.7" name="sea9"/>
+	<sprite x="-3190" sprite="no_tan_alante" type="none" scrollx="0.8" name="sea2"/>
+	<sprite x="-3190" sprite="no_tan_alante" type="none" scrollx="0.8" name="sea6"/>
+	<sprite x="-3190" sprite="no_tan_alante" type="none" scrollx="0.8" name="sea10"/>
+	<sprite x="-1000" y="-420" zoomfactor="0" scale="0.5" type="none" name="atardecer_fondo" scrollx="0" scrolly="0" sprite="atardecer/fondo"/>
+	<sprite x="-300" y="-420" zoomfactor="0" scale="0.5" type="none" name="atardecer_sol" scrollx="0.1" scrolly="0.1" sprite="atardecer/sol"/>
+	<sprite x="-1432" sprite="atardecer/nubes_1" scroll="0.05" y="-165" type="none" name="atardecer_clouds1"/>
+	<sprite x="-1432" sprite="atardecer/nubes_1" scroll="0.05" y="-165" type="none" name="atardecer_clouds4"/>
+	<sprite x="-1432" sprite="atardecer/nubes_1" scroll="0.05" y="-165" type="none" name="atardecer_clouds7"/>
+	<sprite x="-846" sprite="atardecer/nubes_2" scroll="0.2" y="-370" type="none" name="atardecer_clouds2"/>
+	<sprite x="-846" sprite="atardecer/nubes_2" scroll="0.2" y="-370" type="none" name="atardecer_clouds5"/>
+	<sprite x="-846" sprite="atardecer/nubes_2" scroll="0.2" y="-370" type="none" name="atardecer_clouds8"/>
+	<sprite x="-2122" y="-1077" sprite="atardecer/isla_apruve" scroll="0.15" type="none" name="atardecer_island"/>
+	<sprite x="-2281" y="-592" sprite="atardecer/patri" scroll="0.2" type="none" name="atardecer_patrickHouse"/>
+	<sprite x="-3190" scrolly="0.8" sprite="atardecer/mar_atras" type="none" scrollx="0.6" name="atardecer_sea0"/>
+	<sprite x="-3190" scrolly="0.8" sprite="atardecer/mar_atras" type="none" scrollx="0.6" name="atardecer_sea4"/>
+	<sprite x="-3190" scrolly="0.8" sprite="atardecer/mar_atras" type="none" scrollx="0.6" name="atardecer_sea8"/>
+	<sprite x="-3485" y="-1622" sprite="atardecer/bo" scroll="0.5" type="none" name="atardecer_pineapple"/>
+	<sprite x="050" y="-1842" sprite="atardecer/burga" scroll="0.7" scale="1.2" type="none" name="atardecer_krusty"/>
+	<sprite x="-3051" scrolly="0.9" sprite="atardecer/no_tan_atras" type="none" scrollx="0.7" name="atardecer_sea1"/>
+	<sprite x="-3051" scrolly="0.9" sprite="atardecer/no_tan_atras" type="none" scrollx="0.7" name="atardecer_sea5"/>
+	<sprite x="-3051" scrolly="0.9" sprite="atardecer/no_tan_atras" type="none" scrollx="0.7" name="atardecer_sea9"/>
+	<sprite x="-3190" sprite="atardecer/no_tan_alante" type="none" scrollx="0.8" name="atardecer_sea2"/>
+	<sprite x="-3190" sprite="atardecer/no_tan_alante" type="none" scrollx="0.8" name="atardecer_sea6"/>
+	<sprite x="-3190" sprite="atardecer/no_tan_alante" type="none" scrollx="0.8" name="atardecer_sea10"/>
+	<sprite x="-1000" y="-420" zoomfactor="0" scale="0.5" type="none" name="noche_fondo" scrollx="0" scrolly="0" sprite="noche/fondo"/>
+	<sprite x="-1432" sprite="noche/nubes_1" scroll="0.05" y="-165" type="none" name="noche_clouds1"/>
+	<sprite x="-1432" sprite="noche/nubes_1" scroll="0.05" y="-165" type="none" name="noche_clouds4"/>
+	<sprite x="-1432" sprite="noche/nubes_1" scroll="0.05" y="-165" type="none" name="noche_clouds7"/>
+	<sprite x="-846" sprite="noche/nubes_2" scroll="0.2" y="-370" type="none" name="noche_clouds2"/>
+	<sprite x="-846" sprite="noche/nubes_2" scroll="0.2" y="-370" type="none" name="noche_clouds5"/>
+	<sprite x="-846" sprite="noche/nubes_2" scroll="0.2" y="-370" type="none" name="noche_clouds8"/>
+	<sprite x="-2122" y="-1077" sprite="noche/isla_apruve" scroll="0.15" type="none" name="noche_island"/>
+	<sprite x="-2281" y="-592" sprite="noche/patri" scroll="0.2" type="none" name="noche_patrickHouse"/>
+	<sprite x="-3190" scrolly="0.8" sprite="noche/mar_atras" type="none" scrollx="0.6" name="noche_sea0"/>
+	<sprite x="-3190" scrolly="0.8" sprite="noche/mar_atras" type="none" scrollx="0.6" name="noche_sea4"/>
+	<sprite x="-3190" scrolly="0.8" sprite="noche/mar_atras" type="none" scrollx="0.6" name="noche_sea8"/>
+	<sprite x="-3485" y="-1622" sprite="noche/bo" scroll="0.5" type="none" name="noche_pineapple"/>
+	<sprite x="050" y="-1842" sprite="noche/burga" scroll="0.7" scale="1.2" type="none" name="noche_krusty"/>
+	<sprite x="-3051" scrolly="0.9" sprite="noche/no_tan_atras" type="none" scrollx="0.7" name="noche_sea1"/>
+	<sprite x="-3051" scrolly="0.9" sprite="noche/no_tan_atras" type="none" scrollx="0.7" name="noche_sea5"/>
+	<sprite x="-3051" scrolly="0.9" sprite="noche/no_tan_atras" type="none" scrollx="0.7" name="noche_sea9"/>
+	<sprite x="-3190" sprite="noche/no_tan_alante" type="none" scrollx="0.8" name="noche_sea2"/>
+	<sprite x="-3190" sprite="noche/no_tan_alante" type="none" scrollx="0.8" name="noche_sea6"/>
+	<sprite x="-3190" sprite="noche/no_tan_alante" type="none" scrollx="0.8" name="noche_sea10"/>
+	<sprite x="-1000" sprite="parrila2" y="-300" alpha="0" type="none" name="parrila2"/>
+	<sprite x="-10" y="-104" sprite="hasselhoff" type="loop" scale="1.1" name="hasselhoff"/>
+	<sprite x="-350" sprite="players_1" y="-190" alpha="0" type="loop" name="players_1"/>
+	<sprite x="260" sprite="players_2" y="-255" alpha="0" type="loop" name="players_2"/>
+	<sprite x="963" sprite="players_3" y="-353" alpha="0" type="loop" name="players_3"/>
+	<sprite x="1124" name="space" sprite="space" y="-776"/>
+	<girlfriend x="-783" y="-701"/>
+	<sprite x="300" y="100" sprite="papeles" type="none" alpha="0" name="papeles"/>
+	<dad x="-2750" y="-1337"/>
+	<sprite x="-1000" sprite="parrila1" scroll="1" alpha="0" type="none" name="parrila1"/>
+	<bf x="360" y="-718"/>
+	<sprite x="400" y="-1554" sprite="horror_bob" type="loop" scale="1.1" name="horror_bob"/>
+	<sprite x="-3190" sprite="mar_alante" scroll="1.1" type="none" name="sea3"/>
+	<sprite x="-3190" sprite="mar_alante" scroll="1.1" type="none" name="sea7"/>
+	<sprite x="-3190" sprite="mar_alante" scroll="1.1" type="none" name="sea11"/>
+	<sprite x="-3190" sprite="atardecer/mar_alante" scroll="1.1" type="none" name="atardecer_sea3"/>
+	<sprite x="-3190" sprite="atardecer/mar_alante" scroll="1.1" type="none" name="atardecer_sea7"/>
+	<sprite x="-3190" sprite="atardecer/mar_alante" scroll="1.1" type="none" name="atardecer_sea11"/>
+	<sprite x="-3190" sprite="noche/mar_alante" scroll="1.1" type="none" name="noche_sea3"/>
+	<sprite x="-3190" sprite="noche/mar_alante" scroll="1.1" type="none" name="noche_sea7"/>
+	<sprite x="-3190" sprite="noche/mar_alante" scroll="1.1" type="none" name="noche_sea11"/>
+	<sprite x="-3476.35" y="-132" sprite="piedra" type="none" scale="1.1" alpha="0" scrollx="1.3" name="rock"/>
+	<combo/>
+	<sprite x="-220" y="-624" sprite="look_phanes" alpha="0" name="look_phanes"/>
+	<sprite x="610" y="102" sprite="look_phanes_eyes" type="loop" alpha="0" name="look_phanes_eyes"/>
+	<sprite sprite="look_warrior" y="-100" type="loop" alpha="0" name="look_warrior"/>
+	<sprite x="856" y="-196" sprite="obstucalo" scale="2" name="obstucalo"/>
+</stage>

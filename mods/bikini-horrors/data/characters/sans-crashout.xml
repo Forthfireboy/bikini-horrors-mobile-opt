@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="1250" y="-200" sprite="sanschrashout" scale="0.75" camx="-3000" camy="250" isPlayer="true" icon="icon-sans" color="#FEFDFF" holdTime="6.1">
+	<anim name="sans" anim="sans" x="0" y="0" fps="24" loop="false"/>
+</character>

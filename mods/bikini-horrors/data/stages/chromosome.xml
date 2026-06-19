@@ -1,0 +1,29 @@
+<!DOCTYPE codename-engine-stage>
+<stage>
+	<sprite scrolly="0" x="-2842" y="-979" sprite="stages/chromosome/cielo" zoomfactor="0" scrollx="0" name="cielo"/>
+	<sprite x="-2833" scrolly="0.3" sprite="stages/chromosome/nubes" y="-1335" name="nubes" scrollx="0.3"/>
+	<sprite x="-2949" scrolly="0.1" sprite="stages/chromosome/montana" y="208" name="montana" scrollx="0.1"/>
+	<sprite x="-1174" scrolly="0.5" sprite="stages/chromosome/castillo" y="-155" name="castillo" scrollx="0.5"/>
+	<sprite scrolly="0.7" x="-2980" y="746" sprite="stages/chromosome/colina_3" scrollx="0.7" name="colina3"/>
+	<sprite scrolly="0.9" x="-1490" y="629" sprite="stages/chromosome/colina_2" scrollx="0.9" name="colina2"/>
+	<sprite x="-1734" y="-3842" sprite="stages/chromosome/loop" alpha="0" name="sky1"/>
+	<sprite x="-1734" y="-3842" sprite="stages/chromosome/loop" alpha="0" name="sky2"/>
+	<sprite x="-988" scrolly="1.2" sprite="stages/chromosome/dora" y="1367" alpha="0" type="loop" name="dora" scrollx="1.2"/>
+	<sprite x="280" scrolly="1.2" sprite="stages/chromosome/bluey" y="1352" alpha="0" type="loop" name="bluey" scrollx="1.2"/>
+	<sprite x="-419" scrolly="1.2" sprite="stages/chromosome/mcqueen" y="1493" alpha="0" type="loop" name="mcqueen" scrollx="1.2"/>
+	<sprite x="773" scrolly="1.2" sprite="stages/chromosome/amoroso" y="1300" alpha="0" type="loop" name="amoroso" scrollx="1.2"/>
+	<sprite x="-1102" scrolly="0.8" sprite="stages/chromosome/globo4" y="-982" type="loop" alpha="0" name="globo4" scrollx="0.8"/>
+	<sprite x="-558" scrolly="0.9" sprite="stages/chromosome/globo3" y="-1024" type="loop" alpha="0" name="globo3" scrollx="0.9"/>
+	<gf alpha="0"/>
+	<dad x="-3077" y="-1142"/>
+	<bf alpha="0"/>
+	<sprite x="-1319" scrolly="0.8" sprite="stages/chromosome/final/sol" y="-1079" alpha="0" name="sol" scrollx="0.8"/>
+	<sprite x="-1283" scrolly="0.9" sprite="stages/chromosome/final/atras" y="-106" alpha="0" name="atras" scrollx="0.9"/>
+	<sprite x="262" scrolly="0.9" sprite="stages/chromosome/final/bobosome" y="830" alpha="0" type="loop" name="bobosome" scrollx="0.9"/>
+	<sprite x="-1266" scrolly="0.9" sprite="stages/chromosome/final/delante" y="93" alpha="0" name="delante" scrollx="0.9"/>
+	<sprite x="-1499" scrolly="1.1" sprite="stages/chromosome/globo2" y="-1244" type="loop" alpha="0" name="globo2" scrollx="1.1"/>
+	<sprite x="1388" scrolly="1.2" sprite="stages/chromosome/globo1" y="219" type="loop" alpha="0" name="globo1" scrollx="1.2"/>
+	<combo/>
+	<sprite x="-3034" scrolly="1.1" sprite="stages/chromosome/colina_1" y="690" name="colina1" scrollx="1.1"/>
+	<sprite antialiasing="true" scroll="0" sprite="stages/chromosome/final/transicion" alpha="0" zoomfactor="0" scale="2" name="transicion"/>
+</stage>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="carmaland_retake/bystacs" antialiasing="false" camx="-104" camy="87" icon="icon-bystacs" color="#50EB7E" imagePath="carmalandfase1.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="aidle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singDOWN" anim="down" x="-1" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-20" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="9" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="-3" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="transform down" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="transform right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="transform left" x="0" y="0" fps="24" loop="false"/>
+</character>

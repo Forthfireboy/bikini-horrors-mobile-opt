@@ -1,0 +1,30 @@
+<!DOCTYPE codename-engine-stage>
+<stage name="lost-remains" zoom="2">
+	<sprite x="-1500" scroll="0.1" sprite="stages/lost-remains/animao" y="-760" zoomfactor="0.3" scale="0.5" alpha="0" name="animao"/>
+	<sprite x="-1996.07204241821" scroll="0.6" sprite="stages/lost-remains/pilares" y="-1439.91624013662" name="pilares"/>
+	<sprite x="-1805" scroll="0.8" sprite="stages/lost-remains/bosque" y="-286" name="bosque"/>
+	<sprite x="-1978.92017691556" sprite="stages/lost-remains/suelo" y="-481.880805637072" name="suelo"/>
+	<sprite x="350" y="-700" sprite="stages/lost-remains/too_slow" alpha="0" scale="1.5" name="too_slow"/>
+	<sprite scrolly="1" x="-1130" sprite="stages/lost-remains/cucaracha_bob" y="00" scale="1.15" alpha="1" name="cucaracha_bob">
+		
+		
+		
+		
+		<anim x="0" loop="true" anim="walk" y="0" fps="24" name="walk"/>
+		
+		
+		
+		
+		<anim x="0" loop="true" anim="idle" y="0" fps="24" name="idle"/>
+		
+		
+	
+	
+	</sprite>
+	<gf x="-257" y="-1730"/>
+	<dad x="-998.46226157987" y="-549.361850549156"/>
+	<bf x="46.5060487135804" y="-536.957388739826"/>
+	<sprite scrolly="0.9" x="-2700" sprite="stages/lost-remains/roca" y="-0" scrollx="1.5" name="roca"/>
+	<sprite sprite="stages/lost-remains/hello" type="none" alpha="0" scale="0.8" name="hello"/>
+	<combo x="1370" y="100"/>
+</stage>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="-100" sprite="bobdoll" scale="1.2" antialiasing="false" icon="icon-bobdoll" color="#CC9900" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="0" y="20" fps="24" loop="false"/>
+</character>

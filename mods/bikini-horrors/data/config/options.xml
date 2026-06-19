@@ -1,0 +1,15 @@
+<menu name="TOP SECRET" desc="DO NOT ENTER">
+
+    <checkbox id="cg" name="Comunity Game Mode" desc="Changes the sprites of catch-and-fish just for community game" />
+    <checkbox id="cg" name="ULTRA HYPER SECRET SETTING" desc="You won't regret" />
+
+</menu>
+
+<menu name="COOL OPTIONS" desc="YES ENTER">
+    <checkbox id="mech" name="No Mechanics" desc="Deactivates gameplay mechanics." />
+    <checkbox id="priv" name="Privacy Mode" desc="Deactivates personal stuff in songs." />
+    <checkbox id="fc" name="No Hit Mode" desc="Kills you if you miss a note" />
+    <checkbox id="pm" name="Perfect mode" desc="Kills you if your accuracy is lower than 100%" />
+
+
+</menu>

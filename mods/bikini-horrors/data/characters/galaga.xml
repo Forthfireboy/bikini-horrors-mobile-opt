@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/galaga" antialiasing="false" camx="-647" camy="-171" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="galagaidle" x="0" y="-30" fps="24" loop="true"/>
+	<anim name="singUP" anim="galaga up" x="0" y="130" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="galagaleft" x="105" y="-29" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="galagaright" x="-47" y="-32" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="galagadown" x="2" y="-95" fps="24" loop="false"/>
+</character>

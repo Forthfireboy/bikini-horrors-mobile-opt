@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="120" y="80" sprite="horror_corrupt" flipX="true" camx="-250" camy="-150" isPlayer="true" icon="icon-horror-evil" color="#000000" gameOverChar="spongewarrior_death" holdTime="6.1">
+	<anim name="idle" anim="horror_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="horror_up" x="-34" y="214" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="horror_right" x="39" y="2" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="horror_left" x="34" y="46" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="horror_down" x="142" y="-28" fps="24" loop="false"/>
+</character>

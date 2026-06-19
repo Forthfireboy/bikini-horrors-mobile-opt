@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-210" icon="icon-invincibob" camx="60" sprite="buv/invincibob" y="10" camy="210" scale="0.6">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="-13" fps="24" y="164" anim="up" name="singUP"/>
+
+	<anim loop="false" x="345" fps="24" y="42" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-115" fps="24" y="-58" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="5" fps="24" y="-347" anim="down" name="singDOWN"/>
+</character>

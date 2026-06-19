@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="-350" sprite="trytrong/dpongi" icon="icon-panti" color="#FF5100" holdTime="6.1">
+	<anim name="idle" anim="dpongi_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="dpongi_up" x="274" y="29" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="dpongi_left" x="91" y="21" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="dpongi_right" x="-36.2" y="-25.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="dpongi_down" x="119.15" y="-21" fps="24" loop="false"/>
+	<anim name="transform" anim="dpongi_transform" x="1139" y="1020" fps="24" loop="false"/>
+</character>

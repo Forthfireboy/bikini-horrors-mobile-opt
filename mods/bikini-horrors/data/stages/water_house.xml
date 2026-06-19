@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/guater-game/" name="water_house" zoom="0.7"  startCamPosX="500" startCamPosY="200">
+	<sprite antialiasing="false" x="-1200" scroll="1" sprite="water_house" y="-800" type="none" scale="1" name="house"/>
+	<dad camxoffset="100" x="-50" camyoffset="-250" y="230"/>
+	<boyfriend camxoffset="-250" x="1000" camyoffset="-50" y="50"/>
+	<girlfriend camxoffset="-100" x="130" camyoffset="00" y="-350"/>
+</stage>

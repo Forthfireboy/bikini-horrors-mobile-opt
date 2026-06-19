@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="275" sprite="sirope/crisbobal2glitch1" camx="60" camy="70" icon="crisbobicon2">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="148" y="140" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="508" y="34" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="80" y="56" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="159" y="-234" fps="24" loop="false"/>
+</character>

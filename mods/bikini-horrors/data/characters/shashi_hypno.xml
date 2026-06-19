@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shashi_hypno" icon="icon-shashi" color="#1D251A" holdTime="6.1">
+	<anim name="idle" anim="shashi_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="shashi_up" x="55" y="90" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="shashi_right" x="-34" y="-55" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="shashi_left" x="68" y="2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="shashi_down" x="-25" y="-45" fps="24" loop="false"/>
+	<anim name="what" anim="shashi_what" x="-2" y="-1" fps="24" loop="true"/>
+</character>

@@ -1,0 +1,41 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="3">
+	<gf x="-94" y="-27"/>
+	<sprite antialiasing="false" scrolly="0.7" x="0" y="-27" sprite="stages\planeta_vegetta\doc_tops" scrollx="0.7" name="doc_tops"/>
+	<combo x="836" y="640"/>
+	<sprite x="-26" y="-71" scale="1.1" name="ramirez" scrollx="0.7" antialiasing="false" scrolly="0.7" sprite="stages\planeta_vegetta\ramirez" noteSkin="carma_noteskin"/>
+	<sprite x="-26" y="-71" scale="1.1" name="ramirez2" scrollx="0.7" scrolly="0.7" antialiasing="false" sprite="stages/planeta_vegetta/ramirez2" alpha="0"/>
+	<sprite x="-148" antialiasing="false" scrolly="0.8" y="-127" sprite="stages\planeta_vegetta\marruecos" type="loop" scrollx="0.8" name="marruecos"/>
+	<sprite x="-151" type="loop" scale="1.1" scrollx="0.9" name="platform" antialiasing="false" scrolly="0.9" sprite="stages/planeta_vegetta/platform">
+		
+		
+		<anim loop="true" x="0" anim="platform" fps="12" y="0" type="loop" name="platform"/>
+		
+	
+	</sprite>
+	<sprite antialiasing="false" x="-51" y="23" sprite="stages/planeta_vegetta/frank_gf" type="beat" name="frank">
+		
+		
+		
+		
+		
+		
+		
+		
+		<anim anim="frank" fps="12" name="frank"/>
+		
+		
+		
+		
+	
+	
+	
+	
+	</sprite>
+	<sprite antialiasing="false" x="-269" y="-68" sprite="stages\planeta_vegetta\pajaro_en_rama" type="loop" name="pajaro_en_rama"/>
+	<sprite antialiasing="false" x="-178" y="-198" sprite="stages\planeta_vegetta\yo_cuando_esqueleto" type="loop" name="yo_cuando_esqueleto"/>
+	<sprite x="-1309" y="-588" sprite="stages/planeta_vegetta/fondo" alpha="0" scale="0.33" name="fondo"/>
+	<dad x="-108" y="-25"/>
+	<bf x="23" y="-9"/>
+	<solid x="-1428" y="-806" width="3000" name="blackCover" color="#000000" height="3000"/>
+</stage>

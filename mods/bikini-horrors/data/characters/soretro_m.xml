@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="soretro_mario" scale="5" antialiasing="false" flipX="true" camx="-140" camy="60" isPlayer="true" icon="icon-retrom" color="#EDFFCD" imagePath="carmen.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="wtf" anim="offended" x="0" y="0" fps="24" loop="true"/>
+</character>

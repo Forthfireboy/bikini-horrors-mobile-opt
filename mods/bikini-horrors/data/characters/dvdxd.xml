@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="dvd" scale="0.65" icon="icon-dvd" color="#FFCC00" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="105" y="289" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="91" y="19" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="144.8" y="244.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="124.15" y="-137" fps="24" loop="false"/>
+	<anim name="vash" anim="vash" x="159" y="138" fps="24" loop="false"/>
+	<anim name="caga" anim="caga" x="67" y="23" fps="24" loop="true"/>
+</character>

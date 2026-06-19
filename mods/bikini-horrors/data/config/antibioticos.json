@@ -1,0 +1,46 @@
+{
+  "positions": [
+    { "x": -200, "y": 100 },
+    { "x": 200, "y": -100 },
+    { "x": 1000, "y": 0 },
+    { "x": 500, "y": 150 },
+    { "x": 1200, "y": 0 },
+    { "x": 900, "y": 300 },
+    { "x": 1500, "y": 200 }
+  ],
+
+  "sprites": {
+    "dalsi": {
+      "has_anim": false,
+      "scale": 2
+    },
+    "ibuprofeno": {
+      "has_anim": true,
+      "scale": 1.5
+    },
+    "bimbimbambam": {
+      "has_anim": false,
+      "scale": 1.5
+    },
+    "catsup": {
+      "has_anim": false,
+      "scale": 1.5
+    },
+    "diazepam": {
+      "has_anim": false,
+      "scale": 1.5
+    },
+    "Donepezilo": {
+      "has_anim": false,
+      "scale": 1.5
+    },
+    "NOLOTIL": {
+      "has_anim": false,
+      "scale": 1.5
+    },
+    "aquello": {
+      "has_anim": false,
+      "scale": 1.2
+    }
+  }
+}

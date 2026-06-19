@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="260" sprite="aloha/loverwink" scale="0.6" camx="130" icon="icon-uwlhappy">
+	<anim name="idle" anim="idle" x="0" y="0" fps="27" loop="true"/>
+	<anim name="wink" anim="wink" x="23" y="-8" fps="24" loop="false"/>
+	<anim name="sad" anim="sad" x="23" y="-8" fps="24" loop="false"/>
+</character>

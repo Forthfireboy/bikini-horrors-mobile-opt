@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="SAKURAI" scale="0.7" antialiasing="false" flipX="true" camx="-100" isPlayer="true" icon="icon-sakurai" color="#A23647" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-63" y="110" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="66" y="14" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-55" y="-77" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="22" y="-219" fps="24" loop="false"/>
+</character>

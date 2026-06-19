@@ -1,0 +1,19 @@
+{
+    "params": [
+        {
+            "name": "Enabled",
+            "type": "Bool",
+            "defaultValue": "false"
+        },
+        {
+            "name": "Drain Amount",
+            "type": "Float(0.001, 9999, 0.010, 3)",
+            "defaultValue": "0.010"
+        },
+        {
+            "name": "Drain Limit",
+            "type": "Float(0.001, 9999, 0.010, 3)",
+            "defaultValue": "0.4"
+        }
+    ]
+}

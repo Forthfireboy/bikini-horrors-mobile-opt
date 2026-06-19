@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="trytrong/sandy_try" flipX="true" camx="-40" isPlayer="true" icon="icon-sandy" color="#7E8C96" x="250">
+	<anim name="idle" anim="sandy_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="sandy_up" x="3" y="46" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="sandy_left" x="231" y="-77" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="sandi_right" x="-63" y="16" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="sandy_down" x="-6" y="-90" fps="24" loop="false"/>
+</character>

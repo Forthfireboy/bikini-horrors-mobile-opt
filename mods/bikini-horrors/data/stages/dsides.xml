@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/dsides/">
+	<combo/>
+	<sprite sprite="suelo" name="suelo"/>
+	<sprite sprite="cortinas_detras" name="fondoCortinas"/>
+	<sprite x="50" scrollx="1.1" sprite="cortinas_frente" name="frenteCortinas"/>
+	<sprite sprite="foco" name="foco"/>
+
+	<sprite x="0" y="1214" sprite="personajes" name="personajes"/>
+	<gf alpha="0" x="913" y="907"/>
+	<char scale="0.75" x="861" name="tragaperras_move" y="826"/>
+	<char scale="0.75" x="868" name="tragaperras" y="816"/>
+	<dad scale="0.75" x="571" y="780"/>
+	<bf scale="0.75" x="1264" y="761"/>
+	<sprite alpha="0.5" sprite="luz" name="luz"/>
+</stage>

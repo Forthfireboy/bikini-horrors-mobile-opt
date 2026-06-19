@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="-30" holdTime="6.1" y="380" sprite="rumbeling/fase2/michaeltejado" camx="-340" icon="icon-hank" camy="310" color="#AC8F10">
+	<anim x="0" loop="true" anim="idle" y="0" fps="24" name="idle"/>
+
+	<anim x="-6" loop="false" anim="up" y="14" fps="24" name="singUP"/>
+
+	<anim x="16" loop="false" anim="left" y="-4" fps="24" name="singLEFT"/>
+
+	<anim x="-5.2" loop="false" anim="right" y="4.8" fps="24" name="singRIGHT"/>
+
+	<anim x="-11.85" loop="false" anim="down" y="-4" fps="24" name="singDOWN"/>
+
+	<anim x="13" loop="false" anim="shoot" y="-4" fps="24" name="shoot"/>
+</character>

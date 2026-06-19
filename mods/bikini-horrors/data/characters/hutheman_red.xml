@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="usa/hutheman_red" flipX="true" camx="-220" camy="90" isPlayer="true" icon="icon-hured" color="#A41B4A" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="15" y="44" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="229" y="-30" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-46.2" y="-63.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="105.15" y="-112" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="umiss" x="19" y="98" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="ialt" x="-5" y="-15" fps="24" loop="true"/>
+	<anim name="singUP-alt" anim="ualt" x="-5" y="-15" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="lalt" x="-5" y="-15" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="ralt" x="-5" y="-15" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="dalt" x="-5" y="-15" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="umiss" x="19" y="98" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="dmiss" x="112" y="-105" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="lmiss" x="194" y="-34" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="rmiss" x="-41" y="-56" fps="24" loop="false"/>
+	<anim name="woah" anim="woah" x="25" y="-5" fps="24" loop="false"/>
+</character>

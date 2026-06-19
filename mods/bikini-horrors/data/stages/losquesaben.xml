@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/wordle/" name="epstein" zoom="0.65"  startCamPosX="0" startCamPosY="0">
+	<dad camxoffset="-125" x="-266" camyoffset="125" y="50" scale="1.25"/>
+	<boyfriend camxoffset="0" x="-1800" camyoffset="0" y="-700" scale="5"/>
+	<girlfriend camxoffset="0" x="0" camyoffset="0" y="0"/>
+	<sprite antialiasing="false" x="200" scroll="1" sprite="epstein" y="200" type="none" scale="2.5" name="epstein"/>
+</stage>

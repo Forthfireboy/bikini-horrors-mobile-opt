@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="spongephanes_cell" icon="nothing" color="#FFFFFF" holdTime="6.1" camx="-190" camy="370">
+	<anim name="idle" anim="spongephanes" x="0" y="0" fps="24" loop="false"/>
+</character>

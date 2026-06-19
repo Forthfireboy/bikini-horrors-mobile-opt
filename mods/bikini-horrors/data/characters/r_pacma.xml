@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" y="-70" sprite="rumbeling/fase1/rumbeling_pacma" flipX="true" camx="550" camy="-160" isPlayer="true" icon="icon-madnesspacma" color="#AC8F10" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="10" y="29" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="147" y="-5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-49.2" y="-18.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-1.85" y="-17" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="annoyed" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="annoyed" x="0" y="0" fps="24" loop="false"/>
+</character>

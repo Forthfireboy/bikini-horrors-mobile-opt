@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="-460" icon="icon-micsponge" sprite="amai" camy="-470" color="#F78093">
+	<anim loop="true" x="480" fps="24" y="800" anim="amai idle" name="amai"/>
+</character>

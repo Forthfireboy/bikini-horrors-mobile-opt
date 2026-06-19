@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="-43" imagePath="carmendance.png" y="70" icon="icon-carmen" camx="0" camy="0" scale="5" color="#EDFFCD" isPlayer="true" flipX="true" antialiasing="false" sprite="carmendance">
+	<anim loop="true" x="0" fps="24" y="0" anim="dancingloop" name="dancingloop"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="startdancing" name="startdancing"/>
+</character>

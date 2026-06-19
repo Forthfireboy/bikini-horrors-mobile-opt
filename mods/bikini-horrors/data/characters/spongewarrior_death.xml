@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="1600" y="500" sprite="spongewarrior_death" scale="1" flipX="true" isPlayer="true" icon="nothing" color="#9DE4FF" gameOverChar="spongewarrior_death" holdTime="6.1">
+	<anim name="firstDeath" anim="death" x="0" y="0" fps="24" loop="false"/>
+	<anim name="deathLoop" anim="deathloop" x="-44" y="0" fps="24" loop="true"/>
+	<anim name="deathConfirm" anim="retry" x="6" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="subaru_sprites" flipX="true" isPlayer="true" icon="icon-subaru" color="#F8C8FF" holdTime="6.1">
+	<anim name="idle" anim="subaru_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="subaru_up" x="-64" y="113" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="subaru_left" x="8" y="-5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="subaru_right" x="-54" y="-1" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="subaru_down" x="1" y="9" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="subaru_umiss" x="-64" y="44" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="subaru_lmiss" x="-12" y="-8" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="subaru_rmiss" x="-47" y="-3" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="subaru_dmiss" x="-16" y="5" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="t2k/pico" flipX="true" camx="-10" camy="40" isPlayer="true" icon="icon-picovoid" color="#FF7F27">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-17" y="55" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="32" y="-12" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-2" y="-19" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-2" y="4" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="umiss" x="-15" y="55" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="lmiss" x="35" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="rmiss" x="-1" y="-19" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="dmiss" x="-2" y="14" fps="24" loop="false"/>
+	<anim name="burp" anim="burp" x="20" y="2" fps="24" loop="true"/>
+	<anim name="idle-alt" anim="ialt" x="-17" y="-18" fps="24" loop="true"/>
+	<anim name="singUP-alt" anim="ualt" x="-10" y="14" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="lalt" x="9" y="-18" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="ralt" x="-18" y="-10" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="dalt" x="0" y="-41" fps="24" loop="false"/>
+</character>

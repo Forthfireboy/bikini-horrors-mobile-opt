@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-400" y="750" sprite="rd" flipX="true" camx="-150" camy="-150" isPlayer="true" icon="icon-rd" color="#46518D" holdTime="6.1">
+	<anim name="idle" anim="sad_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="sad_up" x="-4" y="77" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="sad_left" x="154" y="-41" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="sad_right" x="-5" y="-24" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="sad_down" x="4" y="-99" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="angry_up" x="-3" y="50" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="angry_left" x="141" y="-46" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="angry_right" x="-1" y="-7" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="angry_down" x="10" y="-79" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="angry_idle" x="0" y="0" fps="24" loop="true"/>
+</character>

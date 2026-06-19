@@ -1,0 +1,28 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/brine/" zoom="0.6">
+	<combo/>
+	<sprite x="-94" scrolly="0.75" sprite="bgsky" y="40" name="sky" scrollx="0.75"/>
+	<sprite x="229" scrolly="0.87" antialiasing="false" sprite="stars" y="144" type="loop" name="stars" scrollx="0.87"/>
+	<sprite x="324" scrolly="0.9" antialiasing="false" sprite="bgmoon" y="110" name="moon" scrollx="0.9"/>
+	<sprite x="160" scrolly="0.95" sprite="bgmountains" y="226" name="mountains" scrollx="0.95"/>
+	<sprite x="53" name="ground" sprite="bgground" y="430"/>
+	<sprite x="165" sprite="bgtree" y="189" scale="0.8" name="tree"/>
+	<sprite x="107" sprite="bgleaves" y="54" scale="0.8" name="leaves"/>
+	<sprite x="768" y="326" sprite="sign1" name="sign1"/>
+	<sprite x="454" y="470" sprite="sign2" name="sign2"/>
+	<solid x="182" y="-900" width="1000" height="2000" color="#000000" name="blackBgOverlay"/>
+	<sprite x="370" sprite="totem" y="178" scale="0.5" name="totem"/>
+	<sprite x="-240" y="-20" sprite="lunabg" scale="0.88" name="lunabg"/>
+	<gf camxoffset="-100" x="607" camyoffset="-100" y="623" scale="1.25"/>
+	<dad x="339" scale="1.33" y="480"/>
+	<bf x="794" scale="1.33" y="506"/>
+	<sprite x="578" scrolly="1.03" sprite="bgshadowleaves" y="-237" name="shadowleaves" scrollx="1.03"/>
+	<sprite x="291" scrolly="1.05" sprite="bgfrontground" y="853" name="foreground" scrollx="1.05"/>
+	<sprite scrolly="1.06" x="407" y="908" sprite="sign3" scrollx="1.06" name="sign3"/>
+	<sprite x="12" sprite="cobalea" y="268" scale="1.5" alpha="0" name="cobalea"/>
+	<sprite x="-369" name="square" sprite="bgsquare" y="-29"/>
+	<sprite x="-4" y="82" sprite="ojitosspoting" type="none" alpha="0" name="ojitos">
+		<anim x="0" loop="true" anim="ojitos" y="0" fps="24" name="ojitos"/>
+	</sprite>
+	<solid x="182" y="-900" width="1000" height="2000" color="#000000" name="blackOverlay"/>
+</stage>

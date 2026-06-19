@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/darnelljuan" camx="100" camy="100" icon="icon-pp-jj" color="#FA1E4D" holdTime="6.1">
+	<anim name="idle" anim="darnellidle" x="1" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="darnelup" x="1" y="73" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="darnellleft" x="0" y="-23" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="darnellright" x="1" y="21" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="darnelldown" x="2" y="-44" fps="24" loop="false"/>
+	<anim name="Spin" anim="darnelltransformation" x="166" y="36" fps="24" loop="false"/>
+</character>

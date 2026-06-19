@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bermuda-triangle/" name="haxeflixelesbasura" zoom="0.4"  startCamPosX="500" startCamPosY="200">
+	<sprite antialiasing="false" x="-1200" scroll="0.7" sprite="cielo" y="-800" type="none" scale="1" name="cielo"/>
+	<sprite x="-1581" antialiasing="false" y="-800" sprite="nubes" scroll="0.5" scale="1" type="none" name="nubes"/>
+	<sprite x="-1416" antialiasing="false" y="-900" sprite="montanas" scroll="0.7" scale="1" type="none" name="montanas"/>
+	<sprite x="-1248" antialiasing="false" y="-825" sprite="colinas" scroll="0.8" scale="1" type="none" name="colinas"/>
+	<sprite x="-1452" antialiasing="false" y="-802" sprite="edificios" scroll="0.8" scale="1" type="none" name="edificios"/>
+	<sprite x="-1200" antialiasing="false" y="-800" sprite="suelo" scroll="1" scale="1" type="none" name="suelo"/>
+	<sprite antialiasing="false" x="760" scroll="1" sprite="souls" y="370" type="none" scale="1" name="souls">
+		<anim name="idle" anim="ghostsidle" x="0" y="0" loop="true" fps="24"/>
+		<anim name="apparition" anim="ghostapparition" x="0" y="0" loop="false" fps="24"/>
+	</sprite>
+	<dad camxoffset="0" x="0" camyoffset="260" y="245"/>
+	<boyfriend camxoffset="-100" x="95" camyoffset="-100" y="30"/>
+	<girlfriend camxoffset="-100" x="130" camyoffset="00" y="-350"/>
+
+	<sprite x="-1216" antialiasing="false" y="-900" sprite="foreground" scroll="1.2" scale="1" type="none" name="foreground"/>
+	<sprite antialiasing="false" x="50" scroll="1" sprite="jumpscare" y="0" type="none" scale="1" name="jumpscare">
+		<anim name="idle" anim="spongeSPOOK" x="0" y="0" loop="false" fps="24"/>
+	</sprite>
+</stage>

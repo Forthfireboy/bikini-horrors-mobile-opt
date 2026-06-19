@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" sprite="usa/tv_pacma" icon="icon-pacma" camx="-354" camy="160" color="#7C6069">
+	<anim x="0" loop="false" anim="idle" y="0" fps="24" name="danceRight"/>
+
+	<anim x="0" loop="false" anim="idle" y="0" fps="24" name="danceLeft"/>
+
+	<anim x="0" loop="false" anim="up" y="0" fps="24" name="singUP"/>
+
+	<anim x="0" loop="false" anim="left" y="0" fps="24" name="singLEFT"/>
+
+	<anim x="0" loop="false" anim="right" y="0" fps="24" name="singRIGHT"/>
+
+	<anim x="0" loop="false" anim="down" y="0" fps="24" name="singDOWN"/>
+
+	<anim x="0" loop="false" anim="appear" y="0" fps="24" name="appear"/>
+</character>

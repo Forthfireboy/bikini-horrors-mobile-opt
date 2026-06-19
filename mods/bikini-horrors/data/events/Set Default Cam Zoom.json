@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "New Default Zoom",
+            "type": "Float(0, 99, 1, 3)",
+            "defaultValue": 1
+        },
+        {
+            "name": "Camera",
+            "type": "DropDown('camGame', 'camHUD')",
+            "defaultValue": "camGame"
+        }
+    ]
+}

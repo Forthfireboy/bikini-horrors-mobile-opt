@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="20" camx="-271" isGF="true" icon="gf" sprite="unheared/GF_assets" camy="-53" color="#A5004D">
+	<anim loop="false" x="124" fps="24" y="130" anim="GF Dancing Beat" indices="0..14" name="danceLeft"/>
+
+	<anim loop="false" x="124" fps="24" y="130" anim="GF Dancing Beat" indices="15..29" name="danceRight"/>
+</character>

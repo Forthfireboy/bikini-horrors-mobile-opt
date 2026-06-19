@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="210" y="300" sprite="buv/fuckface" camx="-320" camy="-140" isPlayer="true" icon="icon-fuckface" gameOverChar="fuckfaceGameOver">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="2" y="29" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="right" x="30" y="-6" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="left" x="-25" y="-3" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="30" y="-67" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="u alt" x="10" y="165" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="r alt" x="295" y="80" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="l alt" x="-105" y="10" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="d alt" x="140" y="-70" fps="24" loop="false"/>
+	<anim name="transform" anim="transform" x="93" y="76" fps="24" loop="false"/>
+	<anim name="shout" anim="shout" x="0" y="0" fps="24" loop="false"/>
+	<anim name="wave" anim="wave" x="69" y="10" fps="24" loop="true"/>
+</character>

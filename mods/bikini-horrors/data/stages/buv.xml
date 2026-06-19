@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage>
+	<sprite x="-325" name="pared" sprite="stages/buv/wall" y="-338"/>
+	<sprite x="-337" name="suelo" sprite="stages/buv/suelo" y="-326"/>
+	<sprite x="-325" name="pared2" sprite="stages/buv/wall2" y="-338"/>
+	<sprite x="-337" name="suelo2" sprite="stages/buv/suelo2" y="-326"/>
+	<gf scrolly="1" x="615" scrollx="1" y="-128"/>
+	<dad x="29" y="-232"/>
+	<bf x="1100" y="90"/>
+	<combo/>
+	<sprite x="-341" y="-305" sprite="stages/buv/pilar" name="pilar"/>
+	<sprite x="-341" y="-305" sprite="stages/buv/pilar2" name="pilar2"/>
+</stage>

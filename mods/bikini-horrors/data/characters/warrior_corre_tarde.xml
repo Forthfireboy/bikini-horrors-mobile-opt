@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="230" y="460" sprite="corre/warrior_atardecer" flipX="true" camx="-200" camy="-280" isPlayer="true" icon="icon-cc-warrior-atardecer" color="#A05682" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-14" y="9" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="43" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-29" y="-17" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-6" y="-34" fps="24" loop="false"/>
+</character>

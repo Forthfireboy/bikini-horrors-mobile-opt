@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="quepasacabesa" icon="nothing" color="#AC8F10" holdTime="6.1">
+	<anim name="idle" anim="lookingleft" x="0" y="0" fps="24" loop="true"/>
+	<anim name="move" anim="movingleft" x="0" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/torremolinos/" name="neverending-hell" zoom="0.3"  startCamPosX="0" startCamPosY="0">
+	<sprite antialiasing="false" x="-1800" scroll="0.3" sprite="fuego" y="-1000" type="none" scale="1.2" name="fuego"/>
+	<sprite antialiasing="false" x="-2300" scroll="1" sprite="islas" y="-1200" type="none" scale="1.1" name="islas"/>
+	<sprite antialiasing="false" x="-2300" scroll="0.8" sprite="islas2" y="-1200" type="none" scale="1.1" name="islas2"/>
+	<sprite antialiasing="false" x="-2300" scroll="1.2" sprite="islas3" y="-1200" type="none" scale="1.1" name="islas3"/>
+	<sprite antialiasing="false" x="-2300" scroll="1.4" sprite="islas4" y="-1200" type="none" scale="1.1" name="islas4"/>
+	<girlfriend camxoffset="-250" x="-440" camyoffset="200" y="0"/>
+	<dad camxoffset="600" x="-1400" camyoffset="-120" y="0"/>
+	<boyfriend camxoffset="0" x="400" camyoffset="-100" y="-20"/>
+</stage>

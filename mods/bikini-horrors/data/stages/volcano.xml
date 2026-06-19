@@ -1,0 +1,40 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.75">
+	<gf alpha="0" x="367" y="195"/>
+	<sprite x="-1051" scrolly="0.8" sprite="stages/volcano/cielo" y="-643" type="none" name="cielo" scrollx="0.7"/>
+		<sprite x="-1051" scrolly="0.8" sprite="stages/volcano/lava/cielo" y="-643" type="loop" name="cielo_lava" scrollx="0.7"/>
+	<sprite x="-1084" scrolly="0.8" sprite="stages/volcano/nubes" y="-708" type="none" name="nubes" scrollx="0.7"/>
+	<sprite x="-1123" scrolly="0.9" sprite="stages/volcano/volcan" y="-209" type="none" name="volcan" scrollx="0.75"/>
+	<sprite x="-1047" scrolly="0.9" sprite="stages/volcano/monte3" y="229" name="monte3" scrollx="0.85" skewy="0.85"/>
+	<sprite x="-1059" scrolly="0.95" sprite="stages/volcano/monte2" y="28" type="none" name="monte2" scrollx="0.9"/>
+	<sprite x="-1115" sprite="stages/volcano/monte" y="10" type="none" name="monte" scrollx="0.95"/>
+	<sprite x="-1063" sprite="stages/volcano/suelo" y="398" type="none" name="suelo"/>
+
+
+
+	<sprite x="-1123" scrolly="0.9" sprite="stages/volcano/lava/volcan" y="-209" type="loop" name="volcan_lava" scrollx="0.75"/>
+	<sprite x="-1047" scrolly="0.9" sprite="stages/volcano/lava/monte3" y="229" name="monte3_lava" type="loop" scrollx="0.85" skewy="0.85"/>
+	<sprite x="-1059" scrolly="0.95" sprite="stages/volcano/lava/monte2" y="28" type="loop" name="monte2_lava" scrollx="0.9"/>
+	<sprite x="-1115" sprite="stages/volcano/lava/monte" y="10" type="loop" name="monte_lava" scrollx="0.95"/>
+	<sprite x="-1063" sprite="stages/volcano/lava/suelo" y="398" type="loop" name="suelo_lava"/>
+
+
+	<sprite x="305" sprite="stages/volcano/gasta" y="335" type="none" name="gasta">
+		
+		
+		<anim loop="true" x="0" fps="24" y="0" anim="gasta_idle" name="gasta_idle"/>
+		
+		
+		<anim loop="true" x="0" fps="24" y="0" anim="gasta_que" name="gasta_que"/>
+		
+		
+		<anim loop="true" x="-300" fps="24" y="-200" anim="gasta_die" name="gasta_die"/>
+		
+	
+	</sprite>
+	<char x="913" camxoffset="-250" y="169" camyoffset="0" name="try"/>
+	<dad x="1202" camxoffset="-300" y="679"/>
+	<bf camxoffset="300" x="-142" y="303"/>
+	<combo/>
+	<sprite sprite="stages/volcano/try" type="none" alpha="0" scale="0.8" name="trything"/>
+</stage>

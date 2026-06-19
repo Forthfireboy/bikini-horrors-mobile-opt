@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-300" y="900" sprite="corre/parrilla_warrior" flipX="true" camx="800" camy="-150" isPlayer="true" icon="icon-cc-warrior-tarde" color="#8D61A3" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-20" y="28" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="43" y="11" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-9" y="-17" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="19" y="-19" fps="24" loop="false"/>
+</character>

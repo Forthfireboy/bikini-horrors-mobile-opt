@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="xeropants" camx="-100" camy="-50" icon="icon-xero" color="#51BF57" holdTime="6.1">
+	<anim name="idle" anim="xero_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="xero_up" x="106" y="119" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="xeno_left" x="232" y="23" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="xero_right" x="46.8" y="25.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="xero_down" x="140.15" y="-19" fps="24" loop="false"/>
+	<anim name="transform" anim="idle" x="658" y="100" fps="24" loop="false"/>
+</character>

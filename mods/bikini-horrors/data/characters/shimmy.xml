@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shimyshimy" flipX="true" isPlayer="true" icon="icon-bubbleman" color="#2B6FE0" gameOverChar="bf_fleetway_game_over" holdTime="6.1" scale="1.5">
+	<anim name="idle" anim="bubbledance" x="0" y="0" fps="24" loop="true"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="1490" y="670" sprite="spongefunkin/maryn" flipX="true" camx="-40" isPlayer="true" icon="icon-maryn" color="#D9D9D9">
+	<anim name="idle" anim="Maryn" x="-5" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="ARRIBA" x="-39" y="82" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="IZQ" x="-6" y="8" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="DERECHA" x="-19" y="3" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="ABAJO" x="-5" y="1" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.4">
+	<sprite x="-2004" name="fondoFake" sprite="stages/corrupted_bottom/fake_bg" y="-1158"/>
+	<sprite x="-2004" scroll="0.9" sprite="stages/corrupted_bottom/back" y="-1158" scale="1" alpha="0" name="atras"/>
+	<sprite x="-2004" sprite="stages/corrupted_bottom/bg" y="-1158" scale="1" alpha="0" name="fondo"/>
+	<gf x="225" alpha="0" y="-64"/>
+	<dad x="-760" y="-120"/>
+	<bf x="1007" y="-10"/>
+	<combo/>
+	<sprite x="264" y="-196" sprite="stages/corrupted_bottom/corrupt_spongelord" type="loop" alpha="0" name="spongelord"/>
+</stage>

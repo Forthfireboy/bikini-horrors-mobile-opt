@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Video Name",
+            "type": "String",
+            "defaultValue": ""
+        }
+    ]
+}

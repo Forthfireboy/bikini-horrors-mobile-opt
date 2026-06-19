@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" icon="icon-fuckface" camx="-280" sprite="buv/phone" y="700" camy="60" scale="0.5">
+	<anim loop="true" x="0" fps="24" y="0" anim="phone" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="-25" anim="2" name="idle-alt"/>
+
+	<anim loop="false" x="10" fps="24" y="345" anim="transition" name="transition"/>
+</character>

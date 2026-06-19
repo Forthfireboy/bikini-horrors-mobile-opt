@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="peleota" flipX="true" camy="-300" isPlayer="true" icon="icon-bubbleman" color="#2B6FE0" holdTime="6.1">
+	<anim name="idle" anim="rest" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bubblehit1" x="23" y="-9" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="bubblehit2" x="16" y="-8" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bubbleblock2" x="-228" y="-47" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="bubbleblock1" x="-329.2" y="-44.2" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="bobhit2" x="-253" y="-35" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss-alt" anim="bobhit1" x="-356" y="-40" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="bobblock2" x="162" y="-47" fps="24" loop="false"/>
+	<anim name="singLEFTmiss-alt" anim="bobblock1" x="167" y="-47" fps="24" loop="false"/>
+	<anim name="singUP" anim="bubbleuppercut" x="142" y="437" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="bobuppercut" x="-290" y="275" fps="24" loop="false"/>
+	<anim name="bubbleDODGE" anim="bubbledodge" x="40" y="-149" fps="24" loop="false"/>
+	<anim name="bubbleHOOK" anim="bubbleuppercut" x="142" y="437" fps="24" loop="false"/>
+	<anim name="bobDODGE" anim="bobdodge" x="-125" y="-55" fps="24" loop="false"/>
+	<anim name="bobHOOK" anim="bobuppercut" x="-290" y="275" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bubbledodge" x="40" y="-149" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="bobdodge" x="-125" y="-55" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="bobdodge" x="-125" y="-55" fps="24" loop="false"/>
+</character>

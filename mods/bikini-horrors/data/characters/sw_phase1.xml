@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/underguaterwarrior" scale="0.65" flipX="true" camx="-230" camy="-10" isPlayer="true" icon="icon-pp-sw" color="#E27329" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="0" y="258" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="91" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-17" y="-9" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="7" y="-49" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="miss up" x="5" y="268" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="miss down" x="20" y="-61" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="miss left" x="135" y="-9" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="miss right" x="-72" y="-17" fps="24" loop="false"/>
+</character>

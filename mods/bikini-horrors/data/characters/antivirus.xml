@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="playa/antivirus" scale="1.2" flipX="true" isPlayer="true" icon="icon-antivirus" color="#00FF20" holdTime="6.1">
+	<anim name="idle" anim="cano_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="cano_up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="cano_left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="cano_right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="cano_down" x="0" y="0" fps="24" loop="false"/>
+</character>

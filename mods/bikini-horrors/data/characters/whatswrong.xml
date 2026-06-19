@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="whatswrong" scale="1.5" icon="icon-ketchup" color="#F80000" holdTime="9.5">
+	<anim name="phrase" anim="ketchup_phrase" x="0" y="0" fps="24" loop="false"/>
+</character>

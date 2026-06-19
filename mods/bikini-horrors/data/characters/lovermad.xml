@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="137" icon="icon-uwlangry" camx="130" sprite="aloha/underguaterlover" y="274" scale="0.6">
+	<anim loop="true" x="0" fps="27" y="0" anim="angryidle" name="idle"/>
+
+	<anim loop="false" x="25" fps="24" y="125" anim="angryup" name="singUP"/>
+
+	<anim loop="false" x="95" fps="24" y="30" anim="angryleft" name="singLEFT"/>
+
+	<anim loop="false" x="69" fps="24" y="9" anim="angryright" name="singRIGHT"/>
+
+	<anim loop="false" x="15" fps="24" y="-42" anim="angrydown" name="singDOWN"/>
+</character>

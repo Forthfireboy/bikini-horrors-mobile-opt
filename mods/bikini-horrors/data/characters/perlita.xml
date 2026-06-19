@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="perlita" icon="icon-perlita" color="#FF0000" imagePath="perlita.png">
+	<anim name="singDOWN" anim="Perlita_down" x="135" y="-170" fps="24" loop="false"/>
+	<anim name="idle" anim="Perlita_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Perlita_left" x="635" y="-25" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Perlita_right" x="180" y="-45" fps="24" loop="false"/>
+	<anim name="singUP" anim="Perlita_up" x="210" y="530" fps="24" loop="false"/>
+</character>

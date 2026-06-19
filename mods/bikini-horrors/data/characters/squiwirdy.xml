@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" camx="-230" icon="icon-squid2" y="-140" camy="230" isPlayer="true" flipX="true" color="#A8D8CD" gameOverChar="squidwirdy_dead" holdTime="6.1" sprite="newsquidwirdy">
+	<anim x="0" loop="true" anim="idle" y="-20" fps="24" name="idle"/>
+
+
+	<anim x="-26" loop="false" anim="up" y="-6" fps="24" name="singUP"/>
+
+
+	<anim x="73" loop="false" anim="left" y="-65" fps="24" name="singLEFT"/>
+
+
+	<anim x="41" loop="false" anim="right" y="-58" fps="24" name="singRIGHT"/>
+
+
+	<anim x="-20" loop="false" anim="down" y="-137" fps="24" name="singDOWN"/>
+
+
+</character>

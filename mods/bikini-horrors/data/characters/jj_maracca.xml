@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-270" holdTime="6.1" y="-120" icon="icon-josejuan" sprite="jj_maracca" color="#FB43AA">
+	<anim loop="true" x="0" fps="24" y="0" anim="maracca" name="idle"/>
+</character>

@@ -1,0 +1,27 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/mega-bg/" name="mmm_domains" zoom="0.4"  startCamPosX="200" startCamPosY="100">
+
+	<sprite x="-100" scroll="0.6" sprite="0" y="0" type="none" scale="1.9" name="obj0"/>
+	<sprite x="-100" scroll="0.65" sprite="1" y="0" type="none" scale="1.9" name="obj1" alpha="0"/>
+	<sprite x="-200" scroll="0.7" sprite="2" y="0" type="none" scale="1.9" name="obj2"  alpha="0"/>
+	<sprite x="-200" scroll="0.7" sprite="2_dark" y="0" type="none" scale="1.9" name="obj2_dark"  alpha="1"/>
+	<sprite x="0" scroll="0.75" sprite="3" y="100" type="none" scale="1.9" name="obj3" alpha="0"/>
+	<sprite x="-100" scroll="0.8" sprite="4" y="0" type="none" scale="1.9" name="obj4"/>
+	<sprite x="0" scroll="0.85" sprite="5" y="0" type="none" scale="1.9" name="obj5"/>
+	<sprite x="0" scroll="0.9" sprite="6" y="0" type="none" scale="1.9" name="obj6"/>
+
+	<girlfriend camxoffset="-100" x="730" camyoffset="100" y="550"/>
+
+	<sprite x="0" scroll="1" sprite="7" y="0" type="none" scale="1.9" name="obj7"/>
+
+	<sprite x="300" scroll="1" sprite="white" y="300" type="none" scale="3.5" name="white" alpha="0"/>
+
+	<dad camxoffset="330" x="100" camyoffset="120" y="420"/>
+	<boyfriend camxoffset="-800" x="1750" camyoffset="-400" y="700"/>
+
+	<sprite x="1550" sprite="static_warrior" y="460" type="loop" name="static_warrior"/>
+
+
+	<sprite x="0" scroll="1.3" sprite="8" y="0" type="none" scale="2.2" name="obj8"alpha="0.5"/>
+	<sprite x="0" scroll="1.6" sprite="9" y="0" type="none" scale="2.2" name="obj9" alpha="0.5"/>
+</stage>

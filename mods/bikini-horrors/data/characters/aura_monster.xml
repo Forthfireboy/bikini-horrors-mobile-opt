@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/aura_monster" flipX="true" camx="-1800" camy="-700" isPlayer="true" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="auraidle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="auraup" x="11" y="105" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="auraleft" x="136" y="-19" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="auraright" x="-84" y="-40" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="auradown" x="69" y="-94" fps="24" loop="false"/>
+</character>

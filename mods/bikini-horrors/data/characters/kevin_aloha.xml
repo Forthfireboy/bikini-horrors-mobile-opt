@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="250" sprite="aloha/KEVINKOWNLOADAPP" scale="0.6" camx="-60" camy="-24" icon="icon-abobti">
+	<anim name="idle" anim="kidle" x="0" y="0" fps="24" loop="false"/>
+</character>

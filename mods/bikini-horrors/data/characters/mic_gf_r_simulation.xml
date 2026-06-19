@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="440" icon="nothing" sprite="mic_gf_simulation" camy="-240" color="#AC8F10">
+	<anim loop="true" x="0" fps="24" y="0" anim="mic_gf looking right" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="mic_gf moving right" name="move"/>
+</character>

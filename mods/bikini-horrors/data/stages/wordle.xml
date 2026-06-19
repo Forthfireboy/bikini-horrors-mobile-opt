@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage>
+	<sprite x="-1295" scrolly="0" sprite="stages\wordle\mar" y="-750" name="mar" scrollx="0"/>
+	<sprite x="-1115" scrolly="0.4" sprite="stages\wordle\meow" y="-554" name="meow" scrollx="0.4"/>
+	<sprite x="-1150" scrolly="0.5" sprite="stages/wordle/montana" y="-601" name="montana" scrollx="0.5"/>
+	<sprite x="-1145" name="suelo_3" sprite="stages\wordle\suelo_3" y="-598" scrollx="0.6" scrolly="0.6"/>
+	<sprite x="-1145" name="suelo_2" sprite="stages\wordle\suelo_2" y="-598" scrollx="0.8" scrolly="0.8"/>
+	<sprite x="-1145" name="suelo" sprite="stages\wordle\suelo" y="-598"/>
+	<gf scrolly="1" x="353" scrollx="1" y="172"/>
+	<dad x="-378" y="76"/>
+	<bf x="1100" y="404"/>
+	<combo/>
+	<sprite x="2439" sprite="stages\wordle\amanda" y="719" type="loop" name="amanda"/>
+	<sprite x="2424" sprite="stages\wordle\quetzal" y="744" type="loop" name="quetzal"/>
+	<sprite x="-1331" sprite="stages\wordle\ulises" y="724" type="loop" name="ulises"/>
+	<sprite x="-1337" sprite="stages\wordle\iniesta" y="745" type="loop" name="iniesta"/>
+	<sprite x="2434" sprite="stages\wordle\romeo" y="755" type="loop" name="romeo"/>
+	<sprite x="-1045" name="foreground" sprite="stages\wordle\foreground" y="-624" scrollx="1.2" scrolly="1.2"/>
+	<sprite scrolly="0" x="-350" y="-180" sprite="stages\wordle\fiff" scale="1.7" scrollx="0" name="fiff" alpha="0"/>
+</stage>

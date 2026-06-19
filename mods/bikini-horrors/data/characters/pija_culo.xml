@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-230" y="-980" icon="icon-pija" camx="-133" scale="4.6" camy="150" color="#94752B" antialiasing="false" holdTime="6.1" sprite="pojapija/poja_cuatrodimensiones">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="up" name="singUP"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="down" name="singDOWN"/>
+</character>

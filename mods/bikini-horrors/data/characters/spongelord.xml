@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="spongelord" icon="icon-spongelord" color="#778097" holdTime="6.1">
+	<anim name="idle" anim="spongelord idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="spongelord up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="spongelord left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="spongelord right" x="1.8" y="1.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="spongelord down" x="12.15" y="-5" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="275" sprite="sirope/bob1full" camx="60" camy="0" icon="crisbobicon1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="-21" y="40" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="28" y="-1" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-10" y="-8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="16" y="-92" fps="24" loop="false"/>
+	<anim name="transform" anim="transformation" x="155" y="40" fps="24" loop="false"/>
+</character>

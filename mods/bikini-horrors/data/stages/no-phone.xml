@@ -1,0 +1,27 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="0" startCamPosY="0" folder="stages/no-phone/" name="no-phone" zoom="0.7">
+	<sprite x="-651" scroll="0.5" antialiasing="false" sprite="fondo_luna" y="-156" type="none" name="fondo_luna"/>
+	<sprite x="-573" scroll="0.55" antialiasing="false" sprite="fondo_sergio_suelo" y="267" type="none" name="sergio_suelo"/>
+	<sprite antialiasing="false" x="160" scroll="0.55" sprite="try_bober" y="145" type="none" scale="1" name="zipi">
+	    <anim name="walk" anim="zipi_move" x="0" y="0" loop="false" fps="24"/>
+	</sprite>
+	<sprite antialiasing="false" x="280" scroll="0.55" sprite="sergio_sprite" y="120" type="none" scale="1" name="sergio">
+		<anim name="stop" anim="sergio_stop" x="0" y="0" loop="true" fps="24"/>
+	    <anim name="walk" anim="sergio_idle" x="0" y="0" loop="false" fps="24"/>
+	</sprite>
+	<sprite x="-588" scroll="0.6" antialiasing="false" sprite="fondo_arbol_3" y="-156" type="none" name="arbol_3"/>
+	<sprite x="-471" scroll="0.65" antialiasing="false" sprite="fondo_arbol_2" y="-129" type="none" name="arbol_2"/>
+	<sprite x="610" scroll="0.7"  antialiasing="false" sprite="fondo_arbol_1" y="-203" type="none" name="arbol_1"/>
+	<sprite x="-607" antialiasing="false" sprite="fondo_valla" y="474" type="none" name="valla"/>
+	<sprite x="-692" antialiasing="false" sprite="fondo_suelo" y="610" type="none" name="suelo"/>
+	<boyfriend x="739" camxoffset="-270" flip="false" y="416" camyoffset="0"/>
+	<sprite antialiasing="false" x="1039" sprite="aika_hypno" y="500" type="none" scale="1" name="aika">
+		<anim x="0" loop="true" anim="aika_idle" y="0" fps="24" name="idle"/>
+	</sprite>
+	<sprite antialiasing="false" x="-500" sprite="chezzar_tent" y="480" type="none" scale="1" name="tent">
+		<anim x="0" loop="true" anim="chezzar_idle" y="0" fps="24" name="idle"/>
+	</sprite>
+	<gf x="3400"/>
+	<dad x="0" camxoffset="-80" y="295" camyoffset="-50" scale="1"/>
+	<combo x="1413" y="2276"/>
+</stage>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="400" sprite="bobfriend" scale="1.35" flipX="true" camx="-110" isPlayer="true" icon="icon-bobfriend" color="#ff99cc" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singUP" anim="up" x="-5" y="85" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="32" y="-10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-17" y="-5" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-9" y="-106" fps="24" loop="false"/>
+	<anim name="Hey" anim="hey" x="0" y="0" fps="24" loop="false"/>
+</character>

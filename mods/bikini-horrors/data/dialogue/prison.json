@@ -1,0 +1,160 @@
+{
+  "first_greeting": [
+    {
+      "text": "...",
+      "anim": "idle"
+    },
+    {
+      "text": "Strange, is it not.",
+      "anim": "viciuous"
+    },
+    {
+      "text": "To once have been so large...",
+      "anim": "serious"
+    },
+    {
+      "text": "And still...",
+      "anim": "bored"
+    },
+    {
+      "text": "...",
+      "anim": "curious"
+    },
+    {
+      "text": "Oh, would you look at that, a visitor.",
+      "anim": "vicious"
+    },
+    {
+      "text": "...These are matters which do not concern you, Warrior.",
+      "anim": "serious"
+    },
+    {
+      "text": "Return once you have learned what following the path gets you.\nI will let you know when I have more to say.",
+      "anim": "vicious"
+    }
+  ],
+  "no_more_0": [
+    {
+        "text": "Not now, Warrior. I shall let you know when I have more you should know.",
+        "anim" : "idle"
+    },
+    {
+        "text": "Now, do not disturb my slumber yet.\nTime will come, soon.",
+        "anim": "serious"
+    }
+  ],
+  "after_1": [
+    {
+        "text": "Mh, I can see you've made progress.\nYou are becoming familiar with this game of... his, it seems",
+        "anim": "curious"
+    },
+    {
+        "text": "There are more minions that are awaiting your arrival.",
+        "anim": "vicious"
+    },
+    {
+        "text": "They look so different now.\nAnd to think that this all was once...",
+        "anim": "bored"
+    },
+    {
+        "text": "The fated battle draws near, Warrior.\nThe prophecy doesn't wait for anyone, and time is running.",
+        "anim": "serious"
+    },
+    {
+        "text": "...And with it, soon enough...\nAll will come back to where it started.",
+        "anim": "idle"
+    },
+    {
+        "text": "You will soon come to find that, even in times of shining wealth, every reign comes to an end",
+        "anim": "vicious",
+        "special": "hands"
+    },
+    {
+        "text": "Except of the one of he who perseveres.",
+        "anim": "serious"
+    },
+    {
+        "text": "Soon enough...",
+        "anim": "bored"
+    }
+  ],
+  "no_more_1": [
+    {
+        "text": "...You again?",
+        "anim": "curious"
+    },
+    {
+        "text": "Well, I'm afraid there's nothing more that I can tell, Warrior.",
+        "anim": "idle"
+    },
+    {
+        "text": "I am bound to the confines of this bird-cage.",
+        "anim": "bored"
+    },
+    {
+        "text": "...",
+        "anim": "curious"
+    },
+    {
+        "text": "If doing so is in your will...\n Attend the party for me, will you?",
+        "anim":"serious"
+    },
+    {
+        "text": "And when you meet the host...\nRemind him that he owes me a visit.",
+        "anim": "vicious"
+    }
+  ],
+  "after_2" : [
+    {
+        "text": "So... You finally did it.",
+        "anim": "vicious"
+    },
+    {
+        "text": "You have penetrated his walls...\nYou have revealed the path.",
+        "anim": "idle"
+    },
+    {
+        "text": "And now, you will meet face to face.",
+        "anim": "serious"
+    },
+    {
+        "text": "The puppetmaster...\nDo yo see through his lies?",
+        "anim": "vicious"
+    },
+    {
+        "text": "Or are you too enjoying his show?",
+        "anim": "curious"
+    },
+    {
+        "text": "...",
+        "anim": "bored"
+    },
+    {
+        "text": "Puppets always think they are the ones in control anyways.\nThen, attend to his so called party",
+        "anim": "idle"
+    },
+    {
+        "text": "Time must past, and you shall see.\nAll will fade, and we will come right back to our places here.",
+        "anim": "vicious"
+    },
+    {
+        "text": "But when the time comes...\nNext time...",
+        "anim": "curious"
+    },
+    {
+        "text": "A fake prophecy won't be there to save you, Warrior.",
+        "anim": "vicious",
+        "special": "hands"
+    }
+  ],
+  "no_more_2": [
+    {
+        "text": "Go.",
+        "anim": "idle"
+    },
+    {
+        "text": "Don't keep the guests waiting.",
+        "anim": "vicious"
+    }
+  ]
+}

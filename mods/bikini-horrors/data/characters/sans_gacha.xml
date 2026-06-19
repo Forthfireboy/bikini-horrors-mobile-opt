@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sans_gacha" flipX="true" isPlayer="true" icon="icon-sans" color="#FEFDFF" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+</character>

@@ -1,0 +1,40 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/unheared/" zoom="0.4" name="unheared">
+	<sprite scrolly="0" x="0" sprite="game" y="0" zoomfactor="0" scrollx="0" name="game"/>
+	<sprite scrolly="0" x="0" sprite="breaker" y="0" zoomfactor="0" scrollx="0" name="breaker"/>
+
+	<sprite x="-610" scrolly="0.3" sprite="spongeterion/cielo" y="-399" name="cielo" scrollx="0.3"/>
+	<sprite x="-436" scrolly="0.7" sprite="spongeterion/monte" y="92" name="monte" scrollx="0.7"/>
+	<sprite x="-299" name="suelo" sprite="spongeterion/suelo" y="556"/>
+
+	<sprite x="90" sprite="vacio" y="-618" type="loop" name="vacio"/>
+	<sprite x="90" sprite="bf_fall" y="-518" type="loop" name="bf_fall"/>
+	<sprite x="57" sprite="x-bob/papeles" y="-218" type="loop" name="papeles"/>
+	<sprite x="67" sprite="x-bob/stars" y="-218" type="loop" name="stars"/>
+	<sprite x="-1020" name="baldosas" sprite="x-bob/baldosas" y="537"/>
+
+	<sprite x="-1570" sprite="chispotas" y="337" type="loop" name="chispotas"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb1" y="0" zoomfactor="0" scrollx="0" name="fb1"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb2" y="0" zoomfactor="0" scrollx="0" name="fb2"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb3" y="0" zoomfactor="0" scrollx="0" name="fb3"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb4" y="0" zoomfactor="0" scrollx="0" name="fb4"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb5" y="0" zoomfactor="0" scrollx="0" name="fb5"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb6" y="0" zoomfactor="0" scrollx="0" name="fb6"/>
+	<sprite scrolly="0" x="0" sprite="backstory/fb7" y="0" zoomfactor="0" scrollx="0" name="fb7"/>
+
+	<sprite x="-389" scrolly="0.3" sprite="sternon/papers" y="-275" name="papers1" scrollx="0.4"/>
+	<sprite x="-389" scrolly="0.3" sprite="sternon/papers" y="-275" name="papers2" scrollx="0.4"/>
+	<sprite x="-389" scrolly="0.3" sprite="sternon/otro" y="-275" name="otro1" scrollx="0.5"/>
+	<sprite x="-389" scrolly="0.3" sprite="sternon/otro" y="-275" name="otro2" scrollx="0.5"/>
+	<sprite x="-141" scrolly="0.3" sprite="sternon/falling" y="-330" name="falling1" scrollx="0.6"/>
+	<sprite x="-141" scrolly="0.3" sprite="sternon/falling" y="-330" name="falling2" scrollx="0.6"/>
+
+	<sprite x="785" name="retrospective" sprite="retrospective" y="-135"/>
+
+	<gf x="815" y="181"/>
+	<dad x="188" y="-2"/>
+	<bf x="-247" y="-185"/>
+	<sprite scrolly="1.2" x="129" y="-41" sprite="sternon/foreground" scrollx="1.2" name="foreground1"/>
+	<sprite scrolly="1.2" x="129" y="-41" sprite="sternon/foreground" scrollx="1.2" name="foreground2"/>
+	<combo/>
+</stage>

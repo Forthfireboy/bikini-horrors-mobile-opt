@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="playa/sans_antivirus" icon="icon-antivirus" camx="-250" color="#00FF20" holdTime="6.1">
+	<anim name="danceLeft" anim="danceRight" x="0" y="1" fps="24" loop="false"/>
+	<anim name="danceRight" anim="danceLeft" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="6" y="109" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="left" x="135" y="-9" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="right" x="-138" y="-44" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-26" y="-141" fps="24" loop="false"/>
+	<anim name="encontrado" anim="transformation" x="159" y="200" fps="24" loop="false"/>
+</character>

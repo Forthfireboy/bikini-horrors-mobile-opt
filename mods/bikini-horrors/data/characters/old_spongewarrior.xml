@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="old_spongewarrior" flipX="true" isPlayer="true" icon="old-warrior" color="#3C525F" holdTime="6.1">
+	<anim name="idle" anim="bf_idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="bf_up" x="213" y="720" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bf_right" x="310" y="655" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bf_left" x="525" y="605" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bf_down" x="159" y="583" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="100" icon="icon-carmaland2" y="-140" camy="150" scale="5" color="#50EB7E" antialiasing="false" sprite="carmalandfase2">
+	<anim loop="false" x="-3" fps="24" y="-21" anim="idle" name="idle"/>
+
+	<anim loop="false" x="-2" fps="24" y="-21" anim="up" name="singUP"/>
+
+	<anim loop="false" x="-5" fps="24" y="-21" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-2" fps="24" y="-21" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="0" fps="24" y="-21" anim="down" name="singDOWN"/>
+</character>

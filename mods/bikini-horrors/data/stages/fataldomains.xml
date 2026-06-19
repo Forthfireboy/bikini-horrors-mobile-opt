@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.65" folder="stages\fatal" name="fataldomains" startCamPosX="500" startCamPosY="0">
+	<use-extension script="pixel"/>
+	<sprite x="393" y="106" scale="2" name="fondomuybueno" antialiasing="false" sprite="fondomuybueno"/>
+	<gf x="-632" y="108"/>
+	<dad x="1000" y="400" camxoffset="-150" camyoffset="80"/>
+	<bf x="1487" y="480"camyoffset="50"/>
+
+	<sprite x="1300" y="500" scale="4" name="indexano" antialiasing="false" sprite="indexano" alpha="0"/>
+</stage>

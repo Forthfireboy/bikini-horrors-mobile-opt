@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="fiff_bf" flipX="true" isPlayer="true" icon="icon-fiffbf" color="#4169B7" holdTime="6.1">
+	<anim name="idle" anim="fiff_bf idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="fiff_bf up" x="11" y="-11" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="fiff_bf left" x="3" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="fiff_bf right" x="0" y="1" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="fiff_bf down" x="-14" y="-11" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="fiff_bf umiss" x="12" y="-11" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="fiff_bf lmiss" x="3" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="fiff_bf rmiss" x="0" y="1" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="fiff_bf dmiss" x="-14" y="-13" fps="24" loop="false"/>
+</character>

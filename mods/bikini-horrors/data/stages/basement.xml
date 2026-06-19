@@ -1,0 +1,70 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.45">
+	<sprite x="-1910" antialiasing="false" sprite="stages/basement/pixel/basement_pixel" y="1219" alpha="0.01" scale="2" type="loop" name="pixelBasement"/>
+	<sprite x="-1670" sprite="stages/basement/pixel/fondo_evil" y="1374" scale="4" alpha="0.001" type="loop" name="pixelEvil"/>
+	<sprite x="613" sprite="stages/basement/transitionBG" y="-31" scale="2.75" alpha="0.001" type="loop" name="transitionBG"/>
+	<sprite x="113" sprite="stages/basement/pov/POV_BG" y="-1844" scale="1.5" type="loop" alpha="0.001" name="povBg"/>
+	<sprite name="bg_basement" sprite="stages/basement/basement1_1"/>
+	<sprite alpha="0" type="none" name="bg_glitch" sprite="stages/basement/basementglitch_1"/>
+	<sprite alpha="0.001" name="downpourFloor" sprite="stages/basement/downpour/downpourfloor"/>
+	<sprite x="1356" sprite="stages/basement/downpour/reflection" y="961" scale="2" alpha="1" type="loop" name="reflection"/>
+	<sprite x="1342" sprite="stages/basement/downpour/ripple" y="954" scale="2" alpha="1" type="loop" name="ripple"/>
+	<sprite alpha="0.01" sprite="stages/basement/downpour/downpourwalls" name="downpourWalls"/>
+	<sprite alpha="0" type="loop" name="flowersglitch" sprite="stages/basement/flowerglitch"/>
+	<sprite type="loop" sprite="stages/basement/downpour/flowers_downpour" alpha="0.01" name="flowersDownpour"/>
+	<sprite x="1137" sprite="stages/basement/downpour/rain_impact" y="940" scale="2" alpha="1" type="loop" name="rainImpact"/>
+	<sprite x="32" sprite="stages/basement/MOSKA" y="509" scale="0.4" type="loop" name="fly" scrollx="1.05"/>
+	<gf x="500" camxoffset="800" y="300" camyoffset="500" alpha="0"/>
+	<box scroll="0" alpha="0" zoomfactor="0" width="1280" height="720" color="#ff0000" name="redTint"/>
+	<dad x="866" camxoffset="-200" y="30" camyoffset="200" scale="0.8"/>
+	<char camxoffset="-280" x="855" camyoffset="200" y="30" scale="0.8" name="cristobal2"/>
+	<char camxoffset="-280" x="855" camyoffset="200" y="30" scale="0.8" name="cristobal2glitch"/>
+	<char x="102" scale="0.8" y="-603" name="cristobaltrans"/>
+	<char x="372" y="-1081" name="cris_grande"/>
+	<bf x="2363" camxoffset="-200" y="1040" camyoffset="-100" scale="1.5"/>
+	<char x="4135" y="2718" flip="true" scale="2.5" name="isaac3"/>
+	<char x="4135" y="2718" flip="true" scale="2.5" name="aura_monster"/>
+	<combo/>
+	<sprite sprite="stages/basement/basement1_2" scalex="1.5" type="none" alpha="0.4" name="light" scrollx="1.25"/>
+	<sprite sprite="stages/basement/basementglitch_2" scalex="1.5" type="none" alpha="0" name="lightGlitch" scrollx="1.25"/>
+	<sprite x="200" name="front" sprite="stages/basement/basement1_3" scrollx="1.5"/>
+	<sprite x="200" sprite="stages/basement/basementglitch_3" alpha="0.001" scrollx="1.5" name="front_glitch"/>
+	<sprite x="1358" sprite="stages/basement/downpour/rain1" y="944" scale="2" alpha="1" type="loop" name="rain1"/>
+	<sprite x="1343" sprite="stages/basement/downpour/rain2" y="931" scale="2" alpha="1" type="loop" name="rain2"/>
+	<sprite x="142" sprite="stages/basement/downpour/downpourskyglow" alpha="0.001" name="downpourLight" scrollx="1.25"/>
+	<sprite x="400" sprite="stages/basement/downpour/downpourcolumn" alpha="0.001" name="downpourColumn" scrollx="1.5"/>
+	<sprite x="135" y="-2500" sprite="stages/basement/pov/povcolumnaizq" alpha="0.005" name="columnaIzq1"/>
+	<sprite x="135" y="-2500" sprite="stages/basement/pov/povcolumnaizq" alpha="0.005" name="columnaIzq2"/>
+	<sprite x="1760" y="-2500" sprite="stages/basement/pov/povcolumnader" alpha="0.001" name="columnaDer1"/>
+	<sprite x="1760" y="-2500" sprite="stages/basement/pov/povcolumnader" alpha="0.001" name="columnaDer2"/>
+	<char camxoffset="-150" x="121" camyoffset="-60" y="-2450" name="cris_pov"/>
+	<char x="815" flip="true" name="isaac_pov" y="-1490"/>
+	<char scale="0.2" x="-1830" name="isaac_pixel" y="1078"/>
+	<sprite x="-1295" antialiasing="false" sprite="stages/basement/pixel/flechasaviso" y="1262" scale="4" type="loop" name="arrowsWarning"/>
+	<sprite x="-2932" y="2831" sprite="stages/basement/sad/voidbg" alpha="0" scale="3" name="voidBg"/>
+	<sprite x="-3403" y="3657" sprite="stages/basement/sad/personajesfondovoid" type="loop" alpha="0.001" name="tijuana"/>
+	<sprite x="-2149" y="4782" sprite="stages/basement/sad/shadowvoid" alpha="0" name="isaacShadow"/>
+	<char x="-1363" name="isaac_sad2" y="4360"/>
+	<char x="-1408" camxoffset="740" y="4295" camyoffset="-200" name="isaac_sad1" flipX="true"/>
+	<sprite x="-630" y="4783" sprite="stages/basement/sad/shadowvoid" alpha="0" scale="0.8" name="meatboyShadow"/>
+	<char x="33" name="meatboy" y="4471"/>
+	<sprite x="-3643" y="4760" sprite="stages/basement/sad/shadowvoid" alpha="0" scale="0.8" name="castleShadow"/>
+	<char x="-2969" y="4325" name="castle"/>
+	<char x="-4000" y="4431" name="galaga"/>
+
+	<sprite x="-2578" y="4073" sprite="stages/basement/sad/voidplumas" type="none" name="feathers">
+		
+		
+		
+		
+		<anim loop="false" name="feathers" fps="24" anim="plumas"/>
+		
+		
+	
+	
+	</sprite>
+	<sprite x="7087" sprite="stages/basement/pillars/bg" y="-611" scale="0.7" name="steamBg"/>
+	<sprite x="8280" y="63" sprite="stages/basement/pillars/columna" type="loop" scale="4.25" name="pillars"/>
+	<char x="7400" name="cris_steam" y="-444"/>
+	<char x="8700" flip="true" y="309" name="isaac_steam"/>
+</stage>

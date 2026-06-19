@@ -1,0 +1,22 @@
+<!DOCTYPE codename-engine-character>
+<character x="500" holdTime="6.1" y="150" icon="icon-pp-satanpants" sprite="pool_parti/satanpants" camx="-520" camy="-140" color="#EB9333">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+
+
+	<anim loop="false" x="5" fps="24" y="3" anim="up" name="singUP"/>
+
+
+
+	<anim loop="false" x="-14" fps="24" y="1" anim="left" name="singLEFT"/>
+
+
+
+	<anim loop="false" x="-12" fps="24" y="6" anim="right" name="singRIGHT"/>
+
+
+
+	<anim loop="false" x="-5" fps="24" y="-1" anim="down" name="singDOWN"/>
+
+
+</character>

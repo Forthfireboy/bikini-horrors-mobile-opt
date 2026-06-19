@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-240" holdTime="6.1" camx="0" icon="icon-usa" sprite="usa/usareal" y="-300" camy="-100" color="#B5F961">
+	<anim loop="false" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="150" fps="24" y="304" anim="up" name="singUP"/>
+
+	<anim loop="false" x="512" fps="24" y="184" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="-160.2" fps="24" y="-17.2" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="180.15" fps="24" y="128" anim="down" name="singDOWN"/>
+</character>

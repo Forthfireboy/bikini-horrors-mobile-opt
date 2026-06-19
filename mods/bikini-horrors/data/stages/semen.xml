@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-stage>
+<stage dadZoom="2" zoom="2">
+	<sprite antialiasing="false" x="60" y="-15" sprite="stages/semen/sky" scrollx="0.5" name="sky"/>
+	<sprite antialiasing="false" x="50" sprite="stages/semen/entrance" scrollx="0.6" name="entrance"/>
+	<sprite antialiasing="false" y="8" sprite="stages/semen/gravestone" scrollx="0.7" name="gravestones"/>
+	<sprite antialiasing="false" sprite="stages/semen/stage" name="stage"/>
+	<gf alpha="0" x="169" y="-115"/>
+	<dad x="814" y="295"/>
+	<combo/>
+	<char x="522" camxoffset="-360" y="98" camyoffset="70" name="sandedbob"/>
+	<char camxoffset="-350" x="423" camyoffset="25" y="145" name="gargar"/>
+	<char camxoffset="-350" x="452" camyoffset="25" y="45" name="holandes"/>
+	<char camxoffset="-350" x="460" camyoffset="25" y="139" name="burbuja"/>
+	<char camxoffset="40" x="255" camyoffset="-26" y="144" flip="true" name="dvdflintstone"/>
+	<char x="200" y="151" name="antena3" flip="true"/>
+	<bf x="75" camxoffset="170" y="92" camyoffset="50"/>
+	<sprite antialiasing="false" x="28" y="161" sprite="stages/semen/hans" type="none" alpha="1" name="hans"/>
+	<sprite antialiasing="false" x="10" sprite="stages/semen/foreground" scrollx="1.5" name="foreground"/>
+</stage>

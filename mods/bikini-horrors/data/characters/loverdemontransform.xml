@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="260" sprite="aloha/guaterdemontransform" scale="0.6" camx="130" icon="icon-uwlhappy">
+	<anim name="transform" anim="transform" x="0" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pool_parti/ti_la_llevas2" camy="100" icon="icon-pp-jj" color="#FA1E4D" holdTime="6.1">
+	<anim name="llevas" anim="tulallevas2" x="0" y="0" fps="24" loop="true"/>
+</character>

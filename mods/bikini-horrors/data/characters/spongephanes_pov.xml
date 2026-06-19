@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="corre/spongephanes_pov" x = "120" y = "300" icon="icon-spongephanes" color="#778097" holdTime="6.1" camx="-650" camy="-300">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-4" y="165" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="200" y="5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-173.2" y="1.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="7.15" y="-120" fps="24" loop="false"/>
+	<anim name="Reach" anim="anim" x="500" y="267" fps="24" loop="false"/>
+</character>

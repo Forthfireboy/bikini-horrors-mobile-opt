@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/isaacsteam1" flipX="true" camx="-647" camy="-171" isPlayer="true" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="34" y="77" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="29" y="73" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-249" y="52" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-161" y="70" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sirope/meatboy" camx="-647" camy="-171" icon="isaacicon1" color="#41A0FF" holdTime="6.1">
+	<anim name="idle" anim="meatidle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="meatup" x="-8" y="5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="meatleft" x="-6" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="meatright" x="-6" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="meatdown" x="-6" y="-1" fps="24" loop="false"/>
+</character>

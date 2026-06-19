@@ -1,0 +1,24 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="80" sprite="usa/pacma" icon="icon-pacmafaker" y="320" camx="0" camy="-240" color="#7C6069">
+	<anim x="0" loop="true" anim="idle" y="0" fps="24" name="idle"/>
+
+	<anim x="-15" loop="false" anim="up" y="23" fps="24" name="singUP"/>
+
+	<anim x="-39" loop="false" anim="left" y="18" fps="24" name="singLEFT"/>
+
+	<anim x="-53.2" loop="false" anim="right" y="7.8" fps="24" name="singRIGHT"/>
+
+	<anim x="-1.85" loop="false" anim="down" y="-15" fps="24" name="singDOWN"/>
+
+	<anim x="-1" loop="false" anim="transform" y="553" fps="24" name="transform"/>
+
+	<anim x="30" loop="false" anim="ualt" y="560" fps="24" name="singUP-alt"/>
+
+	<anim x="-41" loop="false" anim="ialt" y="558" fps="24" name="idle-alt"/>
+
+	<anim x="0" loop="false" anim="dalt" y="265" fps="24" name="singDOWN-alt"/>
+
+	<anim x="-80" loop="false" anim="ralt" y="530" fps="24" name="singRIGHT-alt"/>
+
+	<anim x="476" loop="false" anim="lalt" y="341" fps="24" name="singLEFT-alt"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mr.ketchup" scale="1.5" icon="icon-ketchup" color="#F80000" holdTime="9.5">
+	<anim name="idle" anim="ketchup_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="ketchup_up" x="171" y="162" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="ketchup_left" x="261" y="-61" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="ketchup_right" x="-200" y="1" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="ketchup_down" x="181" y="-195" fps="24" loop="false"/>
+</character>

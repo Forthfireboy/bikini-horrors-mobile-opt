@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="-670" sprite="spongebudfinal" scale="1.6" camx="-700" camy="600" icon="icon-real" color="#848A68" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-61" y="81" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="200" y="-146" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="300.8" y="-234.2" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="97.15" y="-296" fps="24" loop="false"/>
+</character>

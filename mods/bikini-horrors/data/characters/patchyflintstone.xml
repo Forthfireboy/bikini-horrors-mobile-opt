@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="flintstone/patchy" antialiasing="false" flipX="true" camx="88" camy="50" isPlayer="true" icon="icon-carmaland1" color="#50EB7E" imagePath="carmalandfase1.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-48" y="-94" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-94" y="-59" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="116" y="-80" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="166" y="138" fps="24" loop="false"/>
+</character>

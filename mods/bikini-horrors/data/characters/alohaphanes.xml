@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="250" camx="-60" icon="icon-miniphanes" scale="0.6" camy="-24" flipX="true" isPlayer="true" sprite="aloha/miniphanes">
+	<anim x="0" loop="false" anim="idle" y="0" fps="24" name="idle"/>
+
+	<anim x="-75" loop="false" anim="up" y="140" fps="24" name="singUP"/>
+
+	<anim x="21" loop="false" anim="left" y="19" fps="24" name="singLEFT"/>
+
+	<anim x="-96" loop="false" anim="right" y="5" fps="24" name="singRIGHT"/>
+
+	<anim x="-100" loop="false" anim="down" y="15" fps="24" name="singDOWN"/>
+</character>

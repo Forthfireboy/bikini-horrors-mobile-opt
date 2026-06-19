@@ -1,0 +1,30 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="500" startCamPosY="200" folder="stages/infinete/" zoom="0.7" name="infinete">
+	<sprite x="-1151" scrolly="0.9" sprite="bg" y="-662" updateHitbox="true" scale="0.45" name="bg" scrollx="0.9"/>
+	<sprite x="-460" scrolly="0.93" sprite="kennysback" y="50" updateHitbox="true" scale="0.7" name="kennysback" scrollx="0.93">
+		<anim x="0" loop="true" anim="loop" y="0" fps="32" name="loop"/>
+		<anim x="0" loop="false" anim="gilipollas" y="0" fps="24" name="gilipollas"/>
+		<anim x="0" loop="true" anim="suprised" y="0" fps="24" name="suprised"/>
+	</sprite>
+	<sprite x="764" scrolly="0.97" sprite="familyrushmore" y="-249" updateHitbox="true" scale="0.45" name="familyrushmore" scrollx="0.95"/>
+	<sprite x="-1006" sprite="tree" y="-740" updateHitbox="true" scale="0.45" name="tree" scrollx="0.97"/>
+	<sprite x="-3507" sprite="ground" y="-277" scale="0.5" name="ground"/>
+	<sprite x="78" sprite="boke" y="0" scale="4" name="boke"/>
+	<girlfriend camxoffset="-100" x="130" camyoffset="00" y="-350"/>
+	<sprite x="159" y="103" sprite="M_Rajoy" type="loop" scale="0.8" name="rajoy"/>
+	<dad camxoffset="120" x="-199" camyoffset="-20" y="205" scale="0.9"/>
+	<boyfriend camxoffset="-200" x="589" scale="0.9" y="199"/>
+	<sprite x="285" y="340" sprite="EXPLOSION" type="loop" scale="5" name="EXPLOSION">
+		
+		
+		<anim x="0" loop="false" anim="EXPLOSION" y="0" fps="24" name="EXPLOSION"/>
+		
+	
+	</sprite>
+	<combo x="-1084" y="957"/>
+	<sprite scrolly="1.1" x="-1736" y="755" sprite="kennysfront" type="loop" scale="1" scrollx="1.1" name="kennysfront">
+		<anim x="0" loop="true" anim="loop" y="0" fps="32" name="loop"/>
+		<anim x="100" loop="true" anim="suprised" y="200" fps="24" name="suprised"/>
+	</sprite>
+	<sprite scrolly="1.1" x="-1396" sprite="frontstones" updateHitbox="true" y="524" scale="0.45" name="frontstones" scrollx="1.1"/>
+</stage>

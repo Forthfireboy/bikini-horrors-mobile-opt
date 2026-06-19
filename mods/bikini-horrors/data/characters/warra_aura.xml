@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="eat/warra_aura" scale="1.33" flipX="true" isPlayer="true" icon="icon-warra" color="#FF6600">
+	<anim name="idle" anim="idle" x="0" y="0" fps="12" loop="true"/>
+	<anim name="singUP" anim="up" x="26" y="99" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="left" x="286" y="-21" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-91" y="-58" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="down" x="14" y="-206" fps="12" loop="false"/>
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="kenny-boom" icon="icon-kenny" color="#FFCC08" holdTime="6.1">
+	<anim name="explosion" anim="explosion" x="0" y="0" fps="24" loop="false"/>
+</character>

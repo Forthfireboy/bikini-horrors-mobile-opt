@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/instagram/" zoom="1.05">
+	<combo/>
+	<sprite x="-1095" y="-955" sprite="fondo" name="fondo"/>
+	<sprite scrolly="0.85" x="-1000" y="-700" sprite="pilar4" zoomfactor="0.95" scrollx="0.85" name="pilar4"/>
+	<sprite scrolly="0.88" x="-929" y="-942" sprite="pilar3" zoomfactor="0.95" scrollx="0.88" name="pilar3"/>
+	<sprite scrolly="0.9" x="-991" y="-945" sprite="pilar2" zoomfactor="0.95" scrollx="0.9" name="pilar2"/>
+	<sprite scrolly="0.95" x="-1074" y="-997" sprite="pilar1" name="pilar1"/>
+	<sprite x="-969" y="-1099" sprite="comments1" scale="0.5" scrollx="0.9" name="comments1"/>
+	<sprite x="543" y="-1827" sprite="comments4" scale="0.35" scrollx="0.9" name="comments4"/>
+	<sprite x="-667" y="-776" sprite="comments2" scale="0.5" scrollx="0.95" name="comments2"/>
+	<sprite x="200" y="-831" sprite="comments3" scale="0.5" name="comments3" scrollx="0.95"/>
+	<gf x="-155" y="-527"/>
+	<sprite x="67" y="76" sprite="pilarR" name="pilarR"/>
+	<sprite x="-354" y="76" sprite="pilarL" name="pilarL"/>
+	<dad x="-290" y="-78"/>
+	<bf x="119" y="-76"/>
+	<solid x="-3267" y="-1400" zoomfactor="0" color="#000000" name="blackOverlay" scrollx="0" scrolly="0" width="6000" height="6000"/>
+</stage>

@@ -1,0 +1,26 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/paracetamol/" name="paracetamol" zoom="0.4"  startCamPosX="500" startCamPosY="200">
+	<sprite antialiasing="false" x="-2000" scroll="1" sprite="paracetamol" y="-1850" type="none" scale="1" alpha="1" name="paracetamol"/>
+	<sprite antialiasing="false" x="100" scroll="1" sprite="laptop_default" y="-200" type="none" scale="1.9" alpha="0" name="laptop"/>
+	<sprite antialiasing="false" x="-1020" scroll="1" sprite="apendicitis" y="-800" type="none" scale="1" alpha="0" name="apendicitis">
+		<anim name="letters" anim="lmove" x="0" y="0" loop="false" fps="16"/>
+	</sprite>
+	<sprite antialiasing="false" x="-2000" scroll="1" sprite="luzroja" y="-1850" type="none" scale="1" alpha="0" name="mascara"/>
+	<sprite antialiasing="false" x="-350" scroll="1" sprite="pilars_move" y="-500" type="none" scale="1.2" alpha="0" name="pmove">
+		<anim name="move" anim="pilars_move" x="0" y="0" loop="true" fps="32"/>
+	</sprite>
+	<sprite antialiasing="false" x="-2000" scroll="1" sprite="luzroja" y="-1850" type="none" scale="1" alpha="0" name="luzroja"/>
+	<sprite antialiasing="false" x="690" scroll="1" sprite="pilares_4" y="2000" type="none" scale="0.65" alpha="0" name="p4"/>
+	<sprite antialiasing="false" x="295" scroll="1" sprite="pilares_3" y="2000" type="none" scale="0.8" alpha="0" name="p3"/>
+	<sprite antialiasing="false" x="-50" scroll="1" sprite="pilares_2" y="2000" type="none" scale="1" alpha="0" name="p2"/>
+	<sprite antialiasing="false" x="-330" scroll="1" sprite="pilares_1" y="2000" type="none" scale="1.2" alpha="0" name="p1"/>
+
+	<sprite antialiasing="false" x="-2500" scroll="1" sprite="suelo" y="-1750" type="none" scale="0.5" alpha="0" name="suelo"/>
+	<sprite antialiasing="true" x="-325" scroll="1" sprite="default_bar" y="-185" type="none" scale="1.67" alpha="0" name="bar"/>
+	<sprite antialiasing="true" x="700" scroll="1" sprite="perlita" y="-900" type="none" scale="1.75" alpha="0" name="perla"/>
+	<girlfriend camxoffset="550" x="390" alpha="0" camyoffset="200" y="300"/>
+	<boyfriend camxoffset="-500" x="1600" camyoffset="-300" y="580"/>
+	<sprite antialiasing="false" x="-300" scroll="1" sprite="blackblack" y="-300" type="none" scale="1" name="blackblack" scalex="2" scaley="2"/>
+	<dad camxoffset="-50" x="100" camyoffset="-50" y="0"/>
+	
+</stage>

@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="280" y="900" camx="620" icon="icon-madnesspacma" camy="-200" flipX="true" isPlayer="true" color="#AC8F10" holdTime="6.1" sprite="rumbeling/fase2/pakmapapapap">
+	<anim x="0" loop="false" anim="idle" y="0" fps="24" name="idle"/>
+
+	<anim x="-6" loop="false" anim="up" y="14" fps="24" name="singUP"/>
+
+	<anim x="121" loop="false" anim="left" y="46" fps="24" name="singLEFT"/>
+
+	<anim x="-235.2" loop="false" anim="right" y="-45.2" fps="24" name="singRIGHT"/>
+
+	<anim x="-186.85" loop="false" anim="down" y="-94" fps="24" name="singDOWN"/>
+
+	<anim x="138" loop="false" anim="dodge" y="41" fps="24" name="dodge"/>
+</character>

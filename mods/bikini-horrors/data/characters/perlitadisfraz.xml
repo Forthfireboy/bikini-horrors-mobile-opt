@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="perlitadisfraz" icon="icon-perlita" color="#FF0000" imagePath="perlita.png">
+	<anim name="idle" anim="Perlita_idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="transform" anim="Perlita_phrase" x="520" y="53" fps="24" loop="false"/>
+</character>

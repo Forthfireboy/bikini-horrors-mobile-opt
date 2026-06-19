@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/gacha" name="gacha" zoom="3"  startCamPosX="500" startCamPosY="200">
+	<sprite antialiasing="false" x="-250" scroll="1" sprite="a" y="-380" type="none" scale="1.4" name="a"/>
+	<dad camxoffset="" x="-650" scale="1.5" camyoffset="-400" y="60"/>
+	<girlfriend camxoffset="-200" x="-650" scale="1" camyoffset="-400" y="60"/>
+	<boyfriend camxoffset="-180" x="600" scale="1.5" camyoffset="100" y="-190"/>
+</stage>

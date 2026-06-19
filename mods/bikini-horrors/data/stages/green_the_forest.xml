@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="500" startCamPosY="200" folder="stages/green_the_forest/" name="green_the_forest" zoom="0.6">
+	<sprite x="600" antialiasing="false" y="200" sprite="boke" scroll="1" scale="4" type="none" name="boke"/>
+	<sprite x="776" y="267" sprite="M_Rajoy" type="loop" alpha="0" name="M_Rajoy"/>
+	<dad x="150" camxoffset="120" y="230" camyoffset="-20"/>
+	<boyfriend x="1500" camxoffset="-200" y="10" camyoffset="-100"/>
+	<girlfriend x="130" camxoffset="-100" y="-350" camyoffset="00"/>
+	<combo/>
+</stage>

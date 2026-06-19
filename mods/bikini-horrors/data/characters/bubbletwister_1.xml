@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bubbletwisterPhase1" icon="icon-bubbletwister" color="#EEFB00" holdTime="6.1">
+	<anim name="idle" anim="bob_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="bob_up" x="-40" y="105" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bob_left" x="48" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bob_right" x="-28.2" y="11.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bob_down" x="76.15" y="-66" fps="24" loop="false"/>
+	<anim name="sad" anim="bob_sad" x="52" y="40" fps="24" loop="true"/>
+</character>

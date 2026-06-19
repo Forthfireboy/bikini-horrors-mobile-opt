@@ -1,0 +1,114 @@
+{
+    "V2_to_V3": [
+        {
+            "text": "So...",
+            "anim": "default_talk"
+        },
+        {
+            "text": "DID YOURSELF LIKE ME GAME?!",
+            "anim": "excited"
+        },
+        {
+            "text": "Of course you did.",
+            "anim": "cool"
+        },
+        {
+            "text": "because that.",
+            "anim": "left_talk"
+        },
+        {
+            "text": "WAS.",
+            "anim": "excited"
+        },
+        {
+            "text": "AWESOME!!",
+            "anim": "excited"
+        },
+        {
+            "text": "...",
+            "anim": "idle"
+        },
+        {
+            "text": "So uh...",
+            "anim": "worried"
+        },
+        {
+            "text": "Nower what, yourself say?",
+            "anim": "worried"
+        },
+        {
+            "text": "Y yo que se tio, me games take time. Longer time to make",
+            "anim": "left_talk"
+        },
+        {
+            "text": "...\nHowever...",
+            "anim": "worried"
+        },
+        {
+            "text": "...Myself was working VERY hard on a NEWER more BETTERER update of me mod",
+            "anim": "excited"
+        },
+        {
+            "text": "Me new game is kinda unfinished...",
+            "anim": "worried"
+        },
+        {
+            "text": "...\nButter myselfer gona work HARDER!!!",
+            "anim": "excited"
+        },
+        {
+            "text":"MORER SONGER!!! YES YES!!\nTHE GAME MUSTEST GO ON!!",
+            "anim":"excited"
+        },
+        {
+            "text": "THERE!! Surprise for you in select menu!!!\nEnjoy uve 2 (dos)",
+            "anim": "cool"
+        }
+    ],
+    "AfterCorreCorre" : [
+        {
+            "text": "...",
+            "anim": "feelings"
+        },
+        {
+            "text": "So that's all.",
+            "anim": "sad_talk_left"
+        },
+        {
+            "text": "Me had lots of fun playing underguater games with you!!",
+            "anim": "sad_talk"
+        },
+        {
+            "text": "Myselfer can only thank you, truly thank you, for staying with meself for longer time.",
+            "anim": "sad_talk_left"
+        },
+        {
+            "text": "...",
+            "anim": "feelings"
+        },
+        {
+            "text": "...Hey, SpongeWarrior.",
+            "anim": "sad_talk_left"
+        },
+        {
+            "text": "Promise youll come visiter somer time, alright?",
+            "anim": "sad_talk"
+        },
+        {
+            "text": "...\nMe have prepear one last gift.",
+            "anim": "sad_talk_left"
+        },
+        {
+            "text": "Me hope you enjoyer!!",
+            "anim": "sad_talk"
+        },
+        {
+            "text": "...",
+            "anim": "feelings"
+        },
+        {
+            "text": "Bye bye!!!",
+            "anim": "sad_wave"
+        }
+    ]
+}

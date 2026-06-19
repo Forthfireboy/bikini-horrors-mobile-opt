@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="soretro_bob" scale="5" antialiasing="false" camx="-140" camy="60" icon="icon-retros" color="#EDFFCD" imagePath="carmen.png">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="lalt" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="ralt" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="dalt" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="ualt" x="0" y="0" fps="24" loop="false"/>
+</character>

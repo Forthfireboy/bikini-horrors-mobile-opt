@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="aika_hypno" flipX="true" icon="icon-bobeltriste" color="#AC8F10" holdTime="6.1">
+	<anim name="idle" anim="aika_idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="aika_up" x="61" y="33" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="aika_left" x="61" y="33" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="aika_right" x="61" y="33" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="aika_down" x="61" y="33" fps="24" loop="false"/>
+	<anim name="what" anim="aika_what" x="61" y="33" fps="24" loop="true"/>
+</character>

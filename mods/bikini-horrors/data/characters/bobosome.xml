@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="-365" icon="icon-bobosome" sprite="bobosome" camy="-606" color="#FFFFFF">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="75" anim="up" name="singUP"/>
+
+	<anim loop="false" x="-85" fps="24" y="0" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="65" fps="24" y="20" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="0" fps="24" y="-85" anim="down" name="singDOWN"/>
+
+	<anim loop="true" x="0" fps="24" y="0" anim="dark" name="dark"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="entrance" name="entrance"/>
+
+	<anim loop="true" x="0" fps="24" y="0" anim="bo" name="bo"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="ready" name="ready"/>
+</character>

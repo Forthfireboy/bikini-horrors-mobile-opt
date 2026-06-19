@@ -1,0 +1,25 @@
+<!DOCTYPE codename-engine-stage>
+<stage>
+	<sprite scrolly="0" sprite="stages/fysd/blanco" zoomfactor="0" name="blanco" scrollx="0" scale="2"/>
+	<sprite x="-730" y="-174" sprite="stages/fysd/jellyfield" name="jellyfield"/>
+	<sprite x="-3170" y="-260" sprite="stages/fysd/bedrom" name="bedrom"/>
+	<sprite x="-3983" name="citi" sprite="stages/fysd/citi" y="1632"/>
+	<gf scrolly="1" x="611" scrollx="1" y="2250"/>
+	<dad x="-3331" y="2614"/>
+	<bf x="180" y="415"/>
+	<char x="-1239" name="bed" flip="true" y="380"/>
+	<char x="-450" y="-1051" name="walk" flip="true"/>
+	<char x="-1913" y="2606" name="encounter" flip="true"/>
+	<char x="1236" y="2414" name="final" flip="true"/>
+	<sprite x="-180" y="-80" zoomfactor="0" scale="0.5" scrollx="0" name="fb_1" scrolly="0" sprite="stages/fysd/fb_1" alpha="0"/>
+	<sprite x="-150" y="-50" zoomfactor="0" scale="0.6" scrollx="0" name="fb_2" scrolly="0" sprite="stages/fysd/fb_2" alpha="0"/>
+	<sprite scrolly="0" x="-180" sprite="stages/fysd/fb_3" alpha="0" zoomfactor="0" scale="0.5" scrollx="0" name="fb_3"/>
+	<sprite x="-180" y="20" zoomfactor="0" scale="0.5" scrollx="0" name="fb_4" scrolly="0" sprite="stages/fysd/fb_4" alpha="0"/>
+	<sprite scrolly="0" sprite="stages/fysd/fb_5" alpha="0" zoomfactor="0" scale="0.6" scrollx="0" name="fb_5"/>
+	<sprite x="-220" y="-130" zoomfactor="0" scale="0.5" scrollx="0" name="fb_6" scrolly="0" sprite="stages/fysd/fb_6" alpha="0"/>
+	<sprite x="-120" y="-180" zoomfactor="0" scale="0.5" scrollx="0" name="fb_7" scrolly="0" sprite="stages/fysd/fb_7" alpha="0"/>
+	<sprite x="70" y="-150" zoomfactor="0" scale="0.5" scrollx="0" name="fb_8" scrolly="0" sprite="stages/fysd/fb_8" alpha="0"/>
+	<sprite x="-480" y="-380" zoomfactor="0" scale="0.7" scrollx="0" name="fb_9" scrolly="0" sprite="stages/fysd/fb_9" alpha="0"/>
+	<combo/>
+	<sprite x="20" updateHitbox="true" zoomfactor="0" scale="1.3" scrollx="0" name="desmotivacion" scrolly="0" sprite="stages\fysd\desmotivacion" alpha="0"/>
+</stage>

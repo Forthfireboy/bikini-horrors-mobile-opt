@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" sprite="dvd_bitcrush" scale="0.65" camx="0" icon="icon-dvd" color="#FFCC00" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="105" y="399" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="254" y="19" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="148.8" y="244.8" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="199.15" y="-137" fps="24" loop="false"/>
+	<anim name="caga" anim="caga" x="69" y="21" fps="24" loop="true"/>
+</character>
