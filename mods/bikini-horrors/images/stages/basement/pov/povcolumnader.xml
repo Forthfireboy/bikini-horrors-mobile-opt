@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="povcolumnader.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="columna der0000" x="10" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0001" x="260" y="10" width="264" height="2080"/>
+	<SubTexture name="columna der0002" x="534" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0003" x="784" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0004" x="784" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0005" x="1034" y="10" width="252" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0006" x="1296" y="10" width="252" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0007" x="1558" y="10" width="241" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0008" x="1809" y="10" width="241" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0009" x="10" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0010" x="2060" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0011" x="2310" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0012" x="2560" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0013" x="2810" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0014" x="3060" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0015" x="10" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0016" x="260" y="10" width="264" height="2080"/>
+	<SubTexture name="columna der0017" x="534" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0018" x="784" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+	<SubTexture name="columna der0019" x="784" y="10" width="240" height="2080" frameX="0" frameY="0" frameWidth="264" frameHeight="2080"/>
+</TextureAtlas>

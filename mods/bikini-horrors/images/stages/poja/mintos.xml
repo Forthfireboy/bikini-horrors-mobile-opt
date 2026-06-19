@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mintos.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mintos0000" x="0" y="0" width="2280" height="1275" pivotX="16.8" pivotY="26.95" frameX="0" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0001" x="0" y="0" width="2280" height="1275" frameX="0" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0002" x="0" y="0" width="2280" height="1275" frameX="0" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0003" x="0" y="0" width="2280" height="1275" frameX="0" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0004" x="0" y="0" width="2280" height="1275" frameX="0" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0005" x="0" y="0" width="2280" height="1275" frameX="0" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0006" x="0" y="1275" width="2248" height="1314" frameX="-16" frameY="0" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0007" x="0" y="1275" width="2248" height="1314" frameX="-16" frameY="0" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0008" x="0" y="1275" width="2248" height="1314" frameX="-16" frameY="0" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0009" x="0" y="1275" width="2248" height="1314" frameX="-16" frameY="0" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0010" x="0" y="1275" width="2248" height="1314" frameX="-16" frameY="0" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0011" x="0" y="1275" width="2248" height="1314" frameX="-16" frameY="0" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0012" x="0" y="2589" width="2275" height="1263" frameX="-16" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0013" x="0" y="2589" width="2275" height="1263" frameX="-16" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0014" x="0" y="2589" width="2275" height="1263" frameX="-16" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0015" x="0" y="2589" width="2275" height="1263" frameX="-16" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0016" x="0" y="2589" width="2275" height="1263" frameX="-16" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+	<SubTexture name="mintos0017" x="0" y="2589" width="2275" height="1263" frameX="-16" frameY="-26" frameWidth="2291" frameHeight="1314"/>
+</TextureAtlas>

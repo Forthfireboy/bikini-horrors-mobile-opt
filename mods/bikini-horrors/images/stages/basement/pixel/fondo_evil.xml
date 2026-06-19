@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fondo_evil.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glitchbasementgameplay0000" x="10" y="10" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0001" x="660" y="10" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0002" x="1310" y="10" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0003" x="1960" y="10" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0004" x="2610" y="10" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0005" x="3260" y="10" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0006" x="10" y="379" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0007" x="660" y="379" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0008" x="1310" y="379" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0009" x="1960" y="379" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0010" x="2610" y="379" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0011" x="3260" y="379" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0012" x="10" y="748" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0013" x="660" y="748" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0014" x="1310" y="748" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0015" x="1960" y="748" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0016" x="2610" y="748" width="640" height="359"/>
+	<SubTexture name="glitchbasementgameplay0017" x="3260" y="748" width="640" height="359"/>
+</TextureAtlas>

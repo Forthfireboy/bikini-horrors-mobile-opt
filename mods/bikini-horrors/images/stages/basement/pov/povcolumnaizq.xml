@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="povcolumnaizq.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="columna izq0000" x="10" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0001" x="269" y="10" width="283" height="2081" frameX="-5" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0002" x="562" y="10" width="283" height="2081" frameX="-5" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0003" x="855" y="10" width="259" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0004" x="1124" y="10" width="264" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0005" x="1398" y="10" width="264" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0006" x="1672" y="10" width="262" height="2081" frameX="0" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0007" x="1672" y="10" width="262" height="2081" frameX="0" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0008" x="1944" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0009" x="2203" y="10" width="265" height="2081" frameX="-6" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0010" x="2478" y="10" width="265" height="2081" frameX="-6" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0011" x="2753" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0012" x="3012" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0013" x="3271" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0014" x="3530" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0015" x="10" y="10" width="249" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0016" x="269" y="10" width="283" height="2081" frameX="-5" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0017" x="562" y="10" width="283" height="2081" frameX="-5" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0018" x="855" y="10" width="259" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+	<SubTexture name="columna izq0019" x="1124" y="10" width="264" height="2081" frameX="-13" frameY="0" frameWidth="288" frameHeight="2081"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="calamardo.png"><SubTexture name="calamardo head_turn0000" x="0" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0001" x="0" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0002" x="194" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0003" x="194" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0004" x="388" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0005" x="388" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0006" x="582" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0007" x="582" y="0" width="194" height="397" frameX="-1995" frameY="-1294" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0008" x="0" y="397" width="194" height="395" frameX="-1995" frameY="-1296" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0009" x="0" y="397" width="194" height="395" frameX="-1995" frameY="-1296" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0010" x="194" y="397" width="194" height="395" frameX="-1995" frameY="-1296" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0011" x="194" y="397" width="194" height="395" frameX="-1995" frameY="-1296" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0012" x="776" y="0" width="194" height="396" frameX="-1995" frameY="-1295" frameWidth="4184" frameHeight="2354" />
+<SubTexture name="calamardo head_turn0013" x="776" y="0" width="194" height="396" frameX="-1995" frameY="-1295" frameWidth="4184" frameHeight="2354" />
+</TextureAtlas>

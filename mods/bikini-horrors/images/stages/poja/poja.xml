@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="poja.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="poja_0" x="0" y="0" width="32" height="32"/>
+	<SubTexture name="poja_1" x="0" y="0" width="32" height="32"/>
+	<SubTexture name="poja_2" x="0" y="0" width="32" height="32"/>
+	<SubTexture name="poja_3" x="0" y="0" width="32" height="32"/>
+	<SubTexture name="poja_4" x="32" y="0" width="32" height="32"/>
+	<SubTexture name="poja_5" x="32" y="0" width="32" height="32"/>
+	<SubTexture name="poja_6" x="32" y="0" width="32" height="32"/>
+	<SubTexture name="poja_7" x="32" y="0" width="32" height="32"/>
+	<SubTexture name="poja_8" x="0" y="32" width="32" height="32"/>
+	<SubTexture name="poja_9" x="0" y="32" width="32" height="32"/>
+	<SubTexture name="poja_10" x="0" y="32" width="32" height="32"/>
+	<SubTexture name="poja_11" x="0" y="32" width="32" height="32"/>
+	<SubTexture name="poja_12" x="32" y="32" width="32" height="32"/>
+	<SubTexture name="poja_13" x="32" y="32" width="32" height="32"/>
+	<SubTexture name="poja_14" x="32" y="32" width="32" height="32"/>
+	<SubTexture name="poja_15" x="32" y="32" width="32" height="32"/>
+</TextureAtlas>

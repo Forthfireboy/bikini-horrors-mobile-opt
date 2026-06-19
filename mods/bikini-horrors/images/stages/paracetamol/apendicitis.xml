@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="apendicitis.png">
+<SubTexture name="lmove0000" x="0" y="4146" width="3195" height="2072" frameX="-74" frameY="-56" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0001" x="3195" y="4146" width="3195" height="2072" frameX="-74" frameY="-58" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0002" x="0" y="0" width="3195" height="2073" frameX="-74" frameY="-60" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0003" x="3195" y="0" width="3195" height="2073" frameX="-74" frameY="-66" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0004" x="6390" y="0" width="3195" height="2072" frameX="-74" frameY="-75" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0005" x="6390" y="2072" width="3195" height="2072" frameX="-74" frameY="-96" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0006" x="6390" y="4144" width="3195" height="2072" frameX="-74" frameY="-106" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0007" x="0" y="2073" width="3195" height="2073" frameX="-74" frameY="-117" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0008" x="3195" y="2073" width="3195" height="2073" frameX="-74" frameY="-121" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0009" x="0" y="6218" width="3195" height="2072" frameX="-74" frameY="-125" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0010" x="3195" y="6218" width="3195" height="2072" frameX="-74" frameY="-128" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0011" x="0" y="4146" width="3195" height="2072" frameX="-74" frameY="-56" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0012" x="0" y="4146" width="3195" height="2072" frameX="-74" frameY="-56" frameWidth="3334" frameHeight="2202" />
+<SubTexture name="lmove0013" x="0" y="4146" width="3195" height="2072" frameX="-74" frameY="-56" frameWidth="3334" frameHeight="2202" />
+</TextureAtlas>

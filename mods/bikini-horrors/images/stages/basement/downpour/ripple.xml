@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ripple.png">
+<SubTexture name="ripple ripple0000" x="0" y="1548" width="2692" height="767" frameX="0" frameY="-1124" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0001" x="0" y="1548" width="2692" height="767" frameX="0" frameY="-1124" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0002" x="0" y="1548" width="2692" height="767" frameX="0" frameY="-1124" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0003" x="0" y="1548" width="2692" height="767" frameX="0" frameY="-1124" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0004" x="0" y="0" width="2692" height="776" frameX="0" frameY="-1115" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0005" x="0" y="0" width="2692" height="776" frameX="0" frameY="-1115" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0006" x="0" y="0" width="2692" height="776" frameX="0" frameY="-1115" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0007" x="0" y="776" width="2692" height="772" frameX="0" frameY="-1119" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0008" x="0" y="776" width="2692" height="772" frameX="0" frameY="-1119" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="ripple ripple0009" x="0" y="776" width="2692" height="772" frameX="0" frameY="-1119" frameWidth="2692" frameHeight="1891" />
+</TextureAtlas>

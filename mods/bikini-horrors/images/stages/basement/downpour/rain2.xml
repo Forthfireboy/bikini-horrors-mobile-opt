@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rain2.png">
+<SubTexture name="rain2 rain0000" x="0" y="0" width="2352" height="1891" frameX="-297" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0001" x="2352" y="0" width="2384" height="1891" frameX="-155" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0002" x="0" y="1891" width="2407" height="1891" frameX="0" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0003" x="4736" y="0" width="2354" height="1891" frameX="0" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0004" x="0" y="3782" width="2673" height="1891" frameX="-19" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0005" x="0" y="0" width="2352" height="1891" frameX="-297" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0006" x="2352" y="0" width="2384" height="1891" frameX="-155" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0007" x="0" y="1891" width="2407" height="1891" frameX="0" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0008" x="4736" y="1891" width="2157" height="1891" frameX="-156" frameY="0" frameWidth="2692" frameHeight="1891" />
+<SubTexture name="rain2 rain0009" x="0" y="3782" width="2673" height="1891" frameX="-19" frameY="0" frameWidth="2692" frameHeight="1891" />
+</TextureAtlas>

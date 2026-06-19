@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="flowers_downpour.png">
+<SubTexture name="flowers_downpour flowers_downpour0000" x="0" y="1871" width="2140" height="1869" frameX="-720" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0001" x="2140" y="1871" width="2137" height="1869" frameX="-720" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0002" x="0" y="0" width="2147" height="1871" frameX="-728" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0003" x="2147" y="0" width="2147" height="1871" frameX="-728" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0004" x="4294" y="0" width="2087" height="1848" frameX="-747" frameY="-326" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0005" x="0" y="1871" width="2140" height="1869" frameX="-720" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0006" x="2140" y="1871" width="2137" height="1869" frameX="-720" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0007" x="0" y="0" width="2147" height="1871" frameX="-728" frameY="-313" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0008" x="0" y="3740" width="2113" height="1848" frameX="-747" frameY="-326" frameWidth="5383" frameHeight="3782" />
+<SubTexture name="flowers_downpour flowers_downpour0009" x="4294" y="0" width="2087" height="1848" frameX="-747" frameY="-326" frameWidth="5383" frameHeight="3782" />
+</TextureAtlas>

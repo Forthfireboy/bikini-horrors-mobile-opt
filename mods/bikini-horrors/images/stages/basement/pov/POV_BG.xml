@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="POV_BG.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FONDOPOV0000" x="10" y="10" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0001" x="1944" y="10" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0002" x="3878" y="10" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0003" x="5812" y="10" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0004" x="10" y="1100" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0005" x="1944" y="1100" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0006" x="3878" y="1100" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0007" x="5812" y="1100" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0008" x="10" y="2190" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0009" x="1944" y="2190" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0010" x="3878" y="2190" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0011" x="5812" y="2190" width="1924" height="1080"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="kahoot_bg.png"><SubTexture name="kahoot_bg idle0000" x="0" y="0" width="5179" height="2925" frameX="0" frameY="0" frameWidth="5179" frameHeight="2925" />
+<SubTexture name="kahoot_bg idle0001" x="0" y="0" width="5179" height="2925" frameX="0" frameY="0" frameWidth="5179" frameHeight="2925" />
+<SubTexture name="kahoot_bg idle0002" x="5179" y="0" width="5179" height="2925" frameX="0" frameY="0" frameWidth="5179" frameHeight="2925" />
+<SubTexture name="kahoot_bg idle0003" x="5179" y="0" width="5179" height="2925" frameX="0" frameY="0" frameWidth="5179" frameHeight="2925" />
+<SubTexture name="kahoot_bg idle0004" x="0" y="2925" width="5179" height="2925" frameX="0" frameY="0" frameWidth="5179" frameHeight="2925" />
+<SubTexture name="kahoot_bg idle0005" x="0" y="2925" width="5179" height="2925" frameX="0" frameY="0" frameWidth="5179" frameHeight="2925" />
+</TextureAtlas>

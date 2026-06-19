@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gris.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gris_0" x="0" y="0" width="80" height="80"/>
+	<SubTexture name="gris_1" x="0" y="0" width="80" height="80"/>
+	<SubTexture name="gris_2" x="0" y="0" width="80" height="80"/>
+	<SubTexture name="gris_3" x="0" y="0" width="80" height="80"/>
+	<SubTexture name="gris_5" x="80" y="0" width="80" height="80"/>
+	<SubTexture name="gris_6" x="80" y="0" width="80" height="80"/>
+	<SubTexture name="gris_7" x="80" y="0" width="80" height="80"/>
+	<SubTexture name="gris_8" x="80" y="0" width="80" height="80"/>
+	<SubTexture name="gris_9" x="160" y="0" width="80" height="80"/>
+	<SubTexture name="gris_10" x="160" y="0" width="80" height="80"/>
+	<SubTexture name="gris_11" x="160" y="0" width="80" height="80"/>
+	<SubTexture name="gris_12" x="160" y="0" width="80" height="80"/>
+	<SubTexture name="gris_13" x="0" y="80" width="80" height="80"/>
+	<SubTexture name="gris_14" x="0" y="80" width="80" height="80"/>
+	<SubTexture name="gris_15" x="0" y="80" width="80" height="80"/>
+	<SubTexture name="gris_16" x="0" y="80" width="80" height="80"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fondo.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fondo0000" x="4" y="4" width="4490" height="1961" frameX="-7" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0001" x="4" y="4" width="4490" height="1961" frameX="-7" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0002" x="4" y="4" width="4490" height="1961" frameX="-7" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0003" x="4" y="4" width="4490" height="1961" frameX="-7" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0004" x="4" y="4" width="4490" height="1961" frameX="-7" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0005" x="4" y="4" width="4490" height="1961" frameX="-7" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0006" x="4" y="1969" width="4495" height="1961" frameX="-5" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0007" x="4" y="1969" width="4495" height="1961" frameX="-5" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0008" x="4" y="1969" width="4495" height="1961" frameX="-5" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0009" x="4" y="1969" width="4495" height="1961" frameX="-5" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0010" x="4" y="1969" width="4495" height="1961" frameX="-5" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0011" x="4" y="1969" width="4495" height="1961" frameX="-5" frameY="0" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0012" x="4" y="3934" width="4500" height="1944" frameX="0" frameY="-17" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0013" x="4" y="3934" width="4500" height="1944" frameX="0" frameY="-17" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0014" x="4" y="3934" width="4500" height="1944" frameX="0" frameY="-17" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0015" x="4" y="3934" width="4500" height="1944" frameX="0" frameY="-17" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0016" x="4" y="3934" width="4500" height="1944" frameX="0" frameY="-17" frameWidth="4500" frameHeight="1961"/>
+	<SubTexture name="fondo0017" x="4" y="3934" width="4500" height="1944" frameX="0" frameY="-17" frameWidth="4500" frameHeight="1961"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="flowerglitch.png">
+<SubTexture name="flowerglitch flor0000" x="1626" y="771" width="1619" height="770" frameX="-517" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0001" x="0" y="772" width="1624" height="771" frameX="-517" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0002" x="0" y="1543" width="1634" height="770" frameX="-517" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0003" x="0" y="0" width="1626" height="772" frameX="-510" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0004" x="1626" y="0" width="1624" height="771" frameX="-517" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0005" x="0" y="1543" width="1634" height="770" frameX="-517" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0006" x="0" y="0" width="1626" height="772" frameX="-510" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0007" x="0" y="2313" width="1633" height="770" frameX="-503" frameY="0" frameWidth="3157" frameHeight="1929" />
+<SubTexture name="flowerglitch flor0008" x="3250" y="0" width="1651" height="770" frameX="-517" frameY="0" frameWidth="3157" frameHeight="1929" />
+</TextureAtlas>
