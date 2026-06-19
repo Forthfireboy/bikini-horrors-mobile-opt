@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pajaro_en_rama.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pajaro en la rama_0" x="0" y="0" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_1" x="0" y="0" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_2" x="534" y="0" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_3" x="534" y="0" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_4" x="0" y="223" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_5" x="0" y="223" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_6" x="534" y="223" width="534" height="223"/>
+	<SubTexture name="pajaro en la rama_7" x="534" y="223" width="534" height="223"/>
+</TextureAtlas>

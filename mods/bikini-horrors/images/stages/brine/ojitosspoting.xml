@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ojitosspoting.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ojitos0000" x="5" y="5" width="1193" height="1079" pivotX="590.85" pivotY="483"/>
+	<SubTexture name="ojitos0001" x="5" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0002" x="5" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0003" x="1203" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0004" x="1203" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0005" x="1203" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0006" x="2401" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0007" x="2401" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0008" x="2401" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0009" x="2401" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0010" x="2401" y="5" width="1193" height="1079"/>
+	<SubTexture name="ojitos0011" x="2401" y="5" width="1193" height="1079"/>
+</TextureAtlas>

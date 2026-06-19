@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aika_hypno.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="aika_idle0000" x="4" y="4" width="172" height="236" frameX="0" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0001" x="4" y="4" width="172" height="236" frameX="0" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0002" x="4" y="4" width="172" height="236" frameX="0" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0003" x="4" y="4" width="172" height="236" frameX="0" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0004" x="216" y="4" width="172" height="242"/>
+	<SubTexture name="aika_idle0005" x="216" y="4" width="172" height="242"/>
+	<SubTexture name="aika_idle0006" x="216" y="4" width="172" height="242"/>
+	<SubTexture name="aika_idle0007" x="216" y="4" width="172" height="242"/>
+	<SubTexture name="aika_idle0008" x="428" y="4" width="167" height="236" frameX="-5" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0009" x="428" y="4" width="167" height="236" frameX="-5" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0010" x="428" y="4" width="167" height="236" frameX="-5" frameY="-6" frameWidth="172" frameHeight="242"/>
+	<SubTexture name="aika_idle0011" x="428" y="4" width="167" height="236" frameX="-5" frameY="-6" frameWidth="172" frameHeight="242"/>
+</TextureAtlas>

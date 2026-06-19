@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stars.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgstars0000" x="5" y="5" width="568" height="337" pivotX="297.9" pivotY="320"/>
+	<SubTexture name="bgstars0001" x="5" y="5" width="568" height="337"/>
+	<SubTexture name="bgstars0002" x="5" y="5" width="568" height="337"/>
+	<SubTexture name="bgstars0003" x="5" y="5" width="568" height="337"/>
+	<SubTexture name="bgstars0004" x="5" y="347" width="568" height="337"/>
+	<SubTexture name="bgstars0005" x="5" y="347" width="568" height="337"/>
+	<SubTexture name="bgstars0006" x="5" y="347" width="568" height="337"/>
+	<SubTexture name="bgstars0007" x="5" y="347" width="568" height="337"/>
+</TextureAtlas>

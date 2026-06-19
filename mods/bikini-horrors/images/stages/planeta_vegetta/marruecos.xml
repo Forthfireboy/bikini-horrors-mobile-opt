@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="marruecos.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="marruecos_0" x="0" y="0" width="544" height="304"/>
+	<SubTexture name="marruecos_1" x="0" y="0" width="544" height="304"/>
+	<SubTexture name="marruecos_2" x="544" y="0" width="544" height="304"/>
+	<SubTexture name="marruecos_3" x="544" y="0" width="544" height="304"/>
+	<SubTexture name="marruecos_4" x="0" y="304" width="544" height="304"/>
+	<SubTexture name="marruecos_5" x="0" y="304" width="544" height="304"/>
+	<SubTexture name="marruecos_6" x="544" y="304" width="544" height="304"/>
+	<SubTexture name="marruecos_7" x="544" y="304" width="544" height="304"/>
+</TextureAtlas>

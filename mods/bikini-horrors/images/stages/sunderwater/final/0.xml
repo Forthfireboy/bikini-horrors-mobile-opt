@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="0.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Símbolo 30000" x="0" y="0" width="1855" height="700" pivotX="307.5" pivotY="361.25" frameX="-26" frameY="-52" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30001" x="0" y="0" width="1855" height="700" frameX="-26" frameY="-52" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30002" x="0" y="0" width="1855" height="700" frameX="-26" frameY="-52" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30003" x="1855" y="0" width="1839" height="724" frameX="-30" frameY="-31" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30004" x="1855" y="0" width="1839" height="724" frameX="-30" frameY="-31" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30005" x="1855" y="0" width="1839" height="724" frameX="-30" frameY="-31" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30006" x="0" y="724" width="1893" height="777"/>
+	<SubTexture name="Símbolo 30007" x="0" y="724" width="1893" height="777"/>
+	<SubTexture name="Símbolo 30008" x="0" y="724" width="1893" height="777"/>
+	<SubTexture name="Símbolo 30009" x="1893" y="724" width="1824" height="744" frameX="-20" frameY="-26" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30010" x="1893" y="724" width="1824" height="744" frameX="-20" frameY="-26" frameWidth="1893" frameHeight="777"/>
+	<SubTexture name="Símbolo 30011" x="1893" y="724" width="1824" height="744" frameX="-20" frameY="-26" frameWidth="1893" frameHeight="777"/>
+</TextureAtlas>

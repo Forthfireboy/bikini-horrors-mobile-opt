@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yo_cuando_esqueleto.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yo cuando esqueleto_0" x="0" y="0" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_1" x="0" y="0" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_2" x="352" y="0" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_3" x="352" y="0" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_4" x="0" y="354" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_5" x="0" y="354" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_6" x="352" y="354" width="352" height="354"/>
+	<SubTexture name="yo cuando esqueleto_7" x="352" y="354" width="352" height="354"/>
+</TextureAtlas>

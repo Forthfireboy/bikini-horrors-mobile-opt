@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="iniesta.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="i_moving0000" x="4" y="4" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0001" x="241" y="4" width="233" height="296" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0002" x="478" y="4" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0003" x="715" y="4" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0004" x="952" y="4" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0005" x="1189" y="4" width="244" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0006" x="1437" y="4" width="236" height="297" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0007" x="1677" y="4" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0008" x="4" y="305" width="233" height="296" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0009" x="241" y="305" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0010" x="478" y="305" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0011" x="715" y="305" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0012" x="952" y="305" width="233" height="295" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+	<SubTexture name="i_moving0013" x="1189" y="305" width="233" height="297" frameX="0" frameY="0" frameWidth="244" frameHeight="297"/>
+</TextureAtlas>
