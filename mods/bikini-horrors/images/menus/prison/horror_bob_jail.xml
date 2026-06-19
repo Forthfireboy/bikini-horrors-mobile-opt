@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="horror_bob_jail.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="horror_jail0000" x="4" y="4" width="286" height="206"/>
+	<SubTexture name="sound0000" x="294" y="4" width="376" height="238"/>
+	<SubTexture name="sound0001" x="294" y="4" width="376" height="238"/>
+	<SubTexture name="sound0002" x="294" y="4" width="376" height="238"/>
+	<SubTexture name="sound0003" x="294" y="4" width="376" height="238"/>
+	<SubTexture name="sound0004" x="294" y="4" width="376" height="238"/>
+	<SubTexture name="sound0005" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0006" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0007" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0008" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0009" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0010" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0011" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0012" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0013" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0014" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0015" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0016" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0017" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0018" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0019" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0020" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0021" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0022" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0023" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0024" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0025" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0026" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+	<SubTexture name="sound0027" x="674" y="4" width="286" height="206" frameX="-36" frameY="-16" frameWidth="376" frameHeight="238"/>
+</TextureAtlas>

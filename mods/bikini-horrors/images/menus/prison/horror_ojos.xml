@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="horror_ojos.png"><SubTexture name="idle0000" x="0" y="416" width="706" height="338" frameX="-5" frameY="-41" frameWidth="711" frameHeight="416" />
+<SubTexture name="serious0000" x="0" y="754" width="709" height="271" frameX="0" frameY="-105" frameWidth="711" frameHeight="416" />
+<SubTexture name="curious0000" x="684" y="0" width="697" height="354" frameX="-3" frameY="-28" frameWidth="711" frameHeight="416" />
+<SubTexture name="bored0000" x="0" y="1025" width="704" height="257" frameX="0" frameY="-133" frameWidth="711" frameHeight="416" />
+<SubTexture name="vicious0000" x="0" y="0" width="684" height="416" frameX="-16" frameY="0" frameWidth="711" frameHeight="416" />
+</TextureAtlas>

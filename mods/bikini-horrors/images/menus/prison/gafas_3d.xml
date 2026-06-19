@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gafas_3d.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rojo0000" x="5" y="5" width="163" height="178" pivotX="81.1" pivotY="178.45"/>
+	<SubTexture name="azul0000" x="173" y="5" width="163" height="178"/>
+</TextureAtlas>
