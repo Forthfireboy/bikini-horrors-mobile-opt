@@ -1,0 +1,18 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "cucarachabob",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "cucarachabob",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 130,
+	"customGameOver": "credits"
+}

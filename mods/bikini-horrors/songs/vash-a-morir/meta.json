@@ -1,0 +1,18 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "nothing",
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"name": "vash-a-morir",
+	"color": "#9271FD",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "vash-a-morir",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 179,
+	"customGameOver": "la-gallina-turuleca"
+}

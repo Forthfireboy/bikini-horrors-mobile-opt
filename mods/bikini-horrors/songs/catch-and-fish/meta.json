@@ -1,0 +1,18 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "catch-and-fish",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Catch and Fish",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 138,
+	"customGameOver": "credits"
+}

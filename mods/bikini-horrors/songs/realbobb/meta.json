@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"real"
+	],
+	"icon": "Nothing",
+	"parsedColor": -1,
+	"coopAllowed": true,
+	"name": "realbobb",
+	"color": "#FFFFFF",
+	"stepsPerBeat": 4,
+	"displayName": "realbobb",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 145,
+	"customGameOver": "credits"
+}

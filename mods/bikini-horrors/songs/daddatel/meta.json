@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "nothing",
+	"difficulties": [
+		"dside"
+	],
+	"color": "#B603FF",
+	"name": "daddatel",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Daddatel",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 110,
+	"customGameOver": "credits"
+}
