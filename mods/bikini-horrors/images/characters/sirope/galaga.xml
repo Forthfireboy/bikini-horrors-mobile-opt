@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="galaga.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="galaga up0000" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0001" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0002" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0003" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0004" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0005" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0006" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0007" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0008" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0009" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0010" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0011" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0012" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0013" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0014" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0015" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0016" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0017" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0018" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galaga up0019" x="10" y="10" width="451" height="482" frameX="0" frameY="-29" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0000" x="10" y="10" width="451" height="482" frameX="0" frameY="-31" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0001" x="10" y="10" width="451" height="482" frameX="0" frameY="-31" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0002" x="10" y="10" width="451" height="482" frameX="0" frameY="-31" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0003" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0004" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0005" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0006" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0007" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0008" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0009" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0010" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0011" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0012" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0013" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0014" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0015" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0016" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0017" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0018" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0019" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagadown0020" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaidle0000" x="471" y="10" width="451" height="482"/>
+	<SubTexture name="galagaleft0000" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0001" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0002" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0003" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0004" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0005" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0006" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0007" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0008" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0009" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0010" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0011" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0012" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0013" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0014" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0015" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0016" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0017" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0018" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaleft0019" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0000" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0001" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0002" x="10" y="10" width="451" height="482" frameX="-30" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0003" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0004" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0005" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0006" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0007" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0008" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0009" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0010" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0011" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0012" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0013" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0014" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0015" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0016" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0017" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0018" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+	<SubTexture name="galagaright0019" x="10" y="10" width="451" height="482" frameX="0" frameY="0" frameWidth="451" frameHeight="511"/>
+</TextureAtlas>

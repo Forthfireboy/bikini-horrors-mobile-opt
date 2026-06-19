@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tu la llevas1.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tulallevas0000" x="5" y="5" width="519" height="578" pivotX="266.4" pivotY="578.15"/>
+	<SubTexture name="tulallevas0001" x="529" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0002" x="1053" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0003" x="1577" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0004" x="2101" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0005" x="2625" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0006" x="3149" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0007" x="3673" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0008" x="4197" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0009" x="4721" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0010" x="5245" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0011" x="5769" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0012" x="6293" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0013" x="6817" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0014" x="7341" y="5" width="519" height="578"/>
+	<SubTexture name="tulallevas0015" x="5" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0016" x="529" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0017" x="1053" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0018" x="1577" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0019" x="2101" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0020" x="2625" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0021" x="3149" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0022" x="3673" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0023" x="4197" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0024" x="4721" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0025" x="5245" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0026" x="5769" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0027" x="6293" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0028" x="6817" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0029" x="7341" y="588" width="519" height="578"/>
+	<SubTexture name="tulallevas0030" x="5" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0031" x="529" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0032" x="1053" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0033" x="1577" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0034" x="2101" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0035" x="2625" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0036" x="3149" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0037" x="3673" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0038" x="4197" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0039" x="4721" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0040" x="5245" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0041" x="5769" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0042" x="6293" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0043" x="6817" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0044" x="7341" y="1171" width="519" height="578"/>
+	<SubTexture name="tulallevas0045" x="5" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0046" x="529" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0047" x="1053" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0048" x="1577" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0049" x="2101" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0050" x="2625" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0051" x="3149" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0052" x="3673" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0053" x="4197" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0054" x="4721" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0055" x="5245" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0056" x="5769" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0057" x="6293" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0058" x="6817" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0059" x="7341" y="1754" width="519" height="578"/>
+	<SubTexture name="tulallevas0060" x="5" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0061" x="529" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0062" x="1053" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0063" x="1577" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0064" x="2101" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0065" x="2625" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0066" x="3149" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0067" x="3673" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0068" x="4197" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0069" x="4721" y="2337" width="519" height="578"/>
+	<SubTexture name="tulallevas0070" x="5245" y="2337" width="519" height="578"/>
+</TextureAtlas>

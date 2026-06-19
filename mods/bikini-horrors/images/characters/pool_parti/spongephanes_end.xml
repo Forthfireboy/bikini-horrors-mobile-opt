@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spongephanes_end.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sp_down instancia 10000" x="5" y="5" width="1332" height="1347" pivotX="37.55" pivotY="-2.75"/>
+	<SubTexture name="sp_down instancia 10001" x="5" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10002" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10003" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10004" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10005" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10006" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10007" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10008" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10009" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10010" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10011" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10012" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down instancia 10013" x="1342" y="5" width="1332" height="1347"/>
+	<SubTexture name="sp_down_alt instancia 10000" x="2679" y="5" width="1381" height="1366" pivotX="51.8" pivotY="0.95"/>
+	<SubTexture name="sp_down_alt instancia 10001" x="2679" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10002" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10003" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10004" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10005" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10006" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10007" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10008" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10009" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10010" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10011" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10012" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_down_alt instancia 10013" x="4065" y="5" width="1381" height="1366"/>
+	<SubTexture name="sp_idle instancia 10000" x="5451" y="5" width="1036" height="1657" pivotX="-624.25" pivotY="-110.9"/>
+	<SubTexture name="sp_idle instancia 10001" x="5451" y="5" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10002" x="5451" y="5" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10003" x="6492" y="5" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10004" x="5" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10005" x="5" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10006" x="1046" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10007" x="1046" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10008" x="2087" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10009" x="3128" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10010" x="3128" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_idle instancia 10011" x="3128" y="1667" width="1036" height="1657"/>
+	<SubTexture name="sp_left instancia 10000" x="4169" y="1667" width="1649" height="1498" pivotX="38.15" pivotY="72.7"/>
+	<SubTexture name="sp_left instancia 10001" x="4169" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10002" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10003" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10004" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10005" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10006" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10007" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10008" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10009" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10010" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left instancia 10011" x="5823" y="1667" width="1649" height="1498"/>
+	<SubTexture name="sp_left_alt instancia 10000" x="5" y="3329" width="1717" height="1568" pivotX="84.8" pivotY="94.05"/>
+	<SubTexture name="sp_left_alt instancia 10001" x="5" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10002" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10003" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10004" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10005" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10006" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10007" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10008" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10009" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10010" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_left_alt instancia 10011" x="1727" y="3329" width="1717" height="1568"/>
+	<SubTexture name="sp_right instancia 10000" x="3449" y="3329" width="1500" height="1466" pivotX="96.35" pivotY="-6.65"/>
+	<SubTexture name="sp_right instancia 10001" x="3449" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10002" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10003" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10004" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10005" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10006" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10007" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10008" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10009" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10010" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10011" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10012" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right instancia 10013" x="4954" y="3329" width="1500" height="1466"/>
+	<SubTexture name="sp_right_alt instancia 10000" x="6459" y="3329" width="1579" height="1481" pivotX="137.4" pivotY="-1.75"/>
+	<SubTexture name="sp_right_alt instancia 10001" x="6459" y="3329" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10002" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10003" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10004" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10005" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10006" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10007" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10008" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10009" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10010" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10011" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10012" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_right_alt instancia 10013" x="5" y="4902" width="1579" height="1481"/>
+	<SubTexture name="sp_up instancia 10000" x="1589" y="4902" width="981" height="1601" pivotX="-88.85" pivotY="61.55"/>
+	<SubTexture name="sp_up instancia 10001" x="1589" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10002" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10003" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10004" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10005" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10006" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10007" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up instancia 10008" x="2575" y="4902" width="981" height="1601"/>
+	<SubTexture name="sp_up_alt instancia 10000" x="3561" y="4902" width="1006" height="1689" pivotX="-81.1" pivotY="120.55"/>
+	<SubTexture name="sp_up_alt instancia 10001" x="3561" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10002" x="4572" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10003" x="4572" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10004" x="4572" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10005" x="4572" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10006" x="4572" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10007" x="4572" y="4902" width="1006" height="1689"/>
+	<SubTexture name="sp_up_alt instancia 10008" x="4572" y="4902" width="1006" height="1689"/>
+</TextureAtlas>

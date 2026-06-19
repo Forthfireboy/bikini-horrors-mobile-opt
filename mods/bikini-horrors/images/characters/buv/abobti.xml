@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="abobti.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="abobtidown0000" x="0" y="0" width="862" height="784" pivotX="11.2" pivotY="0" frameX="0" frameY="-28" frameWidth="862" frameHeight="812"/>
+	<SubTexture name="abobtidown0001" x="0" y="0" width="862" height="784" frameX="0" frameY="-28" frameWidth="862" frameHeight="812"/>
+	<SubTexture name="abobtidown0002" x="862" y="0" width="839" height="812" frameX="-11" frameY="0" frameWidth="862" frameHeight="812"/>
+	<SubTexture name="abobtidown0003" x="862" y="0" width="839" height="812" frameX="-11" frameY="0" frameWidth="862" frameHeight="812"/>
+	<SubTexture name="abobtiidle0000" x="1701" y="0" width="1044" height="1045" pivotX="6.35" pivotY="8.65" frameX="-2" frameY="0" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0001" x="2745" y="0" width="1044" height="1043" frameX="-2" frameY="-2" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0002" x="0" y="1045" width="1049" height="1041" frameX="-1" frameY="-4" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0003" x="1049" y="1045" width="1049" height="1043" frameX="-1" frameY="-2" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0004" x="2098" y="1045" width="1040" height="1045" frameX="0" frameY="0" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0005" x="0" y="2090" width="1040" height="1043" frameX="0" frameY="-2" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0006" x="1040" y="2090" width="1045" height="1041" frameX="-1" frameY="-4" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtiidle0007" x="2085" y="2090" width="1045" height="1043" frameX="-1" frameY="-2" frameWidth="1050" frameHeight="1045"/>
+	<SubTexture name="abobtileft0000" x="0" y="3133" width="1338" height="1074" pivotX="0" pivotY="0" frameX="0" frameY="0" frameWidth="1345" frameHeight="1074"/>
+	<SubTexture name="abobtileft0001" x="0" y="3133" width="1338" height="1074" frameX="0" frameY="0" frameWidth="1345" frameHeight="1074"/>
+	<SubTexture name="abobtileft0002" x="1338" y="3133" width="1328" height="1074" frameX="-17" frameY="0" frameWidth="1345" frameHeight="1074"/>
+	<SubTexture name="abobtileft0003" x="1338" y="3133" width="1328" height="1074" frameX="-17" frameY="0" frameWidth="1345" frameHeight="1074"/>
+	<SubTexture name="abobtiright0000" x="2666" y="3133" width="762" height="982" pivotX="-119.05" pivotY="66.5" frameX="-9" frameY="0" frameWidth="771" frameHeight="983"/>
+	<SubTexture name="abobtiright0001" x="2666" y="3133" width="762" height="982" frameX="-9" frameY="0" frameWidth="771" frameHeight="983"/>
+	<SubTexture name="abobtiright0002" x="0" y="4207" width="740" height="983" frameX="0" frameY="0" frameWidth="771" frameHeight="983"/>
+	<SubTexture name="abobtiright0003" x="0" y="4207" width="740" height="983" frameX="0" frameY="0" frameWidth="771" frameHeight="983"/>
+	<SubTexture name="abobtiup0000" x="740" y="4207" width="755" height="1207" pivotX="0.4" pivotY="0"/>
+	<SubTexture name="abobtiup0001" x="740" y="4207" width="755" height="1207"/>
+	<SubTexture name="abobtiup0002" x="1495" y="4207" width="755" height="1191" frameX="0" frameY="-16" frameWidth="755" frameHeight="1207"/>
+	<SubTexture name="abobtiup0003" x="1495" y="4207" width="755" height="1191" frameX="0" frameY="-16" frameWidth="755" frameHeight="1207"/>
+</TextureAtlas>

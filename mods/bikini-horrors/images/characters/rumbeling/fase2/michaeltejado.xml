@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="michaeltejado.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down instancia 10000" x="5" y="5" width="92" height="104" pivotX="-1206.9" pivotY="-431.75"/>
+	<SubTexture name="down instancia 10001" x="5" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10002" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10003" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10004" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10005" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10006" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10007" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10008" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10009" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10010" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10011" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10012" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10013" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10014" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="down instancia 10015" x="102" y="5" width="92" height="104"/>
+	<SubTexture name="idle instancia 10000" x="199" y="5" width="102" height="95" pivotX="-1192.3" pivotY="-431.85"/>
+	<SubTexture name="idle instancia 10001" x="199" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10002" x="199" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10003" x="199" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10004" x="306" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10005" x="306" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10006" x="306" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10007" x="306" y="5" width="102" height="95"/>
+	<SubTexture name="idle instancia 10008" x="5" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10009" x="5" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10010" x="5" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10011" x="5" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10012" x="112" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10013" x="112" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10014" x="112" y="114" width="102" height="95"/>
+	<SubTexture name="idle instancia 10015" x="112" y="114" width="102" height="95"/>
+	<SubTexture name="left instancia 10000" x="219" y="114" width="119" height="101" pivotX="-1172" pivotY="-437.9"/>
+	<SubTexture name="left instancia 10001" x="219" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10002" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10003" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10004" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10005" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10006" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10007" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10008" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10009" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10010" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10011" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10012" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10013" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10014" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="left instancia 10015" x="343" y="114" width="119" height="101"/>
+	<SubTexture name="right instancia 10000" x="5" y="220" width="104" height="100" pivotX="-1196.2" pivotY="-426.2"/>
+	<SubTexture name="right instancia 10001" x="5" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10002" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10003" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10004" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10005" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10006" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10007" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10008" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10009" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10010" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10011" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10012" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10013" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10014" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="right instancia 10015" x="114" y="220" width="104" height="100"/>
+	<SubTexture name="shoot instancia 10000" x="223" y="220" width="125" height="93" pivotX="-1180.45" pivotY="-433.15"/>
+	<SubTexture name="shoot instancia 10001" x="223" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10002" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10003" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10004" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10005" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10006" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10007" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10008" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10009" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10010" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10011" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10012" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10013" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10014" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="shoot instancia 10015" x="353" y="220" width="125" height="93"/>
+	<SubTexture name="up instancia 10000" x="5" y="325" width="91" height="104" pivotX="-1198.45" pivotY="-416.95"/>
+	<SubTexture name="up instancia 10001" x="5" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10002" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10003" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10004" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10005" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10006" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10007" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10008" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10009" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10010" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10011" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10012" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10013" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10014" x="101" y="325" width="91" height="104"/>
+	<SubTexture name="up instancia 10015" x="101" y="325" width="91" height="104"/>
+</TextureAtlas>

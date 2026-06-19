@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ehm diga.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="diga10000" x="5" y="5" width="505" height="537" pivotX="261.75" pivotY="298.75"/>
+	<SubTexture name="diga10001" x="515" y="5" width="505" height="537"/>
+	<SubTexture name="diga10002" x="1025" y="5" width="505" height="537"/>
+	<SubTexture name="diga10003" x="1535" y="5" width="505" height="537"/>
+	<SubTexture name="diga10004" x="2045" y="5" width="505" height="537"/>
+	<SubTexture name="diga10005" x="2555" y="5" width="505" height="537"/>
+	<SubTexture name="diga10006" x="3065" y="5" width="505" height="537"/>
+	<SubTexture name="diga10007" x="3575" y="5" width="505" height="537"/>
+	<SubTexture name="diga10008" x="4085" y="5" width="505" height="537"/>
+	<SubTexture name="diga10009" x="4595" y="5" width="505" height="537"/>
+	<SubTexture name="diga10010" x="5105" y="5" width="505" height="537"/>
+	<SubTexture name="diga10011" x="5615" y="5" width="505" height="537"/>
+	<SubTexture name="diga10012" x="6125" y="5" width="505" height="537"/>
+	<SubTexture name="diga10013" x="6635" y="5" width="505" height="537"/>
+	<SubTexture name="diga10014" x="7145" y="5" width="505" height="537"/>
+	<SubTexture name="diga10015" x="7655" y="5" width="505" height="537"/>
+	<SubTexture name="diga10016" x="5" y="547" width="505" height="537"/>
+	<SubTexture name="diga10017" x="515" y="547" width="505" height="537"/>
+	<SubTexture name="diga10018" x="1025" y="547" width="505" height="537"/>
+	<SubTexture name="diga10019" x="1535" y="547" width="505" height="537"/>
+	<SubTexture name="diga10020" x="2045" y="547" width="505" height="537"/>
+	<SubTexture name="diga10021" x="2555" y="547" width="505" height="537"/>
+	<SubTexture name="diga10022" x="3065" y="547" width="505" height="537"/>
+	<SubTexture name="diga10023" x="3575" y="547" width="505" height="537"/>
+	<SubTexture name="diga10024" x="4085" y="547" width="505" height="537"/>
+	<SubTexture name="diga10025" x="4595" y="547" width="505" height="537"/>
+	<SubTexture name="diga10026" x="5105" y="547" width="505" height="537"/>
+	<SubTexture name="diga10027" x="5615" y="547" width="505" height="537"/>
+	<SubTexture name="diga10028" x="6125" y="547" width="505" height="537"/>
+	<SubTexture name="diga10029" x="6635" y="547" width="505" height="537"/>
+	<SubTexture name="diga10030" x="7145" y="547" width="505" height="537"/>
+	<SubTexture name="diga10031" x="7655" y="547" width="505" height="537"/>
+	<SubTexture name="diga10032" x="5" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10033" x="515" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10034" x="1025" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10035" x="1535" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10036" x="2045" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10037" x="2555" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10038" x="3065" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10039" x="3575" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10040" x="4085" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10041" x="4595" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10042" x="5105" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10043" x="5615" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10044" x="6125" y="1089" width="505" height="537"/>
+	<SubTexture name="diga10045" x="6635" y="1089" width="505" height="537"/>
+	<SubTexture name="diga20000" x="7145" y="1089" width="505" height="525" pivotX="261.75" pivotY="286.8"/>
+	<SubTexture name="diga20001" x="7655" y="1089" width="505" height="525"/>
+	<SubTexture name="diga20002" x="5" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20003" x="515" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20004" x="1025" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20005" x="1535" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20006" x="2045" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20007" x="2555" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20008" x="3065" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20009" x="3575" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20010" x="4085" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20011" x="4595" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20012" x="5105" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20013" x="5615" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20014" x="6125" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20015" x="6635" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20016" x="7145" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20017" x="7655" y="1631" width="505" height="525"/>
+	<SubTexture name="diga20018" x="5" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20019" x="515" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20020" x="1025" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20021" x="1535" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20022" x="2045" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20023" x="2555" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20024" x="3065" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20025" x="3575" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20026" x="4085" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20027" x="4595" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20028" x="5105" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20029" x="5615" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20030" x="6125" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20031" x="6635" y="2161" width="505" height="525"/>
+	<SubTexture name="diga20032" x="7145" y="2161" width="505" height="525"/>
+</TextureAtlas>

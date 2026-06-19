@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="warrior_minigame.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confused0000" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0001" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0002" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0003" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0004" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0005" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0006" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0007" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0008" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0009" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0010" x="4" y="4" width="197" height="267" frameX="-12" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0011" x="205" y="4" width="195" height="267" frameX="-13" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0012" x="205" y="4" width="195" height="267" frameX="-13" frameY="-25" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0013" x="404" y="4" width="191" height="269" frameX="-11" frameY="-24" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0014" x="404" y="4" width="191" height="269" frameX="-11" frameY="-24" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0015" x="404" y="4" width="191" height="269" frameX="-11" frameY="-24" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0016" x="599" y="4" width="183" height="282" frameX="-8" frameY="-11" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0017" x="599" y="4" width="183" height="282" frameX="-8" frameY="-11" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0018" x="786" y="4" width="173" height="293" frameX="-1" frameY="0" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0019" x="786" y="4" width="173" height="293" frameX="-1" frameY="0" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0020" x="786" y="4" width="173" height="293" frameX="-1" frameY="0" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0021" x="963" y="4" width="171" height="292" frameX="0" frameY="-1" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0022" x="963" y="4" width="171" height="292" frameX="0" frameY="-1" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0023" x="963" y="4" width="171" height="292" frameX="0" frameY="-1" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0024" x="963" y="4" width="171" height="292" frameX="0" frameY="-1" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="confused0025" x="963" y="4" width="171" height="292" frameX="0" frameY="-1" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="idle0000" x="1138" y="4" width="197" height="267" frameX="0" frameY="0" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0001" x="1138" y="4" width="197" height="267" frameX="0" frameY="0" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0002" x="1138" y="4" width="197" height="267" frameX="0" frameY="0" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0003" x="1138" y="4" width="197" height="267" frameX="0" frameY="0" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0004" x="1339" y="4" width="205" height="267" frameX="0" frameY="-1" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0005" x="1339" y="4" width="205" height="267" frameX="0" frameY="-1" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0006" x="1339" y="4" width="205" height="267" frameX="0" frameY="-1" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0007" x="1339" y="4" width="205" height="267" frameX="0" frameY="-1" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0008" x="1548" y="4" width="201" height="257" frameX="-3" frameY="-10" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0009" x="1548" y="4" width="201" height="257" frameX="-3" frameY="-10" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0010" x="1548" y="4" width="201" height="257" frameX="-3" frameY="-10" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="idle0011" x="1548" y="4" width="201" height="257" frameX="-3" frameY="-10" frameWidth="205" frameHeight="268"/>
+	<SubTexture name="jump0000" x="1753" y="4" width="201" height="263" frameX="0" frameY="-45" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0001" x="1753" y="4" width="201" height="263" frameX="0" frameY="-45" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0002" x="1753" y="4" width="201" height="263" frameX="0" frameY="-45" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0003" x="4" y="301" width="172" height="308" frameX="-7" frameY="0" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0004" x="4" y="301" width="172" height="308" frameX="-7" frameY="0" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0005" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0006" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0007" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0008" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0009" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0010" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0011" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0012" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0013" x="180" y="301" width="179" height="307" frameX="-11" frameY="-1" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0014" x="1753" y="4" width="201" height="263" frameX="0" frameY="-45" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="jump0015" x="1753" y="4" width="201" height="263" frameX="0" frameY="-45" frameWidth="201" frameHeight="308"/>
+	<SubTexture name="look0000" x="963" y="4" width="171" height="292" frameX="0" frameY="0" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="look0001" x="963" y="4" width="171" height="292" frameX="0" frameY="0" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="look0002" x="963" y="4" width="171" height="292" frameX="0" frameY="0" frameWidth="209" frameHeight="293"/>
+	<SubTexture name="look0003" x="363" y="301" width="171" height="292"/>
+	<SubTexture name="look0004" x="363" y="301" width="171" height="292"/>
+	<SubTexture name="look0005" x="363" y="301" width="171" height="292"/>
+	<SubTexture name="look0006" x="363" y="301" width="171" height="292"/>
+	<SubTexture name="look0007" x="538" y="301" width="171" height="292"/>
+	<SubTexture name="look0008" x="538" y="301" width="171" height="292"/>
+	<SubTexture name="look0009" x="538" y="301" width="171" height="292"/>
+	<SubTexture name="look0010" x="538" y="301" width="171" height="292"/>
+	<SubTexture name="look0011" x="713" y="301" width="171" height="292"/>
+	<SubTexture name="look0012" x="713" y="301" width="171" height="292"/>
+	<SubTexture name="look0013" x="713" y="301" width="171" height="292"/>
+	<SubTexture name="look0014" x="888" y="301" width="171" height="292"/>
+	<SubTexture name="look0015" x="888" y="301" width="171" height="292"/>
+	<SubTexture name="look0016" x="888" y="301" width="171" height="292"/>
+	<SubTexture name="look0017" x="888" y="301" width="171" height="292"/>
+	<SubTexture name="look0018" x="888" y="301" width="171" height="292"/>
+</TextureAtlas>

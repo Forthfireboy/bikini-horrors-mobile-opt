@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crisbob2-3trans.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="transformacion0000" x="10" y="10" width="650" height="871" frameX="-1076" frameY="-1069" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0001" x="670" y="10" width="629" height="766" frameX="-1097" frameY="-1181" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0002" x="1309" y="10" width="780" height="863" frameX="-1043" frameY="-1055" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0003" x="2099" y="10" width="1469" height="923" frameX="-815" frameY="-986" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0004" x="2099" y="10" width="1469" height="923" frameX="-815" frameY="-986" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0005" x="2099" y="10" width="1469" height="923" frameX="-815" frameY="-986" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0006" x="3578" y="10" width="1203" height="904" frameX="-867" frameY="-998" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0007" x="3578" y="10" width="1203" height="904" frameX="-867" frameY="-998" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0008" x="4791" y="10" width="1265" height="904" frameX="-867" frameY="-998" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0009" x="4791" y="10" width="1265" height="904" frameX="-867" frameY="-998" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0010" x="6066" y="10" width="1240" height="901" frameX="-855" frameY="-1001" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0011" x="6066" y="10" width="1240" height="901" frameX="-855" frameY="-1001" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0012" x="10" y="943" width="1240" height="901" frameX="-855" frameY="-1001" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0013" x="10" y="943" width="1240" height="901" frameX="-855" frameY="-1001" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0014" x="10" y="943" width="1240" height="901" frameX="-855" frameY="-1001" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0015" x="1260" y="943" width="1250" height="932" frameX="-864" frameY="-973" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0016" x="1260" y="943" width="1250" height="932" frameX="-864" frameY="-973" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0017" x="2520" y="943" width="1260" height="1040" frameX="-958" frameY="-869" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0018" x="2520" y="943" width="1260" height="1040" frameX="-958" frameY="-869" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0019" x="2520" y="943" width="1260" height="1040" frameX="-958" frameY="-869" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0020" x="3790" y="943" width="1312" height="1046" frameX="-906" frameY="-873" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0021" x="3790" y="943" width="1312" height="1046" frameX="-906" frameY="-873" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0022" x="3790" y="943" width="1312" height="1046" frameX="-906" frameY="-873" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0023" x="5112" y="943" width="1338" height="1060" frameX="-890" frameY="-873" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0024" x="5112" y="943" width="1338" height="1060" frameX="-890" frameY="-873" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0025" x="5112" y="943" width="1338" height="1060" frameX="-890" frameY="-873" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0026" x="6460" y="943" width="1459" height="1142" frameX="-724" frameY="-785" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0027" x="6460" y="943" width="1459" height="1142" frameX="-724" frameY="-785" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0028" x="6460" y="943" width="1459" height="1142" frameX="-724" frameY="-785" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0029" x="10" y="2095" width="2039" height="1783" frameX="0" frameY="-283" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0030" x="10" y="2095" width="2039" height="1783" frameX="0" frameY="-283" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0031" x="10" y="2095" width="2039" height="1783" frameX="0" frameY="-283" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0032" x="2059" y="2095" width="1763" height="1608" frameX="-351" frameY="-325" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0033" x="2059" y="2095" width="1763" height="1608" frameX="-351" frameY="-325" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0034" x="3832" y="2095" width="1806" height="1611" frameX="-351" frameY="-297" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0035" x="3832" y="2095" width="1806" height="1611" frameX="-351" frameY="-297" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0036" x="5648" y="2095" width="1666" height="1695" frameX="-413" frameY="-192" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0037" x="5648" y="2095" width="1666" height="1695" frameX="-413" frameY="-192" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0038" x="5648" y="2095" width="1666" height="1695" frameX="-413" frameY="-192" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0039" x="10" y="3888" width="1355" height="1841" frameX="-750" frameY="-58" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0040" x="10" y="3888" width="1355" height="1841" frameX="-750" frameY="-58" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0041" x="1375" y="3888" width="1418" height="1790" frameX="-760" frameY="-109" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0042" x="1375" y="3888" width="1418" height="1790" frameX="-760" frameY="-109" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0043" x="2803" y="3888" width="1333" height="1827" frameX="-750" frameY="-74" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0044" x="2803" y="3888" width="1333" height="1827" frameX="-750" frameY="-74" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0045" x="4146" y="3888" width="1368" height="1901" frameX="-791" frameY="0" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0046" x="4146" y="3888" width="1368" height="1901" frameX="-791" frameY="0" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0047" x="5524" y="3888" width="1333" height="1827" frameX="-750" frameY="-74" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0048" x="5524" y="3888" width="1333" height="1827" frameX="-750" frameY="-74" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0049" x="10" y="5799" width="1368" height="1901" frameX="-791" frameY="0" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0050" x="10" y="5799" width="1368" height="1901" frameX="-791" frameY="0" frameWidth="2284" frameHeight="2066"/>
+	<SubTexture name="transformacion0051" x="10" y="5799" width="1368" height="1901" frameX="-791" frameY="0" frameWidth="2284" frameHeight="2066"/>
+</TextureAtlas>

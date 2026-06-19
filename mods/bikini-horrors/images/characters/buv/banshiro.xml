@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="banshiro.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="banshiro0000" x="0" y="0" width="570" height="771" pivotX="84.45" pivotY="4"/>
+	<SubTexture name="banshiro0001" x="0" y="0" width="570" height="771"/>
+	<SubTexture name="banshiro0002" x="570" y="0" width="421" height="771" frameX="-51" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0003" x="570" y="0" width="421" height="771" frameX="-51" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0004" x="991" y="0" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0005" x="991" y="0" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0006" x="1381" y="0" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0007" x="0" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0008" x="390" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0009" x="390" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0010" x="780" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0011" x="780" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0012" x="780" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+	<SubTexture name="banshiro0013" x="780" y="771" width="390" height="771" frameX="-82" frameY="0" frameWidth="570" frameHeight="771"/>
+</TextureAtlas>

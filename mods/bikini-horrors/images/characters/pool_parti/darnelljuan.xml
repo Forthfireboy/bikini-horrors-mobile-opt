@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="darnelljuan.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="darnelldown0000" x="5" y="5" width="510" height="482" pivotX="349.2" pivotY="264.4"/>
+	<SubTexture name="darnelldown0001" x="5" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0002" x="520" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0003" x="520" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0004" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0005" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0006" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0007" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0008" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0009" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0010" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0011" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0012" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0013" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnelldown0014" x="1035" y="5" width="510" height="482"/>
+	<SubTexture name="darnellidle0000" x="1550" y="5" width="505" height="526" pivotX="261.75" pivotY="287.7"/>
+	<SubTexture name="darnellidle0001" x="1550" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0002" x="2060" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0003" x="2060" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0004" x="2570" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0005" x="2570" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0006" x="3080" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0007" x="3080" y="5" width="505" height="526"/>
+	<SubTexture name="darnellidle0008" x="5" y="536" width="505" height="526"/>
+	<SubTexture name="darnellidle0009" x="5" y="536" width="505" height="526"/>
+	<SubTexture name="darnellidle0010" x="5" y="536" width="505" height="526"/>
+	<SubTexture name="darnellidle0011" x="5" y="536" width="505" height="526"/>
+	<SubTexture name="darnellidle0012" x="515" y="536" width="505" height="526"/>
+	<SubTexture name="darnellidle0013" x="515" y="536" width="505" height="526"/>
+	<SubTexture name="darnellidle0014" x="515" y="536" width="505" height="526"/>
+	<SubTexture name="darnellleft0000" x="1025" y="536" width="505" height="503" pivotX="261.75" pivotY="264"/>
+	<SubTexture name="darnellleft0001" x="1025" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0002" x="1535" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0003" x="1535" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0004" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0005" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0006" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0007" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0008" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0009" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0010" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0011" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0012" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0013" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellleft0014" x="2045" y="536" width="505" height="503"/>
+	<SubTexture name="darnellright0000" x="2555" y="536" width="519" height="547" pivotX="340.4" pivotY="309"/>
+	<SubTexture name="darnellright0001" x="2555" y="536" width="519" height="547"/>
+	<SubTexture name="darnellright0002" x="3079" y="536" width="519" height="547"/>
+	<SubTexture name="darnellright0003" x="3079" y="536" width="519" height="547"/>
+	<SubTexture name="darnellright0004" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0005" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0006" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0007" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0008" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0009" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0010" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0011" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0012" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0013" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnellright0014" x="5" y="1088" width="519" height="547"/>
+	<SubTexture name="darnelltransformation0000" x="529" y="1088" width="868" height="638" pivotX="409.8" pivotY="597"/>
+	<SubTexture name="darnelltransformation0001" x="1402" y="1088" width="868" height="638"/>
+	<SubTexture name="darnelltransformation0002" x="2275" y="1088" width="868" height="638"/>
+	<SubTexture name="darnelup0000" x="3148" y="1088" width="505" height="599" pivotX="272.65" pivotY="340.3"/>
+	<SubTexture name="darnelup0001" x="3148" y="1088" width="505" height="599"/>
+	<SubTexture name="darnelup0002" x="5" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0003" x="5" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0004" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0005" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0006" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0007" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0008" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0009" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0010" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0011" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0012" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0013" x="515" y="1731" width="505" height="599"/>
+	<SubTexture name="darnelup0014" x="515" y="1731" width="505" height="599"/>
+</TextureAtlas>
