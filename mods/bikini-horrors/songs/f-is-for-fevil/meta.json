@@ -1,0 +1,18 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 134,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "F is for Fevil",
+	"icon": "nothing",
+	"name": "f-is-for-fevil",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"customGameOver": "credits"
+}

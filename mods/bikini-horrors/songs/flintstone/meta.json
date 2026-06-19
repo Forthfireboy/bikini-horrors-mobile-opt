@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "Nothing",
+	"difficulties": [
+		"hard"
+	],
+	"color": "#FFFFFF",
+	"name": "flintstone",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Flintstone",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 200,
+	"customGameOver": "credits"
+}
