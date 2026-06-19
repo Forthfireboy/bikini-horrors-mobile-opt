@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "Nothing",
+	"difficulties": [
+		"hard"
+	],
+	"color": "#FFFFFF",
+	"name": "carmaland-retake",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Carmaland",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 117,
+	"customGameOver": "credits"
+
+}

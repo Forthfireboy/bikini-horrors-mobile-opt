@@ -1,0 +1,18 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "la-playa",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "La Playa",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 175,
+	"customGameOver": "credits"
+}

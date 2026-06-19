@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "guater-game",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "GUATER GAME",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 59
+}

@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "nothing",
+	"difficulties": [
+		"hard"
+	],
+	"customValues": {},
+	"color": "#FF0000",
+	"name": "corre-corre-que-te-pillo",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Corre corre que te pillo",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 184,
+	"customGameOver": "credits"
+}

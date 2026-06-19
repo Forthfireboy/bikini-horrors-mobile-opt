@@ -1,0 +1,18 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 126,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "MEGA MORTAL MADNESS",
+	"icon": "nothing",
+	"name": "mega-mortal-madness",
+	"color": "#FFFFFF",
+	"customValues": {},
+	"customGameOver": "credits"
+}

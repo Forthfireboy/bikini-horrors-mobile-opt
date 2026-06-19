@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "Nothing",
+	"difficulties": [
+		"hard"
+	],
+	"customValues": {},
+	"color": "#FFFFFF",
+	"name": "steamunlocked",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "SteamUnlocked",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 145,
+	"customGameOver": "credits"
+}
