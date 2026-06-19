@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-expurgation.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="epurgatio instancia 10000" x="4" y="4" width="186" height="177" frameX="-2" frameY="-3" frameWidth="190" frameHeight="180"/>
+	<SubTexture name="epurgatio instancia 10001" x="194" y="4" width="185" height="176" frameX="-3" frameY="-3" frameWidth="190" frameHeight="180"/>
+	<SubTexture name="epurgatio instancia 10002" x="4" y="185" width="186" height="176" frameX="-4" frameY="-3" frameWidth="190" frameHeight="180"/>
+	<SubTexture name="epurgatio instancia 10003" x="194" y="185" width="187" height="177" frameX="0" frameY="0" frameWidth="190" frameHeight="180"/>
+</TextureAtlas>

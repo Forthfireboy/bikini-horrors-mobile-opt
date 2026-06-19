@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amoroso.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="amoroso0000" x="4" y="4" width="323" height="1120" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0001" x="4" y="4" width="323" height="1120" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0002" x="4" y="4" width="323" height="1120" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0003" x="4" y="4" width="323" height="1120" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0004" x="331" y="4" width="323" height="1129"/>
+	<SubTexture name="amoroso0005" x="331" y="4" width="323" height="1129"/>
+	<SubTexture name="amoroso0006" x="331" y="4" width="323" height="1129"/>
+	<SubTexture name="amoroso0007" x="331" y="4" width="323" height="1129"/>
+	<SubTexture name="amoroso0008" x="658" y="4" width="323" height="1116" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0009" x="658" y="4" width="323" height="1116" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0010" x="658" y="4" width="323" height="1116" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0011" x="658" y="4" width="323" height="1116" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0012" x="985" y="4" width="323" height="1117" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0013" x="985" y="4" width="323" height="1117" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0014" x="985" y="4" width="323" height="1117" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+	<SubTexture name="amoroso0015" x="985" y="4" width="323" height="1117" frameX="0" frameY="0" frameWidth="323" frameHeight="1129"/>
+</TextureAtlas>

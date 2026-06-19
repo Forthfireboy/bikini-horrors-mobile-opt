@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="static_warrior.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="boyfriend0000" x="4" y="4" width="291" height="479" frameX="-6" frameY="0" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0001" x="4" y="4" width="291" height="479" frameX="-6" frameY="0" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0002" x="4" y="4" width="291" height="479" frameX="-6" frameY="0" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0003" x="4" y="4" width="291" height="479" frameX="-6" frameY="0" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0004" x="335" y="4" width="277" height="478" frameX="-20" frameY="-1" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0005" x="335" y="4" width="277" height="478" frameX="-20" frameY="-1" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0006" x="335" y="4" width="277" height="478" frameX="-20" frameY="-1" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0007" x="335" y="4" width="277" height="478" frameX="-20" frameY="-1" frameWidth="297" frameHeight="479"/>
+	<SubTexture name="boyfriend0008" x="652" y="4" width="297" height="479"/>
+	<SubTexture name="boyfriend0009" x="652" y="4" width="297" height="479"/>
+	<SubTexture name="boyfriend0010" x="652" y="4" width="297" height="479"/>
+	<SubTexture name="boyfriend0011" x="652" y="4" width="297" height="479"/>
+</TextureAtlas>

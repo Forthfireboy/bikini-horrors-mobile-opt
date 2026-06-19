@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="monte2.png"><SubTexture name="monte20000" x="0" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20001" x="0" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20002" x="0" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20003" x="0" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20004" x="0" y="1275" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20005" x="0" y="1275" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20006" x="0" y="1275" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20007" x="0" y="1275" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20008" x="3284" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20009" x="3284" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20010" x="3284" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+<SubTexture name="monte20011" x="3284" y="0" width="3284" height="1275" frameX="0" frameY="0" frameWidth="3284" frameHeight="1275" />
+</TextureAtlas>

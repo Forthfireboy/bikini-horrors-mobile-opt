@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spongelord.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spongelord0000" x="5" y="5" width="653" height="424" pivotX="438.4" pivotY="175.2"/>
+	<SubTexture name="spongelord0001" x="5" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0002" x="663" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0003" x="663" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0004" x="1321" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0005" x="1321" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0006" x="1321" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0007" x="1979" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0008" x="1979" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0009" x="2637" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0010" x="2637" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0011" x="3295" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0012" x="3295" y="5" width="653" height="424"/>
+	<SubTexture name="spongelord0013" x="5" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0014" x="5" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0015" x="663" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0016" x="663" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0017" x="1321" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0018" x="1321" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0019" x="1321" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0020" x="1979" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0021" x="1979" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0022" x="2637" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0023" x="2637" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0024" x="3295" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0025" x="3295" y="434" width="653" height="424"/>
+	<SubTexture name="spongelord0026" x="5" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0027" x="5" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0028" x="663" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0029" x="663" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0030" x="1321" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0031" x="1321" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0032" x="1321" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0033" x="1979" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0034" x="1979" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0035" x="1979" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0036" x="1979" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0037" x="2637" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0038" x="2637" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0039" x="3295" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0040" x="3295" y="863" width="653" height="424"/>
+	<SubTexture name="spongelord0041" x="5" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0042" x="5" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0043" x="663" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0044" x="663" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0045" x="663" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0046" x="1321" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0047" x="1321" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0048" x="1321" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0049" x="1321" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0050" x="1321" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0051" x="1979" y="1292" width="653" height="424"/>
+	<SubTexture name="spongelord0052" x="1979" y="1292" width="653" height="424"/>
+</TextureAtlas>

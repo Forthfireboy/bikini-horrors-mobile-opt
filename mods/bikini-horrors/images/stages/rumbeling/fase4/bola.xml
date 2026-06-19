@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bola.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bola0000" x="4" y="4" width="457" height="457" frameX="-8" frameY="-8" frameWidth="473" frameHeight="473"/>
+	<SubTexture name="bola0001" x="4" y="4" width="457" height="457" frameX="-8" frameY="-8" frameWidth="473" frameHeight="473"/>
+	<SubTexture name="bola0002" x="4" y="4" width="457" height="457" frameX="-8" frameY="-8" frameWidth="473" frameHeight="473"/>
+	<SubTexture name="bola0003" x="465" y="4" width="473" height="473"/>
+	<SubTexture name="bola0004" x="465" y="4" width="473" height="473"/>
+	<SubTexture name="bola0005" x="465" y="4" width="473" height="473"/>
+	<SubTexture name="bola0006" x="4" y="481" width="467" height="467" frameX="-3" frameY="-3" frameWidth="473" frameHeight="473"/>
+	<SubTexture name="bola0007" x="4" y="481" width="467" height="467" frameX="-3" frameY="-3" frameWidth="473" frameHeight="473"/>
+	<SubTexture name="bola0008" x="4" y="481" width="467" height="467" frameX="-3" frameY="-3" frameWidth="473" frameHeight="473"/>
+</TextureAtlas>

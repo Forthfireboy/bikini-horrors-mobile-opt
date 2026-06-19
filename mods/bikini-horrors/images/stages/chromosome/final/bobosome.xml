@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bobosome.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lost bobloon0000" x="4" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0001" x="4" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0002" x="4" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0003" x="4" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0004" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0005" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0006" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0007" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0008" x="308" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0009" x="308" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0010" x="308" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0011" x="308" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0012" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0013" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0014" x="156" y="4" width="148" height="318"/>
+	<SubTexture name="lost bobloon0015" x="156" y="4" width="148" height="318"/>
+</TextureAtlas>

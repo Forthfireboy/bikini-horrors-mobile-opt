@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tumorcindo.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tumorcindo0000" x="4" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0001" x="4" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0002" x="4" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0003" x="4" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0004" x="144" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0005" x="144" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0006" x="144" y="4" width="136" height="172"/>
+	<SubTexture name="tumorcindo0007" x="144" y="4" width="136" height="172"/>
+</TextureAtlas>

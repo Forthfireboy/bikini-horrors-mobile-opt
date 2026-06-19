@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tentaculos_hellclown.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tentaculos_hellclown instancia 10000" x="4" y="4" width="1154" height="759" frameX="0" frameY="-7" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10001" x="4" y="4" width="1154" height="759" frameX="0" frameY="-7" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10002" x="4" y="4" width="1154" height="759" frameX="0" frameY="-7" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10003" x="1162" y="4" width="1105" height="713" frameX="-51" frameY="-152" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10004" x="1162" y="4" width="1105" height="713" frameX="-51" frameY="-152" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10005" x="1162" y="4" width="1105" height="713" frameX="-51" frameY="-152" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10006" x="2271" y="4" width="1007" height="697" frameX="-162" frameY="-168" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10007" x="2271" y="4" width="1007" height="697" frameX="-162" frameY="-168" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10008" x="2271" y="4" width="1007" height="697" frameX="-162" frameY="-168" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10009" x="4" y="767" width="1119" height="759" frameX="-62" frameY="0" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10010" x="4" y="767" width="1119" height="759" frameX="-62" frameY="0" frameWidth="1181" frameHeight="865"/>
+	<SubTexture name="tentaculos_hellclown instancia 10011" x="4" y="767" width="1119" height="759" frameX="-62" frameY="0" frameWidth="1181" frameHeight="865"/>
+</TextureAtlas>

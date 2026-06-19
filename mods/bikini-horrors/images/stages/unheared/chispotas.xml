@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chispotas.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="suelo rapido instancia 10000" x="4" y="4" width="4915" height="664" frameX="-371" frameY="0" frameWidth="5644" frameHeight="795"/>
+	<SubTexture name="suelo rapido instancia 10001" x="4" y="672" width="5135" height="704" frameX="-259" frameY="0" frameWidth="5644" frameHeight="795"/>
+	<SubTexture name="suelo rapido instancia 10002" x="4" y="1380" width="5373" height="746" frameX="-138" frameY="0" frameWidth="5644" frameHeight="795"/>
+	<SubTexture name="suelo rapido instancia 10003" x="4" y="2130" width="5644" height="795"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="volcan.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="volcan0000" x="4" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0001" x="4" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0002" x="4" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0003" x="4" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0004" x="3297" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0005" x="3297" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0006" x="3297" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0007" x="3297" y="4" width="3289" height="1509"/>
+	<SubTexture name="volcan0008" x="4" y="1517" width="3289" height="1509"/>
+	<SubTexture name="volcan0009" x="4" y="1517" width="3289" height="1509"/>
+	<SubTexture name="volcan0010" x="4" y="1517" width="3289" height="1509"/>
+	<SubTexture name="volcan0011" x="4" y="1517" width="3289" height="1509"/>
+</TextureAtlas>

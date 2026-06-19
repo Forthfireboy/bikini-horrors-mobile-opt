@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="players_2.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="players_2 instancia 10000" x="4" y="4" width="405" height="173" frameX="0" frameY="0" frameWidth="405" frameHeight="174"/>
+	<SubTexture name="players_2 instancia 10001" x="413" y="4" width="404" height="172" frameX="-1" frameY="-1" frameWidth="405" frameHeight="174"/>
+	<SubTexture name="players_2 instancia 10002" x="4" y="181" width="404" height="174" frameX="-1" frameY="0" frameWidth="405" frameHeight="174"/>
+</TextureAtlas>

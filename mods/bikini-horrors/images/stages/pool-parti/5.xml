@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="5.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="atras0000" x="0" y="0" width="2384" height="562" pivotX="537.7" pivotY="-258"/>
+	<SubTexture name="atras0001" x="0" y="0" width="2384" height="562"/>
+	<SubTexture name="atras0002" x="0" y="562" width="2384" height="562"/>
+	<SubTexture name="atras0003" x="0" y="562" width="2384" height="562"/>
+	<SubTexture name="atras0004" x="0" y="1124" width="2384" height="562"/>
+	<SubTexture name="atras0005" x="0" y="1124" width="2384" height="562"/>
+	<SubTexture name="atras0006" x="0" y="1686" width="2384" height="562"/>
+	<SubTexture name="atras0007" x="0" y="1686" width="2384" height="562"/>
+	<SubTexture name="atras0008" x="0" y="1686" width="2384" height="562"/>
+	<SubTexture name="atras0009" x="0" y="1686" width="2384" height="562"/>
+	<SubTexture name="atras0010" x="0" y="1124" width="2384" height="562"/>
+	<SubTexture name="atras0011" x="0" y="1124" width="2384" height="562"/>
+	<SubTexture name="atras0012" x="0" y="2248" width="2384" height="562"/>
+	<SubTexture name="atras0013" x="0" y="2248" width="2384" height="562"/>
+	<SubTexture name="atras0014" x="0" y="2248" width="2384" height="562"/>
+	<SubTexture name="atras0015" x="0" y="2248" width="2384" height="562"/>
+</TextureAtlas>

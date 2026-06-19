@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="look_phanes_eyes.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="phanes_eyes0000" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0001" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0002" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0003" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0004" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0005" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0006" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0007" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0008" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0009" x="4" y="74" width="528" height="65" frameX="-214" frameY="-98" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0010" x="4" y="74" width="528" height="65" frameX="-214" frameY="-98" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0011" x="4" y="143" width="529" height="77" frameX="-198" frameY="-58" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0012" x="4" y="143" width="529" height="77" frameX="-198" frameY="-58" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0013" x="4" y="224" width="528" height="66" frameX="-178" frameY="-24" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0014" x="4" y="224" width="528" height="66" frameX="-178" frameY="-24" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0015" x="4" y="294" width="529" height="65" frameX="-143" frameY="0" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0016" x="4" y="294" width="529" height="65" frameX="-143" frameY="0" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0017" x="4" y="294" width="529" height="65" frameX="-143" frameY="0" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0018" x="4" y="363" width="528" height="66" frameX="-116" frameY="-14" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0019" x="4" y="363" width="528" height="66" frameX="-116" frameY="-14" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0020" x="4" y="433" width="531" height="80" frameX="-68" frameY="-43" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0021" x="4" y="433" width="531" height="80" frameX="-68" frameY="-43" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0022" x="4" y="517" width="528" height="66" frameX="-30" frameY="-88" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0023" x="4" y="517" width="528" height="66" frameX="-30" frameY="-88" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0024" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0025" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0026" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0027" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0028" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0029" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0030" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0031" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0032" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0033" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0034" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0035" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0036" x="4" y="587" width="528" height="65" frameX="0" frameY="-119" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0037" x="4" y="517" width="528" height="66" frameX="-30" frameY="-88" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0038" x="4" y="517" width="528" height="66" frameX="-30" frameY="-88" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0039" x="4" y="433" width="531" height="80" frameX="-68" frameY="-43" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0040" x="4" y="433" width="531" height="80" frameX="-68" frameY="-43" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0041" x="4" y="363" width="528" height="66" frameX="-116" frameY="-14" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0042" x="4" y="363" width="528" height="66" frameX="-116" frameY="-14" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0043" x="4" y="294" width="529" height="65" frameX="-143" frameY="0" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0044" x="4" y="294" width="529" height="65" frameX="-143" frameY="0" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0045" x="4" y="294" width="529" height="65" frameX="-143" frameY="0" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0046" x="4" y="224" width="528" height="66" frameX="-178" frameY="-24" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0047" x="4" y="224" width="528" height="66" frameX="-178" frameY="-24" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0048" x="4" y="143" width="529" height="77" frameX="-198" frameY="-58" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0049" x="4" y="143" width="529" height="77" frameX="-198" frameY="-58" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0050" x="4" y="74" width="528" height="65" frameX="-214" frameY="-98" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0051" x="4" y="74" width="528" height="65" frameX="-214" frameY="-98" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0052" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0053" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0054" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0055" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0056" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0057" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+	<SubTexture name="phanes_eyes0058" x="4" y="4" width="528" height="66" frameX="-229" frameY="-128" frameWidth="757" frameHeight="194"/>
+</TextureAtlas>

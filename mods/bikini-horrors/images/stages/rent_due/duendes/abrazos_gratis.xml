@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="abrazos_gratis.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="abrazos0000" x="4" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0001" x="4" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0002" x="4" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0003" x="4" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0004" x="156" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0005" x="156" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0006" x="156" y="4" width="148" height="138"/>
+	<SubTexture name="abrazos0007" x="156" y="4" width="148" height="138"/>
+</TextureAtlas>

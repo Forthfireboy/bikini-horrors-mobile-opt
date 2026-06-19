@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fog.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Símbolo 4 instancia 10000" x="4" y="4" width="2223" height="1507" frameX="-70" frameY="0" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10001" x="4" y="4" width="2223" height="1507" frameX="-70" frameY="0" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10002" x="2231" y="4" width="2465" height="1442" frameX="0" frameY="-119" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10003" x="2231" y="4" width="2465" height="1442" frameX="0" frameY="-119" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10004" x="4700" y="4" width="2433" height="1242" frameX="-37" frameY="-268" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10005" x="4700" y="4" width="2433" height="1242" frameX="-37" frameY="-268" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10006" x="4" y="1515" width="2412" height="1253" frameX="-38" frameY="-287" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10007" x="4" y="1515" width="2412" height="1253" frameX="-38" frameY="-287" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10008" x="2420" y="1515" width="2461" height="1335" frameX="-8" frameY="-194" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10009" x="2420" y="1515" width="2461" height="1335" frameX="-8" frameY="-194" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10010" x="4885" y="1515" width="2288" height="1400" frameX="-44" frameY="-112" frameWidth="2470" frameHeight="1561"/>
+	<SubTexture name="Símbolo 4 instancia 10011" x="4885" y="1515" width="2288" height="1400" frameX="-44" frameY="-112" frameWidth="2470" frameHeight="1561"/>
+</TextureAtlas>

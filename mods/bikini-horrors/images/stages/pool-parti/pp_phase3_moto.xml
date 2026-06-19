@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pp_phase3_moto.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="moto instancia 10000" x="4" y="4" width="787" height="470" frameX="-2" frameY="0" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10001" x="4" y="4" width="787" height="470" frameX="-2" frameY="0" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10002" x="795" y="4" width="789" height="468" frameX="0" frameY="-2" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10003" x="795" y="4" width="789" height="468" frameX="0" frameY="-2" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10004" x="4" y="478" width="787" height="470" frameX="-2" frameY="0" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10005" x="4" y="478" width="787" height="470" frameX="-2" frameY="0" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10006" x="795" y="478" width="789" height="468" frameX="0" frameY="-2" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10007" x="795" y="478" width="789" height="468" frameX="0" frameY="-2" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10008" x="4" y="952" width="787" height="470" frameX="-2" frameY="0" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10009" x="4" y="952" width="787" height="470" frameX="-2" frameY="0" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10010" x="795" y="952" width="789" height="468" frameX="0" frameY="-2" frameWidth="789" frameHeight="470"/>
+	<SubTexture name="moto instancia 10011" x="795" y="952" width="789" height="468" frameX="0" frameY="-2" frameWidth="789" frameHeight="470"/>
+</TextureAtlas>

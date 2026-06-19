@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="quesito.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Quesito0000" x="4" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0001" x="4" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0002" x="4" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0003" x="4" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0004" x="144" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0005" x="144" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0006" x="144" y="4" width="136" height="144"/>
+	<SubTexture name="Quesito0007" x="144" y="4" width="136" height="144"/>
+</TextureAtlas>

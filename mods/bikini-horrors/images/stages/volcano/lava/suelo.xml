@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="suelo.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="suelo0000" x="4" y="4" width="3526" height="1067" frameX="0" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0001" x="4" y="4" width="3526" height="1067" frameX="0" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0002" x="4" y="4" width="3526" height="1067" frameX="0" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0003" x="4" y="4" width="3526" height="1067" frameX="0" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0004" x="4" y="1075" width="3480" height="1076" frameX="-67" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0005" x="4" y="1075" width="3480" height="1076" frameX="-67" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0006" x="4" y="1075" width="3480" height="1076" frameX="-67" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0007" x="4" y="1075" width="3480" height="1076" frameX="-67" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0008" x="4" y="2155" width="3492" height="1072" frameX="-70" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0009" x="4" y="2155" width="3492" height="1072" frameX="-70" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0010" x="4" y="2155" width="3492" height="1072" frameX="-70" frameY="0" frameWidth="3562" frameHeight="1076"/>
+	<SubTexture name="suelo0011" x="4" y="2155" width="3492" height="1072" frameX="-70" frameY="0" frameWidth="3562" frameHeight="1076"/>
+</TextureAtlas>

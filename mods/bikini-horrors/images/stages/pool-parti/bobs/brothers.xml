@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="brothers.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="brothers0000" x="5" y="5" width="295" height="413" pivotX="149.35" pivotY="326.45"/>
+	<SubTexture name="brothers0001" x="5" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0002" x="5" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0003" x="5" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0004" x="305" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0005" x="305" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0006" x="305" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0007" x="305" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0008" x="605" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0009" x="605" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0010" x="605" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0011" x="605" y="5" width="295" height="413"/>
+	<SubTexture name="brothers0012" x="5" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0013" x="5" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0014" x="5" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0015" x="5" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0016" x="305" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0017" x="305" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0018" x="305" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0019" x="305" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0020" x="605" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0021" x="605" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0022" x="605" y="423" width="295" height="413"/>
+	<SubTexture name="brothers0023" x="605" y="423" width="295" height="413"/>
+</TextureAtlas>

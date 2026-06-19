@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="souls.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ghostapparition0000" x="5" y="5" width="1087" height="387" pivotX="532.35" pivotY="382.25"/>
+	<SubTexture name="ghostapparition0001" x="5" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0002" x="1097" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0003" x="1097" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0004" x="1097" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0005" x="2189" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0006" x="2189" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0007" x="2189" y="5" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0008" x="5" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0009" x="5" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0010" x="5" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0011" x="1097" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0012" x="1097" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0013" x="1097" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0014" x="1097" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0015" x="1097" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0016" x="1097" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0017" x="2189" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0018" x="2189" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0019" x="2189" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0020" x="2189" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0021" x="2189" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostapparition0022" x="2189" y="397" width="1087" height="387"/>
+	<SubTexture name="ghostsidle0000" x="5" y="789" width="1121" height="373" pivotX="140.05" pivotY="375.9"/>
+	<SubTexture name="ghostsidle0001" x="5" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0002" x="5" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0003" x="5" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0004" x="1131" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0005" x="1131" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0006" x="1131" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0007" x="1131" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0008" x="2257" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0009" x="2257" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0010" x="2257" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0011" x="2257" y="789" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0012" x="5" y="1167" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0013" x="5" y="1167" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0014" x="5" y="1167" width="1121" height="373"/>
+	<SubTexture name="ghostsidle0015" x="5" y="1167" width="1121" height="373"/>
+</TextureAtlas>

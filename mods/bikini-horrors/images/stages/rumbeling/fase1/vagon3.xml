@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="vagon3.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="vagon3_final instancia 10000" x="4" y="4" width="435" height="559"/>
+	<SubTexture name="vagon3_final instancia 10001" x="443" y="4" width="435" height="556" frameX="0" frameY="0" frameWidth="435" frameHeight="559"/>
+	<SubTexture name="vagon3_final instancia 10002" x="882" y="4" width="435" height="553" frameX="0" frameY="0" frameWidth="435" frameHeight="559"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pacma_fire.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fuego instancia 10000" x="4" y="4" width="455" height="424" frameX="-17" frameY="-114" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10001" x="463" y="4" width="487" height="434" frameX="-18" frameY="-102" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10002" x="954" y="4" width="485" height="493" frameX="0" frameY="-37" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10003" x="1443" y="4" width="474" height="497" frameX="-82" frameY="-47" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10004" x="4" y="505" width="479" height="557" frameX="-84" frameY="0" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10005" x="487" y="505" width="441" height="362" frameX="-126" frameY="-175" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10006" x="932" y="505" width="427" height="363" frameX="-135" frameY="-179" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10007" x="1363" y="505" width="432" height="450" frameX="-105" frameY="-81" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10008" x="4" y="1066" width="429" height="460" frameX="-109" frameY="-85" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10009" x="437" y="1066" width="436" height="429" frameX="-34" frameY="-122" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10010" x="877" y="1066" width="383" height="411" frameX="-55" frameY="-140" frameWidth="567" frameHeight="557"/>
+	<SubTexture name="fuego instancia 10011" x="1264" y="1066" width="403" height="447" frameX="-55" frameY="-101" frameWidth="567" frameHeight="557"/>
+</TextureAtlas>

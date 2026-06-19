@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="trueno_right.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="trueno2 instancia 10000" x="4" y="4" width="1420" height="1629" frameX="-14" frameY="0" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10001" x="4" y="4" width="1420" height="1629" frameX="-14" frameY="0" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10002" x="1428" y="4" width="1423" height="1665" frameX="-4" frameY="-9" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10003" x="1428" y="4" width="1423" height="1665" frameX="-4" frameY="-9" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10004" x="2855" y="4" width="1431" height="1629" frameX="-4" frameY="-59" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10005" x="2855" y="4" width="1431" height="1629" frameX="-4" frameY="-59" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10006" x="4290" y="4" width="1361" height="1617" frameX="0" frameY="-45" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10007" x="4290" y="4" width="1361" height="1617" frameX="0" frameY="-45" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10008" x="5655" y="4" width="1305" height="1591" frameX="-37" frameY="-73" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10009" x="5655" y="4" width="1305" height="1591" frameX="-37" frameY="-73" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10010" x="6964" y="4" width="1173" height="1529" frameX="-100" frameY="-130" frameWidth="1435" frameHeight="1688"/>
+	<SubTexture name="trueno2 instancia 10011" x="6964" y="4" width="1173" height="1529" frameX="-100" frameY="-130" frameWidth="1435" frameHeight="1688"/>
+
+</TextureAtlas>

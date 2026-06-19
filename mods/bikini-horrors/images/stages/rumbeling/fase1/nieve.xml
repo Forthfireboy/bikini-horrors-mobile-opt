@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nieve.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nieve_final instancia 10000" x="4" y="4" width="2070" height="1716" frameX="-92" frameY="-167" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10001" x="4" y="4" width="2070" height="1716" frameX="-92" frameY="-167" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10002" x="2078" y="4" width="2108" height="1366" frameX="-92" frameY="-196" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10003" x="2078" y="4" width="2108" height="1366" frameX="-92" frameY="-196" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10004" x="4190" y="4" width="2031" height="1152" frameX="0" frameY="-145" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10005" x="4190" y="4" width="2031" height="1152" frameX="0" frameY="-145" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10006" x="4" y="1724" width="2147" height="1443" frameX="-119" frameY="0" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10007" x="4" y="1724" width="2147" height="1443" frameX="-119" frameY="0" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10008" x="2155" y="1724" width="2140" height="1506" frameX="-229" frameY="-32" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10009" x="2155" y="1724" width="2140" height="1506" frameX="-229" frameY="-32" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10010" x="4299" y="1724" width="2532" height="1480" frameX="-138" frameY="-26" frameWidth="2670" frameHeight="1882"/>
+	<SubTexture name="nieve_final instancia 10011" x="4299" y="1724" width="2532" height="1480" frameX="-138" frameY="-26" frameWidth="2670" frameHeight="1882"/>
+</TextureAtlas>

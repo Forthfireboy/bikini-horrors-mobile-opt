@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="barnacles.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="matao instancia 10000" x="4" y="4" width="545" height="582" frameX="0" frameY="-42" frameWidth="545" frameHeight="624"/>
+	<SubTexture name="matao instancia 10001" x="553" y="4" width="545" height="604" frameX="0" frameY="-20" frameWidth="545" frameHeight="624"/>
+	<SubTexture name="matao instancia 10002" x="1102" y="4" width="545" height="624"/>
+	<SubTexture name="matao instancia 10003" x="4" y="632" width="545" height="598" frameX="0" frameY="-26" frameWidth="545" frameHeight="624"/>
+	<SubTexture name="matao instancia 10004" x="553" y="632" width="545" height="572" frameX="0" frameY="-52" frameWidth="545" frameHeight="624"/>
+	<SubTexture name="matao instancia 10005" x="1102" y="632" width="545" height="556" frameX="0" frameY="-68" frameWidth="545" frameHeight="624"/>
+	<SubTexture name="matao instancia 10006" x="4" y="1234" width="545" height="563" frameX="0" frameY="-61" frameWidth="545" frameHeight="624"/>
+	<SubTexture name="matao instancia 10007" x="553" y="1234" width="545" height="587" frameX="0" frameY="-37" frameWidth="545" frameHeight="624"/>
+</TextureAtlas>

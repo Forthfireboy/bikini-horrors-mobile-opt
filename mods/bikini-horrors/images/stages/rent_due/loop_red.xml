@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="loop_red.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="patitas0000" x="4" y="4" width="291" height="117" frameX="-1" frameY="-11" frameWidth="305" frameHeight="128"/>
+	<SubTexture name="patitas0001" x="4" y="125" width="278" height="119" frameX="-12" frameY="-2" frameWidth="305" frameHeight="128"/>
+	<SubTexture name="patitas0002" x="4" y="248" width="282" height="122" frameX="0" frameY="0" frameWidth="305" frameHeight="128"/>
+	<SubTexture name="patitas0003" x="4" y="374" width="295" height="123" frameX="-10" frameY="-3" frameWidth="305" frameHeight="128"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="REALspeakbox.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle 0000" x="0" y="0" width="381" height="91" pivotX="-302.55" pivotY="-542.05" frameX="0" frameY="-301" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0000" x="0" y="0" width="381" height="91" pivotX="-302.55" pivotY="-542.05" frameX="0" frameY="-301" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0001" x="0" y="0" width="381" height="91" frameX="0" frameY="-301" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0002" x="381" y="0" width="1298" height="413" frameX="-18" frameY="0" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0003" x="0" y="413" width="1298" height="413" frameX="-18" frameY="0" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0004" x="0" y="826" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0005" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0006" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0007" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0008" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0009" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0010" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0011" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0012" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0013" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0014" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0015" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0016" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0017" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0018" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0019" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0020" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0021" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0022" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0023" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0024" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0025" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0026" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0027" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0028" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0029" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0030" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0031" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0032" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0033" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0034" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0035" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0036" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0037" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0038" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0039" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0040" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0041" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0042" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0043" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0044" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0045" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0046" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0047" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0048" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0049" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0050" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0051" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0052" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0053" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0054" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0055" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0056" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0057" x="0" y="1969" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0058" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0059" x="0" y="2350" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0060" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0061" x="0" y="1207" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0062" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0063" x="0" y="1588" width="1316" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0064" x="0" y="2731" width="1306" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0065" x="0" y="3112" width="1292" height="381" frameX="0" frameY="-30" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0066" x="0" y="3493" width="1208" height="369" frameX="0" frameY="-41" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0067" x="1208" y="3493" width="614" height="369" frameX="0" frameY="-41" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0068" x="0" y="3862" width="381" height="109" frameX="0" frameY="-284" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0069" x="381" y="3862" width="381" height="109" frameX="0" frameY="-284" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0070" x="762" y="3862" width="0" height="0" frameX="302" frameY="542" frameWidth="1316" frameHeight="413"/>
+	<SubTexture name="SANDY CHEEKS1 0071" x="762" y="3862" width="0" height="0" frameX="302" frameY="542" frameWidth="1316" frameHeight="413"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="players_3.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Símbolo 9 instancia 10000" x="4" y="4" width="663" height="188" frameX="0" frameY="0" frameWidth="663" frameHeight="189"/>
+	<SubTexture name="Símbolo 9 instancia 10001" x="4" y="196" width="662" height="188" frameX="0" frameY="-1" frameWidth="663" frameHeight="189"/>
+	<SubTexture name="Símbolo 9 instancia 10002" x="4" y="388" width="662" height="189" frameX="0" frameY="0" frameWidth="663" frameHeight="189"/>
+</TextureAtlas>

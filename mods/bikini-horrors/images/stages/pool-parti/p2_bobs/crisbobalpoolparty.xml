@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crisbobalpoolparty.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="crisbobal0000" x="10" y="10" width="212" height="315" frameX="0" frameY="-3" frameWidth="212" frameHeight="318"/>
+	<SubTexture name="crisbobal0001" x="10" y="10" width="212" height="315" frameX="0" frameY="-3" frameWidth="212" frameHeight="318"/>
+	<SubTexture name="crisbobal0002" x="232" y="10" width="212" height="315" frameX="0" frameY="-3" frameWidth="212" frameHeight="318"/>
+	<SubTexture name="crisbobal0003" x="454" y="10" width="206" height="317" frameX="0" frameY="-1" frameWidth="212" frameHeight="318"/>
+	<SubTexture name="crisbobal0004" x="670" y="10" width="206" height="317" frameX="0" frameY="-1" frameWidth="212" frameHeight="318"/>
+	<SubTexture name="crisbobal0005" x="10" y="337" width="212" height="318"/>
+	<SubTexture name="crisbobal0006" x="232" y="337" width="212" height="318"/>
+	<SubTexture name="crisbobal0007" x="232" y="337" width="212" height="318"/>
+</TextureAtlas>

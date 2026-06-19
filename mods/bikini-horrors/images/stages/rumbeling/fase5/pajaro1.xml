@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pajaro1.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pajaro0000" x="4" y="4" width="499" height="1962" frameX="-3" frameY="-3" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0001" x="4" y="4" width="499" height="1962" frameX="-3" frameY="-3" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0002" x="4" y="4" width="499" height="1962" frameX="-3" frameY="-3" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0003" x="507" y="4" width="478" height="1978" frameX="0" frameY="0" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0004" x="507" y="4" width="478" height="1978" frameX="0" frameY="0" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0005" x="507" y="4" width="478" height="1978" frameX="0" frameY="0" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0006" x="989" y="4" width="469" height="1944" frameX="-7" frameY="-9" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0007" x="989" y="4" width="469" height="1944" frameX="-7" frameY="-9" frameWidth="502" frameHeight="1978"/>
+	<SubTexture name="pajaro0008" x="989" y="4" width="469" height="1944" frameX="-7" frameY="-9" frameWidth="502" frameHeight="1978"/>
+</TextureAtlas>

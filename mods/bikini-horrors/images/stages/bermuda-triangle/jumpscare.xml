@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jumpscare.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spongeSPOOK0000" x="0" y="0" width="918" height="1200" frameX="-113" frameY="-407" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0001" x="918" y="0" width="918" height="1257" frameX="-113" frameY="-391" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0002" x="1836" y="0" width="918" height="1046" frameX="-113" frameY="-392" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0003" x="2754" y="0" width="975" height="1020" frameX="-106" frameY="0" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0004" x="3729" y="0" width="1155" height="847" frameX="0" frameY="-153" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0005" x="4884" y="0" width="1089" height="801" frameX="-40" frameY="-147" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0006" x="5973" y="0" width="1098" height="901" frameX="-32" frameY="-40" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0007" x="7071" y="0" width="1098" height="886" frameX="-28" frameY="-55" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0008" x="0" y="1257" width="1113" height="846" frameX="-23" frameY="-93" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0009" x="1113" y="1257" width="1098" height="873" frameX="-28" frameY="-68" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0010" x="2211" y="1257" width="1098" height="881" frameX="-30" frameY="-60" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0011" x="3309" y="1257" width="1099" height="878" frameX="-34" frameY="-63" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0012" x="4408" y="1257" width="1098" height="864" frameX="-29" frameY="-77" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0013" x="5506" y="1257" width="1106" height="886" frameX="-19" frameY="-69" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0014" x="6612" y="1257" width="1113" height="846" frameX="-23" frameY="-93" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0015" x="0" y="2143" width="1098" height="873" frameX="-28" frameY="-68" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0016" x="1098" y="2143" width="1098" height="881" frameX="-30" frameY="-60" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0017" x="3309" y="1257" width="1099" height="878" frameX="-34" frameY="-63" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0018" x="4408" y="1257" width="1098" height="864" frameX="-29" frameY="-77" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0019" x="5506" y="1257" width="1106" height="886" frameX="-19" frameY="-69" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0020" x="2196" y="2143" width="1122" height="888" frameX="-18" frameY="-52" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0021" x="3318" y="2143" width="1100" height="788" frameX="-36" frameY="-153" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0022" x="4418" y="2143" width="975" height="1044" frameX="-106" frameY="-44" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0023" x="5393" y="2143" width="918" height="1148" frameX="-113" frameY="-398" frameWidth="1155" frameHeight="1648"/>
+	<SubTexture name="spongeSPOOK0024" x="6311" y="2143" width="0" height="0" frameX="0" frameY="-81" frameWidth="1155" frameHeight="1648"/>
+</TextureAtlas>

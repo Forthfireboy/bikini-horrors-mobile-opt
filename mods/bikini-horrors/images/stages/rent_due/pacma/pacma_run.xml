@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pacma_run.png"><SubTexture name="idle0000" x="0" y="0" width="7831" height="603" frameX="-87" frameY="0" frameWidth="8000" frameHeight="603" />
+<SubTexture name="idle0001" x="0" y="603" width="7831" height="603" frameX="-2" frameY="0" frameWidth="8000" frameHeight="603" />
+<SubTexture name="idle0002" x="7831" y="0" width="7832" height="603" frameX="-165" frameY="0" frameWidth="8000" frameHeight="603" />
+</TextureAtlas>

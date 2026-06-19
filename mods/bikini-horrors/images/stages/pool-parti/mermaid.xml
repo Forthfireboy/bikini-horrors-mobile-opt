@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mermaid.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mermaid0000" x="4" y="4" width="158" height="181"/>
+	<SubTexture name="mermaid0001" x="4" y="4" width="158" height="181"/>
+	<SubTexture name="mermaid0002" x="166" y="4" width="158" height="181"/>
+	<SubTexture name="mermaid0003" x="166" y="4" width="158" height="181"/>
+	<SubTexture name="mermaid0004" x="328" y="4" width="158" height="181"/>
+	<SubTexture name="mermaid0005" x="328" y="4" width="158" height="181"/>
+	<SubTexture name="mermaid0006" x="4" y="189" width="158" height="181"/>
+	<SubTexture name="mermaid0007" x="4" y="189" width="158" height="181"/>
+</TextureAtlas>

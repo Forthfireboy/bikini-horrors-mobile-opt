@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dora.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dora0000" x="4" y="4" width="454" height="1138" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0001" x="4" y="4" width="454" height="1138" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0002" x="4" y="4" width="454" height="1138" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0003" x="4" y="4" width="454" height="1138" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0004" x="462" y="4" width="454" height="1147"/>
+	<SubTexture name="dora0005" x="462" y="4" width="454" height="1147"/>
+	<SubTexture name="dora0006" x="462" y="4" width="454" height="1147"/>
+	<SubTexture name="dora0007" x="462" y="4" width="454" height="1147"/>
+	<SubTexture name="dora0008" x="920" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0009" x="920" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0010" x="920" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0011" x="920" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0012" x="1378" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0013" x="1378" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0014" x="1378" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+	<SubTexture name="dora0015" x="1378" y="4" width="454" height="1134" frameX="0" frameY="0" frameWidth="454" frameHeight="1147"/>
+</TextureAtlas>

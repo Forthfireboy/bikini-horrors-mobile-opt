@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="usa_run.png"><SubTexture name="usa_run idle0000" x="0" y="0" width="7677" height="892" frameX="-322" frameY="0" frameWidth="8000" frameHeight="892" />
+<SubTexture name="usa_run idle0001" x="0" y="0" width="7677" height="892" frameX="-322" frameY="0" frameWidth="8000" frameHeight="892" />
+<SubTexture name="usa_run idle0002" x="7677" y="0" width="7809" height="892" frameX="-190" frameY="0" frameWidth="8000" frameHeight="892" />
+<SubTexture name="usa_run idle0003" x="7677" y="0" width="7809" height="892" frameX="-190" frameY="0" frameWidth="8000" frameHeight="892" />
+<SubTexture name="usa_run idle0004" x="0" y="892" width="7999" height="892" frameX="0" frameY="0" frameWidth="8000" frameHeight="892" />
+<SubTexture name="usa_run idle0005" x="0" y="892" width="7999" height="892" frameX="0" frameY="0" frameWidth="8000" frameHeight="892" />
+</TextureAtlas>

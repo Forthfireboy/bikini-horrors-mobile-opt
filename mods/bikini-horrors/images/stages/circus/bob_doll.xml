@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bob_doll.png"><SubTexture name="look0000" x="0" y="0" width="282" height="300" frameX="-6" frameY="-9" frameWidth="296" frameHeight="324" />
+<SubTexture name="idle0000" x="282" y="0" width="286" height="293" frameX="-2" frameY="0" frameWidth="288" frameHeight="293" />
+</TextureAtlas>

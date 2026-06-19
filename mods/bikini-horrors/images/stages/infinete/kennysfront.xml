@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kennysfront.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="loop0001" x="3966" y="5" width="3956" height="534"/>
+	<SubTexture name="loop0000" x="5" y="5" width="3956" height="534" pivotX="1177" pivotY="572.4"/>
+	<SubTexture name="loop0002" x="5" y="544" width="3956" height="534"/>
+	<SubTexture name="loop0003" x="3966" y="544" width="3956" height="534"/>
+	<SubTexture name="loop0004" x="5" y="1083" width="3956" height="534"/>
+	<SubTexture name="loop0005" x="3966" y="1083" width="3956" height="534"/>
+	<SubTexture name="loop0006" x="5" y="1622" width="3956" height="534"/>
+	<SubTexture name="loop0007" x="3966" y="1622" width="3956" height="534"/>
+	<SubTexture name="loop0008" x="5" y="2161" width="3956" height="534"/>
+	<SubTexture name="loop0009" x="3966" y="2161" width="3956" height="534"/>
+	<SubTexture name="loop0010" x="5" y="2700" width="3956" height="534"/>
+	<SubTexture name="loop0011" x="3966" y="2700" width="3956" height="534"/>
+	<SubTexture name="loop0012" x="5" y="3239" width="3956" height="534"/>
+	<SubTexture name="loop0013" x="3966" y="3239" width="3956" height="534"/>
+	<SubTexture name="loop0014" x="5" y="3778" width="3956" height="534"/>
+	<SubTexture name="loop0015" x="3966" y="3778" width="3956" height="534"/>
+	<SubTexture name="loop0016" x="5" y="4317" width="3956" height="534"/>
+	<SubTexture name="loop0017" x="3966" y="4317" width="3956" height="534"/>
+	<SubTexture name="loop0018" x="5" y="4856" width="3956" height="534"/>
+	<SubTexture name="loop0019" x="3966" y="4856" width="3956" height="534"/>
+	<SubTexture name="loop0020" x="5" y="5395" width="3956" height="534"/>
+	<SubTexture name="loop0021" x="3966" y="5395" width="3956" height="534"/>
+	<SubTexture name="loop0022" x="5" y="5934" width="3956" height="534"/>
+	<SubTexture name="loop0023" x="3966" y="5934" width="3956" height="534"/>
+	<SubTexture name="suprised0000" x="5" y="6473" width="1774" height="523" pivotX="79.75" pivotY="572.35"/>
+	<SubTexture name="suprised0001" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0002" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0003" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0004" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0005" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0006" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0007" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0008" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0009" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0010" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0011" x="5" y="6473" width="1774" height="523"/>
+	<SubTexture name="suprised0012" x="5" y="6473" width="1774" height="523"/>
+</TextureAtlas>

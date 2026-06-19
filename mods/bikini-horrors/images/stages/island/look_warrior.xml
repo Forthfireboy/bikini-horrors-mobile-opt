@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="look_warrior.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="warrrior0000" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0001" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0002" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0003" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0004" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0005" x="8" y="4" width="390" height="202" frameX="-1537" frameY="-873" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0006" x="8" y="4" width="390" height="202" frameX="-1537" frameY="-873" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0007" x="402" y="4" width="452" height="414" frameX="-1454" frameY="-555" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0008" x="402" y="4" width="452" height="414" frameX="-1454" frameY="-555" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0009" x="858" y="4" width="350" height="496" frameX="-1315" frameY="-206" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0010" x="858" y="4" width="350" height="496" frameX="-1315" frameY="-206" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0011" x="1212" y="4" width="370" height="422" frameX="-1074" frameY="-96" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0012" x="1212" y="4" width="370" height="422" frameX="-1074" frameY="-96" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0013" x="1586" y="4" width="371" height="477" frameX="-839" frameY="0" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0014" x="1586" y="4" width="371" height="477" frameX="-839" frameY="0" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0015" x="1961" y="4" width="478" height="444" frameX="-649" frameY="-29" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0016" x="1961" y="4" width="478" height="444" frameX="-649" frameY="-29" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0017" x="2443" y="4" width="472" height="421" frameX="-490" frameY="-137" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0018" x="2443" y="4" width="472" height="421" frameX="-490" frameY="-137" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0019" x="2919" y="4" width="388" height="428" frameX="-407" frameY="-293" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0020" x="2919" y="4" width="388" height="428" frameX="-407" frameY="-293" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0021" x="3311" y="4" width="427" height="523" frameX="-161" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0022" x="3311" y="4" width="427" height="523" frameX="-161" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0023" x="4" y="531" width="459" height="458" frameX="0" frameY="-610" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0024" x="4" y="531" width="459" height="458" frameX="0" frameY="-610" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0025" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0026" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0027" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0028" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0029" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0030" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0031" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0032" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0033" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0034" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0035" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0036" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0037" x="467" y="531" width="404" height="416" frameX="-49" frameY="-560" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0038" x="467" y="531" width="404" height="416" frameX="-49" frameY="-560" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0039" x="875" y="531" width="359" height="479" frameX="-249" frameY="-477" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0040" x="875" y="531" width="359" height="479" frameX="-249" frameY="-477" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0041" x="1238" y="531" width="384" height="556" frameX="-566" frameY="-132" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0042" x="1238" y="531" width="384" height="556" frameX="-566" frameY="-132" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0043" x="1626" y="531" width="446" height="500" frameX="-639" frameY="-44" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0044" x="1626" y="531" width="446" height="500" frameX="-639" frameY="-44" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0045" x="2076" y="531" width="477" height="492" frameX="-703" frameY="-68" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0046" x="2076" y="531" width="477" height="492" frameX="-703" frameY="-68" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0047" x="2557" y="531" width="546" height="426" frameX="-936" frameY="-200" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0048" x="2557" y="531" width="546" height="426" frameX="-936" frameY="-200" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0049" x="3107" y="531" width="407" height="458" frameX="-1232" frameY="-380" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0050" x="3107" y="531" width="407" height="458" frameX="-1232" frameY="-380" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0051" x="3518" y="531" width="391" height="515" frameX="-1372" frameY="-494" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0052" x="3518" y="531" width="391" height="515" frameX="-1372" frameY="-494" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0053" x="3913" y="531" width="151" height="160" frameX="-1597" frameY="-855" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0054" x="3913" y="531" width="151" height="160" frameX="-1597" frameY="-855" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0055" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0056" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0057" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+	<SubTexture name="warrrior0058" x="4" y="4" width="0" height="0" frameX="-917" frameY="-376" frameWidth="1927" frameHeight="1075"/>
+</TextureAtlas>

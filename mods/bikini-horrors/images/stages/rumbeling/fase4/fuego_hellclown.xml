@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fuego_hellclown.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fuego_hellclown instancia 10000" x="4" y="4" width="761" height="505" frameX="0" frameY="-68" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10001" x="4" y="4" width="761" height="505" frameX="0" frameY="-68" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10002" x="769" y="4" width="674" height="565" frameX="-63" frameY="-12" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10003" x="769" y="4" width="674" height="565" frameX="-63" frameY="-12" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10004" x="4" y="573" width="684" height="586" frameX="-51" frameY="0" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10005" x="4" y="573" width="684" height="586" frameX="-51" frameY="0" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10006" x="692" y="573" width="658" height="498" frameX="-66" frameY="-82" frameWidth="761" frameHeight="586"/>
+	<SubTexture name="fuego_hellclown instancia 10007" x="692" y="573" width="658" height="498" frameX="-66" frameY="-82" frameWidth="761" frameHeight="586"/>
+</TextureAtlas>

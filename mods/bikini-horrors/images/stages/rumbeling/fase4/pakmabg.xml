@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pakmabg.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pakma0000" x="0" y="0" width="1631" height="1986" pivotX="0.25" pivotY="0" frameX="0" frameY="0" frameWidth="1631" frameHeight="1988"/>
+	<SubTexture name="pakma0001" x="0" y="0" width="1631" height="1986" frameX="0" frameY="0" frameWidth="1631" frameHeight="1988"/>
+	<SubTexture name="pakma0002" x="0" y="1986" width="1631" height="1988"/>
+	<SubTexture name="pakma0003" x="0" y="1986" width="1631" height="1988"/>
+</TextureAtlas>

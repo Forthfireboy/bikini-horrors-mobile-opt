@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="animao.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="animaoo0000" x="4" y="4" width="3922" height="2182" frameX="-68" frameY="-34" frameWidth="4069" frameHeight="2256"/>
+	<SubTexture name="animaoo0001" x="4" y="4" width="3922" height="2182" frameX="-68" frameY="-34" frameWidth="4069" frameHeight="2256"/>
+	<SubTexture name="animaoo0002" x="3930" y="4" width="4001" height="2245" frameX="-68" frameY="-11" frameWidth="4069" frameHeight="2256"/>
+	<SubTexture name="animaoo0003" x="3930" y="4" width="4001" height="2245" frameX="-68" frameY="-11" frameWidth="4069" frameHeight="2256"/>
+	<SubTexture name="animaoo0004" x="4" y="2253" width="4058" height="2251" frameX="0" frameY="0" frameWidth="4069" frameHeight="2256"/>
+	<SubTexture name="animaoo0005" x="4" y="2253" width="4058" height="2251" frameX="0" frameY="0" frameWidth="4069" frameHeight="2256"/>
+</TextureAtlas>

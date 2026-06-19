@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="papeles.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="papeles instancia 10000" x="4" y="4" width="2502" height="676"/>
+	<SubTexture name="papeles instancia 10001" x="4" y="4" width="2502" height="676"/>
+	<SubTexture name="papeles instancia 10002" x="4" y="4" width="2502" height="676"/>
+	<SubTexture name="papeles instancia 10003" x="4" y="4" width="2502" height="676"/>
+	<SubTexture name="papeles instancia 10004" x="4" y="4" width="2502" height="676"/>
+	<SubTexture name="papeles instancia 10005" x="4" y="684" width="2497" height="666" frameX="-4" frameY="-6" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10006" x="4" y="684" width="2497" height="666" frameX="-4" frameY="-6" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10007" x="4" y="684" width="2497" height="666" frameX="-4" frameY="-6" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10008" x="4" y="684" width="2497" height="666" frameX="-4" frameY="-6" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10009" x="4" y="684" width="2497" height="666" frameX="-4" frameY="-6" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10010" x="4" y="1354" width="2497" height="666" frameX="-4" frameY="-9" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10011" x="4" y="1354" width="2497" height="666" frameX="-4" frameY="-9" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10012" x="4" y="1354" width="2497" height="666" frameX="-4" frameY="-9" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10013" x="4" y="1354" width="2497" height="666" frameX="-4" frameY="-9" frameWidth="2502" frameHeight="676"/>
+	<SubTexture name="papeles instancia 10014" x="4" y="1354" width="2497" height="666" frameX="-4" frameY="-9" frameWidth="2502" frameHeight="676"/>
+</TextureAtlas>

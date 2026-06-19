@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stars.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="estrellas instancia 10000" x="4" y="4" width="2517" height="694" frameX="-6" frameY="-8" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10001" x="4" y="4" width="2517" height="694" frameX="-6" frameY="-8" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10002" x="4" y="4" width="2517" height="694" frameX="-6" frameY="-8" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10003" x="4" y="4" width="2517" height="694" frameX="-6" frameY="-8" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10004" x="4" y="4" width="2517" height="694" frameX="-6" frameY="-8" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10005" x="4" y="702" width="2518" height="691" frameX="-5" frameY="-11" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10006" x="4" y="702" width="2518" height="691" frameX="-5" frameY="-11" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10007" x="4" y="702" width="2518" height="691" frameX="-5" frameY="-11" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10008" x="4" y="702" width="2518" height="691" frameX="-5" frameY="-11" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10009" x="4" y="702" width="2518" height="691" frameX="-5" frameY="-11" frameWidth="2523" frameHeight="702"/>
+	<SubTexture name="estrellas instancia 10010" x="4" y="1397" width="2523" height="702"/>
+	<SubTexture name="estrellas instancia 10011" x="4" y="1397" width="2523" height="702"/>
+	<SubTexture name="estrellas instancia 10012" x="4" y="1397" width="2523" height="702"/>
+	<SubTexture name="estrellas instancia 10013" x="4" y="1397" width="2523" height="702"/>
+	<SubTexture name="estrellas instancia 10014" x="4" y="1397" width="2523" height="702"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pp_phase1_mano.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mano0000" x="4" y="4" width="250" height="391" frameX="0" frameY="-5" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0001" x="4" y="4" width="250" height="391" frameX="0" frameY="-5" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0002" x="4" y="4" width="250" height="391" frameX="0" frameY="-5" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0003" x="258" y="4" width="233" height="396" frameX="-17" frameY="-7" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0004" x="258" y="4" width="233" height="396" frameX="-17" frameY="-7" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0005" x="258" y="4" width="233" height="396" frameX="-17" frameY="-7" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0006" x="495" y="4" width="235" height="400" frameX="-29" frameY="-8" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0007" x="495" y="4" width="235" height="400" frameX="-29" frameY="-8" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0008" x="495" y="4" width="235" height="400" frameX="-29" frameY="-8" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0009" x="734" y="4" width="244" height="387" frameX="-42" frameY="-5" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0010" x="734" y="4" width="244" height="387" frameX="-42" frameY="-5" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0011" x="734" y="4" width="244" height="387" frameX="-42" frameY="-5" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0012" x="4" y="408" width="238" height="385" frameX="-27" frameY="-1" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0013" x="4" y="408" width="238" height="385" frameX="-27" frameY="-1" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0014" x="4" y="408" width="238" height="385" frameX="-27" frameY="-1" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0015" x="246" y="408" width="244" height="391" frameX="-8" frameY="0" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0016" x="246" y="408" width="244" height="391" frameX="-8" frameY="0" frameWidth="286" frameHeight="408"/>
+	<SubTexture name="mano0017" x="246" y="408" width="244" height="391" frameX="-8" frameY="0" frameWidth="286" frameHeight="408"/>
+</TextureAtlas>

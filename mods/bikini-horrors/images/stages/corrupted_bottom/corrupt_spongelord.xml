@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="corrupt_spongelord.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spongelord0000" x="4" y="4" width="407" height="548" frameX="0" frameY="0" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0001" x="4" y="4" width="407" height="548" frameX="0" frameY="0" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0002" x="4" y="4" width="407" height="548" frameX="0" frameY="0" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0003" x="4" y="4" width="407" height="548" frameX="0" frameY="0" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0004" x="4" y="4" width="407" height="548" frameX="0" frameY="0" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0005" x="451" y="4" width="384" height="545" frameX="-15" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0006" x="451" y="4" width="384" height="545" frameX="-15" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0007" x="451" y="4" width="384" height="545" frameX="-15" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0008" x="451" y="4" width="384" height="545" frameX="-15" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0009" x="451" y="4" width="384" height="545" frameX="-15" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0010" x="875" y="4" width="391" height="545" frameX="-21" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0011" x="875" y="4" width="391" height="545" frameX="-21" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0012" x="875" y="4" width="391" height="545" frameX="-21" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0013" x="875" y="4" width="391" height="545" frameX="-21" frameY="-3" frameWidth="412" frameHeight="548"/>
+	<SubTexture name="spongelord0014" x="875" y="4" width="391" height="545" frameX="-21" frameY="-3" frameWidth="412" frameHeight="548"/>
+</TextureAtlas>

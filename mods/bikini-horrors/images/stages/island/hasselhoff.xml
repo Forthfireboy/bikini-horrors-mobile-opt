@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hasselhoff.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tarde0000" x="4" y="4" width="1300" height="361" frameX="0" frameY="-1" frameWidth="1300" frameHeight="362"/>
+	<SubTexture name="tarde0001" x="4" y="4" width="1300" height="361" frameX="0" frameY="-1" frameWidth="1300" frameHeight="362"/>
+	<SubTexture name="tarde0002" x="4" y="369" width="1300" height="361" frameX="0" frameY="-1" frameWidth="1300" frameHeight="362"/>
+	<SubTexture name="tarde0003" x="4" y="369" width="1300" height="361" frameX="0" frameY="-1" frameWidth="1300" frameHeight="362"/>
+	<SubTexture name="tarde0004" x="4" y="734" width="1300" height="362"/>
+	<SubTexture name="tarde0005" x="4" y="734" width="1300" height="362"/>
+</TextureAtlas>
