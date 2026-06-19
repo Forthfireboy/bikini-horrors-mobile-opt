@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="kahoot_noteSkin.png">
+<SubTexture name="red_confirm0000" x="0" y="0" width="403" height="217" frameX="0" frameY="0" frameWidth="403" frameHeight="217" />
+<SubTexture name="green_confirm0000" x="403" y="0" width="403" height="217" frameX="0" frameY="0" frameWidth="403" frameHeight="217" />
+<SubTexture name="blue_confirm0000" x="0" y="217" width="403" height="216" frameX="0" frameY="0" frameWidth="403" frameHeight="216" />
+<SubTexture name="purple_confirm0000" x="403" y="217" width="403" height="216" frameX="0" frameY="0" frameWidth="403" frameHeight="216" />
+<SubTexture name="red_tail_end0000" x="806" y="717" width="49" height="65" frameX="0" frameY="0" frameWidth="49" frameHeight="65" />
+<SubTexture name="blue_tail_end0000" x="855" y="717" width="48" height="65" frameX="0" frameY="0" frameWidth="48" frameHeight="65" />
+<SubTexture name="blue_tail0000" x="733" y="433" width="49" height="92" frameX="0" frameY="0" frameWidth="49" frameHeight="92" />
+<SubTexture name="green_tail_end0000" x="903" y="717" width="49" height="65" frameX="0" frameY="0" frameWidth="49" frameHeight="65" />
+<SubTexture name="green_tail0000" x="733" y="613" width="49" height="92" frameX="0" frameY="0" frameWidth="49" frameHeight="92" />
+<SubTexture name="purple_tail_end0000" x="952" y="717" width="49" height="65" frameX="0" frameY="0" frameWidth="49" frameHeight="65" />
+<SubTexture name="purple_tail0000" x="1100" y="793" width="49" height="92" frameX="0" frameY="0" frameWidth="49" frameHeight="92" />
+<SubTexture name="red_tail0000" x="366" y="973" width="49" height="92" frameX="0" frameY="0" frameWidth="49" frameHeight="92" />
+<SubTexture name="blue_note0000" x="806" y="180" width="366" height="179" frameX="0" frameY="0" frameWidth="366" frameHeight="179" />
+<SubTexture name="blue_push0000" x="0" y="433" width="366" height="180" frameX="0" frameY="0" frameWidth="366" frameHeight="180" />
+<SubTexture name="green_note0000" x="806" y="359" width="366" height="179" frameX="0" frameY="0" frameWidth="366" frameHeight="179" />
+<SubTexture name="purple_note0000" x="367" y="793" width="367" height="179" frameX="0" frameY="0" frameWidth="367" frameHeight="179" />
+<SubTexture name="red_note0000" x="806" y="538" width="366" height="179" frameX="0" frameY="0" frameWidth="366" frameHeight="179" />
+<SubTexture name="red_push0000" x="734" y="793" width="366" height="179" frameX="0" frameY="0" frameWidth="366" frameHeight="179" />
+<SubTexture name="green_push0000" x="0" y="973" width="366" height="179" frameX="0" frameY="0" frameWidth="366" frameHeight="179" />
+<SubTexture name="blue_idle0000" x="366" y="433" width="367" height="180" frameX="0" frameY="0" frameWidth="367" frameHeight="180" />
+<SubTexture name="purple_idle0000" x="0" y="613" width="367" height="180" frameX="0" frameY="0" frameWidth="367" frameHeight="180" />
+<SubTexture name="red_idle0000" x="367" y="613" width="366" height="180" frameX="0" frameY="0" frameWidth="366" frameHeight="180" />
+<SubTexture name="green_idle0000" x="806" y="0" width="366" height="180" frameX="0" frameY="0" frameWidth="366" frameHeight="180" />
+<SubTexture name="purple_push0000" x="0" y="793" width="367" height="180" frameX="0" frameY="0" frameWidth="367" frameHeight="180" />
+</TextureAtlas>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="alerta_columna_vertical.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="alertacolumnavertical0000" x="10" y="10" width="36" height="909"/>
+	<SubTexture name="alertacolumnavertical0001" x="56" y="10" width="0" height="0" frameX="0" frameY="0" frameWidth="36" frameHeight="909"/>
+</TextureAtlas>

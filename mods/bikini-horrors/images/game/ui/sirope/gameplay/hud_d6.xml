@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hud_d6.png">
+<SubTexture name="hud_d60000" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60001" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60002" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60003" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60004" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60005" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60006" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60007" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60008" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60009" x="39" y="0" width="40" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60010" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60011" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60012" x="79" y="0" width="40" height="64" frameX="-7" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60013" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60014" x="0" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+<SubTexture name="hud_d60015" x="119" y="0" width="39" height="64" frameX="-8" frameY="0" frameWidth="58" frameHeight="64" />
+</TextureAtlas>

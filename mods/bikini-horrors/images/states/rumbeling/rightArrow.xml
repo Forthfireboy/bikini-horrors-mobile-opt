@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rightArrow.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rightConfirm0000" x="4" y="4" width="181" height="182"/>
+	<SubTexture name="rightConfirm0001" x="4" y="4" width="181" height="182"/>
+	<SubTexture name="rightConfirm0002" x="189" y="4" width="168" height="168" frameX="-7" frameY="-7" frameWidth="181" frameHeight="182"/>
+	<SubTexture name="rightConfirm0003" x="189" y="4" width="168" height="168" frameX="-7" frameY="-7" frameWidth="181" frameHeight="182"/>
+	<SubTexture name="rightIdle0000" x="4" y="190" width="161" height="161"/>
+</TextureAtlas>

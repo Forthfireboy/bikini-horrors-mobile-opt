@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glitch_attack.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glitchattack0000" x="10" y="10" width="2094" height="84" frameX="-167" frameY="-39" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0001" x="10" y="104" width="2291" height="119" frameX="-43" frameY="-29" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0002" x="10" y="233" width="2332" height="146" frameX="-34" frameY="-12" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0003" x="10" y="389" width="2361" height="154" frameX="-55" frameY="0" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0004" x="10" y="553" width="2291" height="143" frameX="-43" frameY="-3" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0005" x="10" y="706" width="2332" height="122" frameX="-34" frameY="-24" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0006" x="10" y="838" width="2361" height="114" frameX="-55" frameY="-20" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0007" x="10" y="962" width="2384" height="120" frameX="0" frameY="-22" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0008" x="10" y="1092" width="2198" height="70" frameX="-64" frameY="-55" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0009" x="2218" y="1092" width="0" height="0" frameX="-44" frameY="21" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0010" x="10" y="1172" width="1984" height="64" frameX="-240" frameY="-47" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0011" x="2218" y="1092" width="0" height="0" frameX="-44" frameY="21" frameWidth="2416" frameHeight="158"/>
+	<SubTexture name="glitchattack0012" x="2004" y="1172" width="1345" height="52" frameX="-583" frameY="-47" frameWidth="2416" frameHeight="158"/>
+</TextureAtlas>

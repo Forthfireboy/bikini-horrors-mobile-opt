@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="daimago_final.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="daimago_idle0000" x="4" y="4" width="1001" height="976"/>
+	<SubTexture name="daimago_idle0001" x="4" y="4" width="1001" height="976"/>
+	<SubTexture name="daimago_idle0002" x="4" y="4" width="1001" height="976"/>
+	<SubTexture name="daimago_idle0003" x="1009" y="4" width="1001" height="975" frameX="0" frameY="0" frameWidth="1001" frameHeight="976"/>
+	<SubTexture name="daimago_idle0004" x="1009" y="4" width="1001" height="975" frameX="0" frameY="0" frameWidth="1001" frameHeight="976"/>
+	<SubTexture name="daimago_idle0005" x="1009" y="4" width="1001" height="975" frameX="0" frameY="0" frameWidth="1001" frameHeight="976"/>
+	<SubTexture name="daimago_ready0000" x="2014" y="4" width="1025" height="944"/>
+	<SubTexture name="daimago_ready0001" x="3043" y="4" width="1025" height="944"/>
+	<SubTexture name="daimago_ready0002" x="3043" y="4" width="1025" height="944"/>
+	<SubTexture name="daimago_ready0003" x="2014" y="4" width="1025" height="944"/>
+</TextureAtlas>

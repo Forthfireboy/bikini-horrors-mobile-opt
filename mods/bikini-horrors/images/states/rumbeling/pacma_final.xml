@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pacma_final.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pacma_idle0000" x="4" y="4" width="1376" height="1234"/>
+	<SubTexture name="pacma_idle0001" x="4" y="4" width="1376" height="1234"/>
+	<SubTexture name="pacma_idle0002" x="4" y="4" width="1376" height="1234"/>
+	<SubTexture name="pacma_idle0003" x="1384" y="4" width="1376" height="1234"/>
+	<SubTexture name="pacma_idle0004" x="1384" y="4" width="1376" height="1234"/>
+	<SubTexture name="pacma_idle0005" x="1384" y="4" width="1376" height="1234"/>
+	<SubTexture name="pacma_ready0000" x="4" y="1242" width="1407" height="1259" frameX="0" frameY="0" frameWidth="1407" frameHeight="1260"/>
+	<SubTexture name="pacma_ready0001" x="1415" y="1242" width="1406" height="1260" frameX="0" frameY="0" frameWidth="1407" frameHeight="1260"/>
+	<SubTexture name="pacma_ready0002" x="1415" y="1242" width="1406" height="1260" frameX="0" frameY="0" frameWidth="1407" frameHeight="1260"/>
+	<SubTexture name="pacma_ready0003" x="4" y="1242" width="1407" height="1259" frameX="0" frameY="0" frameWidth="1407" frameHeight="1260"/>
+</TextureAtlas>

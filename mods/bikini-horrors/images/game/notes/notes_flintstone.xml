@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="notes_flintstone.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="arrowDOWN0000" x="4" y="4" width="56" height="55"/>
+	<SubTexture name="arrowLEFT0000" x="100" y="4" width="56" height="55"/>
+	<SubTexture name="arrowRIGHT0000" x="196" y="4" width="56" height="55"/>
+	<SubTexture name="arrowUP0000" x="292" y="4" width="56" height="55"/>
+	<SubTexture name="blue0000" x="388" y="4" width="56" height="55"/>
+	<SubTexture name="blue hold end0000" x="484" y="4" width="14" height="29"/>
+	<SubTexture name="blue hold piece0000" x="4" y="99" width="14" height="29"/>
+	<SubTexture name="down confirm0000" x="58" y="99" width="56" height="55"/>
+	<SubTexture name="down press0000" x="154" y="99" width="56" height="55"/>
+	<SubTexture name="green0000" x="250" y="99" width="56" height="55"/>
+	<SubTexture name="green hold end0000" x="346" y="99" width="14" height="29"/>
+	<SubTexture name="green hold piece0000" x="400" y="99" width="14" height="29"/>
+	<SubTexture name="left confirm0000" x="4" y="194" width="56" height="55"/>
+	<SubTexture name="left press0000" x="100" y="194" width="56" height="55"/>
+	<SubTexture name="pruple end hold0000" x="196" y="194" width="14" height="29"/>
+	<SubTexture name="purple0000" x="250" y="194" width="56" height="55"/>
+	<SubTexture name="purple hold piece0000" x="346" y="194" width="14" height="29"/>
+	<SubTexture name="red0000" x="400" y="194" width="56" height="55"/>
+	<SubTexture name="red hold end0000" x="4" y="289" width="14" height="29"/>
+	<SubTexture name="red hold piece0000" x="58" y="289" width="14" height="29"/>
+	<SubTexture name="right confirm0000" x="112" y="289" width="56" height="55"/>
+	<SubTexture name="right press0000" x="208" y="289" width="56" height="55"/>
+	<SubTexture name="up confirm0000" x="304" y="289" width="56" height="55"/>
+	<SubTexture name="up press0000" x="400" y="289" width="56" height="55"/>
+</TextureAtlas>
