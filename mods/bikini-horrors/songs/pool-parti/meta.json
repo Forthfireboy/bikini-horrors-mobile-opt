@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "pool-parti",
+	"color": "#FFFFFF",
+	"stepsPerBeat": 4,
+	"displayName": "POOL PARTI",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 108,
+	"customGameOver": "credits"
+}

@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "nothing",
+	"parsedColor": -1,
+	"coopAllowed": false,
+	"name": "made-in-china",
+	"color": "#FFFFFF",
+	"stepsPerBeat": 4,
+	"displayName": "made in china",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 106,
+	"customGameOver": "credits"
+}
