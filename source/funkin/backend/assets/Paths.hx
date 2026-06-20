@@ -5,6 +5,7 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.graphics.frames.FlxFramesCollection;
 import funkin.backend.assets.ModsFolder;
 import funkin.backend.scripting.Script;
+import funkin.backend.system.modules.FunkinCache;
 import haxe.io.Path;
 import lime.utils.AssetLibrary;
 import openfl.utils.AssetType;
@@ -32,6 +33,19 @@ class Paths
 
 	public static inline function preserveTempFramesForNextStateSwitch():Void
 		__preserveTempFramesOnce = true;
+
+	public static function clearPlayStateTempCaches():Void {
+		__preserveTempFramesOnce = false;
+		tempFramesCache.clear();
+
+		if (FlxG.bitmap != null) {
+			FlxG.bitmap.clearCache();
+			FlxG.bitmap.clearUnused();
+		}
+
+		if (FunkinCache.instance != null)
+			FunkinCache.instance.clearSecondLayer();
+	}
 
 	public static inline function getPath(file:String, ?library:String) {
 		var returnedPath:String = library != null ? '$library:assets/$library/$file' : 'assets/$file';

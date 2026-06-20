@@ -19,13 +19,17 @@ function stepHit(curStep:Int) {
     }
 }
 
+function getSkinPath(skin:String):String
+{
+    return (skin == "" || skin == "default")
+        ? "game/notes/default"
+        : "game/notes/" + skin;
+}
+
 function changeSkin(skin:String)
 {
     skinName = skin;
-
-    var path:String = skin == ""
-        ? "game/notes/default"
-        : "game/notes/" + skin;
+    var path:String = getSkinPath(skin);
 
     for (i in 0...strumLines.members.length)
     {
@@ -40,8 +44,18 @@ function changeSkin(skin:String)
     }
 }
 
+function onPostNoteCreation(e)
+{
+    if (skinName == "" || skinName == "default") return;
+    if (e == null || e.note == null) return;
+
+    updateNote(e.note, getSkinPath(skinName));
+}
+
 function updateStrum(strum:Strum, atlas:String, line:Int)
 {
+    if (strum == null) return;
+
     strum.frames = Paths.getSparrowAtlas(atlas);
 
     if (strum.animation != null)
@@ -77,6 +91,8 @@ function updateStrum(strum:Strum, atlas:String, line:Int)
 
 function updateNote(note:Note, atlas:String)
 {
+    if (note == null) return;
+
     var currentAnim:String = "scroll";
 
     if (note.animation != null && note.animation.curAnim != null)
@@ -102,7 +118,7 @@ function updateNote(note:Note, atlas:String)
         note.animation.addByPrefix('hold', color + ' hold piece', 24, false);
 
         if (color == "purple")
-            note.animation.addByPrefix('holdend', 'pruple end hold', 24, false);
+            note.animation.addByPrefix('holdend', 'purple end hold', 24, false);
         else
             note.animation.addByPrefix('holdend', color + ' hold end', 24, false);
     }

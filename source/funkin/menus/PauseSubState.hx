@@ -50,6 +50,7 @@ class PauseSubState extends MusicBeatSubstate
 	override function create()
 	{
 		super.create();
+		funkin.backend.utils.VideoPauseUtil.pauseAllForGamePause();
 
 		if (menuItems.contains("Exit to charter") && !PlayState.chartingMode)
 			menuItems.remove("Exit to charter");

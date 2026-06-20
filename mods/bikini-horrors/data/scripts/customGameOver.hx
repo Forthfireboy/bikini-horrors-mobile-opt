@@ -5,6 +5,7 @@ var vid:FlxVideoSprite;
 var isCustom:Bool = false;
 var exiting:Bool = false;
 var cam;
+var skipPadAdded:Bool = false;
 
 function create(event) {
     var meta = PlayState.SONG.meta;
@@ -23,6 +24,7 @@ function startVideo(name:String) {
     vid.scrollFactor.set(0, 0);
     vid.cameras = [cam];
     add(vid);
+    showSkipPad();
 
     vid.bitmap.onFormatSetup.add(function() {
         vid.setGraphicSize(FlxG.width, FlxG.height);
@@ -49,18 +51,31 @@ function startVideo(name:String) {
 function update(elapsed:Float) {
     if (!isCustom || exiting) return;
 
-    if (FlxG.keys.justPressed.ENTER) {
-        exiting = true;
+    if (FlxG.keys.justPressed.ENTER || mobilePadJustPressed("A")) {
         retrySong();
     }
 
     if (FlxG.keys.justPressed.ESCAPE) {
-        exiting = true;
         exitToFreeplay();
     }
 }
 
+function showSkipPad() {
+    if (skipPadAdded) return;
+    skipPadAdded = true;
+    addMobilePad("NONE", "A");
+    addMobilePadCamera();
+}
+
+function hideSkipPad() {
+    if (!skipPadAdded) return;
+    skipPadAdded = false;
+    removeMobilePad();
+}
+
 function cleanupVideo() {
+    hideSkipPad();
+
     if (vid != null) {
         vid.stop();
         vid.destroy();
@@ -70,6 +85,9 @@ function cleanupVideo() {
 }
 
 function retrySong() {
+    if (exiting) return;
+    exiting = true;
+
     cam.fade(FlxColor.BLACK, 0.5, false, function() {
         cleanupVideo();
 
@@ -84,6 +102,9 @@ function retrySong() {
 }
 
 function exitToFreeplay() {
+    if (exiting) return;
+    exiting = true;
+
     cam.fade(FlxColor.BLACK, 0.5, false, function() {
         cleanupVideo();
         FlxG.switchState(new ModState("VersionHandler"));

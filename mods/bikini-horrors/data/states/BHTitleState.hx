@@ -4,8 +4,10 @@ import funkin.menus.credits.CreditsMain;
 import funkin.options.OptionsMenu;
 import funkin.editors.EditorPicker;
 import funkin.menus.ModSwitchMenu;
+import funkin.menus.FreeplayState.FreeplaySonglist;
 import funkin.savedata.FunkinSave;
 import funkin.savedata.HighscoreEntry;
+import mobile.backend.MobileUtil;
 import lime.system.System;
 
 import haxe.Json;
@@ -17,6 +19,7 @@ import flixel.FlxSprite;
 import flixel.FlxCamera;
 import flixel.text.FlxTextBorderStyle;
 import lime.app.Application;
+import mobile.backend.SoftKeyboardInput;
 
 var water:CustomShader = null;
 var water2:CustomShader = null;
@@ -45,6 +48,13 @@ var shakeSeedY:Float = FlxG.random.float(0, 9999);
 
 var selecPrisonMusic = null;
 var storyPrisonHitSound = null;
+var cheatPad:FlxSprite;
+var cheatStatusText:FlxText;
+var exportSaveText:FlxText;
+var cheatCodeActive:Bool = false;
+var cheatUnlocked:Bool = false;
+var cheatCodeBuffer:String = "";
+var cheatTargetCode:String = "ajwwk";
 
 function create() {
 
@@ -155,10 +165,6 @@ function create() {
     jailSprite.animation.addByPrefix("sound", "sound", 24, false);
     jailSprite.addOffset("sound", 36, 15);
 
-    if (FlxG.save.data.currentStage >= 2){
-        jailSprite.alpha = 0;
-    }
-
     jailSprite.playAnim("horror_jail");
 
 
@@ -167,6 +173,8 @@ function create() {
     warn.screenCenter();
     warn.y += 280;
     add(warn);
+
+    createTitleUtilityButtons();
     
     var baseY = warn.y;
     FlxTween.num(0, 1, 2, { type: FlxTween.PINGPONG, ease: FlxEase.sineInOut }, (val:Float) -> {
@@ -194,9 +202,6 @@ function create() {
     
     menuItems.push(jailSprite);
 
-    if (FlxG.save.data.currentStage >= 2)
-        remove(jailSprite);
-        
     addMobilePad("UP_DOWN", "A_B");
 
     if (mobileManager != null && mobileManager.mobilePad != null) {
@@ -261,9 +266,10 @@ function update(elapsed:Float) {
         if (menuInputDelay <= 0) menuInputDelay = 0;
     }
 
-    var mouseEnterClick:Bool = FlxG.mouse.justReleased && !enterMouseUsed && !menuActive && !transitioning;
+    var titleUtilityClick:Bool = handleTitleUtilityInput();
+    var mouseEnterClick:Bool = FlxG.mouse.justReleased && !enterMouseUsed && !menuActive && !transitioning && !titleUtilityClick;
 
-    if ((controls.ACCEPT || mouseEnterClick) && !menuActive && !transitioning) {
+    if ((controls.ACCEPT || mouseEnterClick) && !menuActive && !transitioning && !(cheatCodeActive && !cheatUnlocked)) {
         if (mouseEnterClick) enterMouseUsed = true;
     
         FlxG.sound.play(Paths.sound('menu/scroll'));
@@ -293,6 +299,254 @@ function update(elapsed:Float) {
             startPixelTransition(selectedIndex);
         }
 
+    }
+}
+
+function createTitleUtilityButtons() {
+    cheatPad = new FlxSprite(58, 438);
+    cheatPad.loadGraphic(Paths.image("menus/titlescreen/cheat_gamepad"));
+    cheatPad.scale.set(0.5, 0.5);
+    cheatPad.updateHitbox();
+    cheatPad.camera = gameCam;
+    cheatPad.alpha = 0.92;
+    add(cheatPad);
+
+    cheatStatusText = new FlxText(36, cheatPad.y + cheatPad.height + 6, 190, "CHEAT", 18);
+    cheatStatusText.setFormat(Paths.font("KrabbyPatty.otf"), 18, 0xFFFFFFFF, "center", FlxTextBorderStyle.OUTLINE, 0xFF000000);
+    cheatStatusText.borderSize = 2;
+    cheatStatusText.camera = gameCam;
+    add(cheatStatusText);
+
+    exportSaveText = new FlxText(34, cheatStatusText.y + 66, 194, "EXPORT SAVE", 18);
+    exportSaveText.setFormat(Paths.font("KrabbyPatty.otf"), 18, 0xFFFFFFFF, "center", FlxTextBorderStyle.OUTLINE, 0xFF000000);
+    exportSaveText.borderSize = 2;
+    exportSaveText.camera = gameCam;
+    add(exportSaveText);
+}
+
+function handleTitleUtilityInput():Bool {
+    var consumedClick:Bool = false;
+
+    if (FlxG.mouse.justReleased && cheatPad != null && FlxG.mouse.overlaps(cheatPad)) {
+        consumedClick = true;
+        activateCheatCode();
+    }
+
+    if (FlxG.mouse.justReleased && exportSaveText != null && FlxG.mouse.overlaps(exportSaveText)) {
+        consumedClick = true;
+        exportSavesFromTitle();
+    }
+
+    if (cheatCodeActive && !cheatUnlocked) {
+        syncCheatInputText();
+    }
+
+    return consumedClick;
+}
+
+function activateCheatCode() {
+    if (cheatUnlocked) {
+        updateCheatCodeText();
+        return;
+    }
+
+    cheatCodeActive = true;
+    cheatCodeBuffer = "";
+    SoftKeyboardInput.open(42, cheatStatusText.y + 28, 178, 34, "", cheatTargetCode.length, "A-Za-z");
+    updateCheatCodeText();
+    FlxG.sound.play(Paths.sound('menu/scroll'));
+}
+
+function closeCheatInputKeyboard() {
+    SoftKeyboardInput.close();
+}
+
+function updateCheatCodeText(?message:String = null) {
+    if (cheatStatusText == null)
+        return;
+
+    if (message != null) {
+        cheatStatusText.text = message;
+        return;
+    }
+
+    if (cheatUnlocked) {
+        cheatStatusText.color = 0xFF8DFF8D;
+        cheatStatusText.text = "UNLOCKED";
+        return;
+    }
+
+    var progress:String = "";
+    for (i in 0...cheatTargetCode.length) {
+        if (i < cheatCodeBuffer.length)
+            progress += cheatCodeBuffer.charAt(i).toUpperCase();
+        else
+            progress += "_";
+    }
+    cheatStatusText.color = 0xFFFFFFFF;
+    cheatStatusText.text = "CODE " + progress;
+}
+
+function syncCheatInputText() {
+    var value:String = SoftKeyboardInput.getText().toLowerCase()
+        .split(" ").join("")
+        .split("\n").join("")
+        .split("\r").join("");
+
+    if (value.length > cheatTargetCode.length)
+        value = value.substr(0, cheatTargetCode.length);
+
+    if (SoftKeyboardInput.getText() != value)
+        SoftKeyboardInput.setText(value);
+
+    if (value == cheatCodeBuffer)
+        return;
+
+    cheatCodeBuffer = value;
+
+    if (cheatCodeBuffer.length <= 0) {
+        updateCheatCodeText();
+        return;
+    }
+
+    if (cheatTargetCode.indexOf(cheatCodeBuffer) != 0) {
+        cheatCodeBuffer = "";
+        SoftKeyboardInput.setText("");
+        cheatStatusText.color = 0xFFFF7777;
+        updateCheatCodeText("WRONG");
+        FlxG.sound.play(Paths.sound('menu/scroll'));
+        return;
+    }
+
+    if (cheatCodeBuffer == cheatTargetCode) {
+        unlockEverythingWithCheat();
+        return;
+    }
+
+    updateCheatCodeText();
+}
+
+function addUniqueSongName(list:Array<String>, name:String) {
+    if (name == null)
+        return;
+
+    name = name.toLowerCase();
+    if (!list.contains(name))
+        list.push(name);
+}
+
+function unlockEverythingWithCheat() {
+    var cleared:Array<String> = [];
+    var knownSongs:Array<String> = [
+        "guater-game", "f-is-for-fevil", "infinete", "sunderwater", "catch-and-fish", "bubbletwister",
+        "vash-a-morir", "paracetamol", "ups-me-caigo", "rent-due", "rumbeling", "powerscaling",
+        "barnacles", "made-in-china", "steamunlocked", "flintstone", "pool-parti", "mega-mortal-madness",
+        "i-am-back", "wordle", "fertility", "so-retro", "no-phone-zone", "chromosome", "daddatel",
+        "try-and-trong", "aloha-aloha", "unheard", "go-to-eat", "pneumonoultramicroscopicsilicovolcanoconiosis",
+        "carmaland-retake", "pop-a-corn", "spotting", "kaka", "ayuda-por-favor", "la-playa",
+        "for-you-someday", "corre-corre-que-te-pillo"
+    ];
+
+    for (songName in knownSongs)
+        addUniqueSongName(cleared, songName);
+
+    try {
+        var freeplaySongs = FreeplaySonglist.get().songs;
+        if (freeplaySongs != null)
+            for (song in freeplaySongs)
+                addUniqueSongName(cleared, song.name);
+    } catch (e:Dynamic) {
+        trace('Could not read freeplay songs for cheat unlock: $e');
+    }
+
+    FlxG.save.data.clearedSongs = cleared;
+    FlxG.save.data.unlockedV2 = true;
+    FlxG.save.data.beatVOne = true;
+    FlxG.save.data.beatVThree = true;
+    FlxG.save.data.beatTheGame = true;
+    FlxG.save.data.allSongsCleared = true;
+    FlxG.save.data.adUnlocked = true;
+    FlxG.save.data.hasMetPrisoner = true;
+    FlxG.save.data.lastSeenStage = 3;
+    FlxG.save.data.currentStage = 3;
+    FlxG.save.data.storyStage = 3;
+    FlxG.save.data.megaMortalMode = false;
+    FlxG.save.data.correCorreMode = false;
+    FlxG.save.data.CorreCorreMode = false;
+    FlxG.save.flush();
+    FunkinSave.flush();
+
+    cheatUnlocked = true;
+    cheatCodeActive = false;
+    closeCheatInputKeyboard();
+    updateCheatCodeText();
+    FlxG.sound.play(Paths.sound('menu/confirm'));
+}
+
+function buildOptionsSnapshot():Dynamic {
+    var snapshot:Dynamic = {};
+    try {
+        for (field in Reflect.fields(Options)) {
+            if (field.indexOf("__") == 0)
+                continue;
+
+            var value:Dynamic = Reflect.field(Options, field);
+            try {
+                Json.stringify(value);
+                Reflect.setField(snapshot, field, value);
+            } catch (e:Dynamic) {}
+        }
+    } catch (e:Dynamic) {
+        trace('Could not build options snapshot: $e');
+    }
+    return snapshot;
+}
+
+function safeJsonStringify(value:Dynamic, fallback:Dynamic):String {
+    try {
+        return Json.stringify(value);
+    } catch (e:Dynamic) {
+        trace('Could not stringify save data, using fallback: $e');
+    }
+
+    try {
+        return Json.stringify(fallback);
+    } catch (e:Dynamic) {
+        return "{}";
+    }
+}
+
+function exportSavesFromTitle() {
+    try {
+        FlxG.save.flush();
+        FunkinSave.flush();
+        Options.save();
+    } catch (e:Dynamic) {
+        trace('Could not flush saves before export: $e');
+    }
+
+    var stamp:String = Std.string(Date.now())
+        .split(" ").join("_")
+        .split(":").join("-")
+        .split(".").join("-");
+
+    var optionsData:Dynamic = buildOptionsSnapshot();
+    try {
+        if (Options.__save != null && Options.__save.data != null)
+            optionsData = Options.__save.data;
+    } catch (e:Dynamic) {
+        trace('Could not read options save object: $e');
+    }
+
+    var gamePath = MobileUtil.exportTextFile('game-save-$stamp.json', safeJsonStringify(FlxG.save.data, {}), "Bikini-Horrors/saves", false);
+    var optionsPath = MobileUtil.exportTextFile('options-save-$stamp.json', safeJsonStringify(optionsData, buildOptionsSnapshot()), "Bikini-Horrors/saves", false);
+
+    if (gamePath != null || optionsPath != null) {
+        Application.current.window.alert('Exported save files:\n${gamePath}\n${optionsPath}', "Save Export");
+        FlxG.sound.play(Paths.sound('menu/confirm'));
+    } else {
+        Application.current.window.alert("Could not export save files.", "Save Export");
+        FlxG.sound.play(Paths.sound('menu/scroll'));
     }
 }
 
@@ -438,6 +692,7 @@ function destroySoundSafe(sound) {
 }
 
 function destroy() {
+    closeCheatInputKeyboard();
     destroySoundSafe(storyPrisonHitSound);
     destroySoundSafe(selecPrisonMusic);
     storyPrisonHitSound = null;

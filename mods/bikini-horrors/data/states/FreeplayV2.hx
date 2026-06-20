@@ -33,6 +33,71 @@ function create(){
     
 }
 
+function setMenuMusicVolume(volume:Float)
+{
+    var musicObj:Dynamic = null;
+
+    try {
+        musicObj = FlxG.sound.music;
+    } catch(e:Dynamic) {
+        musicObj = null;
+    }
+
+    if (musicObj == null) return;
+
+    if (FlxG.onMobile) {
+        try {
+            if (volume <= 0)
+                musicObj.pause();
+            else
+                musicObj.resume();
+        } catch(e:Dynamic) {}
+    } else {
+        try {
+            musicObj.volume = volume;
+        } catch(e:Dynamic) {}
+    }
+}
+
+function fadeUnheardPreview()
+{
+    if (unheardSong == null) return;
+
+    if (FlxG.onMobile) return;
+
+    try {
+        FlxTween.cancelTweensOf(unheardSong);
+        FlxTween.tween(unheardSong, {volume:0.2}, 2);
+    } catch(e:Dynamic) {
+        try {
+            unheardSong.volume = 0.2;
+        } catch(e2:Dynamic) {
+            unheardSong = null;
+        }
+    }
+}
+
+function stopUnheardPreview()
+{
+    if (unheardSong == null) return;
+
+    try {
+        FlxTween.cancelTweensOf(unheardSong);
+    } catch(e:Dynamic) {}
+
+    if (!FlxG.onMobile) {
+        try {
+            unheardSong.volume = 0;
+        } catch(e:Dynamic) {}
+    }
+
+    try {
+        unheardSong.stop();
+    } catch(e:Dynamic) {}
+
+    unheardSong = null;
+}
+
 function postCreate()
 {
     whiteBg = new FlxSprite();
@@ -434,12 +499,12 @@ function updateSongModes()
     if (selectedName == "unheard")
     {
         if (unheardSong == null){
-        unheardSong = FlxG.sound.play(Paths.music('unheard_fp'), 0.2, true);
+            unheardSong = FlxG.sound.play(Paths.music('unheard_fp'), 0.2, true);
         }
-        FlxTween.tween(unheardSong, {volume:0.2}, 2);
+        fadeUnheardPreview();
         
         unheardMode = true;
-        FlxG.sound.music.volume = 0;
+        setMenuMusicVolume(0);
 
         whiteBg.alpha = 1;
         blackOverlay.alpha = 1;
@@ -450,18 +515,13 @@ function updateSongModes()
     }
     else if (unheardMode)
     {
-            if (unheardSong != null){
-                FlxTween.cancelTweensOf(unheardSong);
-                unheardSong.volume = 0;
-                unheardSong = null;
-                
-            }
+            stopUnheardPreview();
             phanes.visible = true;
             FlxTween.cancelTweensOf(blackOverlay);
             blackOverlay.alpha = 0;
             whiteBg.alpha = 0;
             unheardMode = false;
-            FlxG.sound.music.volume = 1.0;
+            setMenuMusicVolume(1.0);
             bgSprite.alpha = 1;
     }
 

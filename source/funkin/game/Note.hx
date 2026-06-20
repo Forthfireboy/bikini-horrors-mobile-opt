@@ -126,7 +126,27 @@ class Note extends FlxSprite
 		return __customNoteTypeExists[path] = Assets.exists(path);
 	}
 
-	static var DEFAULT_FIELDS:Array<String> = ["time", "id", "type", "sLen"];
+	public static function preloadNoteType(noteType:String, keyCount:Int = 4):String {
+		var noteSprite = "game/notes/default";
+		if (noteType != null && noteType != "") {
+			var customType = Paths.image('game/notes/$noteType');
+			if (customTypePathExists(customType))
+				noteSprite = 'game/notes/$noteType';
+		}
+		preloadNoteSprite(noteSprite, keyCount);
+		return noteSprite;
+	}
+
+	public static function preloadNoteSprite(noteSprite:String, keyCount:Int = 4) {
+		if (noteSprite == null || noteSprite == "")
+			noteSprite = "game/notes/default";
+		if (keyCount < 1)
+			keyCount = 1;
+
+		Paths.getFrames(noteSprite);
+		for (i in 0...keyCount)
+			getDefaultAnimationTemplate(noteSprite, i % 4);
+	}
 
 	public function new(strumLine:StrumLine, noteData:ChartNote, sustain:Bool = false, sustainLength:Float = 0, sustainOffset:Float = 0, ?prev:Note) {
 		super();
@@ -143,8 +163,11 @@ class Note extends FlxSprite
 		this.isSustainNote = sustain;
 		this.sustainLength = sustainLength;
 		this.strumLine = strumLine;
-		for(field in Reflect.fields(noteData)) if(!DEFAULT_FIELDS.contains(field))
-			this.extra.set(field, Reflect.field(noteData, field));
+		for(field in Reflect.fields(noteData)) switch(field) {
+			case "time" | "id" | "type" | "sLen":
+			default:
+				this.extra.set(field, Reflect.field(noteData, field));
+		}
 
 		// work around to set the `sustainParent`
 		if (isSustainNote)
@@ -157,9 +180,10 @@ class Note extends FlxSprite
 		this.strumTime = noteData.time.getDefault(0) + sustainOffset;
 		this.noteData = noteData.id.getDefault(0);
 
-		var customType = Paths.image('game/notes/${this.noteType}');
-		var event = EventManager.get(NoteCreationEvent).recycle(this, strumID, this.noteType, noteTypeID, PlayState.instance.strumLines.members.indexOf(strumLine), mustPress,
-			(this.noteType != null && customTypePathExists(customType)) ? 'game/notes/${this.noteType}' : 'game/notes/default', @:privateAccess strumLine.strumScale * Flags.DEFAULT_NOTE_SCALE, animSuffix);
+		var noteTypeName = this.noteType;
+		var customType = noteTypeName == null ? null : Paths.image('game/notes/$noteTypeName');
+		var event = EventManager.get(NoteCreationEvent).recycle(this, strumID, noteTypeName, noteTypeID, strumLine.ID, mustPress,
+			(noteTypeName != null && customTypePathExists(customType)) ? 'game/notes/$noteTypeName' : 'game/notes/default', @:privateAccess strumLine.strumScale * Flags.DEFAULT_NOTE_SCALE, animSuffix);
 
 		if (PlayState.instance != null)
 			event = PlayState.instance.gameAndCharsEvent("onNoteCreation", event);

@@ -27,6 +27,9 @@ function postCreate() {
 }
 
 function update(elapsed:Float) {
+    if (FlxG.onMobile)
+        return;
+
     if (isWindowShaking && !window.maximized && !window.fullscreen) {
         window.x = originalWinX + FlxG.random.int(-winShakeIntensity, winShakeIntensity);
         window.y = originalWinY + FlxG.random.int(-winShakeIntensity, winShakeIntensity);
@@ -172,6 +175,9 @@ function onDadHit()
 
 function startWindowShake(intensity:Int)
 {
+    if (FlxG.onMobile)
+        return;
+
     if (window.maximized || window.fullscreen) return;
 
     if (!isWindowShaking) {
@@ -184,6 +190,9 @@ function startWindowShake(intensity:Int)
 
 function stopWindowShake()
 {
+    if (FlxG.onMobile)
+        return;
+
     if (isWindowShaking) {
         isWindowShaking = false;
         if (!window.maximized && !window.fullscreen) {

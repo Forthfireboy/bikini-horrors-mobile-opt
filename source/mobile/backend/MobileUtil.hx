@@ -24,6 +24,8 @@ typedef CustomStorageModeData = { modes:Array<ModeData> }
 typedef ModeData = { Name:String, Folder:String }
 class MobileUtil
 {
+	@:keep static var __softKeyboardInputKeep:Class<SoftKeyboardInput> = SoftKeyboardInput;
+
 	#if sys
 	public static inline function getAssetDirectory():String
 		return #if android haxe.io.Path.addTrailingSlash(AndroidContext.getFilesDir()) #elseif ios lime.system.System.documentsDirectory #else Sys.getCwd() #end;
@@ -160,6 +162,76 @@ class MobileUtil
 				Application.current.window.alert('${fileName} couldn\'t be saved.\n${e.message}', "Error!");
 			else
 				trace('$fileName couldn\'t be saved. (${e.message})');
+	}
+
+	static function ensureDirectory(path:String):Void
+	{
+		path = Path.addTrailingSlash(path);
+		if (FileSystem.exists(path))
+			return;
+
+		var parent:String = Path.directory(path.substr(0, path.length - 1));
+		if (parent != null && parent != "" && parent != path && !FileSystem.exists(parent))
+			ensureDirectory(parent);
+
+		if (!FileSystem.exists(path))
+			FileSystem.createDirectory(path);
+	}
+
+	static function cleanFileName(fileName:String):String
+	{
+		return fileName
+			.replace("\\", "_")
+			.replace("/", "_")
+			.replace(":", "-")
+			.replace("*", "_")
+			.replace("?", "_")
+			.replace("\"", "_")
+			.replace("<", "_")
+			.replace(">", "_")
+			.replace("|", "_");
+	}
+
+	public static function exportTextFile(fileName:String, fileData:String, ?subFolder:String = "Bikini-Horrors/saves", ?alert:Bool = true):Null<String>
+	{
+		var folders:Array<String> = [];
+		subFolder = subFolder.replace("\\", "/");
+		while (subFolder.startsWith("/"))
+			subFolder = subFolder.substr(1);
+		if (subFolder.length > 0 && !subFolder.endsWith("/"))
+			subFolder += "/";
+
+		#if android
+		folders.push("/sdcard/Download/" + subFolder);
+		folders.push("/storage/emulated/0/Download/" + subFolder);
+		folders.push(MobileUtil.getDirectory() + "saves/");
+		#else
+		folders.push(Sys.getCwd() + "exported-saves/");
+		#end
+
+		var safeFileName:String = cleanFileName(fileName);
+		var lastError:String = "";
+		for (folder in folders)
+		{
+			try
+			{
+				ensureDirectory(folder);
+				var fullPath:String = Path.join([folder, safeFileName]);
+				File.saveContent(fullPath, fileData);
+				if (alert)
+					Application.current.window.alert('Saved to:\n$fullPath', "Success!");
+				return fullPath;
+			}
+			catch (e:Dynamic)
+			{
+				lastError = Std.string(e);
+				trace('Could not export $safeFileName to $folder: $lastError');
+			}
+		}
+
+		if (alert)
+			Application.current.window.alert('$safeFileName couldn\'t be exported.\n$lastError', "Error!");
+		return null;
 	}
 	#end
 

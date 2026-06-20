@@ -432,6 +432,10 @@ function stepHit() {
         setHudArrowsAlpha(1, 0.3);
     }
 
+    if (curStep == 2626) {
+        setHudArrowsAlpha(1, 0.2);
+    }
+
     if (curStep == 2496) {
         retrospective.alpha = 1;
     }

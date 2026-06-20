@@ -109,9 +109,6 @@ function stepHit() {
 
     if (curStep == 3808) {
         mintos.alpha = 1;
-
-        skinName = "noteskin_caca";
-        changeSkin(skinName, targetStrumID);
     }
 
     if (curStep == 3776) {

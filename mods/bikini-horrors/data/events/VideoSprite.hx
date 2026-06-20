@@ -5,6 +5,7 @@ import flixel.FlxCamera;
 import flixel.FlxTimer;
 import flixel.util.FlxPoint;
 import flixel.FlxState;
+import funkin.backend.utils.VideoPauseUtil;
 
 public var currentVid:FlxVideoSprite;
 var vidList:Map<String, FlxVideoSprite> = [];
@@ -102,13 +103,13 @@ function update(elapsed) {
 }
 
 function onFocusLost() {
-    if (!FlxG.autoPause || paused) return;
+    if (!FlxG.autoPause) return;
     if (currentVid != null) currentVid.pause();
 }
 
 function onFocus() {
     if (!FlxG.autoPause || paused) return;
-    if (!PlayState.instance.paused && currentVid != null) {
+    if (!PlayState.instance.paused && VideoPauseUtil.canAutoResume() && currentVid != null) {
         currentVid.resume();
     }
 }

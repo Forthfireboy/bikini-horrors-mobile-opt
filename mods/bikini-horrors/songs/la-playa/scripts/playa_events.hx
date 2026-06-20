@@ -7,10 +7,10 @@ import funkin.backend.utils.CoolUtil;
 import funkin.game.PlayState;
 import flixel.text.FlxText;
 import flixel.text.FlxTextAlign;
-import Sys;
 import sys.io.Process;
 import flixel.FlxG;
 import funkin.backend.utils.Options;
+import funkin.backend.utils.WindowUtils;
 var hudX:Float = 283.5;
 var desiredHudX:Float = 283.5;
 var hudY:Float = 564;
@@ -75,11 +75,11 @@ function postCreate() {
         ogStrumX.push(spr.x);
     }
 
-    WindowUtils.winTitle = window.title = "A LOS RAYOS DEL SOL";
+    setWindowTitle("A LOS RAYOS DEL SOL");
 }
 
 function onSongEnd() {
-    WindowUtils.winTitle = window.title = "BIKINI HORRORS";
+    setWindowTitle("BIKINI HORRORS");
 }
 
 var ansCounter:Int = 0;
@@ -92,7 +92,7 @@ function stepHit(curStep:Int) {
 
     if (curStep == 880)
     {
-        WindowUtils.winTitle = window.title = "TOO MUCH KAHOOT";
+        setWindowTitle("TOO MUCH KAHOOT");
     }
 
     if (curStep == 912)
@@ -278,6 +278,11 @@ function goUpscroll() {
 }
 
 function SansMessage(title:String, message:String) {
+    if (FlxG.onMobile) {
+        trace(title + ": " + message);
+        return;
+    }
+
     var powershellCmd:String = "[reflection.assembly]::LoadWithPartialName('System.Windows.Forms'); " +
                                "$obj = New-Object System.Windows.Forms.NotifyIcon; " +
                                "$obj.Icon = [System.Drawing.SystemIcons]::Information; " +
@@ -291,6 +296,13 @@ function SansMessage(title:String, message:String) {
     } catch (e:Dynamic) {
         trace(e);
     }
+}
+
+function setWindowTitle(title:String) {
+    if (FlxG.onMobile)
+        return;
+
+    WindowUtils.winTitle = window.title = title;
 }
 
 function generateSequence(isReset:Bool = false) {

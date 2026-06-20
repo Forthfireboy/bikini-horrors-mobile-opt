@@ -148,6 +148,7 @@ class Main extends Sprite
 		AudioSwitchFix.init();
 		EventManager.init();
 		FlxG.signals.focusGained.add(onFocus);
+		FlxG.signals.focusLost.add(onFocusLost);
 		FlxG.signals.preStateSwitch.add(onStateSwitch);
 		FlxG.signals.postStateSwitch.add(onStateSwitchPost);
 		FlxG.signals.postUpdate.add(onUpdate);
@@ -210,6 +211,11 @@ class Main extends Sprite
 
 	public static function onFocus() {
 		_tickFocused = FlxG.game.ticks;
+		funkin.backend.utils.VideoPauseUtil.pauseAllIfGamePaused();
+	}
+
+	public static function onFocusLost() {
+		funkin.backend.utils.VideoPauseUtil.pauseAllForFocusLost();
 	}
 
 	private static function onStateSwitch() {

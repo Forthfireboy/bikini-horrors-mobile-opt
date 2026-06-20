@@ -198,7 +198,8 @@ class HScript extends Script {
 	}
 
 	public override function set(val:String, value:Dynamic) {
-		interp.variables.set(val, value);
+		@:privateAccess interp.varLocationCache.remove(val);
+		interp.setVar(val, value);
 	}
 
 	public override function trace(v:Dynamic) {

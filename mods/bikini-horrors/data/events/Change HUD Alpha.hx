@@ -9,6 +9,12 @@ function onEvent(eventEvent) {
         var easeFunc = Reflect.field(FlxEase, flxease);
         var extraIcon1 = PlayState.instance.scripts.get("iconP1Static");
         var extraIcon2 = PlayState.instance.scripts.get("iconP2Static");
+        var kadeHud:Array<Dynamic> = [
+            PlayState.instance.scripts.get("timeBar"),
+            PlayState.instance.scripts.get("timePassedTxt"),
+            PlayState.instance.scripts.get("totalTimeTxt"),
+            PlayState.instance.scripts.get("rankTxt")
+        ];
 
         if (params[0] == false) {
             healthBar.alpha = targetAlpha;
@@ -20,6 +26,8 @@ function onEvent(eventEvent) {
             missesTxt.alpha = targetAlpha;
             if (extraIcon1 != null) extraIcon1.alpha = targetAlpha;
             if (extraIcon2 != null) extraIcon2.alpha = targetAlpha;
+            for (item in kadeHud)
+                if (item != null) item.alpha = targetAlpha;
             setHudArrowsAlpha(targetAlpha);
 
         } else {
@@ -34,6 +42,8 @@ function onEvent(eventEvent) {
             FlxTween.tween(missesTxt, {alpha: targetAlpha}, duration, {ease: easeFunc});
             if (extraIcon1 != null) FlxTween.tween(extraIcon1, {alpha: targetAlpha}, duration, {ease: easeFunc});
             if (extraIcon2 != null) FlxTween.tween(extraIcon2, {alpha: targetAlpha}, duration, {ease: easeFunc});
+            for (item in kadeHud)
+                if (item != null) FlxTween.tween(item, {alpha: targetAlpha}, duration, {ease: easeFunc});
             setHudArrowsAlpha(targetAlpha, duration, easeFunc);
         }
     }

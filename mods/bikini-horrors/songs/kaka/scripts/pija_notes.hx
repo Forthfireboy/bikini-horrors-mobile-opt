@@ -8,8 +8,13 @@ function stepHit(curStep:Int) {
     }
 }
 
+function getSkinPath(skin:String):String {
+    return (skin == "" || skin == "default") ? "game/notes/default" : "game/notes/" + skin;
+}
+
 function changeSkin(skin:String, strumID:Int) {
-    var path:String = (skin == "" ? "game/notes/default" : "game/notes/" + skin);
+    skinName = skin;
+    var path:String = getSkinPath(skin);
     var group = strumLines.members[strumID];
     if (group == null) return;
 
@@ -17,7 +22,17 @@ function changeSkin(skin:String, strumID:Int) {
     for (note in group.notes) updateNote(note, path);
 }
 
+function onPostNoteCreation(e) {
+    if (skinName == "" || skinName == "default") return;
+    if (e == null || e.note == null) return;
+    if (e.strumLineID != targetStrumID) return;
+
+    updateNote(e.note, getSkinPath(skinName));
+}
+
 function updateStrum(theStrum:Strum, newSkin:String) {
+    if (theStrum == null) return;
+
     theStrum.frames = Paths.getSparrowAtlas(newSkin);
     var noteDirs = ['purple', 'blue', 'green', 'red'];
     var color = noteDirs[theStrum.ID % 4];
@@ -40,6 +55,8 @@ function updateStrum(theStrum:Strum, newSkin:String) {
 }
 
 function updateNote(theNote:Note, newSkin:String) {
+    if (theNote == null) return;
+
     var isHold:Bool = theNote.isSustainNote;
     var animToPlay:String;
 

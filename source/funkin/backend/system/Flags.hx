@@ -134,7 +134,8 @@ class Flags {
 
 	public static var DEFAULT_NOTE_MS_LIMIT:Float = 1500;
 	public static var PLAYSTATE_NOTE_PRELOAD_MS:Float = 5000;
-	public static var PLAYSTATE_NOTE_BUILD_BUDGET:Int = #if mobile 96 #else 250 #end;
+	public static var PLAYSTATE_NOTE_INITIAL_BUILD_BUDGET:Int = #if mobile 48 #else 160 #end;
+	public static var PLAYSTATE_NOTE_BUILD_BUDGET:Int = #if mobile 64 #else 220 #end;
 	public static var PLAYSTATE_EVENT_EXECUTION_BUDGET:Int = #if mobile 24 #else 48 #end;
 	public static var DEFAULT_NOTE_SCALE:Float = 0.7;
 	#if MODCHARTING_FEATURES

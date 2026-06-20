@@ -155,6 +155,10 @@ class PlayStateLoadingState extends MusicBeatState {
 
 	function queueSongScriptPreload(song:ChartData) {
 		var source = PlayState.fromMods ? MODS : BOTH;
+		var sharedScriptPath = Paths.script('songs/PlayScripts');
+		if (Assets.exists(sharedScriptPath))
+			queueTask('Script songs/PlayScripts', function() preloadTextAsset(sharedScriptPath));
+
 		var baseFolder = 'songs/${song.meta.name}/scripts';
 		for (folder in [baseFolder, '$baseFolder/${PlayState.difficulty}', 'data/charts', 'songs']) {
 			for (file in Paths.getFolderContent(folder, true, source)) {
@@ -221,7 +225,8 @@ class PlayStateLoadingState extends MusicBeatState {
 	}
 
 	function queueGameplayAssetPreload(song:ChartData) {
-		queueTask('Default note frames', function() preloadFramesKey('game/notes/default'));
+		var maxKeyCount = getMaxKeyCount(song);
+		queueTask('Default note frames', function() preloadNoteSprite('game/notes/default', maxKeyCount));
 
 		var queuedNoteTypes:Array<String> = [];
 		for (noteType in song.noteTypes) {
@@ -233,7 +238,7 @@ class PlayStateLoadingState extends MusicBeatState {
 			var spriteLabel = noteType;
 			queueTask('Note type $spriteLabel', function() {
 				if (Paths.framesExists(noteSpriteKey))
-					preloadFramesKey(noteSpriteKey);
+					preloadNoteType(noteType, maxKeyCount);
 			});
 
 			var noteScriptPath = Paths.script('data/notes/$noteType');
@@ -389,6 +394,16 @@ class PlayStateLoadingState extends MusicBeatState {
 		preloadFramesPath(Paths.image(key, null, true));
 	}
 
+	function preloadNoteType(noteType:String, keyCount:Int) {
+		var noteSprite = Note.preloadNoteType(noteType, keyCount);
+		preloadFramesKey(noteSprite);
+	}
+
+	function preloadNoteSprite(noteSprite:String, keyCount:Int) {
+		Note.preloadNoteSprite(noteSprite, keyCount);
+		preloadFramesKey(noteSprite);
+	}
+
 	function preloadFramesKey(key:String) {
 		var frames = Paths.getFrames(key);
 		if (frames != null && frames.parent != null)
@@ -416,6 +431,17 @@ class PlayStateLoadingState extends MusicBeatState {
 			Logs.trace('Failed to parse preload XML at $path: ${Std.string(e)}', ERROR);
 		}
 		return null;
+	}
+
+	function getMaxKeyCount(song:ChartData):Int {
+		var maxKeyCount = Flags.DEFAULT_STRUM_AMOUNT;
+		if (song != null && song.strumLines != null) {
+			for (strumLine in song.strumLines) {
+				if (strumLine != null && strumLine.keyCount != null && strumLine.keyCount > maxKeyCount)
+					maxKeyCount = strumLine.keyCount;
+			}
+		}
+		return maxKeyCount;
 	}
 }
 

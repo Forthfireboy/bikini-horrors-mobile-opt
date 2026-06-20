@@ -50,11 +50,7 @@ var savedWindowBorderless:Bool = false;
 var savedFlxFullscreen:Bool = false;
 
 function shouldUseDesktopWindow():Bool {
-    #if mobile
-    return false;
-    #else
-    return window != null;
-    #end
+    return !FlxG.onMobile && window != null;
 }
 
 function rememberWindowState() {

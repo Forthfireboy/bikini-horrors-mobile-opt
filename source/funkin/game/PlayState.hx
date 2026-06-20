@@ -24,6 +24,7 @@ import funkin.backend.scripting.events.gameplay.*;
 import funkin.backend.scripting.events.note.*;
 import funkin.backend.system.Conductor;
 import funkin.backend.system.RotatingSpriteGroup;
+import funkin.backend.utils.MemoryUtil;
 import funkin.editors.SaveWarning;
 import funkin.editors.charter.Charter;
 import funkin.editors.charter.CharterSelection;
@@ -36,6 +37,8 @@ import funkin.backend.week.WeekData;
 import funkin.savedata.FunkinSave;
 import haxe.Timer;
 import haxe.io.Path;
+import openfl.display.BlendMode;
+import openfl.geom.ColorTransform;
 
 using StringTools;
 
@@ -579,6 +582,13 @@ class PlayState extends MusicBeatState
 
 	@:dox(hide)
 	var __vocalSyncTimer:Float = 1;
+	var __hudTextInitialized:Bool = false;
+	var __lastHudSongScore:Int = 0;
+	var __lastHudMisses:Int = 0;
+	var __lastHudComboBreaks:Bool = false;
+	var __lastHudAccuracyPressedNotes:Float = 0;
+	var __lastHudTotalAccuracyAmount:Float = 0;
+	var __lastHudRating:ComboRating = null;
 
 	private function get_accuracy():Float {
 		if (accuracyPressedNotes <= 0) return -1;
@@ -668,6 +678,7 @@ class PlayState extends MusicBeatState
 		// SCRIPTING & DATA INITIALIZATION
 		#if REGION
 		instance = this;
+		resetPlayDisplayRuntime(false);
 		if (FlxG.sound.music != null) FlxG.sound.music.stop();
 
 		PauseSubState.script = Flags.DEFAULT_PAUSE_SCRIPT;
@@ -675,6 +686,7 @@ class PlayState extends MusicBeatState
 		(scripts = new ScriptPack("PlayState")).setParent(this);
 
 		camGame = camera;
+		camGame.bgColor = FlxColor.BLACK;
 		FlxG.cameras.add(camHUD = new HudCamera(), false);
 		camHUD.bgColor.alpha = 0;
 
@@ -714,6 +726,9 @@ class PlayState extends MusicBeatState
 		#if REGION
 		camFollow = new FlxObject(0, 0, 2, 2);
 		add(camFollow);
+
+		if (!chartingMode || Options.charterEnablePlaytestScripts)
+			addScript(Paths.script('songs/PlayScripts'));
 
 		if (SONG.stage == null || SONG.stage.trim() == "") SONG.stage = Flags.DEFAULT_STAGE;
 		add(stage = new Stage(SONG.stage));
@@ -1140,6 +1155,8 @@ class PlayState extends MusicBeatState
 		instance = null;
 
 		Note.clearRuntimeCaches();
+		Paths.clearPlayStateTempCaches();
+		MemoryUtil.clearMajor(true);
 	}
 
 	@:dox(hide) @:deprecated("scrollSpeedTween is deprecated, use eventsTween['scrollSpeed'] instead")
@@ -1187,7 +1204,7 @@ class PlayState extends MusicBeatState
 
 		var vocalsPath = Paths.voices(SONG.meta.name, difficulty, SONG.meta.vocalsSuffix);
 		if (SONG.meta.needsVoices && Assets.exists(vocalsPath))
-			vocals = FlxG.sound.load(Options.streamedVocals ? Assets.getMusic(vocalsPath) : vocalsPath);
+			vocals = FlxG.sound.load(Options.streamedVocals ? Assets.getMusic(vocalsPath) : Assets.getSound(vocalsPath));
 		else
 			vocals = new FlxSound();
 
@@ -1312,6 +1329,7 @@ class PlayState extends MusicBeatState
 		persistentUpdate = false;
 		persistentDraw = true;
 		paused = true;
+		funkin.backend.utils.VideoPauseUtil.pauseAllForGamePause();
 
 		// 1 / 1000 chance for Gitaroo Man easter egg
 		if (allowGitaroo && FlxG.random.bool(Flags.GITAROO_CHANCE))
@@ -1384,28 +1402,45 @@ class PlayState extends MusicBeatState
 	}
 
 	// bypass the caching in FormatUtil by doing it manually so its faster
-	private var TEXT_GAME_SCORE = TU.getRaw("game.score");
-	private var TEXT_GAME_MISSES = TU.getRaw("game.misses");
-	private var TEXT_GAME_COMBOBREAKS = TU.getRaw("game.comboBreaks");
-	private var TEXT_GAME_ACCURACY = TU.getRaw("game.accuracy");
+	private var TEXT_GAME_SCORE = TU.getRaw("game.score", "Score:{0}");
+	private var TEXT_GAME_MISSES = TU.getRaw("game.misses", "Misses:{0}");
+	private var TEXT_GAME_COMBOBREAKS = TU.getRaw("game.comboBreaks", "Combo Breaks:{0}");
+	private var TEXT_GAME_ACCURACY = TU.getRaw("game.accuracy", "Accuracy:{0} - {1}");
 
 	dynamic function updateRatingStuff() {
-		scoreTxt.text = TEXT_GAME_SCORE.format([songScore]);
-		missesTxt.text = (comboBreaks ? TEXT_GAME_COMBOBREAKS : TEXT_GAME_MISSES).format([misses]);
+		if (!__hudTextInitialized || __lastHudSongScore != songScore) {
+			scoreTxt.text = TEXT_GAME_SCORE.format([songScore]);
+			__lastHudSongScore = songScore;
+		}
+
+		if (!__hudTextInitialized || __lastHudMisses != misses || __lastHudComboBreaks != comboBreaks) {
+			missesTxt.text = (comboBreaks ? TEXT_GAME_COMBOBREAKS : TEXT_GAME_MISSES).format([misses]);
+			__lastHudMisses = misses;
+			__lastHudComboBreaks = comboBreaks;
+		}
 
 		if (curRating == null)
 			curRating = new ComboRating(0, "[N/A]", 0xFF888888);
 
-		@:privateAccess {
-			accFormat.format.color = curRating.color;
-			accuracyTxt.text = TEXT_GAME_ACCURACY.format([accuracy < 0 ? "-%" : '${CoolUtil.quantize(accuracy * 100, 100)}%', curRating.rating]);
+		if (!__hudTextInitialized || __lastHudAccuracyPressedNotes != accuracyPressedNotes || __lastHudTotalAccuracyAmount != totalAccuracyAmount || __lastHudRating != curRating) {
+			@:privateAccess {
+				var acc = accuracy;
+				accFormat.format.color = curRating.color;
+				accuracyTxt.text = TEXT_GAME_ACCURACY.format([acc < 0 ? "-%" : '${CoolUtil.quantize(acc * 100, 100)}%', curRating.rating]);
 
-			for (i => frmtRange in accuracyTxt._formatRanges) if (frmtRange.format == accFormat) {
-				accuracyTxt._formatRanges[i].range.start = accuracyTxt.text.length - curRating.rating.length;
-				accuracyTxt._formatRanges[i].range.end = accuracyTxt.text.length;
-				break;
+				for (i => frmtRange in accuracyTxt._formatRanges) if (frmtRange.format == accFormat) {
+					accuracyTxt._formatRanges[i].range.start = accuracyTxt.text.length - curRating.rating.length;
+					accuracyTxt._formatRanges[i].range.end = accuracyTxt.text.length;
+					break;
+				}
+
+				__lastHudAccuracyPressedNotes = accuracyPressedNotes;
+				__lastHudTotalAccuracyAmount = totalAccuracyAmount;
+				__lastHudRating = curRating;
 			}
 		}
+
+		__hudTextInitialized = true;
 	}
 
 	@:dox(hide)
@@ -1466,10 +1501,20 @@ class PlayState extends MusicBeatState
 			if (isOffsync) resyncVocals();
 		}
 
-		if (generatedMusic)
-			for (strumLine in strumLines.members)
-				if (strumLine != null)
-					strumLine.updateQueuedNoteGeneration(Conductor.songPosition);
+		if (generatedMusic) {
+			var noteBuildBudget = Flags.PLAYSTATE_NOTE_BUILD_BUDGET;
+			for (strumLine in strumLines.members) {
+				if (strumLine == null)
+					continue;
+
+				var built = strumLine.updateQueuedNoteGeneration(Conductor.songPosition, noteBuildBudget);
+				if (noteBuildBudget > 0) {
+					noteBuildBudget -= built;
+					if (noteBuildBudget < 0)
+						noteBuildBudget = 0;
+				}
+			}
+		}
 
 		executeDueEvents();
 
@@ -1620,8 +1665,7 @@ class PlayState extends MusicBeatState
 		if (FlxG.camera != camGame)
 			clearCameraRuntime(FlxG.camera, clearCameraFilters);
 
-		if (clearCameraFilters && FlxG.game != null)
-			FlxG.game.setFilters([]);
+		resetPlayDisplayRuntime(clearCameraFilters);
 	}
 
 	function clearCameraRuntime(camera:FlxCamera, clearFilters:Bool) {
@@ -1635,8 +1679,38 @@ class PlayState extends MusicBeatState
 
 		camera.stopFX();
 		camera.zoomMultiplier = 1;
+		camera.alpha = 1;
+		camera.color = FlxColor.WHITE;
+		camera.visible = true;
+		camera.useBgAlphaBlending = false;
 		if (clearFilters)
 			camera.setFilters([]);
+	}
+
+	function resetPlayDisplayRuntime(clearFilters:Bool = true) @:privateAccess {
+		bgColor = FlxColor.BLACK;
+		FlxG.cameras.bgColor = FlxColor.BLACK;
+
+		if (FlxG.stage != null)
+			FlxG.stage.color = 0x000000;
+
+		if (FlxG.camera != null)
+			FlxG.camera.bgColor = FlxColor.BLACK;
+		if (camGame != null)
+			camGame.bgColor = FlxColor.BLACK;
+		if (camHUD != null)
+			camHUD.bgColor = FlxColor.TRANSPARENT;
+
+		if (FlxG.game != null) {
+			FlxG.game.alpha = 1;
+			FlxG.game.visible = true;
+			FlxG.game.blendMode = BlendMode.NORMAL;
+			FlxG.game.opaqueBackground = 0x000000;
+			FlxG.game.transform.colorTransform = new ColorTransform();
+			FlxG.game.filtersEnabled = true;
+			if (clearFilters)
+				FlxG.game.setFilters([]);
+		}
 	}
 
 	public function executeEvent(event:ChartEvent) @:privateAccess {
@@ -2236,7 +2310,25 @@ class PlayState extends MusicBeatState
 		scripts.call("beatHit", [curBeat]);
 	}
 
+	private function normalizeScriptPath(file:String):String {
+		if (file == null) return "";
+		file = file.replace("\\", "/");
+		var separator = file.indexOf(":");
+		if (separator != -1)
+			file = file.substr(separator + 1);
+		while (file.startsWith("/"))
+			file = file.substr(1);
+		if (file.startsWith("assets/"))
+			file = file.substr("assets/".length);
+		return file.toLowerCase();
+	}
+
 	public function addScript(file:String) {
+		if (file == null) return;
+		var normalizedFile = normalizeScriptPath(file);
+		for (script in scripts.scripts)
+			if (normalizeScriptPath(script.path) == normalizedFile)
+				return;
 		var ext = Path.extension(file).toLowerCase();
 		if (Script.scriptExtensions.contains(ext))
 			scripts.add(Script.create(file));

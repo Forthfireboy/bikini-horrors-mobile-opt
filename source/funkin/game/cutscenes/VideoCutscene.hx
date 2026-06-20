@@ -205,12 +205,12 @@ class VideoCutscene extends Cutscene {
 
 	#if (hxvlc < version("2.0.0"))
 	@:dox(hide) override public function onFocus() {
-		if(FlxG.autoPause && !paused) video.resume();
+		if(FlxG.autoPause && !paused && video != null && funkin.backend.utils.VideoPauseUtil.canAutoResume()) video.resume();
 		super.onFocus();
 	}
 
 	@:dox(hide) override public function onFocusLost() {
-		if(FlxG.autoPause && !paused) video.pause();
+		if(FlxG.autoPause && video != null) video.pause();
 		super.onFocusLost();
 	}
 	#end

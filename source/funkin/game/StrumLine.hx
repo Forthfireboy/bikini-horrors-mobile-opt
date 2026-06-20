@@ -126,7 +126,7 @@ class StrumLine extends FlxTypedGroup<Strum> {
 		this.notes = new NoteGroup();
 
 		var v = Paths.voices(PlayState.SONG.meta.name, PlayState.difficulty, vocalPrefix);
-		vocals = vocalPrefix != "" ? FlxG.sound.load(Options.streamedVocals ? Assets.getMusic(v) : v) : new FlxSound();
+		vocals = vocalPrefix != "" && Assets.exists(v) ? FlxG.sound.load(Options.streamedVocals ? Assets.getMusic(v) : Assets.getSound(v)) : new FlxSound();
 		vocals.persist = false;
 	}
 
@@ -151,8 +151,9 @@ class StrumLine extends FlxTypedGroup<Strum> {
 		var initialTime = startTime == null ? 0 : startTime;
 		preparePendingNotes(strumLine, initialTime);
 		notes.preallocateLazy(__pendingNotes.length);
-		buildQueuedNotesUpTo(initialTime + Flags.PLAYSTATE_NOTE_PRELOAD_MS, -1);
 		applyNotesLimit(strumLine);
+		buildQueuedNotesUpTo(initialTime + notes.limit, -1);
+		buildQueuedNotesUpTo(initialTime + Flags.PLAYSTATE_NOTE_PRELOAD_MS, Flags.PLAYSTATE_NOTE_INITIAL_BUILD_BUDGET);
 	}
 
 	function generateAll(strumLine:ChartStrumLine, ?startTime:Float) {
@@ -310,12 +311,15 @@ class StrumLine extends FlxTypedGroup<Strum> {
 		return created;
 	}
 
-	public function updateQueuedNoteGeneration(songPos:Float) {
+	public function updateQueuedNoteGeneration(songPos:Float, buildBudget:Int):Int {
 		if (PlayState.chartingMode || __pendingNoteIndex >= __pendingNotes.length)
-			return;
+			return 0;
 
-		buildQueuedNotesUpTo(songPos + Flags.PLAYSTATE_NOTE_PRELOAD_MS, Flags.PLAYSTATE_NOTE_BUILD_BUDGET);
 		buildQueuedNotesUpTo(songPos + notes.limit, -1);
+		if (buildBudget == 0 || __pendingNoteIndex >= __pendingNotes.length)
+			return 0;
+
+		return buildQueuedNotesUpTo(songPos + Flags.PLAYSTATE_NOTE_PRELOAD_MS, buildBudget);
 	}
 
 	public override function update(elapsed:Float) {
@@ -526,7 +530,7 @@ class StrumLine extends FlxTypedGroup<Strum> {
 		if(data.scrollSpeed != null)
 			babyArrow.scrollSpeed = data.scrollSpeed;
 
-		var event = EventManager.get(StrumCreationEvent).recycle(babyArrow, PlayState.instance.strumLines.members.indexOf(this), i, animPrefix);
+		var event = EventManager.get(StrumCreationEvent).recycle(babyArrow, ID, i, animPrefix);
 		event.__doAnimation = playIntroAnimation == null ? (!MusicBeatState.skipTransIn && (PlayState.instance != null ? PlayState.instance.introLength > 0 : true)) : playIntroAnimation;
 		if (spritePath != null) event.sprite = spritePath;
 		if (PlayState.instance != null) event = PlayState.instance.gameAndCharsEvent("onStrumCreation", event);

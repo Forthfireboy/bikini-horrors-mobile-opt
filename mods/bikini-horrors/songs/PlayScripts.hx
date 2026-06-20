@@ -51,8 +51,21 @@ function onEvent(eventEvent)
 }
 
 public function clockFormat(milliseconds:Float):String {
-    if (sonicMode) return;
-    return timeString += timeStringHelper;
+    return "";
+}
+
+function applyKadeTextStyle(txt:FunkinText, big:Bool = false) {
+    if (txt == null) return;
+
+    txt.font = Paths.font("KrabbyPatty.otf");
+    txt.size = big ? 90 : 75;
+    txt.color = 0xFFFFFFFF;
+    txt.borderStyle = FlxTextBorderStyle.OUTLINE;
+    txt.borderColor = FlxColor.BLACK;
+    txt.borderSize = 7;
+    txt.scale.set(0.2, 0.2);
+    txt.antialiasing = true;
+    txt.updateHitbox();
 }
 
 function create() {
@@ -72,22 +85,15 @@ function postCreate() {
 
     for (txt in [accuracyTxt, missesTxt, scoreTxt, timePassedTxt, totalTimeTxt]) {
         if (txt == null) continue;
-    
-        txt.font = Paths.font("KrabbyPatty.otf");
-        txt.size = txt == totalTimeTxt ? 90 : 75;
+
+        applyKadeTextStyle(txt, txt == totalTimeTxt);
         txt.color = 0xFFFFFFFF;
         txt.alignment = txt == timePassedTxt ? "left" : "center";
-    
-        txt.borderStyle = FlxTextBorderStyle.OUTLINE;
-        txt.borderColor = FlxColor.BLACK;
-        txt.borderSize = 7;
-        txt.scale.set(0.2, 0.2);
-        txt.antialiasing = true;
         txt.fieldWidth *= 2;
         txt.updateHitbox();
-    
+
         txt.x = xPos;
-    
+
         xPos += txt.width + 10;
         add(txt);
     }
