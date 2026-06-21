@@ -255,7 +255,7 @@
 	<haxedef name="lime_disable_motion_sensors" />
 
 	<section if="android">
-		<config:android astc-textures="true" astc-strip-png="true" astc-blocksize="12x12" astc-quality="medium" astc-colorprofile="cl" />
+		<config:android astc-textures="true" astc-strip-png="true" astc-blocksize="6x6" astc-quality="thorough" astc-colorprofile="cl" />
 	</section>
 
 	<section if="ios">
