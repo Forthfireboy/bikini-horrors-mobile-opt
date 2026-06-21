@@ -22,6 +22,7 @@ import openfl.display.Sprite;
 import openfl.text.TextFormat;
 import openfl.utils.AssetLibrary;
 import sys.FileSystem;
+import sys.io.File;
 #if android
 import android.content.Context;
 import android.os.Build;
@@ -159,7 +160,12 @@ class Main extends Sprite
 
 		ModsFolder.init();
 		#if MOD_SUPPORT
-		modToLoad = ModsFolder.getAutoloadMod();
+		if (FileSystem.exists("mods/autoload.txt"))
+			modToLoad = File.getContent("mods/autoload.txt").trim();
+		else if (Assets.exists("assets/mods/autoload.txt"))
+			modToLoad = Assets.getText("assets/mods/autoload.txt").trim();
+		else if (Assets.exists("mods/autoload.txt"))
+			modToLoad = Assets.getText("mods/autoload.txt").trim();
 
 		var selectedMod = modToLoad.getDefault(Options.lastLoadedMod);
 		if (selectedMod == null && ModsFolder.getModsList().contains(DEFAULT_MOD))

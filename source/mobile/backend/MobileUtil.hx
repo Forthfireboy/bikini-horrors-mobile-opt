@@ -30,32 +30,6 @@ class MobileUtil
 	public static inline function getAssetDirectory():String
 		return #if android haxe.io.Path.addTrailingSlash(AndroidContext.getFilesDir()) #elseif ios lime.system.System.documentsDirectory #else Sys.getCwd() #end;
 
-	public static function getModSearchDirectories():Array<String>
-	{
-		var dirs:Array<String> = [];
-		function addDir(path:String):Void
-		{
-			if (path == null || path == "")
-				return;
-			path = Path.addTrailingSlash(path.replace("\\", "/"));
-			if (!dirs.contains(path))
-				dirs.push(path);
-		}
-
-		#if android
-		addDir(getDirectory());
-		try addDir(AndroidContext.getExternalFilesDir()) catch (e:Dynamic) {}
-		addDir("/sdcard/Android/data/com.ajwwk.bh/files/");
-		addDir("/storage/emulated/0/Android/data/com.ajwwk.bh/files/");
-		addDir("/sdcard/Android/data/com.yoshman29.codenameengine/files/");
-		addDir("/storage/emulated/0/Android/data/com.yoshman29.codenameengine/files/");
-		#else
-		addDir(getDirectory());
-		#end
-
-		return dirs;
-	}
-
 	#if android
 	public static inline function getCustomStoragePath():String
 		return AndroidContext.getFilesDir() + '/storageModes.json';
