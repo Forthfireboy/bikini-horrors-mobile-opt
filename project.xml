@@ -254,6 +254,10 @@
 	<haxedef name="lime_use_old_deltatime" />
 	<haxedef name="lime_disable_motion_sensors" />
 
+	<section if="android">
+		<config:android astc-textures="true" astc-strip-png="true" astc-blocksize="12x12" astc-quality="medium" astc-colorprofile="cl" />
+	</section>
+
 	<section if="ios">
 		<haxedef name="SHARE_MOBILE_FILES" />
 		<config:ios category_type="public.app-category.music-games" />

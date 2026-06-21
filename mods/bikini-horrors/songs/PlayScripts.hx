@@ -38,6 +38,71 @@ var misses:Int = null;
 var accuracy:Float = null;
 var oldImagePath:String->String = null;
 
+function isMadeInChinaSong():Bool {
+    var songName = PlayState.SONG == null || PlayState.SONG.meta == null ? "" : PlayState.SONG.meta.name.toLowerCase();
+    var songId = PlayState.instance == null ? "" : PlayState.instance.curSongID.toLowerCase();
+
+    songName = songName.split(" ").join("").split("-").join("").split("_").join("");
+    songId = songId.split(" ").join("").split("-").join("").split("_").join("");
+
+    return songName == "madeinchina" || songId == "madeinchina";
+}
+
+function layoutMadeInChinaHud() {
+    if (!isMadeInChinaSong())
+        return;
+
+    var topY:Float = 10;
+    var padding:Float = 16;
+    var spacing:Float = 18;
+    var rightWidth:Float = FlxG.width - padding * 2;
+
+    for (txt in [scoreTxt, accuracyTxt, missesTxt]) {
+        if (txt == null)
+            continue;
+
+        txt.cameras = [camHUD];
+        txt.scrollFactor.set();
+        txt.y = topY;
+        txt.visible = true;
+        txt.updateHitbox();
+    }
+
+    if (scoreTxt != null) {
+        scoreTxt.x = padding;
+        scoreTxt.fieldWidth = 0;
+        scoreTxt.alignment = "left";
+        scoreTxt.updateHitbox();
+    }
+
+    if (accuracyTxt != null) {
+        accuracyTxt.x = (scoreTxt != null ? scoreTxt.x + scoreTxt.width + spacing : padding);
+        accuracyTxt.fieldWidth = 0;
+        accuracyTxt.alignment = "left";
+        accuracyTxt.updateHitbox();
+    }
+
+    if (missesTxt != null) {
+        missesTxt.x = padding;
+        missesTxt.fieldWidth = rightWidth;
+        missesTxt.alignment = "right";
+        missesTxt.updateHitbox();
+    }
+
+    for (txt in [timePassedTxt, totalTimeTxt, rankTxt]) {
+        if (txt == null)
+            continue;
+
+        txt.visible = false;
+        txt.alpha = 0;
+    }
+
+    if (timeBar != null) {
+        timeBar.visible = false;
+        timeBar.alpha = 0;
+    }
+}
+
 function onEvent(eventEvent)
 {
     if (sonicMode) return;
@@ -97,6 +162,8 @@ function postCreate() {
         xPos += txt.width + 10;
         add(txt);
     }
+
+    layoutMadeInChinaHud();
 }
 
 function onCameraMove(event) {
@@ -199,6 +266,7 @@ function spawnSonicRating(name:String, x:Float, y:Float)
 
 
 function postUpdate() {
+    layoutMadeInChinaHud();
 
 
     if (sonicMode){

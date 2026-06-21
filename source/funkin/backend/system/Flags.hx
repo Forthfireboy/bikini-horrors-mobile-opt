@@ -55,7 +55,7 @@ class Flags {
 	@:lazy public static var TITLE:String = Application.current.meta.get('name');
 	@:lazy public static var VERSION:String = Application.current.meta.get('version');
 
-	@:lazy public static var VERSION_MESSAGE:String = 'Codename Engine v$VERSION';
+	@:lazy public static var VERSION_MESSAGE:String = 'Bikini Horrors V3 Mobile';
 
 	public static var REPO_NAME:String = "CodenameEngine";
 	public static var REPO_OWNER:String = "CodenameCrew";
@@ -68,6 +68,9 @@ class Flags {
 	public static var SOUND_EXT:String = #if web "mp3" #else "ogg" #end; // we also support wav
 	public static var VIDEO_EXT:String = "mp4";
 	public static var IMAGE_EXT:String = "png"; // we also support jpg
+	public static var ASTC_IMAGE_EXT:String = "astc";
+	public static var ASTC_TEXTURES:Bool = #if android true #else false #end;
+	public static var ASTC_PREFER_RUNTIME:Bool = #if android true #else false #end;
 
 	public static var DEFAULT_DISCORD_LOGO_KEY:String = "icon";
 	public static var DEFAULT_DISCORD_CLIENT_ID:String = "1383853614589673472";
