@@ -4,6 +4,8 @@ import flixel.text.FlxText.FlxTextBorderStyle;
 import flixel.ui.FlxBar.FlxBarFillDirection;
 import flixel.ui.FlxBar;
 import flixel.util.FlxAxes;
+import flixel.FlxCamera;
+import flixel.util.FlxColor;
 import funkin.game.HealthIcon;
 import flixel.FlxSprite;
 import funkin.game.PlayState;
@@ -37,57 +39,131 @@ var stopPlayTweens:Bool = false;
 var misses:Int = null;
 var accuracy:Float = null;
 var oldImagePath:String->String = null;
+var madeInChinaHudLayoutReady:Bool = false;
+var madeInChinaHudLastWidth:Float = -1;
+var madeInChinaHudLastDownscroll:Bool = false;
+var madeInChinaHudLastScoreText:String = "";
+var madeInChinaHudLastAccuracyText:String = "";
+var madeInChinaHudLastMissesText:String = "";
+var madeInChinaHudCamera:FlxCamera = null;
+var iAmBackHudLayoutReady:Bool = false;
+var iAmBackHudLastWidth:Float = -1;
+var iAmBackHudLastDownscroll:Bool = false;
+var iAmBackHudLastScoreText:String = "";
+var iAmBackHudLastAccuracyText:String = "";
+var iAmBackHudLastMissesText:String = "";
+
+function normalizeHudSongName(value:String):String {
+    if (value == null)
+        return "";
+
+    return value.toLowerCase().split(" ").join("").split("-").join("").split("_").join("");
+}
 
 function isMadeInChinaSong():Bool {
     var songName = PlayState.SONG == null || PlayState.SONG.meta == null ? "" : PlayState.SONG.meta.name.toLowerCase();
     var songId = PlayState.instance == null ? "" : PlayState.instance.curSongID.toLowerCase();
 
-    songName = songName.split(" ").join("").split("-").join("").split("_").join("");
-    songId = songId.split(" ").join("").split("-").join("").split("_").join("");
+    songName = normalizeHudSongName(songName);
+    songId = normalizeHudSongName(songId);
 
     return songName == "madeinchina" || songId == "madeinchina";
+}
+
+function isIAmBackSong():Bool {
+    var songName = PlayState.SONG == null || PlayState.SONG.meta == null ? "" : PlayState.SONG.meta.name.toLowerCase();
+    var songId = PlayState.instance == null ? "" : PlayState.instance.curSongID.toLowerCase();
+
+    songName = normalizeHudSongName(songName);
+    songId = normalizeHudSongName(songId);
+
+    return songName == "iamback" || songId == "iamback";
+}
+
+function getMadeInChinaHudCamera():FlxCamera {
+    if (madeInChinaHudCamera == null || madeInChinaHudCamera.width != FlxG.width || madeInChinaHudCamera.height != FlxG.height) {
+        if (madeInChinaHudCamera != null)
+            FlxG.cameras.remove(madeInChinaHudCamera, true);
+
+        madeInChinaHudCamera = new FlxCamera(0, 0, FlxG.width, FlxG.height);
+        madeInChinaHudCamera.bgColor = 0x00000000;
+        FlxG.cameras.add(madeInChinaHudCamera, false);
+        madeInChinaHudLayoutReady = false;
+    }
+
+    return madeInChinaHudCamera;
 }
 
 function layoutMadeInChinaHud() {
     if (!isMadeInChinaSong())
         return;
 
+    var hudCam = getMadeInChinaHudCamera();
+    var downscroll:Bool = camHUD != null && camHUD.downscroll;
+    var needsLayout:Bool = (!madeInChinaHudLayoutReady || madeInChinaHudLastWidth != FlxG.width || madeInChinaHudLastDownscroll != downscroll);
     var topY:Float = 10;
-    var padding:Float = 16;
-    var spacing:Float = 18;
-    var rightWidth:Float = FlxG.width - padding * 2;
+    var padding:Float = 18;
+    var spacing:Float = 10;
+    var scoreWidth:Float = Math.max(150, FlxG.width * 0.22);
+    var accuracyWidth:Float = Math.max(190, FlxG.width * 0.26);
+    var missesWidth:Float = Math.max(170, FlxG.width * 0.2);
 
     for (txt in [scoreTxt, accuracyTxt, missesTxt]) {
         if (txt == null)
             continue;
 
-        txt.cameras = [camHUD];
-        txt.scrollFactor.set();
-        txt.y = topY;
+        if (needsLayout) {
+            txt.cameras = [hudCam];
+            txt.scrollFactor.set();
+            txt.font = Paths.font("KrabbyPatty.otf");
+            txt.size = 18;
+            txt.scale.set(1, 1);
+            txt.color = 0xFFFFFFFF;
+            txt.borderStyle = FlxTextBorderStyle.OUTLINE;
+            txt.borderColor = FlxColor.BLACK;
+            txt.borderSize = 1.5;
+            txt.wordWrap = false;
+            txt.antialiasing = true;
+        }
         txt.visible = true;
-        txt.updateHitbox();
     }
 
     if (scoreTxt != null) {
         scoreTxt.x = padding;
-        scoreTxt.fieldWidth = 0;
+        scoreTxt.y = topY;
+        scoreTxt.fieldWidth = scoreWidth;
         scoreTxt.alignment = "left";
-        scoreTxt.updateHitbox();
+        if (needsLayout || madeInChinaHudLastScoreText != scoreTxt.text) {
+            scoreTxt.updateHitbox();
+            madeInChinaHudLastScoreText = scoreTxt.text;
+        }
     }
 
     if (accuracyTxt != null) {
-        accuracyTxt.x = (scoreTxt != null ? scoreTxt.x + scoreTxt.width + spacing : padding);
-        accuracyTxt.fieldWidth = 0;
+        accuracyTxt.x = padding + scoreWidth + spacing;
+        accuracyTxt.y = topY;
+        accuracyTxt.fieldWidth = accuracyWidth;
         accuracyTxt.alignment = "left";
-        accuracyTxt.updateHitbox();
+        if (needsLayout || madeInChinaHudLastAccuracyText != accuracyTxt.text) {
+            accuracyTxt.updateHitbox();
+            madeInChinaHudLastAccuracyText = accuracyTxt.text;
+        }
     }
 
     if (missesTxt != null) {
-        missesTxt.x = padding;
-        missesTxt.fieldWidth = rightWidth;
+        missesTxt.x = FlxG.width - padding - missesWidth;
+        missesTxt.y = topY;
+        missesTxt.fieldWidth = missesWidth;
         missesTxt.alignment = "right";
-        missesTxt.updateHitbox();
+        if (needsLayout || madeInChinaHudLastMissesText != missesTxt.text) {
+            missesTxt.updateHitbox();
+            madeInChinaHudLastMissesText = missesTxt.text;
+        }
     }
+
+    madeInChinaHudLayoutReady = true;
+    madeInChinaHudLastWidth = FlxG.width;
+    madeInChinaHudLastDownscroll = downscroll;
 
     for (txt in [timePassedTxt, totalTimeTxt, rankTxt]) {
         if (txt == null)
@@ -100,6 +176,13 @@ function layoutMadeInChinaHud() {
     if (timeBar != null) {
         timeBar.visible = false;
         timeBar.alpha = 0;
+    }
+}
+
+function destroy() {
+    if (madeInChinaHudCamera != null) {
+        FlxG.cameras.remove(madeInChinaHudCamera, true);
+        madeInChinaHudCamera = null;
     }
 }
 
@@ -123,14 +206,116 @@ function applyKadeTextStyle(txt:FunkinText, big:Bool = false) {
     if (txt == null) return;
 
     txt.font = Paths.font("KrabbyPatty.otf");
-    txt.size = big ? 90 : 75;
+    txt.size = big ? 24 : 20;
     txt.color = 0xFFFFFFFF;
     txt.borderStyle = FlxTextBorderStyle.OUTLINE;
     txt.borderColor = FlxColor.BLACK;
-    txt.borderSize = 7;
-    txt.scale.set(0.2, 0.2);
+    txt.borderSize = big ? 2.5 : 2;
+    txt.scale.set(1, 1);
+    txt.wordWrap = false;
     txt.antialiasing = true;
     txt.updateHitbox();
+}
+
+function layoutIAmBackHudText() {
+    var downscroll:Bool = camHUD != null && camHUD.downscroll;
+    var needsLayout:Bool = (!iAmBackHudLayoutReady || iAmBackHudLastWidth != FlxG.width || iAmBackHudLastDownscroll != downscroll);
+    var topY:Float = 12;
+    var center:Float = FlxG.width * 0.5;
+    var accuracyWidth:Float = Math.max(320, FlxG.width * 0.22);
+    var missesWidth:Float = Math.max(180, FlxG.width * 0.12);
+    var scoreWidth:Float = Math.max(260, FlxG.width * 0.17);
+
+    for (txt in [accuracyTxt, missesTxt, scoreTxt]) {
+        if (txt == null)
+            continue;
+
+        if (needsLayout) {
+            txt.font = Paths.font("KrabbyPatty.otf");
+            txt.size = 20;
+            txt.scale.set(1, 1);
+            txt.color = 0xFFFFFFFF;
+            txt.borderStyle = FlxTextBorderStyle.OUTLINE;
+            txt.borderColor = FlxColor.BLACK;
+            txt.borderSize = 2;
+            txt.wordWrap = false;
+            txt.antialiasing = true;
+        }
+
+        txt.y = topY;
+        txt.visible = true;
+    }
+
+    if (accuracyTxt != null) {
+        accuracyTxt.x = center - 340;
+        accuracyTxt.fieldWidth = accuracyWidth;
+        accuracyTxt.alignment = "left";
+        if (needsLayout || iAmBackHudLastAccuracyText != accuracyTxt.text) {
+            accuracyTxt.updateHitbox();
+            iAmBackHudLastAccuracyText = accuracyTxt.text;
+        }
+    }
+
+    if (missesTxt != null) {
+        missesTxt.x = center - 12;
+        missesTxt.fieldWidth = missesWidth;
+        missesTxt.alignment = "left";
+        if (needsLayout || iAmBackHudLastMissesText != missesTxt.text) {
+            missesTxt.updateHitbox();
+            iAmBackHudLastMissesText = missesTxt.text;
+        }
+    }
+
+    if (scoreTxt != null) {
+        scoreTxt.x = center + 245;
+        scoreTxt.fieldWidth = scoreWidth;
+        scoreTxt.alignment = "left";
+        if (needsLayout || iAmBackHudLastScoreText != scoreTxt.text) {
+            scoreTxt.updateHitbox();
+            iAmBackHudLastScoreText = scoreTxt.text;
+        }
+    }
+
+    iAmBackHudLayoutReady = true;
+    iAmBackHudLastWidth = FlxG.width;
+    iAmBackHudLastDownscroll = downscroll;
+}
+
+function layoutDefaultHudText() {
+    if (isMadeInChinaSong())
+        return;
+    if (isIAmBackSong()) {
+        layoutIAmBackHudText();
+        return;
+    }
+    if (healthBarBG == null)
+        return;
+
+    var baseX:Float = healthBarBG.x + 50;
+    var baseY:Float = healthBarBG.y + 30;
+    var fieldWidth:Float = Math.max(320, healthBarBG.width - 100);
+
+    for (txt in [accuracyTxt, missesTxt, scoreTxt]) {
+        if (txt == null)
+            continue;
+
+        txt.x = baseX;
+        txt.y = baseY;
+        txt.fieldWidth = fieldWidth;
+        txt.wordWrap = false;
+        txt.visible = true;
+    }
+
+    if (accuracyTxt != null)
+        accuracyTxt.alignment = "left";
+    if (missesTxt != null)
+        missesTxt.alignment = "center";
+    if (scoreTxt != null)
+        scoreTxt.alignment = "right";
+
+    for (txt in [accuracyTxt, missesTxt, scoreTxt])
+        if (txt != null)
+            txt.updateHitbox();
 }
 
 function create() {
@@ -140,6 +325,8 @@ function create() {
 
 function postCreate() {
     if (sonicMode) return;
+    madeInChinaHudLayoutReady = false;
+    iAmBackHudLayoutReady = false;
     minDigitDisplay = -1;
 
     healthBar.visible = true;
@@ -148,21 +335,34 @@ function postCreate() {
 
     comboGroup.setPosition(FlxG.width / 2 - 57, 120);
 
-    for (txt in [accuracyTxt, missesTxt, scoreTxt, timePassedTxt, totalTimeTxt]) {
+    var hudTexts = [accuracyTxt, missesTxt, scoreTxt, timePassedTxt, totalTimeTxt];
+    var originalX = [];
+    var originalFieldWidth = [];
+    var originalAlignment = [];
+
+    for (txt in hudTexts) {
+        originalX.push(txt == null ? 0 : txt.x);
+        originalFieldWidth.push(txt == null ? 0 : txt.fieldWidth);
+        originalAlignment.push(txt == null ? "center" : txt.alignment);
+    }
+
+    var textIndex:Int = 0;
+    for (txt in hudTexts) {
+        var currentTextIndex:Int = textIndex;
+        textIndex += 1;
         if (txt == null) continue;
 
         applyKadeTextStyle(txt, txt == totalTimeTxt);
         txt.color = 0xFFFFFFFF;
-        txt.alignment = txt == timePassedTxt ? "left" : "center";
-        txt.fieldWidth *= 2;
+        txt.alignment = originalAlignment[currentTextIndex];
+        txt.fieldWidth = originalFieldWidth[currentTextIndex];
+        txt.x = originalX[currentTextIndex];
+
         txt.updateHitbox();
-
-        txt.x = xPos;
-
-        xPos += txt.width + 10;
         add(txt);
     }
 
+    layoutDefaultHudText();
     layoutMadeInChinaHud();
 }
 
@@ -266,6 +466,7 @@ function spawnSonicRating(name:String, x:Float, y:Float)
 
 
 function postUpdate() {
+    layoutDefaultHudText();
     layoutMadeInChinaHud();
 
 

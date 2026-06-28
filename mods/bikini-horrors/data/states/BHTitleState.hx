@@ -7,6 +7,7 @@ import funkin.menus.ModSwitchMenu;
 import funkin.menus.FreeplayState.FreeplaySonglist;
 import funkin.savedata.FunkinSave;
 import funkin.savedata.HighscoreEntry;
+import funkin.game.PlayState;
 import mobile.backend.MobileUtil;
 import lime.system.System;
 
@@ -20,6 +21,7 @@ import flixel.FlxCamera;
 import flixel.text.FlxTextBorderStyle;
 import lime.app.Application;
 import mobile.backend.SoftKeyboardInput;
+import openfl.utils.Assets;
 
 var water:CustomShader = null;
 var water2:CustomShader = null;
@@ -54,7 +56,15 @@ var exportSaveText:FlxText;
 var cheatCodeActive:Bool = false;
 var cheatUnlocked:Bool = false;
 var cheatCodeBuffer:String = "";
-var cheatTargetCode:String = "ajwwk";
+var cheatUnlockCode:String = "ajwwk";
+var hiddenSongCheats:Array<Dynamic> = [
+    {code: "carmaland", song: "carmaland", difficulty: "hard", label: "CARMALAND"},
+    {code: "thosewhoknow", song: "THOSE WHO KNOW", difficulty: "hard", label: "THOSE WHO KNOW"},
+    {code: "thosetwoknow", song: "those-two-know", difficulty: "hard", label: "THOSE 2 KNOW"},
+    {code: "spongefunkin", song: "spongefunkin", difficulty: "hard", label: "SPONGEFUNKIN"},
+    {code: "realbobb", song: "realbobb", difficulty: "real", label: "REALBOBB"},
+    {code: "reallbobb", song: "realbobb", difficulty: "real", label: "REALBOBB"}
+];
 
 function create() {
 
@@ -81,13 +91,16 @@ function create() {
     bgCam.useBgAlphaBlending = true;
     gameCam.useBgAlphaBlending = true;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         water = new CustomShader("waterDistortion");
-        water.strength = 0.5;
+        water.strength = highShaders ? 0.5 : 0.18;
+        water.detail = highShaders ? 30.0 : 16.0;
         bgCam.addShader(water);
 
         water2 = new CustomShader("waterDistortion");
-        water2.strength = 0.1;
+        water2.strength = highShaders ? 0.1 : 0.04;
+        water2.detail = highShaders ? 30.0 : 14.0;
         gameCam.addShader(water2);
     }
 
@@ -239,8 +252,9 @@ function update(elapsed:Float) {
         }
     }
 
-    water?.time = (tottalTimer += elapsed);
-    water2?.time = (tottalTimer += elapsed);
+    tottalTimer += elapsed;
+    water?.time = tottalTimer;
+    water2?.time = tottalTimer;
 
     if (FlxG.keys.justPressed.SEVEN) {
         persistentUpdate = false;
@@ -269,7 +283,7 @@ function update(elapsed:Float) {
     var titleUtilityClick:Bool = handleTitleUtilityInput();
     var mouseEnterClick:Bool = FlxG.mouse.justReleased && !enterMouseUsed && !menuActive && !transitioning && !titleUtilityClick;
 
-    if ((controls.ACCEPT || mouseEnterClick) && !menuActive && !transitioning && !(cheatCodeActive && !cheatUnlocked)) {
+    if ((controls.ACCEPT || mouseEnterClick) && !menuActive && !transitioning && !cheatCodeActive) {
         if (mouseEnterClick) enterMouseUsed = true;
     
         FlxG.sound.play(Paths.sound('menu/scroll'));
@@ -337,7 +351,7 @@ function handleTitleUtilityInput():Bool {
         exportSavesFromTitle();
     }
 
-    if (cheatCodeActive && !cheatUnlocked) {
+    if (cheatCodeActive) {
         syncCheatInputText();
     }
 
@@ -345,14 +359,9 @@ function handleTitleUtilityInput():Bool {
 }
 
 function activateCheatCode() {
-    if (cheatUnlocked) {
-        updateCheatCodeText();
-        return;
-    }
-
     cheatCodeActive = true;
     cheatCodeBuffer = "";
-    SoftKeyboardInput.open(42, cheatStatusText.y + 28, 178, 34, "", cheatTargetCode.length, "A-Za-z");
+    SoftKeyboardInput.open(42, cheatStatusText.y + 28, 260, 34, "", getCheatInputMaxChars());
     updateCheatCodeText();
     FlxG.sound.play(Paths.sound('menu/scroll'));
 }
@@ -370,31 +379,29 @@ function updateCheatCodeText(?message:String = null) {
         return;
     }
 
-    if (cheatUnlocked) {
+    if (cheatUnlocked && !cheatCodeActive) {
         cheatStatusText.color = 0xFF8DFF8D;
         cheatStatusText.text = "UNLOCKED";
         return;
     }
 
+    var targetCode:String = getCurrentCheatTargetCode();
     var progress:String = "";
-    for (i in 0...cheatTargetCode.length) {
+    for (i in 0...targetCode.length) {
         if (i < cheatCodeBuffer.length)
             progress += cheatCodeBuffer.charAt(i).toUpperCase();
         else
             progress += "_";
     }
     cheatStatusText.color = 0xFFFFFFFF;
-    cheatStatusText.text = "CODE " + progress;
+    cheatStatusText.text = (targetCode == cheatUnlockCode ? "CODE " : "SONG ") + progress;
 }
 
 function syncCheatInputText() {
-    var value:String = SoftKeyboardInput.getText().toLowerCase()
-        .split(" ").join("")
-        .split("\n").join("")
-        .split("\r").join("");
+    var value:String = normalizeCheatInput(SoftKeyboardInput.getText());
 
-    if (value.length > cheatTargetCode.length)
-        value = value.substr(0, cheatTargetCode.length);
+    if (value.length > getCheatInputMaxChars())
+        value = value.substr(0, getCheatInputMaxChars());
 
     if (SoftKeyboardInput.getText() != value)
         SoftKeyboardInput.setText(value);
@@ -409,21 +416,114 @@ function syncCheatInputText() {
         return;
     }
 
-    if (cheatTargetCode.indexOf(cheatCodeBuffer) != 0) {
-        cheatCodeBuffer = "";
-        SoftKeyboardInput.setText("");
+    if (!isKnownCheatPrefix(cheatCodeBuffer)) {
         cheatStatusText.color = 0xFFFF7777;
         updateCheatCodeText("WRONG");
-        FlxG.sound.play(Paths.sound('menu/scroll'));
         return;
     }
 
-    if (cheatCodeBuffer == cheatTargetCode) {
+    if (cheatCodeBuffer == cheatUnlockCode) {
         unlockEverythingWithCheat();
         return;
     }
 
+    var hiddenSongCheat:Dynamic = getHiddenSongCheat(cheatCodeBuffer);
+    if (hiddenSongCheat != null) {
+        enterHiddenSongWithCheat(hiddenSongCheat);
+        return;
+    }
+
     updateCheatCodeText();
+}
+
+function normalizeCheatInput(value:String):String {
+    return value.toLowerCase()
+        .split(" ").join("")
+        .split("-").join("")
+        .split("_").join("")
+        .split("\n").join("")
+        .split("\r").join("");
+}
+
+function getCheatInputMaxChars():Int {
+    var maxLen:Int = cheatUnlockCode.length;
+    for (cheat in hiddenSongCheats) {
+        var code:String = Std.string(cheat.code);
+        if (code.length > maxLen)
+            maxLen = code.length;
+    }
+    return maxLen + 4;
+}
+
+function getCurrentCheatTargetCode():String {
+    if (cheatCodeBuffer.length > 0) {
+        var hiddenSongCheat:Dynamic = getHiddenSongCheatPrefix(cheatCodeBuffer);
+        if (hiddenSongCheat != null)
+            return Std.string(hiddenSongCheat.code);
+    }
+
+    return cheatUnlockCode;
+}
+
+function isKnownCheatPrefix(value:String):Bool {
+    return cheatUnlockCode.indexOf(value) == 0 || getHiddenSongCheatPrefix(value) != null;
+}
+
+function getHiddenSongCheat(value:String):Dynamic {
+    for (cheat in hiddenSongCheats)
+        if (Std.string(cheat.code) == value)
+            return cheat;
+
+    return null;
+}
+
+function getHiddenSongCheatPrefix(value:String):Dynamic {
+    for (cheat in hiddenSongCheats) {
+        var code:String = Std.string(cheat.code);
+        if (code.indexOf(value) == 0)
+            return cheat;
+    }
+
+    return null;
+}
+
+function enterHiddenSongWithCheat(cheat:Dynamic) {
+    if (cheat == null) {
+        updateCheatCodeText("WRONG");
+        return;
+    }
+
+    var song:String = Std.string(cheat.song);
+    var difficulty:String = Std.string(cheat.difficulty);
+    if (song == null || song.length <= 0 || difficulty == null || difficulty.length <= 0) {
+        updateCheatCodeText("WRONG");
+        return;
+    }
+
+    if (!hiddenSongChartExists(song, difficulty)) {
+        updateCheatCodeText("MISSING");
+        FlxG.sound.play(Paths.sound('menu/scroll'));
+        return;
+    }
+
+    cheatCodeActive = false;
+    transitioning = true;
+    closeCheatInputKeyboard();
+    updateCheatCodeText(Std.string(cheat.label));
+    FlxG.sound.play(Paths.sound('menu/confirm'));
+
+    PlayState.loadSong(song, difficulty);
+    PlayState.switchToPlayState();
+}
+
+function hiddenSongChartExists(song:String, difficulty:String):Bool {
+    try {
+        return Assets.exists(Paths.chart(song, difficulty));
+    } catch (e:Dynamic) {
+        trace('Could not check hidden song chart $song/$difficulty: $e');
+    }
+
+    return false;
 }
 
 function addUniqueSongName(list:Array<String>, name:String) {
@@ -444,7 +544,8 @@ function unlockEverythingWithCheat() {
         "i-am-back", "wordle", "fertility", "so-retro", "no-phone-zone", "chromosome", "daddatel",
         "try-and-trong", "aloha-aloha", "unheard", "go-to-eat", "pneumonoultramicroscopicsilicovolcanoconiosis",
         "carmaland-retake", "pop-a-corn", "spotting", "kaka", "ayuda-por-favor", "la-playa",
-        "for-you-someday", "corre-corre-que-te-pillo"
+        "for-you-someday", "corre-corre-que-te-pillo", "carmaland", "carmland", "spongefunkin",
+        "realbobb", "reallbobb", "those who know", "those-two-know"
     ];
 
     for (songName in knownSongs)

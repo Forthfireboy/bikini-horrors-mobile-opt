@@ -27,7 +27,7 @@ function onSongStart() {
 }
 
 function create() {
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
         nick = new FlxSprite();
         nick.loadGraphic(Paths.image('logos/nick'));
         nick.scale.set(0.12, 0.12);
@@ -81,6 +81,7 @@ function stepHit(curStep:Int) {
         boyfriend.scrollFactor.x = 1.5;
         boyfriend.scrollFactor.y = 1.5;
         //if (Options.gameplayShaders) {
+        if (!Options.shaderQualityAllows(2)) return;
         fishEyeShader = new CustomShader("fishEye");
         fishEyeShader.intensity = 0.1;
         fishEyeShader.zoom = 0.9;
@@ -97,7 +98,7 @@ function update(elapsed:Float) {
     shaderTime += elapsed;
     water?.time = (tottalTimer += elapsed);
 
-    if (backShader != null && Options.gameplayShaders) {
+    if (backShader != null && Options.shaderQualityAllows(1)) {
         backShader.resolution = [FlxG.width, FlxG.height];
         backShader.time = shaderTime;
     }

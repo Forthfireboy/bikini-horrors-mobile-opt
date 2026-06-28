@@ -36,6 +36,9 @@ function update(elapsed:Float) {
             case 2:
                 FlxG.switchState(new ModState("FreeplayV3"));
 
+            case 3:
+                FlxG.switchState(new ModState("VSelectionState"));
+
             default:
                 FlxG.switchState(new ModState("BHTitleState"));
         }

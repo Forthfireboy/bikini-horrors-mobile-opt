@@ -7,6 +7,10 @@ uniform float distort;  // 0.0 -> 0.03
 void main()
 {
     vec2 uv = openfl_TextureCoordv;
+    if (strength <= 0.001 && darkness <= 0.001 && distort <= 0.001) {
+        gl_FragColor = flixel_texture2D(bitmap, uv);
+        return;
+    }
 
     // -----------------------------
     // Barrel distortion
@@ -24,8 +28,9 @@ void main()
     // -----------------------------
     vec2 aberration = vec2(0.003 * strength);
 
+    vec4 tex = flixel_texture2D(bitmap, warpedUV);
     float red = flixel_texture2D(bitmap, warpedUV + aberration).r;
-    float green = flixel_texture2D(bitmap, warpedUV).g;
+    float green = tex.g;
     float blue = flixel_texture2D(bitmap, warpedUV - aberration).b;
 
     vec3 color = vec3(red, green, blue);
@@ -65,6 +70,5 @@ void main()
 
     color *= vignette;
 
-    vec4 tex = flixel_texture2D(bitmap, warpedUV);
     gl_FragColor = vec4(color, tex.a);
 }

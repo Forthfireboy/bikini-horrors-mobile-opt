@@ -1,5 +1,6 @@
 package funkin.options;
 
+import flixel.effects.FlxFlicker;
 import flixel.group.FlxSpriteGroup;
 import flixel.util.FlxSignal;
 import funkin.backend.system.Controls;
@@ -172,7 +173,11 @@ class TreeMenuScreen extends FlxSpriteGroup {
 	public function close() {
 		onClose.dispatch();
 
-		snapOptionVisual(curOption);
+		final state = MusicBeatState.instance;
+		if (state != null && state.mobileManager != null)
+			state.mobileManager.resetInputVisuals();
+
+		snapAllOptionVisuals();
 		if (curOption != null) curOption.selected = false;
 
 		if (parent == null) return destroy();
@@ -182,11 +187,11 @@ class TreeMenuScreen extends FlxSpriteGroup {
 
 		if (prevMenuMPadModes.length > 0)
 		{
-			final state = MusicBeatState.instance;
 			if (state != null && state.mobileManager?.mobilePad != null) {
 				state.removeMobilePad();
 				state.addMobilePad(prevMenuMPadModes[0], prevMenuMPadModes[1]);
 				state.addMobilePadCamera();
+				state.mobileManager.resetInputVisuals();
 			}
 			
 		}
@@ -219,10 +224,22 @@ class TreeMenuScreen extends FlxSpriteGroup {
 		if (option == null)
 			return;
 
+		if (option is OptionType) {
+			var optionType:OptionType = cast option;
+			FlxFlicker.stopFlickering(optionType);
+			optionType.visible = true;
+		}
+
 		if (option is Checkbox)
 			cast(option, Checkbox).snapToCheckedState();
 		else if (option is RadioButton)
 			cast(option, RadioButton).snapToCheckedState();
+	}
+
+	function snapAllOptionVisuals():Void {
+		for (member in members)
+			if (member != null && member is ITreeOption)
+				snapOptionVisual(cast member);
 	}
 
 	public function updateMenuDesc(?customTxt:String) {

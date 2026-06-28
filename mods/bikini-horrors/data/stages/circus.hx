@@ -35,18 +35,22 @@ var bashiroBaseY:Float = 0;
 function create() {
     camGame.pixelPerfectRender = true;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         crt = new CustomShader('crt');
 
-        crt.curvature = 0.05;
-        crt.scanlines = 1;
-        crt.rgbShift = 1;
-        crt.blur = 0.15;
+        crt.curvature = highShaders ? 0.05 : 0.02;
+        crt.scanlines = highShaders ? 1 : 0.45;
+        crt.rgbShift = highShaders ? 1 : 0.25;
+        crt.blur = highShaders ? 0.15 : 0.0;
 
-        camHUD.addShader(crt);
+        if (highShaders)
+            camHUD.addShader(crt);
         camGame.addShader(crt);
-        char4Glitch = new CustomShader("glitching");
-        char4Glitch.AMT = 0;
+        if (highShaders) {
+            char4Glitch = new CustomShader("glitching");
+            char4Glitch.AMT = 0;
+        }
     }
 }
 
@@ -121,7 +125,7 @@ function postCreate() {
 function update(elapsed:Float) {
     clockTimer += elapsed;
 
-    if (Options.gameplayShaders && char4GlitchActive)
+    if (char4Glitch != null && char4GlitchActive)
     {
         char4GlitchTimer += elapsed;
 
@@ -458,7 +462,7 @@ function stepHit(curStep:Int) {
             temubob.playAnim("look");
             bobdoll.playAnim("look");
 
-            if (Options.gameplayShaders)
+            if (char4Glitch != null)
             {
                 char4.shader = char4Glitch;
                 suelo.shader = char4Glitch;

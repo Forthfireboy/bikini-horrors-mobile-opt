@@ -27,11 +27,13 @@ var notResponding : FlxSprite;
 
 function create()
 {
-    if (Options.gameplayShaders)
+    if (Options.shaderQualityAllows(1))
     {
-        //glitch shader
-        glitchShader = new CustomShader("glitching");
-        glitchShader.AMT = 0;
+        if (Options.shaderQualityAllows(2)) {
+            //glitch shader
+            glitchShader = new CustomShader("glitching");
+            glitchShader.AMT = 0;
+        }
 
         //pixel shader
         pixelShader = new CustomShader("isaacPixelate");
@@ -110,28 +112,22 @@ function postCreate(){
 
 function update(elapsed:Float)
 {
-    //gotta move that text outta the way!!
-    accuracyTxt.x = 20;
-    accuracyTxt.y = 20;
-    missesTxt.x = 20;
-    missesTxt.y = 45;
-    scoreTxt.x = 20;
-    scoreTxt.y = 70;
-
     if (activateCamZoom == false){
         camZooming = false;
     }
         
-    if (Options.gameplayShaders)
+    if (pixelShader != null)
     {
-        glitchTimer += elapsed;
+        if (glitchShader != null) {
+            glitchTimer += elapsed;
 
-        if (glitchTimer >= glitchWait)
-        {
-            glitchTimer = 0;
+            if (glitchTimer >= glitchWait)
+            {
+                glitchTimer = 0;
 
-            var randIndex = FlxG.random.int(0, glitchValues.length - 1);
-            glitchShader.AMT = glitchValues[randIndex];
+                var randIndex = FlxG.random.int(0, glitchValues.length - 1);
+                glitchShader.AMT = glitchValues[randIndex];
+            }
         }
 
         pixelShader.strength = pixelStrength;
@@ -548,7 +544,7 @@ function stepHit(curStep:Int) {
 
 function applyGlitch(obj:FlxSprite)
 {
-    if (!Options.gameplayShaders) return;
+    if (glitchShader == null) return;
 
     obj.shader = glitchShader;
     glitchActive = true;

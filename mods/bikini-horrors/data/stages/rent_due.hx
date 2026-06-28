@@ -15,15 +15,17 @@ var runLayers = [];
 var runLoopOffset:Float = -2000;
 
 function create() {
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         crtUsa = new CustomShader('crtUsa');
 
         crtUsa.curvature = 0;
-        crtUsa.scanlines = 1;
-        crtUsa.rgbShift = 1;
-        crtUsa.blur = 0.15;
+        crtUsa.scanlines = highShaders ? 1 : 0.45;
+        crtUsa.rgbShift = highShaders ? 1 : 0.25;
+        crtUsa.blur = highShaders ? 0.15 : 0.0;
 
-        camHUD.addShader(crtUsa);
+        if (highShaders)
+            camHUD.addShader(crtUsa);
         camGame.addShader(crtUsa);
     }
 }

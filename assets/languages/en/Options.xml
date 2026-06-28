@@ -82,8 +82,9 @@
 
 		<group name="AppearanceOptionsAdvanced" prefix="Advanced.">
 			<str id="quality-name">Quality</str>
-			<str id="quality-desc">Quality modes to choose, "LOW" = Disable every heavy visual effects as it can get to smoothen the gameplay, "HIGH" = Enable all of the visual effects, with the cost of performance, "CUSTOM" = Allow of custom options that is available in Advanced.</str>
+			<str id="quality-desc">Quality modes to choose. "LOW" disables heavy visual effects, "MEDIUM" keeps important effects with mobile-friendly shader settings, "HIGH" enables full visual effects, "CUSTOM" allows the advanced toggles below.</str>
 			<str id="quality-low">LOW</str>
+			<str id="quality-medium">MEDIUM</str>
 			<str id="quality-high">HIGH</str>
 			<str id="quality-custom">CUSTOM</str>
 
@@ -130,6 +131,9 @@
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-name">Downscroll</str>
 		<str id="downscroll-desc">If checked, notes will go from up to down instead of down to up, as if they're falling.</str>
+
+		<str id="middlescroll-name">Middlescroll</str>
+		<str id="middlescroll-desc">If checked, player notes stay centered and opponent notes are hidden.</str>
 
 		<str id="ghostTapping-name">Ghost Tapping</str>
 		<str id="ghostTapping-desc">If unchecked, trying to hit any strum that have no note that can be hit will cause a miss.</str>

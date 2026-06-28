@@ -4,11 +4,11 @@ var blackCover;
 function create(){
     camGame.pixelPerfectRender = true;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
         crt = new CustomShader('staticScanlines');
 
-        crt.staticAmount = 0.3;
-        crt.staticScale = 30.5 * 5;
+        crt.staticAmount = Options.shaderQualityAllows(2) ? 0.3 : 0.08;
+        crt.staticScale = Options.shaderQualityAllows(2) ? 30.5 * 5 : 90;
         crt.staticSpeed = 0.25;
 
 
@@ -35,6 +35,6 @@ function stepHit(curStep:Int) {
 function update(elapsed:Float) {
     tottalTimer += elapsed;
     if (crt != null) {
-        crt.time = (tottalTimer += elapsed);
+        crt.time = tottalTimer;
     }
 }

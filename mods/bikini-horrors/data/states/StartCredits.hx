@@ -39,9 +39,11 @@ function create() {
     guater.screenCenter();
     add(guater);
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         water = new CustomShader("waterDistortion");
-        water.strength = 0.5;
+        water.strength = highShaders ? 0.5 : 0.18;
+        water.detail = highShaders ? 30.0 : 16.0;
         guater.shader = water;
     }
 

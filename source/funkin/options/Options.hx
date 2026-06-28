@@ -33,6 +33,7 @@ class Options
 	 */
 	public static var naughtyness:Bool = true;
 	public static var downscroll:Bool = false;
+	public static var middlescroll:Bool = false;
 	public static var ghostTapping:Bool = true;
 	public static var flashingMenu:Bool = true;
 	public static var camZoomOnBeat:Bool = true;
@@ -44,6 +45,7 @@ class Options
 	public static var volumeSFX:Float = 1;
 	public static var week6PixelPerfect:Bool = true;
 	public static var gameplayShaders:Bool = true;
+	@:dox(hide) @:doNotSave public static var shaderQuality:Int = 1;
 	public static var colorHealthBar:Bool = true;
 	public static var lowMemoryMode:Bool = false;
 	public static var devMode:Bool = false;
@@ -234,6 +236,9 @@ class Options
 			__eventAdded = true;
 		}
 		FlxG.sound.volume = volume;
+		#if mobile
+		framerate = funkin.backend.system.MobilePerformance.sanitizeUserFramerate(framerate);
+		#end
 		applySettings();
 	}
 
@@ -243,8 +248,13 @@ class Options
 
 		FlxG.sound.defaultMusicGroup.volume = volumeMusic;
 		FlxG.autoPause = autoPause;
+		#if mobile
+		framerate = funkin.backend.system.MobilePerformance.sanitizeUserFramerate(framerate);
+		funkin.backend.system.MobilePerformance.apply(true);
+		#else
 		if (FlxG.updateFramerate < framerate) FlxG.drawFramerate = FlxG.updateFramerate = framerate;
 		else FlxG.updateFramerate = FlxG.drawFramerate = framerate;
+		#end
 	}
 
 	public static function applyQuality() {
@@ -253,14 +263,38 @@ class Options
 				antialiasing = false;
 				lowMemoryMode = true;
 				gameplayShaders = false;
+				shaderQuality = 0;
 			case 1:
 				antialiasing = true;
 				lowMemoryMode = false;
 				gameplayShaders = true;
+				shaderQuality = 1;
+			case 2:
+				antialiasing = true;
+				lowMemoryMode = false;
+				gameplayShaders = true;
+				shaderQuality = 2;
+			case 3:
+				shaderQuality = gameplayShaders ? 2 : 0;
 		}
 
+		shaderQuality = CoolUtil.boundInt(shaderQuality, 0, 2);
+		if (shaderQuality <= 0)
+			gameplayShaders = false;
 		FlxG.game.stage.quality = (FlxG.enableAntialiasing = antialiasing) ? BEST : LOW;
 	}
+
+	public static inline function shadersEnabled():Bool
+		return gameplayShaders && shaderQuality > 0;
+
+	public static inline function mediumShaders():Bool
+		return shadersEnabled() && shaderQuality >= 1;
+
+	public static inline function highShaders():Bool
+		return shadersEnabled() && shaderQuality >= 2;
+
+	public static inline function shaderQualityAllows(minQuality:Int):Bool
+		return shadersEnabled() && shaderQuality >= minQuality;
 
 	public static function applyKeybinds() {
 		PlayerSettings.solo.setKeyboardScheme(Solo);

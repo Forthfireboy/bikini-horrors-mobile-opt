@@ -1,44 +1,54 @@
 #pragma header
- 
+
 uniform float brightness;
 uniform float directions;
 uniform int quality;
 uniform float size;
- 
+
 #define PI 3.141592653589793
 #define TWO_PI 6.283185307179586
- 
+
 void main(void) {
 vec2 uv = openfl_TextureCoordv.xy;
 vec4 color = textureCam(bitmap, uv);
 vec4 bloom = color;
+float safeBrightness = max(brightness, 0.0);
+float safeSize = max(size, 0.0);
+vec2 texSize = max(openfl_TextureSize, vec2(1.0));
  
-if (brightness == 1.0 && size == 0.0) {
+if (safeBrightness <= 1.001 || safeSize <= 0.001) {
 gl_FragColor = color;
 return;
 }
  
-float maxApply = 0.0;
+float maxApply = 1.0;
 
-float dir = min(directions, 8.0);
-for (float d = 0.0; d < TWO_PI; d += TWO_PI / dir) {
-float q = min(float(quality), 16.0);
-for (float i = 1.0 / q; i <= 1.0; i += 1.0 / q) {
-float x_movement = (sin(d) * size * i) / openfl_TextureSize.y;
-float y_movement = (cos(d) * size * i) / openfl_TextureSize.x;
-bloom += textureCam(bitmap, uv + vec2(x_movement, y_movement));
-bloom *= mix(1.0, 1.0 - (i / q), step(0.0, x_movement) + step(0.0, y_movement));
+float dir = clamp(directions, 1.0, 8.0);
+float q = clamp(float(quality), 1.0, 16.0);
+float radius = min(safeSize, 28.0);
+for (int di = 0; di < 8; di++) {
+float fdi = float(di);
+if (fdi >= dir) continue;
+float d = (fdi / dir) * TWO_PI;
+vec2 dirVec = vec2(sin(d) / texSize.y, cos(d) / texSize.x);
+for (int qi = 1; qi <= 16; qi++) {
+float fqi = float(qi);
+if (fqi > q) continue;
+float i = fqi / q;
+vec2 movement = dirVec * radius * i;
+bloom += textureCam(bitmap, uv + movement) * (1.0 - (i * 0.18));
 maxApply += 1.0;
 }
 }
  
-float brightnessFactor = 1.0 - (1.0 / maxApply);
+maxApply = max(maxApply, 1.0);
+float brightnessFactor = max(0.0, 1.0 - (1.0 / maxApply));
 bloom /= maxApply;
  
-float brightnessApply = brightness;
-if (brightness < 1.5)
-brightnessApply = mix(1.5, 0.0, abs(1.0-((brightness-1.0)*2.0)));
+float brightnessApply = max(safeBrightness, 1.0);
+if (brightnessApply < 1.5)
+brightnessApply = max(0.55, mix(1.45, 0.2, abs(1.0-((brightnessApply-1.0)*2.0))));
  
-gl_FragColor = color + ((bloom * brightnessFactor) * brightnessApply);
+float outputScale = q > 8.0 ? 0.78 : 0.9;
+gl_FragColor = color + ((bloom * brightnessFactor) * brightnessApply * outputScale);
 }
- 

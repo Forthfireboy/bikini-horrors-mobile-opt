@@ -21,11 +21,13 @@ function postCreate()
     FlxG.cameras.add(notesCam, false);
     FlxG.cameras.add(camGame, true);
     FlxG.cameras.add(camHUD, false);
-    fishEyeShader = new CustomShader("fishEye");
-    fishEyeShader.intensity = 0.08;
-    fishEyeShader.zoom = 1;
     camGame.bgColor = FlxColor.TRANSPARENT;
-    notesCam.addShader(fishEyeShader);
+    if (Options.shaderQualityAllows(2)) {
+        fishEyeShader = new CustomShader("fishEye");
+        fishEyeShader.intensity = 0.08;
+        fishEyeShader.zoom = 1;
+        notesCam.addShader(fishEyeShader);
+    }
     bgCam.bgColor = FlxColor.TRANSPARENT;
     notesCam.bgColor = FlxColor.TRANSPARENT;
 }
@@ -98,7 +100,7 @@ function update(elapsed:Float)
 
 function applyGlitch(obj:FlxSprite)
 {
-    if (!Options.gameplayShaders) return;
+    if (!Options.shaderQualityAllows(2) || glitchShader == null) return;
 
     obj.shader = glitchShader;
     glitchActive = true;

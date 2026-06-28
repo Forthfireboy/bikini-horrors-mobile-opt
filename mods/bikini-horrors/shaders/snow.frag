@@ -109,6 +109,7 @@ uniform int LAYERS;
 uniform float DEPTH;
 uniform float WIDTH;
 uniform float SPEED;
+uniform float noiseStrength;
 
 const mat3 p = mat3(13.323122,23.5112,21.71123,21.1212,28.7312,11.9312,21.8112,14.7212,61.3934);
 
@@ -133,7 +134,6 @@ void main()
 	if (pixely) uvCentered = floor(uvCentered / 0.009) * 0.009;
 
 	vec3 acc = vec3(0.0);
-	float dof = 5.0*sin(time*0.1);
 	for (int i=0;i<16;i++) {
 		if (i >= STARTING_LAYERS && i < LAYERS) {
 			float fi = float(i);
@@ -166,7 +166,10 @@ void main()
 		acc *= meltiness;
 
     vec4 flixelColor = flixel_texture2D(bitmap, openfl_TextureCoordv.xy);
-	vec3 effect = vec3(acc)*0.8*(0.6+(coolNoise()*0.4));
+	float noiseMix = 0.6;
+	if (noiseStrength > 0.001)
+		noiseMix += coolNoise() * noiseStrength;
+	vec3 effect = vec3(acc)*0.8*noiseMix;
 	flixelColor.rgb += effect*(pixely?1.6:1.0)*BRIGHT;
 
 	if (flixelColor.a == 0.0 && (effect.r > 0.0 || effect.g > 0.0 || effect.b > 0.0))

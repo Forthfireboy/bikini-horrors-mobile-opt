@@ -27,15 +27,17 @@ var boyfriendCloneTargetX:Float = 0;
 function create() {
     camGame.pixelPerfectRender = true;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         crt = new CustomShader('crt');
 
-        crt.curvature = 0.12;
-        crt.scanlines = 0.6;
-        crt.rgbShift = 1;
-        crt.blur = 0.15;
+        crt.curvature = highShaders ? 0.12 : 0.04;
+        crt.scanlines = highShaders ? 0.6 : 0.3;
+        crt.rgbShift = highShaders ? 1 : 0.25;
+        crt.blur = highShaders ? 0.15 : 0.0;
 
-        camHUD.addShader(crt);
+        if (highShaders)
+            camHUD.addShader(crt);
         camGame.addShader(crt);
     }
 

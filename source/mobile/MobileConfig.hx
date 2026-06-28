@@ -91,12 +91,12 @@ class MobileConfig {
 				file = Path.join([folder, Path.withoutDirectory(file)]);
 				var str = Assets.getText(file);
 				if (mode == HITBOX) {
-					var json:CustomHitboxData = cast Json.parse(str);
+					var json:CustomHitboxData = cast parseJsonConfig(str);
 					var mapKey:String = Path.withoutDirectory(Path.withoutExtension(file));
 					map.set(mapKey, json);
 				}
 				else if (mode == ACTION || mode == DPAD) {
-					var json:MobileButtonsData = cast Json.parse(str);
+					var json:MobileButtonsData = cast parseJsonConfig(str);
 					var mapKey:String = Path.withoutDirectory(Path.withoutExtension(file));
 					map.set(mapKey, json);
 				}
@@ -133,6 +133,74 @@ class MobileConfig {
 		return results;
 	}
 
+	private static function parseJsonConfig(str:String):Dynamic
+	{
+		return Json.parse(stripJsonComments(str));
+	}
+
+	private static function stripJsonComments(str:String):String
+	{
+		var result = new StringBuf();
+		var i = 0;
+		var inString = false;
+		var escaped = false;
+
+		while (i < str.length)
+		{
+			var char = str.charAt(i);
+			var next = (i + 1 < str.length) ? str.charAt(i + 1) : "";
+
+			if (inString)
+			{
+				result.add(char);
+				if (escaped)
+					escaped = false;
+				else if (char == "\\")
+					escaped = true;
+				else if (char == "\"")
+					inString = false;
+				i++;
+				continue;
+			}
+
+			if (char == "\"")
+			{
+				inString = true;
+				result.add(char);
+				i++;
+				continue;
+			}
+
+			if (char == "/" && next == "/")
+			{
+				i += 2;
+				while (i < str.length && str.charAt(i) != "\n")
+					i++;
+				if (i < str.length)
+					result.add(str.charAt(i++));
+				continue;
+			}
+
+			if (char == "/" && next == "*")
+			{
+				i += 2;
+				while (i + 1 < str.length && !(str.charAt(i) == "*" && str.charAt(i + 1) == "/"))
+				{
+					if (str.charAt(i) == "\n")
+						result.add("\n");
+					i++;
+				}
+				i += 2;
+				continue;
+			}
+
+			result.add(char);
+			i++;
+		}
+
+		return result.toString();
+	}
+
 	#if MOD_SUPPORT
 	private static function setModMap(folder:String, map:Dynamic, mode:ButtonModes)
 	{
@@ -145,12 +213,12 @@ class MobileConfig {
 					file = Path.join([folder, Path.withoutDirectory(file)]);
 					var str = File.getContent(file);
 					if (mode == HITBOX) {
-						var json:CustomHitboxData = cast Json.parse(str);
+						var json:CustomHitboxData = cast parseJsonConfig(str);
 						var mapKey:String = Path.withoutDirectory(Path.withoutExtension(file));
 						map.set(mapKey, json);
 					}
 					else if (mode == ACTION || mode == DPAD) {
-						var json:MobileButtonsData = cast Json.parse(str);
+						var json:MobileButtonsData = cast parseJsonConfig(str);
 						var mapKey:String = Path.withoutDirectory(Path.withoutExtension(file));
 						map.set(mapKey, json);
 					}
@@ -167,12 +235,12 @@ class MobileConfig {
 				file = Path.join([folder, Path.withoutDirectory(file)]);
 				var str = Assets.getText(file);
 				if (mode == HITBOX) {
-					var json:CustomHitboxData = cast Json.parse(str);
+					var json:CustomHitboxData = cast parseJsonConfig(str);
 					var mapKey:String = Path.withoutDirectory(Path.withoutExtension(file));
 					map.set(mapKey, json);
 				}
 				else if (mode == ACTION || mode == DPAD) {
-					var json:MobileButtonsData = cast Json.parse(str);
+					var json:MobileButtonsData = cast parseJsonConfig(str);
 					var mapKey:String = Path.withoutDirectory(Path.withoutExtension(file));
 					map.set(mapKey, json);
 				}

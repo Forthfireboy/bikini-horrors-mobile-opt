@@ -5,6 +5,7 @@
 
 uniform float time;
 uniform float strength;
+uniform float detail;
 
 float rand(vec2 n)
 {
@@ -21,9 +22,14 @@ float noise(vec2 n)
 void main()
 {
     vec2 p_d = openfl_TextureCoordv;
+    if (strength <= 0.0001) {
+        gl_FragColor = flixel_texture2D(bitmap, p_d);
+        return;
+    }
 
     p_d.y += time * 0.1;
-    vec2 dst_offset = (vec4(noise(p_d * vec2(30))).xy - vec2(0.3, 0.3)) * strength * 0.03;
+    float noiseDetail = detail > 0.0 ? detail : 30.0;
+    vec2 dst_offset = (vec4(noise(p_d * vec2(noiseDetail))).xy - vec2(0.3, 0.3)) * strength * 0.03;
 
     gl_FragColor = flixel_texture2D(bitmap, openfl_TextureCoordv.st + dst_offset);
 }

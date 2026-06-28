@@ -6,8 +6,6 @@ import flixel.FlxSprite;
 import flixel.input.keyboard.FlxKey;
 import openfl.display.BitmapData;
 import openfl.display.Shape;
-import openfl.geom.Matrix;
-import flixel.util.FlxColor;
 
 class FunkinHitbox extends Hitbox {
 	public static inline var DEFAULT_EXTRA_COLOR:Int = 0xFFFFFF00;
@@ -23,60 +21,42 @@ class FunkinHitbox extends Hitbox {
 		currentMode = mode; //use this there.
 		this.showHints = showHints;
 
-		var Custom:String = mode != null ? mode : Options.hitboxMode;
-		if (!MobileConfig.hitboxModes.exists(Custom))
-			throw 'The ${Custom} Hitbox File doesn\'t exists.';
+		/*
+			Legacy JSON-driven hitbox backup:
 
-		var currentHint = MobileConfig.hitboxModes.get(Custom).hints;
-		if (MobileConfig.hitboxModes.get(Custom).none != null)
-			currentHint = MobileConfig.hitboxModes.get(Custom).none;
-
-		for (buttonData in currentHint)
-		{
-			if (buttonData.extraKeyMode != null)
-				continue;
-
-			var buttonName:String = buttonData.button;
-			var buttonIDs:Array<String> = buttonData.buttonIDs;
-			var buttonUniqueID:Int = buttonData.buttonUniqueID;
-			var buttonX:Float = buttonData.position[0];
-			var buttonY:Float = buttonData.position[1];
-			var buttonWidth:Int = buttonData.scale[0];
-			var buttonHeight:Int = buttonData.scale[1];
-			var buttonColor = buttonData.color;
-			var buttonReturn = buttonData.returnKey;
-			var addButton:Bool = false;
-			if (buttonData.buttonUniqueID == null) buttonUniqueID = -1; // -1 means not setted.
-
-			if (Options.hitboxPos) {
-				if (buttonData.topPosition != null) {
-					buttonX = buttonData.topPosition[0];
-					buttonY = buttonData.topPosition[1];
+			if (mode != null && mode != "NONE" && MobileConfig.hitboxModes.exists(mode)) {
+				for (buttonData in MobileConfig.hitboxModes.get(mode).hints) {
+					addHint(buttonData.button, buttonData.buttonIDs, buttonData.buttonUniqueID,
+						buttonData.position[0], buttonData.position[1],
+						buttonData.scale[0], buttonData.scale[1],
+						Util.colorFromString(buttonData.color), buttonData.returnKey);
 				}
-				if (buttonData.topScale != null) {
-					buttonWidth = buttonData.topScale[0];
-					buttonHeight = buttonData.topScale[1];
-				}
-				if (buttonData.topColor != null) buttonColor = buttonData.topColor;
-				if (buttonData.topReturnKey != null) buttonReturn = buttonData.topReturnKey;
 			}
+		*/
 
-			if (buttonData.extraKeyMode == null)
-				addButton = true;
-
-			for (i in 1...5) {
-				var buttonString = 'buttonExtra${i}';
-				if (buttonData.button == buttonString && buttonReturn == null)
-					buttonReturn = Options.mobileExtraKeyReturns[i-1];
-			}
-			if (addButton)
-				addHint(buttonName, buttonIDs, buttonUniqueID, buttonX, buttonY, buttonWidth, buttonHeight, Util.colorFromString(buttonColor), buttonReturn);
-		}
+		// The mobile port uses a strict four-lane full-screen hitbox. Special
+		// songs call addExtraKey() when they need a separate SPACE region.
+		createDefaultNoteHitboxes();
 
 		scrollFactor.set();
 		updateTrackedButtons();
 
 		instance = this;
+	}
+
+	private function createDefaultNoteHitboxes():Void
+	{
+		var laneWidth:Float = FlxG.width / 4;
+		var laneHeight:Int = Std.int(FlxG.height);
+		var names:Array<String> = ["buttonNote1", "buttonNote2", "buttonNote3", "buttonNote4"];
+		var ids:Array<Array<String>> = [["NOTE_LEFT"], ["NOTE_DOWN"], ["NOTE_UP"], ["NOTE_RIGHT"]];
+		var colors:Array<Int> = [0xFFFF00FF, 0xFF00FFFF, 0xFF00FF00, 0xFFFF0000];
+
+		for (i in 0...names.length) {
+			var x:Float = i * laneWidth;
+			var width:Int = (i == names.length - 1) ? Std.int(FlxG.width - x) : Std.int(Math.ceil(laneWidth));
+			addHint(names[i], ids[i], i, x, 0, width, laneHeight, colors[i]);
+		}
 	}
 
 	public function addExtraKey(key:String = "SPACE", ?buttonID:String, color:Int = DEFAULT_EXTRA_COLOR):MobileButton
@@ -114,7 +94,7 @@ class FunkinHitbox extends Hitbox {
 	}
 
 	private function getExtraRegionHeight():Int
-		return Std.int(Math.min(144, Math.max(96, FlxG.height * 0.2)));
+		return Std.int(FlxG.height / 4);
 
 	private function isExtraHitboxButton(button:MobileButton):Bool
 		return button != null && extraHitboxButtons != null && extraHitboxButtons.contains(button);
@@ -167,9 +147,15 @@ class FunkinHitbox extends Hitbox {
 		var gameplayHeight:Int = Std.int(Math.max(1, FlxG.height - regionHeight));
 		var extraWidth:Int = Std.int(Math.ceil(FlxG.width / extraHitboxButtons.length));
 
+		var laneWidth:Float = FlxG.width / 4;
+		var laneIndex:Int = 0;
 		for (hint in hints)
-			if (isDefaultNoteButton(hint))
-				resizeHitboxButton(hint, hint.x, gameplayY, Std.int(hint.width), gameplayHeight);
+			if (isDefaultNoteButton(hint)) {
+				var x:Float = laneIndex * laneWidth;
+				var width:Int = (laneIndex == 3) ? Std.int(FlxG.width - x) : Std.int(Math.ceil(laneWidth));
+				resizeHitboxButton(hint, x, gameplayY, width, gameplayHeight);
+				laneIndex++;
+			}
 
 		for (i in 0...extraHitboxButtons.length) {
 			var button = extraHitboxButtons[i];
@@ -225,33 +211,9 @@ class FunkinHitbox extends Hitbox {
 	{
 		var shape:Shape = new Shape();
 		shape.graphics.beginFill(Color);
-		switch (Options.hitboxType) {
-			case "No Gradient":
-				var matrix:Matrix = new Matrix();
-				matrix.createGradientBox(Width, Height, 0, 0, 0);
-				if (isLane)
-					shape.graphics.beginFill(Color);
-				else
-					shape.graphics.beginGradientFill(RADIAL, [Color, Color], [0, alpha], [60, 255], matrix, PAD, RGB, 0);
-				shape.graphics.drawRect(0, 0, Width, Height);
-				shape.graphics.endFill();
-			case "No Gradient (Old)":
-				shape.graphics.lineStyle(10, Color, 1);
-				shape.graphics.drawRect(0, 0, Width, Height);
-				shape.graphics.endFill();
-			case "Gradient":
-				shape.graphics.lineStyle(3, Color, 1);
-				shape.graphics.drawRect(0, 0, Width, Height);
-				shape.graphics.lineStyle(0, 0, 0);
-				shape.graphics.drawRect(3, 3, Width - 6, Height - 6);
-				shape.graphics.endFill();
-				if (isLane)
-					shape.graphics.beginFill(Color);
-				else
-					shape.graphics.beginGradientFill(RADIAL, [Color, FlxColor.TRANSPARENT], [alpha, 0], [0, 255], null, null, null, 0.5);
-				shape.graphics.drawRect(3, 3, Width - 6, Height - 6);
-				shape.graphics.endFill();
-		}
+		shape.graphics.lineStyle(10, Color, 1);
+		shape.graphics.drawRect(0, 0, Width, Height);
+		shape.graphics.endFill();
 
 		var bitmap:BitmapData = new BitmapData(Width, Height, true, 0);
 		bitmap.draw(shape);

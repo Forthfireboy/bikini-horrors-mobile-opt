@@ -347,7 +347,10 @@ class Paths
 		if (!SkipMultiCheck && Assets.exists('$noExt/1.${ext}')) {
 			// MULTIPLE SPRITESHEETS!!
 
-			var graphic = FlxG.bitmap.add("flixel/images/logo/default.png", false, '$noExt/mult');
+			var graphic = FlxG.bitmap.add('$noExt/1.${ext}', false, '$noExt/mult');
+			if (graphic == null)
+				return null;
+
 			var frames = MultiFramesCollection.findFrame(graphic);
 			if (frames != null)
 				return frames;
@@ -355,15 +358,37 @@ class Paths
 			trace("no frames yet for multiple atlases!!");
 			var cur = 1;
 			var finalFrames = new MultiFramesCollection(graphic);
+			var addedFrames = false;
 			while(Assets.exists('$noExt/$cur.${ext}')) {
 				var spr = loadFrames('$noExt/$cur.${ext}', false, null, false, true);
-				finalFrames.addFrames(spr);
+				if (spr != null && spr.frames != null && spr.frames.length > 0) {
+					finalFrames.addFrames(spr);
+					addedFrames = true;
+				}
 				cur++;
 			}
+			if (!addedFrames) {
+				finalFrames.destroy();
+				return null;
+			}
 			return finalFrames;
-		} else if (Assets.exists('$noExt/Animation.json')) {
-			return Paths.getAnimateAtlasAlt(noExt, animateSettings);
-		} else if (Assets.exists('$noExt.xml')) {
+		}
+
+		if (Assets.exists('$noExt/Animation.json')) {
+			var animateFrames:FlxFramesCollection = null;
+			try {
+				animateFrames = Paths.getAnimateAtlasAlt(noExt, animateSettings);
+			} catch (e:Dynamic) {
+				trace('Failed to load animate atlas $noExt: $e');
+			}
+
+			if (animateFrames != null && animateFrames.frames != null && animateFrames.frames.length > 0)
+				return animateFrames;
+
+			trace('Animate atlas had no valid frames, falling back: $noExt');
+		}
+
+		if (Assets.exists('$noExt.xml')) {
 			return Paths.getSparrowAtlasAlt(noExt, ext);
 		} else if (Assets.exists('$noExt.txt')) {
 			return Paths.getPackerAtlasAlt(noExt, ext);

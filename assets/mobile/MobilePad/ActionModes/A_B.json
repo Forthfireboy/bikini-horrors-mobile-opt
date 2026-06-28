@@ -11,7 +11,8 @@
       "button": "buttonB",
       "buttonIDs": ["BACK"],
       "graphic": "b",
-      "position": [1022, 585],
+      // Original bottom B position: [1022, 585]
+      "position": [1156, 2],
       "color": "0xFFCB00"
     }
   ]

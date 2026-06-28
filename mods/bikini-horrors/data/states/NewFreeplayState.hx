@@ -34,20 +34,23 @@ var versionShader:CustomShader;
 var lastVersionText:String = "";
 var ojitos:Array<FlxSprite> = [];
 var water:CustomShader = null;
-var bloom = new CustomShader("bloom");
-bloom.size = 1;
-bloom.brightness = 1.1;
-bloom.directions = 8;
-bloom.quality = 10;
-
-var bloom2 = new CustomShader("bloom");
-bloom2.size = 20;
-bloom2.brightness = 10;
-bloom2.directions = 12;
-bloom2.quality = 10;
+var bloom:CustomShader = null;
+var bloom2:CustomShader = null;
 
 var songMixes:Map<String, Array<String>> = [];
 var songCutscenes:Map<String, String> = [];
+
+function safeSpriteGraphic(sprite:FlxSprite, label:String):FlxSprite
+{
+    if (sprite != null && sprite.graphic == null)
+    {
+        trace('Missing freeplay sprite graphic: ' + label);
+        sprite.makeGraphic(1, 1, 0x00000000);
+        sprite.visible = false;
+        sprite.alpha = 0;
+    }
+    return sprite;
+}
 
 function setMenuMusicVolume(volume:Float)
 {
@@ -148,11 +151,18 @@ function create() {
 
     //FlxG.camera.addShader(bloom);
 
-    water = new CustomShader("waterDistortion");
-    water.strength = 0.15;
+    var shadersEnabled:Bool = Options.shaderQualityAllows(1);
+    var highShaders:Bool = Options.shaderQualityAllows(2);
+    if (shadersEnabled) {
+        water = new CustomShader("waterDistortion");
+        water.strength = highShaders ? 0.15 : 0.08;
+        water.detail = highShaders ? 30.0 : 16.0;
+    }
 
-    char4Glitch = new CustomShader("glitching");
-    char4Glitch.AMT = 3;
+    if (highShaders) {
+        char4Glitch = new CustomShader("glitching");
+        char4Glitch.AMT = 3;
+    }
 
     FlxG.camera.bgColor = 0x00000000;
 
@@ -164,18 +174,28 @@ function create() {
     FlxG.cameras.add(ojitosCam, false);
     FlxG.cameras.add(FlxG.camera, true);
 
-    if (Options.gameplayShaders) {
-        ojitosCam.addShader(bloom2);
-        ojitosCam.addShader(water);
+    if (shadersEnabled) {
+        if (highShaders) {
+            bloom2 = new CustomShader("bloom");
+            bloom2.size = 20;
+            bloom2.brightness = 10;
+            bloom2.directions = 8;
+            bloom2.quality = 6;
+            ojitosCam.addShader(bloom2);
+        }
+        if (water != null)
+            ojitosCam.addShader(water);
         //ojitosCam.addShader(char4Glitch);
 
-        deepfry = new CustomShader("deepfried");
+        if (highShaders) {
+            deepfry = new CustomShader("deepfried");
 
-        deepfry.strength = 0.0;
-        deepfry.darkness = 0.0;
-        deepfry.distort = 0.0;
+            deepfry.strength = 0.0;
+            deepfry.darkness = 0.0;
+            deepfry.distort = 0.0;
 
-        FlxG.camera.addShader(deepfry);
+            FlxG.camera.addShader(deepfry);
+        }
     } 
 
     songs = FreeplaySonglist.get().songs;
@@ -193,6 +213,7 @@ function create() {
 
         var ojito = new FlxSprite(805, 100);
         ojito.loadGraphic(Paths.image('ojitos/' + name));
+        safeSpriteGraphic(ojito, 'ojitos/' + name);
         ojito.scale.set(0.28, 0.28);
         ojito.updateHitbox();
         ojito.ID = i;
@@ -212,6 +233,7 @@ function create() {
 
     bgSprite = new FlxSprite(-95, -430);
     bgSprite.loadGraphic(Paths.image('states/freeplay/bg'));
+    safeSpriteGraphic(bgSprite, 'states/freeplay/bg');
     bgSprite.scale.set(0.3, 0.3);
     bgSprite.alpha = 1;
     bgSprite.updateHitbox();
@@ -219,6 +241,7 @@ function create() {
 
     boatSprite = new FlxSprite(-100, -430);
     boatSprite.loadGraphic(Paths.image('states/freeplay/boat'));
+    safeSpriteGraphic(boatSprite, 'states/freeplay/boat');
     boatSprite.scale.set(0.3, 0.3);
     boatSprite.alpha = 1;
     boatSprite.updateHitbox();
@@ -226,6 +249,7 @@ function create() {
 
     signSprite = new FlxSprite(50, -130);
     signSprite.loadGraphic(Paths.image('states/freeplay/sign'));
+    safeSpriteGraphic(signSprite, 'states/freeplay/sign');
     signSprite.scale.set(0.3, 0.3);
     signSprite.alpha = 1;
     signSprite.updateHitbox();
@@ -241,6 +265,7 @@ function create() {
 
         cover = new FunkinSprite(0, 0);
         cover.loadGraphic(Paths.image('menus/covers/' + name));
+        safeSpriteGraphic(cover, 'menus/covers/' + name);
         cover.scale.set(0.25, 0.25);
         cover.updateHitbox();
         cover.screenCenter();
@@ -334,7 +359,7 @@ function update(elapsed:Float) {
     angleVelocity *= damping;
     water?.time = (tottalTimer += elapsed);
 
-    if (Options.gameplayShaders)
+    if (char4Glitch != null)
     {
         char4GlitchTimer += elapsed;
     }
@@ -474,14 +499,16 @@ function update(elapsed:Float) {
             o.alpha = 0;
         }
 
-        FlxTween.num(0, 1, 5, {
-        ease: FlxEase.quadIn
-        }, function(v:Float)
-        {
-            deepfry.strength = v;
-            deepfry.darkness = v * 0.55;
-            deepfry.distort = v * 0.025;
-        });
+        if (deepfry != null) {
+            FlxTween.num(0, 1, 5, {
+            ease: FlxEase.quadIn
+            }, function(v:Float)
+            {
+                deepfry.strength = v;
+                deepfry.darkness = v * 0.55;
+                deepfry.distort = v * 0.025;
+            });
+        }
 
         var selectedOjo = ojitos[curSelected];
 
@@ -554,7 +581,7 @@ function update(elapsed:Float) {
 
 function changeSelection(change:Int = 0) {
 
-    if (Options.gameplayShaders)
+    if (char4Glitch != null)
     {
         char4Glitch.AMT = 5;
 

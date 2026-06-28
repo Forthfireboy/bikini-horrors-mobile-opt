@@ -34,6 +34,18 @@ var mmmHue:Float = 0;
 var horrorNotif:FlxSprite;
 var showNotif:Bool = false;
 
+function safeSpriteGraphic(sprite:FlxSprite, label:String):FlxSprite
+{
+    if (sprite != null && sprite.graphic == null)
+    {
+        trace('Missing freeplay sprite graphic: ' + label);
+        sprite.makeGraphic(1, 1, 0x00000000);
+        sprite.visible = false;
+        sprite.alpha = 0;
+    }
+    return sprite;
+}
+
 function create(){
     baseFree = new BaseFreeplay(this,3);
 }
@@ -113,6 +125,7 @@ function postCreate()
     megamortalMode = FlxG.save.data.megaMortalMode;
     trace(FlxG.save.data.megaMortalMode);
     horrorNotif = new FlxSprite(10, FlxG.height, Paths.image("menus/horror_notif"));
+    safeSpriteGraphic(horrorNotif, "menus/horror_notif");
     horrorNotif.alpha = 0;
 
     if (showNotif){
@@ -333,24 +346,28 @@ function createBG()
         path_boat = "states/freeplay_frozen/boat";
         path_sign = "states/freeplay_frozen/sign";
         freeze = new FlxSprite(50, -150, Paths.image("states/freeplay_frozen/freeze"));
+        safeSpriteGraphic(freeze, "states/freeplay_frozen/freeze");
         freeze.scale.set(0.3,0.3);
         freeze.updateHitbox();
     }
 
     bgSprite = new FlxSprite(-95, -430);
     bgSprite.loadGraphic(Paths.image(path_bg));
+    safeSpriteGraphic(bgSprite, path_bg);
     bgSprite.scale.set(0.3, 0.3);
     bgSprite.updateHitbox();
     add(bgSprite);
 
     boatSprite = new FlxSprite(-100, -430);
     boatSprite.loadGraphic(Paths.image(path_boat));
+    safeSpriteGraphic(boatSprite, path_boat);
     boatSprite.scale.set(0.3, 0.3);
     boatSprite.updateHitbox();
     add(boatSprite);
 
     signSprite = new FlxSprite(50, -150);
     signSprite.loadGraphic(Paths.image(path_sign));
+    safeSpriteGraphic(signSprite, path_sign);
     signSprite.scale.set(0.3, 0.3);
     signSprite.updateHitbox();
     add(signSprite);

@@ -79,6 +79,13 @@
 		<str id="week6PixelPerfect-desc">Si está activado, Week 6 tendrá un efecto que alinea todos los píxeles en la pantalla.</str>
 
 		<group name="AppearanceOptionsAdvanced" prefix="Advanced.">
+			<str id="quality-name">Quality</str>
+			<str id="quality-desc">Quality modes to choose. "LOW" disables heavy visual effects, "MEDIUM" keeps important effects with mobile-friendly shader settings, "HIGH" enables full visual effects, "CUSTOM" allows the advanced toggles below.</str>
+			<str id="quality-low">LOW</str>
+			<str id="quality-medium">MEDIUM</str>
+			<str id="quality-high">HIGH</str>
+			<str id="quality-custom">CUSTOM</str>
+
 			<str id="antialiasing-desc">Si está desactivado, desactivará el antialiasing en todos los sprites, lo cual puede aumentar el rendimiento pero hará los visuales más pixelados.</str>
 
 			<str id="lowMemoryMode-name">Modo de Baja Memoria</str>
@@ -120,6 +127,9 @@
 
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-desc">Si está activado, las notas iran de arriba hacia abajo, como si estuvieran cayendo.</str>
+
+		<str id="middlescroll-name">Middlescroll</str>
+		<str id="middlescroll-desc">If checked, player notes stay centered and opponent notes are hidden.</str>
 
 		<str id="ghostTapping-desc">Si está desactivado, apretar una tecla sin ninguna nota contará como un Combo Break.</str>
 

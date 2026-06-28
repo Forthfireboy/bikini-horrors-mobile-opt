@@ -36,7 +36,16 @@ function create() {
     failLoop = FlxG.sound.load(Paths.sound('tinnitus'), 0, true); 
     failLoop.play();
 
-    farolillo = new FlxSprite(0, 50).loadGraphic(Paths.image('game/ui/pendulo')); 
+    farolillo = new FlxSprite(0, 50);
+    try {
+        farolillo.loadGraphic(Paths.image('game/ui/pendulo'));
+    } catch (e:Dynamic) {
+        trace('Failed to load no-phone pendulo graphic: ' + e);
+    }
+    if (farolillo.graphic == null) {
+        farolillo.makeGraphic(1, 1, 0x00000000);
+        farolillo.visible = false;
+    }
     farolillo.cameras = [mechanicsCam];
     farolillo.scale.set(0.7, 0.7);
     farolillo.updateHitbox();
@@ -210,6 +219,9 @@ function toggleLight(activar:Bool) {
 }
 
 function createGhost() {
+    if (farolillo == null || farolillo.graphic == null || !farolillo.visible)
+        return;
+
     var ghost = new FlxSprite(0, 0);
     ghost.loadGraphic(farolillo.graphic);
     ghost.antialiasing = true;

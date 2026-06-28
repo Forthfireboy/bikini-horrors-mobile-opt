@@ -77,24 +77,17 @@ function postCreate() {
         gf.y += 1500;
         gfStart2Y = gf.y;
 
-        if (snowShader != null)
+        if (snowShader != null) {
             camGame.addShader(snowShader);
 
-            snowShader.snowSpeed = 2;
+            snowSpeed = 2;
             snowShader.BRIGHT = 1;
+        }
 
 
 }
 
-function update(elapsed:Float) {
-    if (snowShader != null) {
-        tottalTimer += elapsed * snowSpeed;
-        snowShader.time = tottalTimer * 3;
-
-        snowShader.cameraZoom = FlxG.camera.zoom;
-        snowShader.cameraPosition = [FlxG.camera.scroll.x, FlxG.camera.scroll.y];
-    }
-}
+function update(elapsed:Float) {}
 
 var bfTween:FlxTween = null;
 function onPlayerHit(event) {

@@ -13,9 +13,12 @@ function create() {
     trace(FlxG.save.data.lastSeenStage);
     
     FlxG.sound.playMusic(Paths.music('prison/me_importa_dos_cominos'), 1.0, true);
-    water = new CustomShader("waterDistortion");
-    water.strength = 0.1;
-    gameCam.addShader(water);
+    if (Options.shaderQualityAllows(1)) {
+        water = new CustomShader("waterDistortion");
+        water.strength = Options.shaderQualityAllows(2) ? 0.1 : 0.04;
+        water.detail = Options.shaderQualityAllows(2) ? 30.0 : 14.0;
+        gameCam.addShader(water);
+    }
     gameCam.bgColor = 0x00000000;
     FlxG.cameras.add(gameCam, true);
     var figure = new FunkinSprite(0, 0, Paths.image("menus/prison/horror_ojos"));

@@ -50,11 +50,26 @@ class ArrayOption extends TextOption {
 		if (currentSelection > 0) s += "< ";
 		else s += "  ";
 
-		s += TU.exists(displayOptions[currentSelection]) ? TU.translate(displayOptions[currentSelection]) : displayOptions[currentSelection];
+		s += formatDisplayOption(displayOptions[currentSelection]);
 
 		if (currentSelection < options.length - 1) s += " >";
 
 		return s;
+	}
+
+	function formatDisplayOption(value:String):String {
+		if (value == null) return "";
+		if (TU.exists(value)) return TU.translate(value);
+
+		var fallback = Std.string(value);
+		var dotIndex = fallback.lastIndexOf(".");
+		if (dotIndex >= 0)
+			fallback = fallback.substr(dotIndex + 1);
+
+		if (fallback.indexOf("quality-") == 0)
+			fallback = fallback.substr("quality-".length);
+
+		return fallback.toUpperCase();
 	}
 
 	override function changeSelection(change:Int) {
