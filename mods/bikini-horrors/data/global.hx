@@ -76,12 +76,24 @@ static function tweenAlpha(object, targetAlpha:Float, duration:Float, easeFunc)
     if (object == null)
         return;
 
-    if (duration <= 0)
+    FlxTween.cancelTweensOf(object, ["alpha"]);
+    if (targetAlpha > 0)
+        object.visible = true;
+
+    if (duration <= 0) {
         object.alpha = targetAlpha;
+        object.visible = targetAlpha > 0;
+    }
     else if (easeFunc != null)
-        FlxTween.tween(object, {alpha: targetAlpha}, duration, {ease: easeFunc});
+        FlxTween.tween(object, {alpha: targetAlpha}, duration, {ease: easeFunc, onComplete: function(twn:FlxTween) {
+            if (object != null)
+                object.visible = targetAlpha > 0;
+        }});
     else
-        FlxTween.tween(object, {alpha: targetAlpha}, duration);
+        FlxTween.tween(object, {alpha: targetAlpha}, duration, {onComplete: function(twn:FlxTween) {
+            if (object != null)
+                object.visible = targetAlpha > 0;
+        }});
 }
 
 static function tweenNoteHudAlpha(note, targetAlpha:Float, duration:Float, easeFunc)
@@ -90,16 +102,24 @@ static function tweenNoteHudAlpha(note, targetAlpha:Float, duration:Float, easeF
         return;
 
     var finalAlpha:Float = note.__baseAlpha * targetAlpha;
-    if (duration <= 0)
+    FlxTween.cancelTweensOf(note, ["alpha"]);
+    if (finalAlpha > 0)
+        note.visible = true;
+
+    if (duration <= 0) {
         note.alpha = finalAlpha;
+        note.visible = finalAlpha > 0;
+    }
     else if (easeFunc != null)
-        FlxTween.num(note.alpha, finalAlpha, duration, {ease: easeFunc}, function(value:Float) {
-            note.alpha = value;
-        });
+        FlxTween.tween(note, {alpha: finalAlpha}, duration, {ease: easeFunc, onComplete: function(twn:FlxTween) {
+            if (note != null)
+                note.visible = finalAlpha > 0;
+        }});
     else
-        FlxTween.num(note.alpha, finalAlpha, duration, null, function(value:Float) {
-            note.alpha = value;
-        });
+        FlxTween.tween(note, {alpha: finalAlpha}, duration, {onComplete: function(twn:FlxTween) {
+            if (note != null)
+                note.visible = finalAlpha > 0;
+        }});
 }
 
 static public function setHudArrowsAlpha(targetAlpha:Float, duration:Float = 0, easeFunc = null)
