@@ -36,14 +36,16 @@ function create() {
 
     boyfriend.visible = false;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         crt = new CustomShader('staticScanlines');
 
-        crt.staticAmount = 0.1;
-        crt.staticScale = 30;
-        crt.staticSpeed = 10;
+        crt.staticAmount = highShaders ? 0.1 : 0.04;
+        crt.staticScale = highShaders ? 30 : 18;
+        crt.staticSpeed = highShaders ? 10 : 4;
 
-        camHUD.addShader(crt);
+        if (highShaders)
+            camHUD.addShader(crt);
         camGame.addShader(crt);
     }
 

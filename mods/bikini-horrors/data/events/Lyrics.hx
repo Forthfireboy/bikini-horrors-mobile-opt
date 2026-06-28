@@ -1,4 +1,5 @@
 // Script by bctix
+import flixel.text.FlxText;
 import flixel.text.FlxTextBorderStyle;
 import flixel.text.FlxTextFormatMarkerPair;
 import flixel.text.FlxTextFormat;
@@ -9,7 +10,7 @@ var lyricsConfig = {
     yOffset: 0,
     color: FlxColor.WHITE,
     borderColor: FlxColor.BLACK,
-    font: "KrabbyPatty",
+    font: "KrabbyPatty.otf",
     size: 34,
     borderSize: 2,
     textSpaceMovementMult: 1, // Multiplier for how far the text history moves. make it -1 to move down
@@ -17,11 +18,24 @@ var lyricsConfig = {
 }
 
 var textGroup:FlxTypedGroup;
+var textPool:Array<FlxText> = [];
+var activeTexts:Array<FlxText> = [];
+var fontCache:Map<String, String> = [];
+var maxHistoryTexts:Int = 4;
 
 function create()
 {
     textGroup = new FlxTypedGroup();
     add(textGroup);
+    var fontPath = getFont();
+    for (i in 0...(maxHistoryTexts + 1)) {
+        var text = createLyricText();
+        text.setFormat(fontPath, lyricsConfig.size, lyricsConfig.color, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, lyricsConfig.borderColor);
+        text.visible = false;
+        text.active = false;
+        text.alpha = 0;
+        textPool.push(text);
+    }
 }
 
 function onEvent(eventEvent) {
@@ -42,15 +56,14 @@ function onEvent(eventEvent) {
 
         case "Set Font":
             lyricsConfig.font = eventEvent.event.params[1];
+            getFont();
 
         case "Set Size":
             lyricsConfig.size = eventEvent.event.params[1];
 
         case "Enable text history (On, Off)":
             lyricsConfig.showHistory = eventEvent.event.params[3];
-            trace(eventEvent.event.params[3]);
         case "Change text offset":
-            trace(eventEvent.event.params[2]);
             lyricsConfig.xOffset = Std.int(eventEvent.event.params[1].split(",")[0]);
             lyricsConfig.yOffset = Std.int(eventEvent.event.params[1].split(",")[1]);
             
@@ -59,56 +72,149 @@ function onEvent(eventEvent) {
 
 function addText(setText)
 {
-    for(i in textGroup.members)
+    var oldTexts:Array<FlxText> = activeTexts.copy();
+    var spaceToMove = !camHUD.downscroll ? lyricsConfig.size : -1 * lyricsConfig.size;
+    spaceToMove *= lyricsConfig.textSpaceMovementMult;
+
+    for(i in oldTexts)
     {
+        if (i == null) continue;
+        FlxTween.cancelTweensOf(i);
+
         if(lyricsConfig.showHistory)
         {
-            var spaceToMove = !camHUD.downscroll ? lyricsConfig.size : -1 * lyricsConfig.size;
-            spaceToMove *= lyricsConfig.textSpaceMovementMult;
-            FlxTween.tween(i, {alpha: i.alpha - 0.7, y: i.y - spaceToMove}, 0.3, {ease: FlxEase.cubeOut, onComplete: function(t){
-                if(i.alpha == 0)
-                {
-                    textGroup.remove(i, true);
-                    i.destroy();
-                }
+            FlxTween.tween(i, {alpha: i.alpha - 0.7, y: i.y - spaceToMove}, 0.25, {ease: FlxEase.cubeOut, onComplete: function(t){
+                if(i.alpha <= 0.05)
+                    recycleText(i);
             }});
         } else {
-            textGroup.remove(i, true);
-            i.destroy();
+            recycleText(i);
         }
         
     }
-    var text = new FlxText(0, 500);
+
+    trimHistory();
+
+    var text = getTextFromPool();
     text.setFormat(getFont(), lyricsConfig.size, lyricsConfig.color, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, lyricsConfig.borderColor);
     text.borderSize = lyricsConfig.borderSize;
     text.text = setText;
+    text.alpha = 1;
+    text.visible = true;
+    text.active = true;
+    text.cameras = [camHUD];
+    text.scrollFactor.set();
+    text.y = 500;
     text.screenCenter(FlxAxes.X);
     text.x += lyricsConfig.xOffset;
     text.y += lyricsConfig.yOffset;
-    text.cameras = [camHUD];
+
     textGroup.add(text);
+    activeTexts.push(text);
+    trimHistory();
 }
 
 function getFont()
 {
-    trace(Paths.font(lyricsConfig.font));
-    if(StringTools.endsWith(lyricsConfig.font, ".ttf") || StringTools.endsWith(lyricsConfig.font, ".otf"))
-        return Paths.font(lyricsConfig.font);
+    if (fontCache.exists(lyricsConfig.font))
+        return fontCache.get(lyricsConfig.font);
 
-    if(Assets.exists(Paths.font(lyricsConfig.font) + ".ttf"))
-        return Paths.font(lyricsConfig.font) + ".ttf";
+    var resolved:String = null;
+    var fontName:String = Std.string(lyricsConfig.font);
+    var candidates:Array<String> = [];
 
-    if(Assets.exists(Paths.font(lyricsConfig.font) + ".otf"))
-        return Paths.font(lyricsConfig.font) + ".otf";
+    if (StringTools.endsWith(fontName, ".ttf") || StringTools.endsWith(fontName, ".otf")) {
+        candidates.push(fontName);
+    } else {
+        candidates.push(fontName + ".otf");
+        candidates.push(fontName + ".ttf");
+        candidates.push(fontName);
+    }
+
+    candidates.push("KrabbyPatty.otf");
+
+    for (candidate in candidates) {
+        var path = Paths.font(candidate);
+        if (Assets.exists(path)) {
+            resolved = path;
+            break;
+        }
+    }
+
+    if (resolved == null)
+        resolved = Paths.font("KrabbyPatty.otf");
+
+    fontCache.set(lyricsConfig.font, resolved);
+    return resolved;
+}
+
+function getTextFromPool():FlxText
+{
+    if (textPool.length > 0) {
+        var text = textPool.pop();
+        text.revive();
+        return text;
+    }
+
+    var text = new FlxText(0, 500);
+    return setupLyricText(text);
+}
+
+function createLyricText():FlxText
+{
+    return setupLyricText(new FlxText(0, 500));
+}
+
+function setupLyricText(text:FlxText):FlxText
+{
+    text.cameras = [camHUD];
+    text.scrollFactor.set();
+    text.antialiasing = true;
+    return text;
+}
+
+function recycleText(text:FlxText):Void
+{
+    if (text == null) return;
+
+    FlxTween.cancelTweensOf(text);
+    textGroup.remove(text, true);
+    activeTexts.remove(text);
+    text.text = "";
+    text.visible = false;
+    text.active = false;
+    text.alpha = 0;
+    textPool.push(text);
+}
+
+function trimHistory():Void
+{
+    while (activeTexts.length > maxHistoryTexts) {
+        recycleText(activeTexts[0]);
+    }
 }
 
 function killText()
 {
-    for(i in textGroup.members)
+    for(i in activeTexts.copy())
     {
-        FlxTween.tween(i, {alpha: 0}, 0.3, {ease: FlxEase.cubeOut, onComplete: function(t){
-            textGroup.remove(i, true);
-            i.destroy();
+        if (i == null) continue;
+        FlxTween.cancelTweensOf(i);
+        FlxTween.tween(i, {alpha: 0}, 0.2, {ease: FlxEase.cubeOut, onComplete: function(t){
+            recycleText(i);
         }});
     }
+}
+
+function destroy()
+{
+    for(i in activeTexts.copy())
+        recycleText(i);
+
+    for(i in textPool) {
+        if (i != null)
+            i.destroy();
+    }
+    textPool = [];
+    activeTexts = [];
 }

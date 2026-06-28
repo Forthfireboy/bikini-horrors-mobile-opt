@@ -8,15 +8,17 @@ function create()
 {
     camZooming = true;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+    var highShaders:Bool = Options.shaderQualityAllows(2);
     crtUsa = new CustomShader('crtUsa');
 
     crtUsa.curvature = 0;
     crtUsa.scanlines = 1;
     crtUsa.rgbShift = 0;
-    crtUsa.blur = 0.8;
+    crtUsa.blur = highShaders ? 0.8 : 0.15;
 
-    camHUD.addShader(crtUsa);
+    if (highShaders)
+        camHUD.addShader(crtUsa);
     camGame.addShader(crtUsa);
     }
 

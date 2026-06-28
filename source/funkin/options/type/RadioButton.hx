@@ -77,8 +77,13 @@ class RadioButton extends TextOption {
 
 	public function snapToCheckedState():Void
 	{
-		if (radio != null)
+		if (optionName != null && parent != null)
+			@:bypassAccessor this.checked = Reflect.field(parent, optionName) == value;
+
+		if (radio != null) {
+			radio.visible = true;
 			radio.animation.play(checked ? "checked" : "unchecked", true);
+		}
 	}
 
 	override function select() {

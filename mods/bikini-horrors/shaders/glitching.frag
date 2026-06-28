@@ -20,14 +20,16 @@ uniform float SPEED; //0 - 1 speed
 void main()
 {
 	vec2 uv = openfl_TextureCoordv;
+    float amount = clamp(AMT, 0.0, 1.0);
     
     //copy orig
     vec3 outCol = flixel_texture2D(bitmap, uv).rgb;
 
     float time = floor(iTime * SPEED * 60.0);    
     //randomly offset slices horizontally
-    float maxOffset = AMT/2.0;
-    for (float i = 0.0; i < 10.0 * AMT; i += 1.0) {
+    float maxOffset = amount/2.0;
+    for (float i = 0.0; i < 10.0; i += 1.0) {
+        if (i >= 10.0 * amount) continue;
         float sliceY = random2d(vec2(time , 2345.0 + float(i)));
         float sliceH = random2d(vec2(time , 9035.0 + float(i))) * 0.25;
         float hOffset = randomRange(vec2(time , 9625.0 + float(i)), -maxOffset, maxOffset);
@@ -39,7 +41,7 @@ void main()
     }
     
     //do slight offset on one entire channel
-    float maxColOffset = AMT/6.0;
+    float maxColOffset = amount/6.0;
     float rnd = random2d(vec2(time , 9545.0));
     vec2 colOffset = vec2(randomRange(vec2(time , 9545.0),-maxColOffset,maxColOffset), 
                        randomRange(vec2(time , 7205.0),-maxColOffset,maxColOffset));

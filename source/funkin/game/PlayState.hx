@@ -157,6 +157,11 @@ class PlayState extends MusicBeatState
 	private inline function get_downscroll():Bool return camHUD.downscroll;
 
 	/**
+	 * Whether player strums stay centered and ignore modchart movement.
+	 */
+	public var middlescroll:Bool = Options.middlescroll;
+
+	/**
 	 * Instrumental sound (Inst.ogg).
 	 */
 	public var inst:FlxSound;
@@ -691,6 +696,7 @@ class PlayState extends MusicBeatState
 		camHUD.bgColor.alpha = 0;
 
 		downscroll = Options.downscroll;
+		middlescroll = Options.middlescroll;
 
 		persistentUpdate = true;
 		persistentDraw = true;
@@ -846,7 +852,9 @@ class PlayState extends MusicBeatState
 		var event = EventManager.get(AmountEvent).recycle(null);
 		if (!gameAndCharsEvent("onPreGenerateStrums", event).cancelled) {
 			generateStrums(event.amount);
+			applyMiddlescrollPositions(true);
 			gameAndCharsEvent("onPostGenerateStrums", event);
+			applyMiddlescrollPositions(true);
 		}
 
 		for(str in strumLines)
@@ -1226,6 +1234,60 @@ class PlayState extends MusicBeatState
 		}
 	}
 
+	public function applyMiddlescrollPositions(force:Bool = false):Void {
+		if (!middlescroll)
+			return;
+
+		var cpuLine = cpuStrums;
+		if (cpuLine != null) {
+			cpuLine.visible = false;
+			if (cpuLine.notes != null)
+				cpuLine.notes.visible = false;
+		}
+
+		var line = playerStrums;
+		if (line == null || line.members == null || line.members.length <= 0)
+			return;
+
+		line.visible = true;
+		if (line.notes != null)
+			line.notes.visible = true;
+
+		var count = line.members.length;
+		var spacingMult:Float = (line.data != null && line.data.strumSpacing != null) ? line.data.strumSpacing : 1;
+		var spacing:Float = Note.swagWidth * line.strumScale * spacingMult;
+		if (spacing <= 0)
+			spacing = Note.swagWidth;
+
+		if (count == 4) {
+			var centerRatios:Array<Float> = [0.335, 0.417, 0.588, 0.665];
+			var strumWidth:Float = Note.swagWidth * line.strumScale;
+			var targetY:Float = strumLine.y;
+
+			for (i in 0...count) {
+				var strum = line.members[i];
+				if (strum == null)
+					continue;
+
+				strum.x = (FlxG.width * centerRatios[i]) - (strumWidth * 0.5);
+				strum.y = targetY;
+			}
+			return;
+		}
+
+		var startX:Float = StrumLine.calculateStartingXPos(0.5, line.strumScale, spacingMult, count);
+		var targetY:Float = strumLine.y;
+
+		for (i in 0...count) {
+			var strum = line.members[i];
+			if (strum == null)
+				continue;
+
+			strum.x = startX + spacing * i;
+			strum.y = targetY;
+		}
+	}
+
 	@:dox(hide)
 	override function openSubState(SubState:FlxSubState)
 	{
@@ -1451,6 +1513,7 @@ class PlayState extends MusicBeatState
 		if (inCutscene) {
 			super.update(elapsed);
 			scripts.call("postUpdate", [elapsed]);
+			applyMiddlescrollPositions();
 			return;
 		}
 
@@ -1555,6 +1618,7 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		scripts.call("postUpdate", [elapsed]);
+		applyMiddlescrollPositions();
 	}
 
 	override function draw() {

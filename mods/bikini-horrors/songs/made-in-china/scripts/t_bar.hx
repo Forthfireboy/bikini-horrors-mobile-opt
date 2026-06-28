@@ -33,7 +33,7 @@ var faked:Bool = false;
 var fakeStartTime:Float = 0;
 var fakeTotal:Float = 0;
 var adMarks:Array<FlxSprite> = [];
-var pathSprites:Array<FlxSprite> = [
+var pathSprites:Array<String> = [
     "china/ads/pepe",
     "china/ads/how_can_I",
     "china/ads/tutorial",
@@ -63,6 +63,10 @@ var curP2Graphic:String = "";
 var isTemuPhase2:Bool = false;
 var isExpressPhase2:Bool = false;
 var adMarkedTriggered:Array<Bool> = [];
+var nextAdMarkIndex:Int = 0;
+var madeInChinaGraphicsCached:Bool = false;
+var lastTimeText:String = "";
+var adSpritePool:Array<FlxSprite> = [];
 var highscore = FunkinSave.getSongHighscore('made-in-china', 'hard');
 var firstAd:Bool = true;
 
@@ -79,7 +83,11 @@ function postCreate() {
     var rawJson:String = Assets.getText(jsonPath);
     var jsonParsed = Json.parse(rawJson);
     adPos = jsonParsed.positions;
+    adPos.sort(function(a, b):Int {
+        return Std.int(a - b);
+    });
     adCoords = jsonParsed.coords;
+    precacheMadeInChinaGraphics();
 
     caca = FlxG.save.data.adUnlocked;
     trace (caca);
@@ -180,6 +188,7 @@ function postCreate() {
     }
 
     timeTxt.text = '0:00 / ' + FlxStringUtil.formatTime(inst.length / 1000);
+    lastTimeText = timeTxt.text;
     timeTxt.cameras = [bar];
     timeTxt.font = Paths.font('Roboto-Regular.ttf');
     add(timeTxt);
@@ -221,6 +230,7 @@ function update() {
                     ease: FlxEase.quadInOut,
                     onComplete: function() {
                         s.kill();
+                        adSpritePool.push(s);
                     }
                 });
 
@@ -242,27 +252,32 @@ function postUpdate(elapsed:Float) {
         timebar.percent += (targetPercent - timebar.percent) * elapsed * smoothSpeed;
     }
 
-    var barLeft:Float = timebar.x;
-    var barWidth:Float = timebar.barWidth;
-    var filledX:Float = barLeft + (timebar.percent / 100) * barWidth;
+    if (isFilling && nextAdMarkIndex < adMarks.length) {
+        var barLeft:Float = timebar.x;
+        var barWidth:Float = timebar.barWidth;
+        var filledX:Float = barLeft + (timebar.percent / 100) * barWidth;
 
-    for (i in 0...adMarks.length) {
-        var rect = adMarks[i];
-        if (!adMarkedTriggered[i]) {
-            if (filledX >= rect.x) {
+        while (nextAdMarkIndex < adMarks.length && filledX >= adMarks[nextAdMarkIndex].x) {
+            if (!adMarkedTriggered[nextAdMarkIndex]) {
                 showAdSprite();
-                adMarkedTriggered[i] = true;
+                adMarkedTriggered[nextAdMarkIndex] = true;
             }
+            nextAdMarkIndex++;
         }
     }
 
+    var nextTimeText:String = "";
     if (FlxG.sound.music != null && faked) {
         var fakeElapsed = Conductor.songPosition - fakeStartTime;
-        timeTxt.text = FlxStringUtil.formatTime(fakeElapsed / 1000) + " / " + FlxStringUtil.formatTime(fakeTotal / 1000);
+        nextTimeText = FlxStringUtil.formatTime(fakeElapsed / 1000) + " / " + FlxStringUtil.formatTime(fakeTotal / 1000);
     } else if (Conductor.songPosition < 0) {
-        timeTxt.text = "0:00 / 2:39";
+        nextTimeText = "0:00 / 2:39";
     } else {
-        timeTxt.text = FlxStringUtil.formatTime(Conductor.songPosition/1000) + " / " + "2:39";
+        nextTimeText = FlxStringUtil.formatTime(Conductor.songPosition/1000) + " / " + "2:39";
+    }
+    if (nextTimeText != lastTimeText) {
+        timeTxt.text = nextTimeText;
+        lastTimeText = nextTimeText;
     }
 
     if (iconP1Static != null) {
@@ -281,6 +296,34 @@ function postUpdate(elapsed:Float) {
 
 var debugArea:Bool = false;
 
+function precacheMadeInChinaGraphics():Void {
+    if (madeInChinaGraphicsCached)
+        return;
+
+    madeInChinaGraphicsCached = true;
+
+    var preload:Array<String> = [
+        "china/pause",
+        "china/skip",
+        "china/volume",
+        "china/ad"
+    ];
+
+    for (path in pathSprites)
+        preload.push(path);
+
+    for (icon in icons)
+        preload.push("china/icons/" + icon);
+
+    for (path in preload) {
+        var asset:String = Paths.image(path);
+        if (Assets.exists(asset)) {
+            if (PlayState.instance != null && PlayState.instance.graphicCache != null)
+                PlayState.instance.graphicCache.cache(asset);
+        }
+    }
+}
+
 function showAdSprite():Void {
     if (FlxG.save.data.mech == false) {
         var path:String = "";
@@ -292,7 +335,15 @@ function showAdSprite():Void {
             path = pathSprites[FlxG.random.int(0, pathSprites.length - 1)];
         }
         
-        var sprite = new FlxSprite().loadGraphic(Paths.image(path));
+        var sprite:FlxSprite = null;
+        var isNewSprite:Bool = adSpritePool.length <= 0;
+        if (isNewSprite)
+            sprite = new FlxSprite();
+        else
+            sprite = adSpritePool.pop();
+
+        sprite.revive();
+        sprite.loadGraphic(Paths.image(path));
         var scaleX = 300 / sprite.width;
         var scaleY = 300 / sprite.height;
         sprite.scale.set(scaleX, scaleY);
@@ -306,7 +357,8 @@ function showAdSprite():Void {
         }
 
         sprite.scale.y = 0;
-        add(sprite); 
+        if (isNewSprite)
+            add(sprite);
         sprite.cameras = [bar];
         sprite.scrollFactor.set(0, 0);
         FlxTween.tween(sprite.scale, { y: scaleY }, 0.1, { ease: FlxEase.quadInOut });

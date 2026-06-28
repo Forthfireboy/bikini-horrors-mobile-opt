@@ -79,8 +79,13 @@ class Checkbox extends TextOption {
 
 	public function snapToCheckedState():Void
 	{
-		if (checkbox != null)
+		if (optionName != null && parent != null)
+			@:bypassAccessor this.checked = Reflect.field(parent, optionName);
+
+		if (checkbox != null) {
+			checkbox.visible = true;
 			checkbox.animation.play(checked ? "checked" : "unchecked", true);
+		}
 	}
 
 	override function select() {

@@ -77,6 +77,13 @@
 		<str id="flashingMenu-desc">Jeśli wyłączone, tło menu głównego nie będzie migać kolorów po wybraniu opcji. Inne migania będą znacznie wolniejsze.</str>
 
 		<group name="AppearanceOptionsAdvanced" prefix="Advanced.">
+			<str id="quality-name">Quality</str>
+			<str id="quality-desc">Quality modes to choose. "LOW" disables heavy visual effects, "MEDIUM" keeps important effects with mobile-friendly shader settings, "HIGH" enables full visual effects, "CUSTOM" allows the advanced toggles below.</str>
+			<str id="quality-low">LOW</str>
+			<str id="quality-medium">MEDIUM</str>
+			<str id="quality-high">HIGH</str>
+			<str id="quality-custom">CUSTOM</str>
+
 			<str id="antialiasing-name">Wygładzanie</str>
 		<str id="antialiasing-desc">Jeśli wyłączone, Wygładzanie nie będzie widoczne na Sprite'ach. Może poprawić wydajność na koszt ostrzejszego, pikselowatego wyglądu Sprite'ów.</str>
 
@@ -121,6 +128,9 @@
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-name">Przewijanie w dół</str>
 		<str id="downscroll-desc">Jeśli włączone, nuty będą spadać w dół zamiast lecieć w górę.</str>
+
+		<str id="middlescroll-name">Middlescroll</str>
+		<str id="middlescroll-desc">If checked, player notes stay centered and opponent notes are hidden.</str>
 
 		<str id="ghostTapping-name">Wolne stukanie</str>
 		<str id="ghostTapping-desc">Jeśli wyłączone, próba kliknięcia struny która nie ma nuty sprawi chybienie.</str>

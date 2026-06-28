@@ -8,9 +8,10 @@ public var nick:FlxSprite;
 function create() {
     bgCam.bgColor = 0x00000000; 
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
         water = new CustomShader("waterDistortion");
-        water.strength = 1;
+        water.strength = Options.shaderQualityAllows(2) ? 1 : 0.24;
+        water.detail = Options.shaderQualityAllows(2) ? 30.0 : 14.0;
         bgCam.addShader(water);
     }
 

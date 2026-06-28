@@ -58,11 +58,23 @@ function onDadHit() {
             FlxG.camera.shake(0.008, 0.1);
 }
 
+function hideJumpScare() {
+    var jump = stage.getSprite("jumpscare");
+    if (jump == null)
+        return;
+
+    jump.visible = false;
+    jump.angle = 0;
+    jump.flipY = false;
+    jump.cameras = [camGame];
+    jump.scrollFactor.set(1, 1);
+}
+
 function stepHit(step:Int) {
 
     if (curStep == 1537) {
         stage.getSprite("souls").visible = false;
-        stage.getSprite("jumpscare").visible = false;
+        hideJumpScare();
     }
     if (curStep == 2479) {
         stage.getSprite("souls").visible = true;
@@ -93,6 +105,14 @@ function stepHit(step:Int) {
             jump.screenCenter(0x01);
         }
         jump.playAnim("idle");
+        jump.animation.finishCallback = function(animName:String) {
+            if (animName == "idle")
+                hideJumpScare();
+        };
+    }
+
+    if (curStep == 2224) {
+        hideJumpScare();
     }
 
 

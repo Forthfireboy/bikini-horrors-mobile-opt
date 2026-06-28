@@ -47,7 +47,7 @@ function preStateSwitch() {
 }
 
 function postGameStart()
-    FlxG.game._requestedState = new ModState('BHWarningState');
+    FlxG.game._requestedState = new ModState('PortIntroState');
 
 
 //function destroy() WindowUtils.winTitle = window.title = "Friday Night Funkin' - Codename Engine";

@@ -31,8 +31,10 @@ class MobileControlManager implements IFlxDestroyable {
 	public function makeMobilePad(DPad:String, Action:String)
 	{
 		MobileConfig.ensureInitialized();
+		resetInputVisuals();
 		if (mobilePad != null) removeMobilePad();
 		mobilePad = new FunkinMobilePad(DPad, Action);
+		configureMobilePadButtons();
 		mobilePad.alpha = Options.controlsAlpha;
 	}
 
@@ -67,6 +69,7 @@ class MobileControlManager implements IFlxDestroyable {
 
 	public function makeHitbox(?mode:String, ?hints:Bool)
 	{
+		resetInputVisuals();
 		if (hitbox != null) removeHitbox();
 		hitbox = new FunkinHitbox(mode, hints);
 		hitbox.alpha = Options.controlsAlpha;
@@ -110,10 +113,12 @@ class MobileControlManager implements IFlxDestroyable {
 
 	public function makeJoyStick(x:Float = 0, y:Float = 0, ?graphic:String, ?onMove:Float->Float->Float->String->Void, size:Float = 1):Void
 	{
+		resetInputVisuals();
 		if (joyStick != null) removeJoyStick();
 		joyStick = new FunkinJoyStick(x, y, graphic, onMove);
 		joyStick.scale.set(size, size);
 		joyStick.alpha = Options.controlsAlpha;
+		joyStick.refreshVisuals(Options.controlsAlpha);
 		syncJoyStickDeadZone();
 	}
 
@@ -151,10 +156,88 @@ class MobileControlManager implements IFlxDestroyable {
 	}
 
 	public function addJoyStickCamera(defaultDrawTarget:Bool = false):Void {
+		if (joyStick == null)
+			return;
+
 		joyStickCam = new FlxCamera();
 		joyStickCam.bgColor.alpha = 0;
 		FlxG.cameras.add(joyStickCam, defaultDrawTarget);
+		applyJoyStickCamera();
+	}
+
+	private function applyJoyStickCamera():Void
+	{
+		if (joyStick == null || joyStickCam == null)
+			return;
+
 		joyStick.cameras = [joyStickCam];
+		if (joyStick.base != null)
+			joyStick.base.cameras = [joyStickCam];
+		if (joyStick.thumb != null)
+			joyStick.thumb.cameras = [joyStickCam];
+		joyStick.refreshVisuals(joyStick.alpha, joyStickCam);
+	}
+
+	public function resetInputVisuals():Void
+	{
+		resetMobilePadButtons();
+		resetHitboxButtons();
+		resetJoyStickButtons();
+	}
+
+	private function resetMobilePadButtons():Void
+	{
+		if (mobilePad == null || mobilePad.buttons == null)
+			return;
+
+		for (group in mobilePad.buttons)
+			if (group != null)
+				for (button in group)
+					resetButton(button);
+	}
+
+	private function configureMobilePadButtons():Void
+	{
+		if (mobilePad == null || mobilePad.buttons == null)
+			return;
+
+		for (group in mobilePad.buttons)
+			if (group != null)
+				for (button in group)
+					if (button != null) {
+						// Require a fresh touch for menu/gamepad buttons, so holding BACK
+						// while a state/menu switches cannot trigger the next screen too.
+						button.allowSwiping = false;
+					}
+	}
+
+	private function resetHitboxButtons():Void
+	{
+		if (hitbox == null)
+			return;
+
+		hitbox.forEachAlive((button) -> resetButton(button));
+	}
+
+	private function resetJoyStickButtons():Void
+	{
+		if (joyStick == null)
+			return;
+
+		joyStick.direction = [0, "NONE"];
+		resetButton(joyStick.base);
+	}
+
+	private function resetButton(button:MobileButton):Void
+	{
+		if (button == null)
+			return;
+
+		button.onOutHandler();
+		button.status = MobileButton.NORMAL;
+		var animName = button.statusAnimations[MobileButton.NORMAL];
+		if (animName != null && button.animation.getByName(animName) != null)
+			button.animation.play(animName, true);
 	}
 
 	public function destroy():Void {

@@ -142,8 +142,26 @@ class FunkinSprite extends FlxAnimate implements IBeatReceiver implements IOffse
 
 	public function loadSprite(path:String, Unique:Bool = false, Key:String = null)
 	{
-		var noExt = Path.withoutExtension(path);
-		frames = Paths.getFrames(path, true, null, null, animateSettings);
+		try {
+			var loadedFrames = Paths.getFrames(path, true, null, null, animateSettings);
+			if (loadedFrames != null && loadedFrames.frames != null && loadedFrames.frames.length > 0) {
+				frames = loadedFrames;
+				return this;
+			}
+		} catch (e:Dynamic) {
+			trace('Failed to load sprite frames $path: $e');
+		}
+
+		try {
+			loadGraphic(path);
+		} catch (e:Dynamic) {
+			trace('Failed to load sprite graphic $path: $e');
+		}
+
+		if (graphic == null) {
+			makeGraphic(1, 1, 0x00000000);
+			visible = false;
+		}
 		return this;
 	}
 

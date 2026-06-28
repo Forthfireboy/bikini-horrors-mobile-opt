@@ -85,6 +85,7 @@
 			<str id="quality-name">Qualidade</str>
 			<str id="quality-desc">Modos de qualidade para escolher, "BAIXA" = Desativa todos os efeitos visuais pesados para um jogo mais suave, "ALTA" = Ativa todos os efeitos visuais, ao custo do desempenho, "CUSTOMIZADA" = Permite opções especiais, disponíveis em "Advançado".</str>
 			<str id="quality-low">BAIXA</str>
+			<str id="quality-medium">MEDIA</str>
 			<str id="quality-high">ALTA</str>
 			<str id="quality-custom">CUSTOMIZADA</str>
 
@@ -131,6 +132,9 @@
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-name">"Downscroll"</str>
 		<str id="downscroll-desc">Se marcado, notas irão de cima para baixo em vez de baixo para cima, como se estivessem a cair.</str>
+
+		<str id="middlescroll-name">Middlescroll</str>
+		<str id="middlescroll-desc">If checked, player notes stay centered and opponent notes are hidden.</str>
 
 		<str id="ghostTapping-name">Toques Fantasma</str>
 		<str id="ghostTapping-desc">Se desmarcado, bater em teclas que não tem uma nota conta como erro.</str>

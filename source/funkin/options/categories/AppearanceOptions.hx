@@ -5,7 +5,7 @@ class AppearanceOptions extends TreeMenuScreen {
 		super('optionsTree.appearance-name', 'optionsTree.appearance-desc', 'AppearanceOptions.', ['LEFT_FULL', 'A_B']);
 
 		add(new NumOption(getNameID('framerate'), getDescID('framerate'),
-			30, 240, 1,
+			30, #if mobile funkin.backend.system.MobilePerformance.MAX_ACTIVE_FPS #else 240 #end, 1,
 			'framerate', __changeFPS
 		));
 		add(new Checkbox(getNameID('flashingMenu'), getDescID('flashingMenu'), 'flashingMenu'));
@@ -19,8 +19,13 @@ class AppearanceOptions extends TreeMenuScreen {
 
 	private function __changeFPS(value:Float) {
 		var framerate = Math.floor(value);
+		#if mobile
+		Options.framerate = funkin.backend.system.MobilePerformance.sanitizeUserFramerate(framerate);
+		funkin.backend.system.MobilePerformance.apply(true);
+		#else
 		if (FlxG.updateFramerate < framerate) FlxG.drawFramerate = FlxG.updateFramerate = framerate;
 		else FlxG.updateFramerate = FlxG.drawFramerate = framerate;
+		#end
 	}
 }
 
@@ -31,7 +36,7 @@ class AdvancedAppearanceOptions extends TreeMenuScreen {
 		super('optionsMenu.advanced', 'optionsTree.appearance.advanced-desc', 'AppearanceOptions.Advanced.', ['LEFT_FULL', 'A_B']);
 
 		add(new ArrayOption(getNameID('quality'), getDescID('quality'),
-			[0, 1, 2], [getID('quality-low'), getID('quality-high'), getID('quality-custom')],
+			[0, 1, 2, 3], [getID('quality-low'), getID('quality-medium'), getID('quality-high'), getID('quality-custom')],
 			'quality', __changeQuality, null
 		));
 
@@ -49,7 +54,7 @@ class AdvancedAppearanceOptions extends TreeMenuScreen {
 
 	private function updateQualityOptions() {
 		for (option in qualityOptions) {
-			option.locked = Options.quality != 2;
+			option.locked = Options.quality != 3;
 			if (option is Checkbox) {
 				final checkbox:Checkbox = cast option;
 				checkbox.checked = Reflect.field(checkbox.parent, checkbox.optionName);

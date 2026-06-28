@@ -139,6 +139,7 @@ class Main extends Sprite
 
 		funkin.options.PlayerSettings.init();
 		Options.load();
+		MobilePerformance.init();
 
 		FlxG.fixedTimestep = false;
 
@@ -211,10 +212,12 @@ class Main extends Sprite
 
 	public static function onFocus() {
 		_tickFocused = FlxG.game.ticks;
+		MobilePerformance.onFocus();
 		funkin.backend.utils.VideoPauseUtil.pauseAllIfGamePaused();
 	}
 
 	public static function onFocusLost() {
+		MobilePerformance.onFocusLost();
 		funkin.backend.utils.VideoPauseUtil.pauseAllForFocusLost();
 	}
 
@@ -224,6 +227,7 @@ class Main extends Sprite
 	}
 
 	public static function onUpdate() {
+		MobilePerformance.update();
 		MemoryUtil.update(FlxG.elapsed);
 
 		if (PlayerSettings.solo.controls.DEV_CONSOLE)

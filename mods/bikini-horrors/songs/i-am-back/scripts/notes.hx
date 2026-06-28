@@ -1,6 +1,13 @@
 var skinName:String = "default";
 var ogStrumX:Array<Array<Float>> = [];
+var cachedAtlasPaths:Array<String> = [];
+var cachedAtlasFrames:Array<Dynamic> = [];
+var pendingSkinNotes:Array<Note> = [];
+var pendingSkinPath:String = "game/notes/default";
 
+var SKIN_URGENT_WINDOW_MS:Float = 1400;
+var SKIN_BUILD_BUDGET:Int = 56;
+var SKIN_SWITCH_INITIAL_BUDGET:Int = 96;
 
 function onNoteHit(e)
 {
@@ -12,6 +19,12 @@ function onNoteHit(e)
 function postCreate()
 {
     ogStrumX = [];
+    pendingSkinNotes = [];
+    cachedAtlasPaths = [];
+    cachedAtlasFrames = [];
+
+    precacheSkin("default");
+    precacheSkin("sonic");
 
     for (line in strumLines.members)
     {
@@ -27,6 +40,30 @@ function postCreate()
 
         ogStrumX.push(arr);
     }
+}
+
+function getSkinPath(skin:String):String
+{
+    return (skin == null || skin == "" || skin == "default")
+        ? "game/notes/default"
+        : "game/notes/" + skin;
+}
+
+function getCachedFrames(atlas:String):Dynamic
+{
+    for (i in 0...cachedAtlasPaths.length)
+        if (cachedAtlasPaths[i] == atlas)
+            return cachedAtlasFrames[i];
+
+    var frames = Paths.getSparrowAtlas(atlas);
+    cachedAtlasPaths.push(atlas);
+    cachedAtlasFrames.push(frames);
+    return frames;
+}
+
+function precacheSkin(skin:String)
+{
+    getCachedFrames(getSkinPath(skin));
 }
 
 function applyStrumOffset(isSonic:Bool)
@@ -67,14 +104,19 @@ function stepHit(curStep:Int)
 
 function changeSkin(skin:String)
 {
-    skinName = skin;
+    if (skin == null || skin == "")
+        skin = "default";
+    if (skin == skinName && pendingSkinNotes.length == 0)
+        return;
 
+    skinName = skin;
     sonicMode = (skin == "sonic");
 
-    var path:String = skin == ""
-        ? "game/notes/default"
-        : "game/notes/" + skin;
+    var path:String = getSkinPath(skin);
+    pendingSkinPath = path;
+    pendingSkinNotes = [];
 
+    precacheSkin(skin);
     applyStrumOffset(skin == "sonic"); 
 
     for (i in 0...strumLines.members.length)
@@ -86,13 +128,68 @@ function changeSkin(skin:String)
             updateStrum(strum, path, i);
 
         for (note in group.notes)
-            updateNote(note, path);
+            queueOrApplyNote(note, path);
+    }
+
+    processPendingSkinNotes(SKIN_SWITCH_INITIAL_BUDGET);
+}
+
+function update(elapsed:Float)
+{
+    processPendingSkinNotes(SKIN_BUILD_BUDGET);
+}
+
+function onNoteCreation(e)
+{
+    if (e == null) return;
+
+    var path:String = getSkinPath(skinName);
+    if (path != "game/notes/default")
+        e.noteSprite = path;
+}
+
+function onPostNoteCreation(e)
+{
+    if (e == null || e.note == null) return;
+    e.note.extra.set("iAmBackSkinName", skinName);
+}
+
+function noteNeedsSkin(note:Note):Bool
+{
+    if (note == null) return false;
+    if (note.extra.exists("iAmBackSkinName") && note.extra.get("iAmBackSkinName") == skinName)
+        return false;
+    return true;
+}
+
+function queueOrApplyNote(note:Note, path:String)
+{
+    if (!noteNeedsSkin(note)) return;
+
+    if (note.strumTime <= Conductor.songPosition + SKIN_URGENT_WINDOW_MS)
+        updateNote(note, path);
+    else
+        pendingSkinNotes.push(note);
+}
+
+function processPendingSkinNotes(limit:Int)
+{
+    var processed:Int = 0;
+
+    while (pendingSkinNotes.length > 0 && processed < limit)
+    {
+        var note:Note = pendingSkinNotes.shift();
+        if (noteNeedsSkin(note))
+            updateNote(note, pendingSkinPath);
+        processed++;
     }
 }
 
 function updateStrum(strum:Strum, atlas:String, line:Int)
 {
-    strum.frames = Paths.getSparrowAtlas(atlas);
+    if (strum == null) return;
+
+    strum.frames = getCachedFrames(atlas);
 
     if (strum.animation != null)
         strum.animation.destroyAnimations();
@@ -136,12 +233,14 @@ function updateStrum(strum:Strum, atlas:String, line:Int)
 
 function updateNote(note:Note, atlas:String)
 {
+    if (note == null) return;
+
     var currentAnim:String = "scroll";
 
     if (note.animation != null && note.animation.curAnim != null)
         currentAnim = note.animation.curAnim.name;
 
-    note.frames = Paths.getSparrowAtlas(atlas);
+    note.frames = getCachedFrames(atlas);
 
     if (note.animation != null)
         note.animation.destroyAnimations();
@@ -171,8 +270,6 @@ function updateNote(note:Note, atlas:String)
     else
         note.animation.play("scroll", true);
 
+    note.extra.set("iAmBackSkinName", skinName);
     note.updateHitbox();
-
-
 }
-

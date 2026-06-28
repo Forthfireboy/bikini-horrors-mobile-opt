@@ -4,14 +4,16 @@ var tottalTimer:Float = FlxG.random.float(20, 100);
 function create() {
     camGame.pixelPerfectRender = true;
 
-    if (Options.gameplayShaders) {
+    if (Options.shaderQualityAllows(1)) {
+        var highShaders:Bool = Options.shaderQualityAllows(2);
         crt = new CustomShader('staticScanlines');
 
-        crt.staticAmount = 0.6;
-        crt.staticScale = 30.5;
+        crt.staticAmount = highShaders ? 0.6 : 0.18;
+        crt.staticScale = highShaders ? 30.5 : 18;
         crt.staticSpeed = 0.5;
 
-        camHUD.addShader(crt);
+        if (highShaders)
+            camHUD.addShader(crt);
         camGame.addShader(crt);
     }
 

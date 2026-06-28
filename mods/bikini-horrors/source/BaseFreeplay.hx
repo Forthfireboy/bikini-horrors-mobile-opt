@@ -148,6 +148,18 @@ class BaseFreeplay
         }
     }
 
+    public function safeSpriteGraphic(sprite:FlxSprite, label:String):FlxSprite
+    {
+        if (sprite != null && sprite.graphic == null)
+        {
+            trace('Missing base freeplay sprite graphic: ' + label);
+            sprite.makeGraphic(1, 1, 0x00000000);
+            sprite.visible = false;
+            sprite.alpha = 0;
+        }
+        return sprite;
+    }
+
     //Get the songs
 
     public function getSongs(v)
@@ -206,6 +218,7 @@ class BaseFreeplay
             var ojo = new FlxSprite(805,100);
 
             ojo.loadGraphic(Paths.image("ojitos/" + name));
+            safeSpriteGraphic(ojo, "ojitos/" + name);
             ojo.scale.set(0.28,0.28);
             ojo.updateHitbox();
 
@@ -271,17 +284,20 @@ class BaseFreeplay
             {
                 // State 1: Hard Locked
                 cover.loadGraphic(Paths.image("menus/covers/locked"));
+                safeSpriteGraphic(cover, "menus/covers/locked");
             } 
             else if (!isSongBeaten(i)) 
             {
                 // State 2: Unlocked but uncompleted
                 cover.loadGraphic(Paths.image("menus/covers/unknown"));
+                safeSpriteGraphic(cover, "menus/covers/unknown");
             } 
             else 
             {
                 // State 3: Beaten and cleared
                 var name = song.displayName.toLowerCase().split(" ").join("-");
                 cover.loadGraphic(Paths.image("menus/covers/" + name));
+                safeSpriteGraphic(cover, "menus/covers/" + name);
             }
 
             cover.scale.set(0.25, 0.25);

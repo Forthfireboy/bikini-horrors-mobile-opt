@@ -132,7 +132,7 @@ function postCreate()
    squid.alpha = 0;
    add(squid);
 
-   if (Options.gameplayShaders) {
+   if (Options.shaderQualityAllows(2)) {
         bgCanvas = new FunkinSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xFFFFFFFF);
         bgCanvas.scrollFactor.set(0, 0);
         bgShader = new CustomShader("livinglavidaloca");
@@ -272,7 +272,7 @@ function update(elapsed:Float) {
         moveLayerHorizontal(layer, elapsed, motoSpeed);
 
 
-    if (Options.gameplayShaders) {
+    if (bgShader != null) {
         bgShader.u_time += elapsed;
     }
 
@@ -898,10 +898,11 @@ function stepHit(step:Int) {
         remove(squid, true);
         insert(targetIndex, squid);
 
-        insert(members.indexOf(phase4Platform) -1, bgCanvas);
+        if (bgCanvas != null)
+            insert(members.indexOf(phase4Platform) -1, bgCanvas);
     }
 
-    if (curStep == 5201) {
+    if (curStep == 5201 && fishEyeShader != null) {
         camGame.addShader(fishEyeShader);
         FlxTween.num(0, 0.3, 1, null, function(v:Float) {
             if (fishEyeShader != null) fishEyeShader.intensity = v;
@@ -912,7 +913,7 @@ function stepHit(step:Int) {
         });
     }
 
-    if (curStep == 5218) {
+    if (curStep == 5218 && fishEyeShader != null) {
         camGame.removeShader(fishEyeShader);
         fishEyeShader = null;
     }

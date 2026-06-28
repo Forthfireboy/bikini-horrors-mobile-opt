@@ -1,5 +1,6 @@
 package funkin.backend.system.framerate;
 
+import flixel.FlxG;
 import openfl.display.Sprite;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
@@ -10,6 +11,8 @@ class MemoryCounter extends Sprite {
 
 	public var memory:Float = 0;
 	public var memoryPeak:Float = 0;
+	var refreshTimer:Float = 0;
+	static inline var REFRESH_INTERVAL:Float = #if mobile 0.5 #else 0.25 #end;
 
 	public function new() {
 		super();
@@ -35,6 +38,13 @@ class MemoryCounter extends Sprite {
 	public override function __enterFrame(t:Int) {
 		if (alpha <= 0.05) return;
 		super.__enterFrame(t);
+
+		refreshTimer += FlxG.rawElapsed;
+		if (refreshTimer < REFRESH_INTERVAL) {
+			updateLabelPosition();
+			return;
+		}
+		refreshTimer = 0;
 
 		final mem = MemoryUtil.currentMemUsage();
 

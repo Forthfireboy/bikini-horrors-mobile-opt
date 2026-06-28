@@ -28,6 +28,18 @@ var ui:Dynamic;
 
 var correCorreMode:Bool = false;
 
+function safeSpriteGraphic(sprite:FlxSprite, label:String):FlxSprite
+{
+    if (sprite != null && sprite.graphic == null)
+    {
+        trace('Missing freeplay sprite graphic: ' + label);
+        sprite.makeGraphic(1, 1, 0x00000000);
+        sprite.visible = false;
+        sprite.alpha = 0;
+    }
+    return sprite;
+}
+
 function create(){
     baseFree = new BaseFreeplay(this,2);
     
@@ -452,12 +464,14 @@ function createBG()
 {
     bgSprite = new FlxSprite(-65, -90);
     bgSprite.loadGraphic(Paths.image("states/freeplay_v2/bg"));
+    safeSpriteGraphic(bgSprite, "states/freeplay_v2/bg");
     bgSprite.scale.set(0.31, 0.31);
     bgSprite.updateHitbox();
     add(bgSprite);
 
     signSprite = new FlxSprite(50, -20);
     signSprite.loadGraphic(Paths.image("states/freeplay_v2/painting"));
+    safeSpriteGraphic(signSprite, "states/freeplay_v2/painting");
     signSprite.scale.set(0.31, 0.31);
     signSprite.updateHitbox();
     signSprite.antialiasing = true;

@@ -1,16 +1,18 @@
 var saturation:CustomShader;
 
 function create() {
-    if(!Options.gameplayShaders) {
+    if(!Options.shaderQualityAllows(1)) {
         disableScript();
         return;
     }
 
+    var highShaders:Bool = Options.shaderQualityAllows(2);
     saturation = new CustomShader("saturation");
     saturation.contrast = 1;
     saturation.sat = 1;
     FlxG.camera.addShader(saturation);
-    camHUD.addShader(saturation);
+    if (highShaders)
+        camHUD.addShader(saturation);
 }
 
 var saturationTween:FlxTween = null;

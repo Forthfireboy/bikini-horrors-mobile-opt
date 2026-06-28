@@ -37,14 +37,38 @@ class OptionType extends FlxSpriteGroup implements ITreeOption {
 	function set_text(v:String) return text = v;
 	function set_rawText(v:String) {
 		rawText = v;
-		text = TU.exists(rawText) ? TU.translate(rawText) : rawText;
+		text = TU.exists(rawText) ? TU.translate(rawText) : fallbackTranslation(rawText);
 		return v;
 	}
 
 	function set_rawDesc(v:String) {
 		rawDesc = v;
-		desc = TU.exists(rawDesc) ? TU.translate(rawDesc) : rawDesc;
+		desc = TU.exists(rawDesc) ? TU.translate(rawDesc) : fallbackTranslation(rawDesc);
 		return v;
+	}
+
+	static function fallbackTranslation(id:String):String {
+		if (id == null)
+			return "";
+
+		switch (id) {
+			case "GameplayOptions.middlescroll-name":
+				return "Middlescroll";
+			case "GameplayOptions.middlescroll-desc":
+				return "If checked, player notes stay centered and opponent notes are hidden.";
+		}
+
+		var fallback = Std.string(id);
+		var dotIndex = fallback.lastIndexOf(".");
+		if (dotIndex >= 0)
+			fallback = fallback.substr(dotIndex + 1);
+
+		for (suffix in ["-name", "-desc"]) {
+			if (fallback.length >= suffix.length && fallback.substr(fallback.length - suffix.length) == suffix)
+				fallback = fallback.substr(0, fallback.length - suffix.length);
+		}
+
+		return fallback.split("-").join(" ");
 	}
 
 	public function reloadStrings() {

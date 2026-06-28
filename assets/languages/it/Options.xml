@@ -81,6 +81,7 @@
 			<str id="quality-name">Qualita'</str>
 			<str id="quality-desc">Modalità qualità da scegliere, "BASSO" = Disabilita il più possibile ogni effetto visivo pesante per rendere fluido il gioco, "ALTO" = Abilita tutti gli effetti visivi, al costo della performance, "PERSONALIZZATO" = Scegli tustesso le opzioni presenti in Avanzate.</str>
 			<str id="quality-low">BASSO</str>
+			<str id="quality-medium">MEDIO</str>
 			<str id="quality-high">ALTO</str>
 			<str id="quality-custom">PERSONALIZ.</str>
 
@@ -125,6 +126,9 @@
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-name">Downscroll</str>
 		<str id="downscroll-desc">Se attivato, le note andranno dall'alto al basso invece che dal basso all'alto, come se stessero cadendo.</str>
+
+		<str id="middlescroll-name">Middlescroll</str>
+		<str id="middlescroll-desc">If checked, player notes stay centered and opponent notes are hidden.</str>
 
 		<str id="ghostTapping-name">Ghost Tapping</str>
 		<str id="ghostTapping-desc">Se disattivato, cliccare una strum in assenza di una nota risulterà in un miss.</str>

@@ -3,9 +3,11 @@ var blackOverlay:FlxSprite;
 public var flames:CustomShader;
 
 function create() {
-	flames = new CustomShader("roaring_flame_cut"); 
-    flames.time = 0; flames.intensitiy = 0; flames.zoom = 1;
-    if (flames != null) stage.getSprite("rflames").shader = flames;
+	if (Options.shaderQualityAllows(1)) {
+		flames = new CustomShader("roaring_flame_cut");
+        flames.time = 0; flames.intensitiy = 0; flames.zoom = 1;
+        stage.getSprite("rflames").shader = flames;
+    }
     stage.getSprite("rflames").flipY = false;
 }
 
@@ -25,8 +27,10 @@ function postCreate() {
 var tottalTimer:Float = FlxG.random.float(1000, 5000); 
 function update(elapsed) {
 	tottalTimer += elapsed;
-    flames.time = tottalTimer;
-    flames.zoom = 1 / (Lib.application.window.width/FlxG.width);
+    if (flames != null) {
+        flames.time = tottalTimer;
+        flames.zoom = 1 / (Lib.application.window.width/FlxG.width);
+    }
 }
 
 function stepHit(curStep:Int) {
@@ -65,8 +69,8 @@ function stepHit(curStep:Int) {
 		    fg_barnacles.visible = true;
 
 		case 3469:
-			if (Options.gameplayShaders) {
-				flames.intensitiy = 6;
+			if (flames != null) {
+				flames.intensitiy = Options.shaderQualityAllows(2) ? 6 : 2.5;
 			}
 		
 		case 3820:

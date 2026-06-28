@@ -27,7 +27,9 @@ vec3 rgbMask(vec2 uv) {
 }
 
 void main() {
-    vec2 curvedUV = curveUV(openfl_TextureCoordv);
+    vec2 curvedUV = openfl_TextureCoordv;
+    if (curvature > 0.001)
+        curvedUV = curveUV(openfl_TextureCoordv);
 
     // Mask: 1.0 = inside screen, 0.0 = outside
     float edge = 0.02;
@@ -44,21 +46,27 @@ void main() {
     vec2 texel = 1.0 / openfl_TextureSize.xy;
     vec4 base = flixel_texture2D(bitmap, uv);
 
-    vec3 col;
-    col.r = flixel_texture2D(bitmap, uv + vec2(texel.x * rgbShift, 0.0)).r;
-    col.g = base.g;
-    col.b = flixel_texture2D(bitmap, uv - vec2(texel.x * rgbShift, 0.0)).b;
+    vec3 col = base.rgb;
+    if (rgbShift > 0.001) {
+        col.r = flixel_texture2D(bitmap, uv + vec2(texel.x * rgbShift, 0.0)).r;
+        col.g = base.g;
+        col.b = flixel_texture2D(bitmap, uv - vec2(texel.x * rgbShift, 0.0)).b;
+    }
 
-    vec3 blurCol =
-        flixel_texture2D(bitmap, uv + texel * blur).rgb +
-        flixel_texture2D(bitmap, uv - texel * blur).rgb;
+    if (blur > 0.001) {
+        vec3 blurCol =
+            flixel_texture2D(bitmap, uv + texel * blur).rgb +
+            flixel_texture2D(bitmap, uv - texel * blur).rgb;
+        col = mix(col, blurCol * 0.5, blur);
+    }
 
-    col = mix(col, blurCol * 0.5, blur);
+    if (scanlines > 0.001) {
+        float sl = scanline(uv);
+        col *= mix(1.0, 0.85 + 0.15 * sl, scanlines);
+    }
 
-    float sl = scanline(uv);
-    col *= mix(1.0, 0.85 + 0.15 * sl, scanlines);
-
-    col *= mix(vec3(1.0), rgbMask(uv), rgbShift);
+    if (rgbShift > 0.001)
+        col *= mix(vec3(1.0), rgbMask(uv), rgbShift);
 
     // Apply black border
     gl_FragColor = vec4(col, base.a);

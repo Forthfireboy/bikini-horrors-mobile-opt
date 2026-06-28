@@ -1,6 +1,7 @@
 package openfl.utils;
 
 #if !macro
+import funkin.backend.assets.ASTCBitmapData;
 import funkin.backend.system.Main;
 import funkin.options.Options;
 import funkin.backend.system.OptimizedBitmapData;
@@ -101,11 +102,24 @@ class Assets
 		{
 			var bitmapData = cache.getBitmapData(id);
 
-			if (isValidBitmapData(bitmapData) && (pushToGPU || bitmapData.readable))
+			if (isValidBitmapData(bitmapData) && (pushToGPU || bitmapData.readable || isGPUOnlyBitmapData(bitmapData)))
 			{
 				return bitmapData;
 			}
 		}
+
+		#if !macro
+		var astcBitmapData = ASTCBitmapData.fromAsset(id);
+		if (astcBitmapData != null)
+		{
+			if (useCache && cache.enabled)
+			{
+				cache.setBitmapData(id, astcBitmapData);
+			}
+
+			return astcBitmapData;
+		}
+		#end
 
 		var image = LimeAssets.getImage(id, false);
 
@@ -439,10 +453,19 @@ class Assets
 			return false;
 		}
 		#else
-		return (bitmapData != null && #if !lime_hybrid bitmapData.image != null #else bitmapData.__handle != null #end);
+		return (bitmapData != null && (#if !lime_hybrid bitmapData.image != null #else bitmapData.__handle != null #end || isGPUOnlyBitmapData(bitmapData)));
 		#end
 		#else
 		return true;
+		#end
+	}
+
+	@:analyzer(ignore) private static function isGPUOnlyBitmapData(bitmapData:BitmapData):Bool
+	{
+		#if !macro
+		return ASTCBitmapData.isGPUTextureBitmap(bitmapData);
+		#else
+		return false;
 		#end
 	}
 

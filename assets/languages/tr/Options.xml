@@ -84,6 +84,7 @@
             <str id="quality-name">Kalite</str>
             <str id="quality-desc">Kalite modları: "DÜŞÜK" = Akıcı oyun için tüm ağır efektleri kapatır, "YÜKSEK" = Performans pahasına tüm efektleri açar, "ÖZEL" = Gelişmiş sekmesindeki ayarları kullanır.</str>
             <str id="quality-low">DÜŞÜK</str>
+            <str id="quality-medium">ORTA</str>
             <str id="quality-high">YÜKSEK</str>
             <str id="quality-custom">ÖZEL</str>
 
@@ -130,6 +131,9 @@
     <group name="GameplayOptions" prefix="GameplayOptions.">
         <str id="downscroll-name">Ters Akış (Downscroll)</str>
         <str id="downscroll-desc">İşaretlenirse, notalar aşağıdan yukarı yerine yukarıdan aşağıya doğru düşer.</str>
+
+        <str id="middlescroll-name">Middlescroll</str>
+        <str id="middlescroll-desc">If checked, player notes stay centered and opponent notes are hidden.</str>
 
         <str id="ghostTapping-name">Hayalet Tıklama (Ghost Tapping)</str>
         <str id="ghostTapping-desc">İşaretlenmezse, nota olmayan bir yere basmak ıskalama (miss) sayılır.</str>

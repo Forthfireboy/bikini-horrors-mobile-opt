@@ -4,6 +4,7 @@ uniform float time;
 uniform float cameraZoom;
 
 uniform int STARTING_LAYERS;
+uniform int LAYERS;
 uniform bool flipY;
 uniform bool pixely;
 uniform float blurStrength;
@@ -41,29 +42,30 @@ void main()
     // =========================
     // WATER / BOIL DISTORTION
     // =========================
-    vec2 wobble = vec2(
-        sin(uv.y * 20.0 + time * 2.0),
-        cos(uv.x * 20.0 + time * 2.0)
-    );
+    if (wobbleStrength > 0.001) {
+        vec2 wobble = vec2(
+            sin(uv.y * 20.0 + time * 2.0),
+            cos(uv.x * 20.0 + time * 2.0)
+        );
 
-    uv += wobble * wobbleStrength * 0.01;
+        uv += wobble * wobbleStrength * 0.01;
+    }
 
     // =========================
     // CHEAP BLUR (5-TAP)
     // =========================
     vec2 texel = vec2(1.0 / openfl_TextureSize.x, 1.0 / openfl_TextureSize.y);
 
-    vec4 blurCol = vec4(0.0);
-
-    blurCol += flixel_texture2D(bitmap, uv);
-    blurCol += flixel_texture2D(bitmap, uv + vec2(texel.x, 0.0));
-    blurCol += flixel_texture2D(bitmap, uv - vec2(texel.x, 0.0));
-    blurCol += flixel_texture2D(bitmap, uv + vec2(0.0, texel.y));
-    blurCol += flixel_texture2D(bitmap, uv - vec2(0.0, texel.y));
-
-    blurCol /= 5.0;
-
-    vec4 base = blurCol;
+    vec4 base = flixel_texture2D(bitmap, uv);
+    if (blurStrength > 0.001) {
+        vec4 blurCol = base;
+        vec2 blurTexel = texel * blurStrength;
+        blurCol += flixel_texture2D(bitmap, uv + vec2(blurTexel.x, 0.0));
+        blurCol += flixel_texture2D(bitmap, uv - vec2(blurTexel.x, 0.0));
+        blurCol += flixel_texture2D(bitmap, uv + vec2(0.0, blurTexel.y));
+        blurCol += flixel_texture2D(bitmap, uv - vec2(0.0, blurTexel.y));
+        base = blurCol / 5.0;
+    }
 
     // =========================
     // RAIN UV SETUP (unchanged logic)
@@ -79,8 +81,12 @@ void main()
 
     float rain = 0.0;
 
+    int layerLimit = LAYERS;
+    if (layerLimit <= 0) layerLimit = 10;
+    if (layerLimit > 10) layerLimit = 10;
     for (int i = 0; i < 10; i++)
     {
+        if (i >= layerLimit) continue;
         if (i < STARTING_LAYERS) continue;
 
         float fi = float(i);

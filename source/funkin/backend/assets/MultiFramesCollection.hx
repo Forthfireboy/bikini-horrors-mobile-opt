@@ -32,20 +32,25 @@ class MultiFramesCollection extends FlxFramesCollection
 	 */
 	public static function findFrame(graphic:FlxGraphic, ?border:FlxPoint):MultiFramesCollection
 	{
+		if (graphic == null)
+			return null;
+
 		if (border == null)
 			border = FlxPoint.weak();
 
 		var atlasFrames:Array<MultiFramesCollection> = cast graphic.getFramesCollections(USER("MULTI"));
+		if (atlasFrames == null)
+			return null;
 
 		for (atlas in atlasFrames)
-			if (atlas.border.equals(border))
+			if (atlas != null && atlas.border != null && atlas.border.equals(border))
 				return atlas;
 
 		return null;
 	}
 
 	public function addFrames(collection:FlxFramesCollection) {
-		if (collection == null || collection.frames == null) return;
+		if (collection == null || collection.frames == null || collection.parent == null) return;
 
 		collection.parent.useCount++;
 		parentedFrames.push(collection);
@@ -62,7 +67,7 @@ class MultiFramesCollection extends FlxFramesCollection
 	{
 		if(parentedFrames != null) {
 			for(collection in parentedFrames) {
-				if(collection != null)
+				if(collection != null && collection.parent != null)
 					collection.parent.useCount--;
 			}
 			parentedFrames = null;
